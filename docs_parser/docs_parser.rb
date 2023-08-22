@@ -104,6 +104,14 @@ workshop = Building.new({
 
 $buildings << workshop
 
+gather = Building.new({
+  "mDisplayName" => "Gather",
+  "ClassName" => "Gather",
+  "mPowerConsumption" => 0,
+})
+
+$buildings << gather
+
 class Item < SatisfactoryEntity
   attr_reader :data
 
@@ -186,9 +194,9 @@ $recipes.reject! { |recipe| recipe.produced_in == "(\"/Game/FactoryGame/Equipmen
 $recipes.reject! { |recipe| recipe.data_product.include? "Building" }
 $recipes.reject! { |recipe| recipe.data_product.include? "Buildable" }
 
-# File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
-# File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
-# File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
+File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
+File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
+File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
 
-# require "pp"
-# PP.pp(parser.sections_report, $>, 100)
+require "pp"
+PP.pp(parser.sections_report, $>, 100)

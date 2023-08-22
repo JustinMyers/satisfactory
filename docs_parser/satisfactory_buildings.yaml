@@ -33,3 +33,5 @@
   :power_consumption: 5
 - :name: Equipment Workshop
   :power_consumption: 0
+- :name: Gather
+  :power_consumption: 0
