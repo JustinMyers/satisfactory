@@ -302,58 +302,36 @@
 - :name: Iron Ore
   :sink_value: 1
   :energy: 0
-  :mined_per_second: 1173.0
-  :mj_cost: 10.757101449275364
 - :name: Limestone
   :sink_value: 2
   :energy: 0
-  :mined_per_second: 881.0
-  :mj_cost: 10.702746878547106
 - :name: Coal
   :sink_value: 3
   :energy: 300
-  :mined_per_second: 502.0
-  :mj_cost: 10.880398406374502
 - :name: Sulfur
   :sink_value: 11
   :energy: 0
-  :mined_per_second: 114.0
-  :mj_cost: 10.836842105263159
 - :name: Crude Oil
   :sink_value: 30
   :energy: 0
-  :mined_per_second: 195.0
-  :mj_cost: 33.32
 - :name: Raw Quartz
   :sink_value: 15
   :energy: 0
-  :mined_per_second: 175.0
-  :mj_cost: 10.032914285714288
 - :name: Copper Ore
   :sink_value: 3
   :energy: 0
-  :mined_per_second: 481.0
-  :mj_cost: 11.624532224532226
 - :name: Caterium Ore
   :sink_value: 7
   :energy: 0
-  :mined_per_second: 184.0
-  :mj_cost: 8.48695652173913
 - :name: Uranium
   :sink_value: 35
   :energy: 0
-  :mined_per_second: 35.0
-  :mj_cost: 14.85257142857143
 - :name: Nitrogen Gas
   :sink_value: 10
   :energy: 0
-  :mined_per_second: 195.0
-  :mj_cost: 33.32
 - :name: Bauxite
   :sink_value: 8
   :energy: 0
-  :mined_per_second: 163.0
-  :mj_cost: 11.171779141104295
 - :name: Flower Petals
   :sink_value: 10
   :energy: 100
