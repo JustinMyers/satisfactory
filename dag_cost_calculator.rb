@@ -14,32 +14,6 @@ def log_object(obj)
   pp obj if @logging
 end
 
-@items.reject! do |item|
-  [
-    "Lizard Doggo",
-    "Dark Matter",
-    "Vines",
-    "No item in foliage",
-    "Adequate Pioneering",
-    "Boom Box",
-    "Cup",
-    "Hard Drive",
-    "Mercer Sphere",
-    "Somersloop",
-    "Alien DNA Capsule",
-  ].include?(item[:name])
-end
-
-@recipes.reject! do |recipe|
-  [
-    "Biomass (Alien Protein)",
-    "Alien DNA Capsule",
-  ].include?(recipe[:name]) or false
-  # [
-  #   "Equipment Workshop",
-  # ].include?(recipe[:building].first)
-end
-
 @items.each do |item|
   if item[:sink_value].to_i == 0
     item[:sink_value] = nil

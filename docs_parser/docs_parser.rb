@@ -9,16 +9,27 @@ class DocsParser
 
   def initialize(doc_json)
     @data = doc_json
+    @used_sections = []
   end
 
   def section(native_class)
     native_class_string = "/Script/CoreUObject.Class'/Script/FactoryGame.#{native_class}'"
+    @used_sections << native_class_string
     s = data.detect { |e| e["NativeClass"] == native_class_string }
     s ? s["Classes"] : []
   end
 
   def sections
     data.map { |e| e["NativeClass"] }
+  end
+
+  def sections_report(only_used = true)
+    report = {}
+    sections.each do |section|
+      used = @used_sections.include?(section)
+      report[section] = @used_sections.include?(section) unless only_used && !used
+    end
+    report
   end
 end
 
@@ -175,6 +186,9 @@ $recipes.reject! { |recipe| recipe.produced_in == "(\"/Game/FactoryGame/Equipmen
 $recipes.reject! { |recipe| recipe.data_product.include? "Building" }
 $recipes.reject! { |recipe| recipe.data_product.include? "Buildable" }
 
-File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
-File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
-File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
+# File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
+# File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
+# File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
+
+# require "pp"
+# PP.pp(parser.sections_report, $>, 100)
