@@ -118,4 +118,6 @@ end
 
 @resource_limits["Nitrogen Gas"] = resource_well_extraction_rate(nitrogen_gas)
 
+@resource_limits["Water"] = Float::INFINITY
+
 File.write("satisfactory_resource_limits.yaml", @resource_limits.to_yaml)
