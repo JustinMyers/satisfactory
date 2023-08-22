@@ -1,0 +1,214 @@
+True cost  Build cost  Energy cost  Sink value  Item name                    Recipe name
+
+36428.69   57758.65    -831868.58   153184      Plutonium Fuel Rod           Plutonium Fuel Unit (alt)
+
+27402.14   24532.89    111900.52    732956      Thermal Propulsion Rocket    Thermal Propulsion Rocket 
+
+26392.78   22145.62    165639.11    543424      Nuclear Pasta                Nuclear Pasta 
+
+21686.12   20728.63    37342.07     44092       Uranium Fuel Rod             Uranium Fuel Unit (alt)
+
+17785.05   15032.76    107339.52    543632      Assembly Director System     Assembly Director System 
+
+13148.45   12166.41    38299.34     257312      Pressure Conversion Cube     Pressure Conversion Cube 
+
+10745.09   9659.08     42354.43     242720      Turbo Motor                  Turbo Electric Motor (alt)
+
+7100.46    6646.28     17712.96     62840       Fused Modular Frame          Heat-Fused Frame (alt)
+
+6291.9     5679.45     23885.57     99576       Supercomputer                Super-State Computer (alt)
+
+5731.19    4676.66     41126.97     86120       Adaptive Control Unit        Adaptive Control Unit 
+
+3306.44    2898.3      15917.18     15650       Magnetic Field Generator     Magnetic Field Generator 
+
+3012.46    2760.07     9843.19      19600       Radio Control Unit           Radio Control Unit 
+
+1773.79    1643.34     5087.62      12006       Cooling System               Cooling Device (alt)
+
+1717.8     1472.4      9570.38      11520       Heavy Modular Frame          Heavy Encased Frame (alt)
+
+1660.24    1319.01     13308.11     9960        Modular Engine               Modular Engine 
+
+1489.41    1295.8      7550.75      17260       Computer                     Caterium Computer (alt)
+
+1345.53    1210.54     5264.72      3072        Crystal Oscillator           Insulated Crystal Oscillator (alt)
+
+1161.7     2279.61     -43598.4                 Encased Plutonium Cell       Encased Plutonium Cell 
+
+965.28     842.3       4796.24      3776        High-Speed Connector         High-Speed Connector 
+
+548.82     538.2       414.15       147         Encased Uranium Cell         Infused Uranium Cell (alt)
+
+541.87     1105.75     -21991.31                Plutonium Pellet             Plutonium Pellet 
+
+510.53     430.71      3113.22      2560        Electromagnetic Control Rod  Electromagnetic Control Rod 
+
+397.17     337.51      2326.74      1176        Versatile Framework          Flexible Framework (alt)
+
+385.69     361.32      950.47       2804        Heat Sink                    Heat Exchanger (alt)
+
+343.67     324.77      737.42       465         Battery                      Classic Battery (alt)
+
+340.22     292.04      1879.18      920         AI Limiter                   AI Limiter 
+
+306.33     249.33      2223.19      1520        Motor                        Electric Motor (alt)
+
+286.1      285.71      14.85        35          Uranium                      Uranium 
+
+283.89     273.69      397.93       412         Packaged Nitric Acid         Packaged Nitric Acid 
+
+280.19     253.23      1051.63      632         Encased Industrial Beam      Encased Industrial Pipe (alt)
+
+277.06     271.61      212.78       312         Packaged Nitrogen Gas        Packaged Nitrogen Gas 
+
+256.81     194.45      2431.84      1440        Automated Wiring             Automated Wiring 
+
+215.12     207.21      308.43       176.0       Nitric Acid                  Nitric Acid 
+
+141.05     228.08      -3394.1                  Non-fissile Uranium          Fertile Uranium (alt)
+
+114.75     80.73       1326.65      408         Modular Frame                Modular Frame 
+
+113.49     108.7       186.97       42          Caterium Ingot               Pure Caterium Ingot (alt)
+
+110.62     71.79       1514.6       520         Smart Plating                Smart Plating 
+
+109.69     92.44       672.7        240         Stator                       Stator 
+
+109.12     107.64      57.72        28          Compacted Coal               Compacted Coal 
+
+102.66     90.01       493.4        696         Circuit Board                Silicon Circuit Board (alt)
+
+101.89     71.19       1197.54      320         Beacon                       Beacon 
+
+97.57      94.18       132.22       393         Aluminum Casing              Alclad Casing (alt)
+
+96.66      92.92       145.89       152         Packaged Sulfuric Acid       Packaged Sulfuric Acid 
+
+95.35      87.52       305.3        570         Packaged Turbofuel           Packaged Turbofuel 
+
+89.18      87.72       56.84        46.0        Sulfuric Acid                Sulfuric Acid 
+
+88.0       87.72       10.84        11          Sulfur                       Sulfur 
+
+87.48      82.32       201.24       255.0       Turbofuel                    Turbo Blend Fuel (alt)
+
+77.3       73.05       165.85       58          Smokeless Powder             Smokeless Powder 
+
+74.86      73.47       54.33        50          Quartz Crystal               Pure Quartz Crystal (alt)
+
+72.17      69.25       113.94       266         Alclad Aluminum Sheet        Alclad Aluminum Sheet 
+
+69.21      64.04       201.66       64          Steel Beam                   Steel Beam 
+
+68.26      66.48       69.5         225         Empty Fluid Tank             Empty Fluid Tank 
+
+68.16      66.48       65.5         131         Aluminum Ingot               Pure Aluminum Ingot (alt)
+
+61.64      61.35       11.17        8           Bauxite                      Bauxite 
+
+59.75      56.48       127.37       180         Packaged Oil                 Packaged Oil 
+
+59.0       56.33       104.2        160         Packaged Alumina Solution    Packaged Alumina Solution 
+
+58.53      49.9        336.7        72          Copper Powder                Copper Powder 
+
+57.4       57.14       10.03        15          Raw Quartz                   Raw Quartz 
+
+55.26      414.57      -14013.16                Uranium Waste                Uranium Waste 
+
+54.87      53.82       40.86        14          Black Powder                 Black Powder 
+
+54.57      54.35       8.49         7           Caterium Ore                 Caterium Ore 
+
+52.14      51.28       33.32        60.0        Crude Oil                    Crude Oil 
+
+52.14      51.28       33.32        126.0       Nitrogen Gas                 Nitrogen Gas 
+
+51.77      51.12       25.14        50.0        Alumina Solution             Sloppy Alumina (alt)
+
+51.09      37.81       518.02       120         Reinforced Iron Plate        Stitched Iron Plate (alt)
+
+47.99      33.98       546.58       140         Rotor                        Copper Rotor (alt)
+
+47.87      43.66       164.04       180         Packaged Heavy Oil Residue   Packaged Heavy Oil Residue 
+
+40.26      38.46       69.99        60.0        Heavy Oil Residue            Heavy Oil Residue (alt)
+
+36.26      32.17       159.41       75          Plastic                      Recycled Plastic (alt)
+
+33.98      33.24       28.75        27          Aluminum Scrap               Electrode - Aluminum Scrap (alt)
+
+33.78      32.6        46.23        20          Silica                       Cheap Silica (alt)
+
+30.22      26.26       154.61       60          Rubber                       Recycled Rubber (alt)
+
+28.51      24.43       159.05       270         Packaged Fuel                Diluted Packaged Fuel (alt)
+
+26.11      24.01       81.62        24          Steel Pipe                   Steel Pipe 
+
+24.42      23.67       29.22        12          Polymer Resin                Polymer Resin (alt)
+
+21.54      19.23       89.99        105.0       Fuel                         Diluted Fuel (alt)
+
+21.09      20.79       11.62        3           Copper Ore                   Copper Ore 
+
+20.2       19.92       10.88        3           Coal                         Coal 
+
+18.34      17.03       51.05        12          Concrete                     Wet Concrete (alt)
+
+17.2       16.01       46.42        8           Steel Ingot                  Coke Steel Ingot (alt)
+
+13.8       12.82       38.33        20          Petroleum Coke               Petroleum Coke 
+
+13.77      12.52       48.63        17          Quickwire                    Fused Quickwire (alt)
+
+12.04      8.32        145.32       24          Copper Sheet                 Steamed Copper Sheet (alt)
+
+11.63      11.35       10.7         2           Limestone                    Limestone 
+
+9.73       8.32        55.32        6           Copper Ingot                 Pure Copper Ingot (alt)
+
+8.8        8.53        10.76        1           Iron Ore                     Iron Ore 
+
+8.66       5.2         134.95       370         Packaged Liquid Biofuel      Packaged Liquid Biofuel 
+
+7.61       5.2         94.05        130         Packaged Water               Packaged Water 
+
+7.41       6.24        45.45        6           Iron Plate                   Steel Coated Plate (alt)
+
+7.1        5.2         74.05        60          Empty Canister               Coated Iron Canister (alt)
+
+6.89       5.1         69.96        24          Cable                        Cable 
+
+5.53       4.59        36.56        2           Iron Ingot                   Pure Iron Ingot (alt)
+
+4.43       4.0         16.6         4           Iron Rod                     Steel Rod (alt)
+
+3.34       2.55        30.98        6           Wire                         Iron Wire (alt)
+
+1.64       0.0         64.0         140         Fabric                       Fabric 
+
+1.26       1.0         10.15        2           Screw                        Screw 
+
+1.18       0.0         45.9         155.0       Liquid Biofuel               Liquid Biofuel 
+
+0.31       0.0         12.0                     Alien Protein                Hog Protein 
+
+0.26       0.0         10.0         35.0        Water                        Water 
+
+0.14       0.0         5.6          48          Solid Biofuel                Solid Biofuel 
+
+0.02       0.0         0.8          12          Biomass                      Biomass (Wood) 
+
+0.0        0.0         0.0          30          Wood                         Wood 
+
+0.0        0.0         0.0          3           Leaves                       Leaves 
+
+0.0        0.0         0.0          10          Mycelia                      Mycelia 
+
+0.0        0.0         0.0                      Hog Remains                  Hog Remains 
+
+-141.75    5775.86     -230786.85               Plutonium Waste              Plutonium Waste 
+

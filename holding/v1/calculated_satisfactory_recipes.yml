@@ -1,0 +1,6124 @@
+---
+- :name: Crude Oil
+  :alternate: false
+  :building:
+  - Oil Extractor
+  - 1
+  :products:
+  - - 1
+    - Crude Oil
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 60
+  :build_cost: 51.282051282051285
+  :mj_cost: 39.99999680000026
+  :energy_cost: 33.32
+  :build_costs:
+    Crude Oil: 51.282051282051285
+  :energy_costs:
+    Crude Oil: 33.32
+  :true_cost: 52.1974358974359
+  :true_costs:
+    Crude Oil: 52.1974358974359
+- :name: Plastic
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Plastic
+  - - 1
+    - Heavy Oil Residue
+  :ingredients:
+  - - 3
+    - Crude Oil
+  :sink_value: 210
+  :sink_cost: 180
+  :build_cost: 153.84615384615387
+  :mj_cost: 179.99998560000117
+  :energy_cost: 279.9599856000012
+  :build_costs:
+    Plastic: 76.92307692307693
+    Heavy Oil Residue: 153.84615384615387
+  :energy_costs:
+    Plastic: 139.9799928000006
+    Heavy Oil Residue: 279.9599856000012
+  :true_cost: 161.5373622417583
+  :true_costs:
+    Plastic: 80.76868112087915
+    Heavy Oil Residue: 161.5373622417583
+- :name: Rubber
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Rubber
+  - - 2
+    - Heavy Oil Residue
+  :ingredients:
+  - - 3
+    - Crude Oil
+  :sink_value: 240
+  :sink_cost: 180
+  :build_cost: 153.84615384615387
+  :mj_cost: 179.99998560000117
+  :energy_cost: 279.9599856000012
+  :build_costs:
+    Rubber: 76.92307692307693
+    Heavy Oil Residue: 76.92307692307693
+  :energy_costs:
+    Rubber: 139.9799928000006
+    Heavy Oil Residue: 139.9799928000006
+  :true_cost: 161.5373622417583
+  :true_costs:
+    Rubber: 80.76868112087915
+    Heavy Oil Residue: 80.76868112087915
+- :name: Heavy Oil Residue
+  :alternate: true
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Heavy Oil Residue
+  - - 2
+    - Polymer Resin
+  :ingredients:
+  - - 3
+    - Crude Oil
+  :sink_value: 264
+  :sink_cost: 180
+  :build_cost: 153.84615384615387
+  :mj_cost: 179.99998560000117
+  :energy_cost: 279.9599856000012
+  :build_costs:
+    Heavy Oil Residue: 38.46153846153847
+    Polymer Resin: 76.92307692307693
+  :energy_costs:
+    Heavy Oil Residue: 69.9899964000003
+    Polymer Resin: 139.9799928000006
+  :true_cost: 161.5373622417583
+  :true_costs:
+    Heavy Oil Residue: 40.384340560439576
+    Polymer Resin: 80.76868112087915
+- :name: Polymer Resin
+  :alternate: true
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 13
+    - Polymer Resin
+  - - 2
+    - Heavy Oil Residue
+  :ingredients:
+  - - 6
+    - Crude Oil
+  :sink_value: 276
+  :sink_cost: 360
+  :build_cost: 307.69230769230774
+  :mj_cost: 179.99998560000117
+  :energy_cost: 379.91998560000116
+  :build_costs:
+    Polymer Resin: 23.66863905325444
+    Heavy Oil Residue: 153.84615384615387
+  :energy_costs:
+    Polymer Resin: 29.224614276923166
+    Heavy Oil Residue: 189.95999280000058
+  :true_cost: 318.129669934066
+  :true_costs:
+    Polymer Resin: 24.47151307185123
+    Heavy Oil Residue: 159.064834967033
+- :name: Petroleum Coke
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Petroleum Coke
+  :ingredients:
+  - - 4
+    - Heavy Oil Residue
+  :sink_value: 240
+  :sink_cost: 240
+  :build_cost: 153.84615384615387
+  :mj_cost: 179.99998560000117
+  :energy_cost: 459.9599712000023
+  :build_costs:
+    Petroleum Coke: 12.820512820512823
+  :energy_costs:
+    Petroleum Coke: 38.32999760000019
+  :true_cost: 166.4824167912089
+  :true_costs:
+    Petroleum Coke: 13.87353473260074
+- :name: Bauxite
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Bauxite
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 8
+  :build_cost: 61.34969325153374
+  :mj_cost: 29.999997600000196
+  :energy_cost: 11.171779141104295
+  :build_costs:
+    Bauxite: 61.34969325153374
+  :energy_costs:
+    Bauxite: 11.171779141104295
+  :true_cost: 61.65661026090474
+  :true_costs:
+    Bauxite: 61.65661026090474
+- :name: Water
+  :alternate: false
+  :building:
+  - Water Extractor
+  - 1
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 2
+    - Water
+  :ingredients: []
+  :sink_value: 70
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 19.99999840000013
+  :energy_cost: 20
+  :build_costs:
+    Water: 0.0
+  :energy_costs:
+    Water: 10.0
+  :true_cost: 0.5494505494505495
+  :true_costs:
+    Water: 0.27472527472527475
+- :name: Alumina Solution
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 12
+    - Alumina Solution
+  - - 5
+    - Silica
+  :ingredients:
+  - - 12
+    - Bauxite
+  - - 18
+    - Water
+  :sink_value: 700
+  :sink_cost: 726
+  :build_cost: 736.1963190184049
+  :mj_cost: 179.99998560000117
+  :energy_cost: 494.0613352932527
+  :build_costs:
+    Alumina Solution: 61.34969325153374
+    Silica: 147.23926380368098
+  :energy_costs:
+    Alumina Solution: 41.17177794110439
+    Silica: 98.81226705865053
+  :true_cost: 749.7694326253624
+  :true_costs:
+    Alumina Solution: 62.48078605211354
+    Silica: 149.95388652507248
+- :name: Sloppy Alumina
+  :alternate: true
+  :building:
+  - Refinery
+  - 3
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 12
+    - Alumina Solution
+  :ingredients:
+  - - 10
+    - Bauxite
+  - - 10
+    - Water
+  :sink_value: 600
+  :sink_cost: 430
+  :build_cost: 613.4969325153374
+  :mj_cost: 89.99999280000058
+  :energy_cost: 301.7177842110435
+  :build_costs:
+    Alumina Solution: 51.12474437627812
+  :energy_costs:
+    Alumina Solution: 25.143148684253628
+  :true_cost: 621.7858826310254
+  :true_costs:
+    Alumina Solution: 51.815490219252126
+- :name: Coal
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Coal
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 3
+  :build_cost: 19.9203187250996
+  :mj_cost: 29.999997600000196
+  :energy_cost: 10.880398406374502
+  :build_costs:
+    Coal: 19.9203187250996
+  :energy_costs:
+    Coal: 10.880398406374502
+  :true_cost: 20.21923076923077
+  :true_costs:
+    Coal: 20.21923076923077
+- :name: Aluminum Scrap
+  :alternate: false
+  :building:
+  - Refinery
+  - 1
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 6
+    - Aluminum Scrap
+  - - 2
+    - Water
+  :ingredients:
+  - - 4
+    - Alumina Solution
+  - - 2
+    - Coal
+  :sink_value: 232
+  :sink_cost: 206
+  :build_cost: 244.3396149553117
+  :mj_cost: 29.999997600000196
+  :energy_cost: 152.33338914976372
+  :build_costs:
+    Aluminum Scrap: 40.72326915921862
+    Water: 122.16980747765585
+  :energy_costs:
+    Aluminum Scrap: 25.388898191627288
+    Water: 76.16669457488186
+  :true_cost: 248.5245981737118
+  :true_costs:
+    Aluminum Scrap: 41.4207663622853
+    Water: 124.2622990868559
+- :name: Electrode - Aluminum Scrap
+  :alternate: true
+  :building:
+  - Refinery
+  - 4
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 20
+    - Aluminum Scrap
+  - - 7
+    - Water
+  :ingredients:
+  - - 12
+    - Alumina Solution
+  - - 4
+    - Petroleum Coke
+  :sink_value: 785
+  :sink_cost: 680
+  :build_cost: 664.7789837973887
+  :mj_cost: 119.99999040000078
+  :energy_cost: 575.037765011045
+  :build_costs:
+    Aluminum Scrap: 33.23894918986944
+    Water: 94.96842625676982
+  :energy_costs:
+    Aluminum Scrap: 28.751888250552252
+    Water: 82.148252144435
+  :true_cost: 680.5767245943955
+  :true_costs:
+    Aluminum Scrap: 34.02883622971977
+    Water: 97.22524637062793
+- :name: Uranium
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Uranium
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 35
+  :build_cost: 2857.1428571428573
+  :mj_cost: 29.999997600000196
+  :energy_cost: 14.85257142857143
+  :build_costs:
+    Uranium: 2857.1428571428573
+  :energy_costs:
+    Uranium: 14.85257142857143
+  :true_cost: 2857.5508948194665
+  :true_costs:
+    Uranium: 2857.5508948194665
+- :name: Limestone
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Limestone
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 2
+  :build_cost: 11.350737797956867
+  :mj_cost: 29.999997600000196
+  :energy_cost: 10.702746878547106
+  :build_costs:
+    Limestone: 11.350737797956867
+  :energy_costs:
+    Limestone: 10.702746878547106
+  :true_cost: 11.64476930560926
+  :true_costs:
+    Limestone: 11.64476930560926
+- :name: Concrete
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Concrete
+  :ingredients:
+  - - 3
+    - Limestone
+  :sink_value: 12
+  :sink_cost: 6
+  :build_cost: 34.0522133938706
+  :mj_cost: 15.999998720000102
+  :energy_cost: 48.10823935564142
+  :build_costs:
+    Concrete: 34.0522133938706
+  :energy_costs:
+    Concrete: 48.10823935564142
+  :true_cost: 35.37386832122339
+  :true_costs:
+    Concrete: 35.37386832122339
+- :name: Fuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Fuel
+  - - 3
+    - Polymer Resin
+  :ingredients:
+  - - 6
+    - Crude Oil
+  :sink_value: 456
+  :sink_cost: 360
+  :build_cost: 307.69230769230774
+  :mj_cost: 179.99998560000117
+  :energy_cost: 379.91998560000116
+  :build_costs:
+    Fuel: 76.92307692307693
+    Polymer Resin: 102.56410256410258
+  :energy_costs:
+    Fuel: 94.97999640000029
+    Polymer Resin: 126.63999520000039
+  :true_cost: 318.129669934066
+  :true_costs:
+    Fuel: 79.5324174835165
+    Polymer Resin: 106.04322331135535
+- :name: Residual Rubber
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Rubber
+  :ingredients:
+  - - 4
+    - Polymer Resin
+  - - 4
+    - Water
+  :sink_value: 120
+  :sink_cost: 188
+  :build_cost: 94.67455621301777
+  :mj_cost: 179.99998560000117
+  :energy_cost: 336.8984427076938
+  :build_costs:
+    Rubber: 47.33727810650888
+  :energy_costs:
+    Rubber: 168.4492213538469
+  :true_cost: 103.9300079357566
+  :true_costs:
+    Rubber: 51.9650039678783
+- :name: Residual Fuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Fuel
+  :ingredients:
+  - - 6
+    - Heavy Oil Residue
+  :sink_value: 420
+  :sink_cost: 360
+  :build_cost: 230.7692307692308
+  :mj_cost: 179.99998560000117
+  :energy_cost: 599.939964000003
+  :build_costs:
+    Fuel: 57.6923076923077
+  :energy_costs:
+    Fuel: 149.98499100000075
+  :true_cost: 247.25109791208803
+  :true_costs:
+    Fuel: 61.81277447802201
+- :name: Diluted Fuel
+  :alternate: true
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 10
+    - Fuel
+  :ingredients:
+  - - 5
+    - Heavy Oil Residue
+  - - 10
+    - Water
+  :sink_value: 1050
+  :sink_cost: 650
+  :build_cost: 192.30769230769232
+  :mj_cost: 449.9999640000028
+  :energy_cost: 899.9499460000043
+  :build_costs:
+    Fuel: 19.230769230769234
+  :energy_costs:
+    Fuel: 89.99499460000042
+  :true_cost: 217.03159192307706
+  :true_costs:
+    Fuel: 21.70315919230771
+- :name: Recycled Plastic
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Plastic
+  :ingredients:
+  - - 6
+    - Rubber
+  - - 6
+    - Fuel
+  :sink_value: 900
+  :sink_cost: 990
+  :build_cost: 115.3846153846154
+  :mj_cost: 359.99997120000234
+  :energy_cost: 1910.6652669230864
+  :build_costs:
+    Plastic: 9.615384615384617
+  :energy_costs:
+    Plastic: 159.22210557692387
+  :true_cost: 167.87541942096394
+  :true_costs:
+    Plastic: 13.989618285080327
+- :name: Residual Plastic
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Plastic
+  :ingredients:
+  - - 6
+    - Polymer Resin
+  - - 2
+    - Water
+  :sink_value: 150
+  :sink_cost: 142
+  :build_cost: 142.01183431952666
+  :mj_cost: 179.99998560000117
+  :energy_cost: 375.3476712615402
+  :build_costs:
+    Plastic: 71.00591715976333
+  :energy_costs:
+    Plastic: 187.6738356307701
+  :true_cost: 152.32358353000853
+  :true_costs:
+    Plastic: 76.16179176500427
+- :name: Recycled Rubber
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Rubber
+  :ingredients:
+  - - 6
+    - Plastic
+  - - 6
+    - Fuel
+  :sink_value: 720
+  :sink_cost: 1080
+  :build_cost: 115.3846153846154
+  :mj_cost: 359.99997120000234
+  :energy_cost: 1855.3025722615482
+  :build_costs:
+    Rubber: 9.615384615384617
+  :energy_costs:
+    Rubber: 154.60854768846235
+  :true_cost: 166.35446627092168
+  :true_costs:
+    Rubber: 13.862872189243472
+- :name: Rubber Concrete
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 9
+    - Concrete
+  :ingredients:
+  - - 10
+    - Limestone
+  - - 2
+    - Rubber
+  :sink_value: 108
+  :sink_cost: 140
+  :build_cost: 132.7381472103379
+  :mj_cost: 179.99998560000117
+  :energy_cost: 596.2445497623969
+  :build_costs:
+    Concrete: 14.748683023370878
+  :energy_costs:
+    Concrete: 66.2493944180441
+  :true_cost: 149.11849198403013
+  :true_costs:
+    Concrete: 16.568721331558905
+- :name: Wet Concrete
+  :alternate: true
+  :building:
+  - Refinery
+  - 3
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 4
+    - Concrete
+  :ingredients:
+  - - 6
+    - Limestone
+  - - 5
+    - Water
+  :sink_value: 48
+  :sink_cost: 187
+  :build_cost: 68.1044267877412
+  :mj_cost: 89.99999280000058
+  :energy_cost: 204.21647407128324
+  :build_costs:
+    Concrete: 17.0261066969353
+  :energy_costs:
+    Concrete: 51.05411851782081
+  :true_cost: 73.71476948200723
+  :true_costs:
+    Concrete: 18.428692370501807
+- :name: Raw Quartz
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Raw Quartz
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 15
+  :build_cost: 57.142857142857146
+  :mj_cost: 29.999997600000196
+  :energy_cost: 10.032914285714288
+  :build_costs:
+    Raw Quartz: 57.142857142857146
+  :energy_costs:
+    Raw Quartz: 10.032914285714288
+  :true_cost: 57.41848665620095
+  :true_costs:
+    Raw Quartz: 57.41848665620095
+- :name: Cheap Silica
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Quartz Research - Silica
+  :products:
+  - - 7
+    - Silica
+  :ingredients:
+  - - 3
+    - Raw Quartz
+  - - 5
+    - Limestone
+  :sink_value: 140
+  :sink_cost: 55
+  :build_cost: 228.18226041835578
+  :mj_cost: 239.99998080000157
+  :energy_cost: 323.61245804987993
+  :build_costs:
+    Silica: 32.597465774050825
+  :energy_costs:
+    Silica: 46.230351149982845
+  :true_cost: 237.07271256258326
+  :true_costs:
+    Silica: 33.86753036608332
+- :name: Silica
+  :alternate: false
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Quartz Research - Silica
+  :products:
+  - - 5
+    - Silica
+  :ingredients:
+  - - 3
+    - Raw Quartz
+  :sink_value: 100
+  :sink_cost: 45
+  :build_cost: 171.42857142857144
+  :mj_cost: 31.999997440000204
+  :energy_cost: 62.09874029714307
+  :build_costs:
+    Silica: 34.28571428571429
+  :energy_costs:
+    Silica: 12.419748059428613
+  :true_cost: 173.13458077739406
+  :true_costs:
+    Silica: 34.62691615547882
+- :name: Fine Concrete
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Quartz Research - Quartz
+  :products:
+  - - 10
+    - Concrete
+  :ingredients:
+  - - 3
+    - Silica
+  - - 12
+    - Limestone
+  :sink_value: 120
+  :sink_cost: 84
+  :build_cost: 234.0012508976349
+  :mj_cost: 359.99997120000234
+  :energy_cost: 627.1239871925161
+  :build_costs:
+    Concrete: 23.40012508976349
+  :energy_costs:
+    Concrete: 62.71239871925161
+  :true_cost: 251.22993186446226
+  :true_costs:
+    Concrete: 25.122993186446223
+- :name: Sulfur
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Sulfur
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 11
+  :build_cost: 87.71929824561403
+  :mj_cost: 29.999997600000196
+  :energy_cost: 10.836842105263159
+  :build_costs:
+    Sulfur: 87.71929824561403
+  :energy_costs:
+    Sulfur: 10.836842105263159
+  :true_cost: 88.01701368806631
+  :true_costs:
+    Sulfur: 88.01701368806631
+- :name: Sulfuric Acid
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 5
+    - Sulfuric Acid
+  :ingredients:
+  - - 5
+    - Sulfur
+  - - 5
+    - Water
+  :sink_value: 230
+  :sink_cost: 230
+  :build_cost: 438.59649122807014
+  :mj_cost: 179.99998560000117
+  :energy_cost: 284.184196126317
+  :build_costs:
+    Sulfuric Acid: 87.71929824561403
+  :energy_costs:
+    Sulfuric Acid: 56.8368392252634
+  :true_cost: 446.4037493634085
+  :true_costs:
+    Sulfuric Acid: 89.2807498726817
+- :name: Encased Uranium Cell
+  :alternate: false
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 5
+    - Encased Uranium Cell
+  - - 2
+    - Sulfuric Acid
+  :ingredients:
+  - - 10
+    - Uranium
+  - - 3
+    - Concrete
+  - - 8
+    - Sulfuric Acid
+  :sink_value: 827
+  :sink_cost: 754
+  :build_cost: 29317.429006463597
+  :mj_cost: 899.9999280000056
+  :energy_cost: 1701.9685393419595
+  :build_costs:
+    Encased Uranium Cell: 5863.48580129272
+    Sulfuric Acid: 14658.714503231799
+  :energy_costs:
+    Encased Uranium Cell: 340.3937078683919
+    Sulfuric Acid: 850.9842696709798
+  :true_cost: 29364.186383918048
+  :true_costs:
+    Encased Uranium Cell: 5872.83727678361
+    Sulfuric Acid: 14682.093191959024
+- :name: Instant Scrap
+  :alternate: true
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 7 - Bauxite RefinementTier 7 - Aeronautical Engineering
+  :products:
+  - - 30
+    - Aluminum Scrap
+  - - 5
+    - Water
+  :ingredients:
+  - - 15
+    - Bauxite
+  - - 10
+    - Coal
+  - - 5
+    - Sulfuric Acid
+  - - 6
+    - Water
+  :sink_value: 985
+  :sink_cost: 590
+  :build_cost: 1558.0450772520724
+  :mj_cost: 449.9999640000028
+  :energy_cost: 1070.5648313066292
+  :build_costs:
+    Aluminum Scrap: 51.93483590840241
+    Water: 311.60901545041446
+  :energy_costs:
+    Aluminum Scrap: 35.68549437688764
+    Water: 214.11296626132585
+  :true_cost: 1587.4561989912654
+  :true_costs:
+    Aluminum Scrap: 52.91520663304218
+    Water: 317.4912397982531
+- :name: Aluminum Ingot
+  :alternate: false
+  :building:
+  - Foundry
+  - 4
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 4
+    - Aluminum Ingot
+  :ingredients:
+  - - 6
+    - Aluminum Scrap
+  - - 5
+    - Silica
+  :sink_value: 524
+  :sink_cost: 262
+  :build_cost: 362.4210240094708
+  :mj_cost: 63.99999488000041
+  :energy_cost: 467.66308013322816
+  :build_costs:
+    Aluminum Ingot: 90.6052560023677
+  :energy_costs:
+    Aluminum Ingot: 116.91577003330704
+  :true_cost: 375.2689108263177
+  :true_costs:
+    Aluminum Ingot: 93.81722770657943
+- :name: Pure Aluminum Ingot
+  :alternate: true
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 1
+    - Aluminum Ingot
+  :ingredients:
+  - - 2
+    - Aluminum Scrap
+  :sink_value: 131
+  :sink_cost: 54
+  :build_cost: 66.47789837973887
+  :mj_cost: 7.999999360000051
+  :energy_cost: 65.50377586110456
+  :build_costs:
+    Aluminum Ingot: 66.47789837973887
+  :energy_costs:
+    Aluminum Ingot: 65.50377586110456
+  :true_cost: 68.27745266163735
+  :true_costs:
+    Aluminum Ingot: 68.27745266163735
+- :name: Aluminum Casing
+  :alternate: false
+  :building:
+  - Constructor
+  - 2
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 2
+    - Aluminum Casing
+  :ingredients:
+  - - 3
+    - Aluminum Ingot
+  :sink_value: 786
+  :sink_cost: 393
+  :build_cost: 199.43369513921664
+  :mj_cost: 7.999999360000051
+  :energy_cost: 204.51132694331375
+  :build_costs:
+    Aluminum Casing: 99.71684756960832
+  :energy_costs:
+    Aluminum Casing: 102.25566347165687
+  :true_cost: 205.05213818710988
+  :true_costs:
+    Aluminum Casing: 102.52606909355494
+- :name: Copper Ore
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Copper Ore
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 3
+  :build_cost: 20.79002079002079
+  :mj_cost: 29.999997600000196
+  :energy_cost: 11.624532224532226
+  :build_costs:
+    Copper Ore: 20.79002079002079
+  :energy_costs:
+    Copper Ore: 11.624532224532226
+  :true_cost: 21.109376070914532
+  :true_costs:
+    Copper Ore: 21.109376070914532
+- :name: Copper Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Copper Ingot
+  :ingredients:
+  - - 1
+    - Copper Ore
+  :sink_value: 6
+  :sink_cost: 3
+  :build_cost: 20.79002079002079
+  :mj_cost: 7.999999360000051
+  :energy_cost: 19.624531584532278
+  :build_costs:
+    Copper Ingot: 20.79002079002079
+  :energy_costs:
+    Copper Ingot: 19.624531584532278
+  :true_cost: 21.329156273112336
+  :true_costs:
+    Copper Ingot: 21.329156273112336
+- :name: Iron Ore
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Iron Ore
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 1
+  :build_cost: 8.525149190110827
+  :mj_cost: 29.999997600000196
+  :energy_cost: 10.757101449275364
+  :build_costs:
+    Iron Ore: 8.525149190110827
+  :energy_costs:
+    Iron Ore: 10.757101449275364
+  :true_cost: 8.82067395520081
+  :true_costs:
+    Iron Ore: 8.82067395520081
+- :name: Copper Alloy Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: ''
+  :products:
+  - - 20
+    - Copper Ingot
+  :ingredients:
+  - - 10
+    - Copper Ore
+  - - 5
+    - Iron Ore
+  :sink_value: 120
+  :sink_cost: 35
+  :build_cost: 250.52595385076205
+  :mj_cost: 191.99998464000123
+  :energy_cost: 362.0308141317003
+  :build_costs:
+    Copper Ingot: 12.526297692538103
+  :energy_costs:
+    Copper Ingot: 18.101540706585016
+  :true_cost: 260.47185533789667
+  :true_costs:
+    Copper Ingot: 13.023592766894835
+- :name: Pure Copper Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 24
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 15
+    - Copper Ingot
+  :ingredients:
+  - - 6
+    - Copper Ore
+  - - 4
+    - Water
+  :sink_value: 90
+  :sink_cost: 158
+  :build_cost: 124.74012474012474
+  :mj_cost: 719.9999424000047
+  :energy_cost: 829.7471357471981
+  :build_costs:
+    Copper Ingot: 8.316008316008316
+  :energy_costs:
+    Copper Ingot: 55.31647571647987
+  :true_cost: 147.53537572219062
+  :true_costs:
+    Copper Ingot: 9.83569171481271
+- :name: Alclad Casing
+  :alternate: true
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 15
+    - Aluminum Casing
+  :ingredients:
+  - - 20
+    - Aluminum Ingot
+  - - 10
+    - Copper Ingot
+  :sink_value: 5895
+  :sink_cost: 2680
+  :build_cost: 1412.7180507548605
+  :mj_cost: 119.99999040000078
+  :energy_cost: 1983.2402647868905
+  :build_costs:
+    Aluminum Casing: 94.18120338365738
+  :energy_costs:
+    Aluminum Casing: 132.21601765245936
+  :true_cost: 1467.202673413841
+  :true_costs:
+    Aluminum Casing: 97.81351156092275
+- :name: Empty Fluid Tank
+  :alternate: false
+  :building:
+  - Constructor
+  - 1
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Empty Fluid Tank
+  :ingredients:
+  - - 1
+    - Aluminum Ingot
+  :sink_value: 225
+  :sink_cost: 131
+  :build_cost: 66.47789837973887
+  :mj_cost: 3.9999996800000255
+  :energy_cost: 69.50377554110459
+  :build_costs:
+    Empty Fluid Tank: 66.47789837973887
+  :energy_costs:
+    Empty Fluid Tank: 69.50377554110459
+  :true_cost: 68.38734276273625
+  :true_costs:
+    Empty Fluid Tank: 68.38734276273625
+- :name: Copper Sheet
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Copper Sheet
+  :ingredients:
+  - - 2
+    - Copper Ingot
+  :sink_value: 24
+  :sink_cost: 12
+  :build_cost: 16.632016632016633
+  :mj_cost: 23.999998080000154
+  :energy_cost: 134.6329495129599
+  :build_costs:
+    Copper Sheet: 16.632016632016633
+  :energy_costs:
+    Copper Sheet: 134.6329495129599
+  :true_cost: 20.33072403621883
+  :true_costs:
+    Copper Sheet: 20.33072403621883
+- :name: Steamed Copper Sheet
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 3
+    - Copper Sheet
+  :ingredients:
+  - - 3
+    - Copper Ingot
+  - - 3
+    - Water
+  :sink_value: 72
+  :sink_cost: 123
+  :build_cost: 24.94802494802495
+  :mj_cost: 239.99998080000157
+  :energy_cost: 435.94940794944114
+  :build_costs:
+    Copper Sheet: 8.316008316008316
+  :energy_costs:
+    Copper Sheet: 145.31646931648038
+  :true_cost: 36.92465703454806
+  :true_costs:
+    Copper Sheet: 12.30821901151602
+- :name: Black Powder
+  :alternate: false
+  :building:
+  - Assembler
+  - 4
+  :prerequisites: Sulfur Research - Black Powder
+  :products:
+  - - 2
+    - Black Powder
+  :ingredients:
+  - - 1
+    - Coal
+  - - 1
+    - Sulfur
+  :sink_value: 28
+  :sink_cost: 14
+  :build_cost: 107.63961697071363
+  :mj_cost: 59.99999520000039
+  :energy_cost: 81.71723571163805
+  :build_costs:
+    Black Powder: 53.819808485356816
+  :energy_costs:
+    Black Powder: 40.85861785581903
+  :true_cost: 109.8845959737806
+  :true_costs:
+    Black Powder: 54.9422979868903
+- :name: Compacted Coal
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Sulfur Research - Compacted Coal
+  :products:
+  - - 5
+    - Compacted Coal
+  :ingredients:
+  - - 5
+    - Coal
+  - - 5
+    - Sulfur
+  :sink_value: 140
+  :sink_cost: 70
+  :build_cost: 538.1980848535682
+  :mj_cost: 179.99998560000117
+  :energy_cost: 288.5861881581895
+  :build_costs:
+    Compacted Coal: 107.63961697071363
+  :energy_costs:
+    Compacted Coal: 57.7172376316379
+  :true_cost: 546.126276835936
+  :true_costs:
+    Compacted Coal: 109.2252553671872
+- :name: Fine Black Powder
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Alternate Recipe - Compacted Coal
+  :products:
+  - - 4
+    - Black Powder
+  :ingredients:
+  - - 2
+    - Sulfur
+  - - 1
+    - Compacted Coal
+  :sink_value: 56
+  :sink_cost: 50
+  :build_cost: 283.0782134619417
+  :mj_cost: 239.99998080000157
+  :energy_cost: 319.39090264216577
+  :build_costs:
+    Black Powder: 70.76955336548542
+  :energy_costs:
+    Black Powder: 79.84772566054144
+  :true_cost: 291.85268880925395
+  :true_costs:
+    Black Powder: 72.96317220231349
+- :name: Smokeless Powder
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Sulfur Research - Smokeless Powder
+  :products:
+  - - 2
+    - Smokeless Powder
+  :ingredients:
+  - - 2
+    - Black Powder
+  - - 1
+    - Heavy Oil Residue
+  :sink_value: 116
+  :sink_cost: 88
+  :build_cost: 146.10115543225209
+  :mj_cost: 179.99998560000117
+  :energy_cost: 331.7072177116395
+  :build_costs:
+    Smokeless Powder: 73.05057771612604
+  :energy_costs:
+    Smokeless Powder: 165.85360885581974
+  :true_cost: 155.21399108367075
+  :true_costs:
+    Smokeless Powder: 77.60699554183537
+- :name: Rifle Ammo
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Sulfur Research - The Rifle
+  :products:
+  - - 15
+    - Rifle Ammo
+  :ingredients:
+  - - 3
+    - Copper Sheet
+  - - 2
+    - Smokeless Powder
+  :sink_value: 15
+  :sink_cost: 188
+  :build_cost: 171.04918038027705
+  :mj_cost: 179.99998560000117
+  :energy_cost: 947.6566112610818
+  :build_costs:
+    Rifle Ammo: 11.40327869201847
+  :energy_costs:
+    Rifle Ammo: 63.17710741740545
+  :true_cost: 197.0837026676694
+  :true_costs:
+    Rifle Ammo: 13.138913511177961
+- :name: Turbofuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 16
+  :prerequisites: Sulfur Research - Turbo Fuel
+  :products:
+  - - 5
+    - Turbofuel
+  :ingredients:
+  - - 6
+    - Fuel
+  - - 4
+    - Compacted Coal
+  :sink_value: 1275
+  :sink_cost: 742
+  :build_cost: 545.9430832674699
+  :mj_cost: 479.99996160000313
+  :energy_cost: 1250.8388797265573
+  :build_costs:
+    Turbofuel: 109.18861665349398
+  :energy_costs:
+    Turbofuel: 250.16777594531146
+  :true_cost: 580.3067887544632
+  :true_costs:
+    Turbofuel: 116.06135775089265
+- :name: Turbo Heavy Fuel
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 5 - Oil ProcessingSulfur Research - Compacted Coal
+  :products:
+  - - 4
+    - Turbofuel
+  :ingredients:
+  - - 5
+    - Heavy Oil Residue
+  - - 4
+    - Compacted Coal
+  :sink_value: 1020
+  :sink_cost: 412
+  :build_cost: 622.8661601905469
+  :mj_cost: 239.99998080000157
+  :energy_cost: 820.8189133265546
+  :build_costs:
+    Turbofuel: 155.71654004763673
+  :energy_costs:
+    Turbofuel: 205.20472833163865
+  :true_cost: 645.4161303368808
+  :true_costs:
+    Turbofuel: 161.3540325842202
+- :name: Turbo Blend Fuel
+  :alternate: true
+  :building:
+  - Blender
+  - 8
+  :prerequisites: Tier 7 - Bauxite RefinementSulfur Research - Sulfur
+  :products:
+  - - 6
+    - Turbofuel
+  :ingredients:
+  - - 2
+    - Fuel
+  - - 4
+    - Heavy Oil Residue
+  - - 3
+    - Sulfur
+  - - 3
+    - Petroleum Coke
+  :sink_value: 1530
+  :sink_cost: 543
+  :build_cost: 493.92712550607285
+  :mj_cost: 599.9999520000038
+  :energy_cost: 1207.4504459157959
+  :build_costs:
+    Turbofuel: 82.32118758434548
+  :energy_costs:
+    Turbofuel: 201.24174098596598
+  :true_cost: 527.0988410532101
+  :true_costs:
+    Turbofuel: 87.84980684220169
+- :name: Iron Alloy Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 6
+  :prerequisites: ''
+  :products:
+  - - 5
+    - Iron Ingot
+  :ingredients:
+  - - 2
+    - Iron Ore
+  - - 2
+    - Copper Ore
+  :sink_value: 10
+  :sink_cost: 8
+  :build_cost: 58.630339960263235
+  :mj_cost: 95.99999232000062
+  :energy_cost: 140.76325966761578
+  :build_costs:
+    Iron Ingot: 11.726067992052647
+  :energy_costs:
+    Iron Ingot: 28.152651933523156
+  :true_cost: 62.49746247860433
+  :true_costs:
+    Iron Ingot: 12.499492495720865
+- :name: Iron Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Iron Ingot
+  :ingredients:
+  - - 1
+    - Iron Ore
+  :sink_value: 2
+  :sink_cost: 1
+  :build_cost: 8.525149190110827
+  :mj_cost: 7.999999360000051
+  :energy_cost: 18.757100809275414
+  :build_costs:
+    Iron Ingot: 8.525149190110827
+  :energy_costs:
+    Iron Ingot: 18.757100809275414
+  :true_cost: 9.040454157398614
+  :true_costs:
+    Iron Ingot: 9.040454157398614
+- :name: Pure Iron Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 13
+    - Iron Ingot
+  :ingredients:
+  - - 7
+    - Iron Ore
+  - - 4
+    - Water
+  :sink_value: 26
+  :sink_cost: 147
+  :build_cost: 59.676044330775795
+  :mj_cost: 359.99997120000234
+  :energy_cost: 475.29968134492987
+  :build_costs:
+    Iron Ingot: 4.590464948521215
+  :energy_costs:
+    Iron Ingot: 36.56151394960999
+  :true_cost: 72.73372788420794
+  :true_costs:
+    Iron Ingot: 5.594902144939072
+- :name: Iron Plate
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: The beginning
+  :products:
+  - - 2
+    - Iron Plate
+  :ingredients:
+  - - 3
+    - Iron Ingot
+  :sink_value: 12
+  :sink_cost: 6
+  :build_cost: 13.771394845563645
+  :mj_cost: 23.999998080000154
+  :energy_cost: 133.68453992883013
+  :build_costs:
+    Iron Plate: 6.885697422781822
+  :energy_costs:
+    Iron Plate: 66.84226996441507
+  :true_cost: 17.444047041410627
+  :true_costs:
+    Iron Plate: 8.722023520705314
+- :name: Coated Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 15
+    - Iron Plate
+  :ingredients:
+  - - 10
+    - Iron Ingot
+  - - 2
+    - Plastic
+  :sink_value: 90
+  :sink_cost: 170
+  :build_cost: 65.13541871598139
+  :mj_cost: 179.99998560000117
+  :energy_cost: 864.4445276114874
+  :build_costs:
+    Iron Plate: 4.342361247732092
+  :energy_costs:
+    Iron Plate: 57.62963517409916
+  :true_cost: 88.88389474926402
+  :true_costs:
+    Iron Plate: 5.925592983284266
+- :name: Steel Ingot
+  :alternate: false
+  :building:
+  - Foundry
+  - 4
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Steel Ingot
+  :ingredients:
+  - - 3
+    - Iron Ore
+  - - 3
+    - Coal
+  :sink_value: 24
+  :sink_cost: 12
+  :build_cost: 85.33640374563129
+  :mj_cost: 63.99999488000041
+  :energy_cost: 128.91249444695
+  :build_costs:
+    Steel Ingot: 28.44546791521043
+  :energy_costs:
+    Steel Ingot: 42.97083148231667
+  :true_cost: 88.87795579087717
+  :true_costs:
+    Steel Ingot: 29.625985263625722
+- :name: Solid Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 3
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Steel Ingot
+  :ingredients:
+  - - 2
+    - Iron Ingot
+  - - 2
+    - Coal
+  :sink_value: 24
+  :sink_cost: 10
+  :build_cost: 49.021567347241636
+  :mj_cost: 47.99999616000031
+  :energy_cost: 142.8838208719693
+  :build_costs:
+    Steel Ingot: 16.340522449080545
+  :energy_costs:
+    Steel Ingot: 47.62794029065643
+  :true_cost: 52.946947041526506
+  :true_costs:
+    Steel Ingot: 17.6489823471755
+- :name: Compacted Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 16
+  :prerequisites: Tier 3 - Basic Steel ProductionAlternate Recipe - Compacted Coal
+  :products:
+  - - 10
+    - Steel Ingot
+  :ingredients:
+  - - 6
+    - Iron Ore
+  - - 3
+    - Compacted Coal
+  :sink_value: 80
+  :sink_cost: 90
+  :build_cost: 374.06974605280584
+  :mj_cost: 255.99997952000163
+  :energy_cost: 493.6943011105675
+  :build_costs:
+    Steel Ingot: 37.40697460528058
+  :energy_costs:
+    Steel Ingot: 49.36943011105675
+  :true_cost: 387.63277630309614
+  :true_costs:
+    Steel Ingot: 38.76327763030962
+- :name: Coke Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 20
+    - Steel Ingot
+  :ingredients:
+  - - 15
+    - Iron Ore
+  - - 15
+    - Petroleum Coke
+  :sink_value: 160
+  :sink_cost: 315
+  :build_cost: 320.18493015935474
+  :mj_cost: 191.99998464000123
+  :energy_cost: 928.3064703791346
+  :build_costs:
+    Steel Ingot: 16.009246507967738
+  :energy_costs:
+    Steel Ingot: 46.415323518956725
+  :true_cost: 345.6878551697705
+  :true_costs:
+    Steel Ingot: 17.284392758488526
+- :name: Steel Coated Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 18
+    - Iron Plate
+  :ingredients:
+  - - 3
+    - Steel Ingot
+  - - 2
+    - Plastic
+  :sink_value: 108
+  :sink_cost: 174
+  :build_cost: 67.25850875467245
+  :mj_cost: 359.99997120000234
+  :energy_cost: 818.0753442722588
+  :build_costs:
+    Iron Plate: 3.736583819704025
+  :energy_costs:
+    Iron Plate: 45.448630237347714
+  :true_cost: 89.73310612478944
+  :true_costs:
+    Iron Plate: 4.985172562488303
+- :name: Coated Iron Canister
+  :alternate: true
+  :building:
+  - Assembler
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 1
+    - Copper Sheet
+  :sink_value: 240
+  :sink_cost: 36
+  :build_cost: 15.789175955416367
+  :mj_cost: 59.99999520000039
+  :energy_cost: 296.2137249911762
+  :build_costs:
+    Empty Canister: 3.9472939888540917
+  :energy_costs:
+    Empty Canister: 74.05343124779405
+  :true_cost: 23.926915652976152
+  :true_costs:
+    Empty Canister: 5.981728913244038
+- :name: Empty Canister
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Plastic
+  :sink_value: 240
+  :sink_cost: 150
+  :build_cost: 19.230769230769234
+  :mj_cost: 15.999998720000102
+  :energy_cost: 334.8294012353864
+  :build_costs:
+    Empty Canister: 4.807692307692308
+  :energy_costs:
+    Empty Canister: 83.7073503088466
+  :true_cost: 28.42937915481831
+  :true_costs:
+    Empty Canister: 7.1073447887045775
+- :name: Steel Canister
+  :alternate: true
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 3
+    - Steel Ingot
+  :sink_value: 120
+  :sink_cost: 24
+  :build_cost: 48.027739523903215
+  :mj_cost: 11.999999040000077
+  :energy_cost: 151.24596959687028
+  :build_costs:
+    Empty Canister: 24.013869761951607
+  :energy_costs:
+    Empty Canister: 75.62298479843514
+  :true_cost: 52.18284857876229
+  :true_costs:
+    Empty Canister: 26.091424289381145
+- :name: Packaged Turbofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 6
+  :prerequisites: Tier 5 - Alternative Fluid Transport∧ one of:Sulfur Research - Turbo
+    FuelOR Alternate Recipe - Turbo Heavy FuelOR Alternate Recipe - Turbo Blend Fuel
+  :products:
+  - - 2
+    - Packaged Turbofuel
+  :ingredients:
+  - - 2
+    - Turbofuel
+  - - 2
+    - Empty Canister
+  :sink_value: 1140
+  :sink_cost: 630
+  :build_cost: 172.53696314639913
+  :mj_cost: 59.99999520000039
+  :energy_cost: 610.5903396675204
+  :build_costs:
+    Packaged Turbofuel: 86.26848157319957
+  :energy_costs:
+    Packaged Turbofuel: 305.2951698337602
+  :true_cost: 189.31142302737496
+  :true_costs:
+    Packaged Turbofuel: 94.65571151368748
+- :name: Turbo Rifle Ammo
+  :alternate: false
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Sulfur Research - Turbo Rifle Ammo
+  :products:
+  - - 50
+    - Turbo Rifle Ammo
+  :ingredients:
+  - - 25
+    - Rifle Ammo
+  - - 3
+    - Aluminum Casing
+  - - 3
+    - Turbofuel
+  :sink_value: 50
+  :sink_cost: 1969
+  :build_cost: 814.5891402044704
+  :mj_cost: 899.9999280000056
+  :energy_cost: 3479.800889350418
+  :build_costs:
+    Turbo Rifle Ammo: 16.291782804089408
+  :energy_costs:
+    Turbo Rifle Ammo: 69.59601778700836
+  :true_cost: 910.1880657360753
+  :true_costs:
+    Turbo Rifle Ammo: 18.203761314721504
+- :name: Steel Beam
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 1
+    - Steel Beam
+  :ingredients:
+  - - 4
+    - Steel Ingot
+  :sink_value: 64
+  :sink_cost: 32
+  :build_cost: 64.03698603187095
+  :mj_cost: 15.999998720000102
+  :energy_cost: 201.661292795827
+  :build_costs:
+    Steel Beam: 64.03698603187095
+  :energy_costs:
+    Steel Beam: 201.661292795827
+  :true_cost: 69.57713143834971
+  :true_costs:
+    Steel Beam: 69.57713143834971
+- :name: Encased Industrial Beam
+  :alternate: false
+  :building:
+  - Assembler
+  - 10
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Encased Industrial Beam
+  :ingredients:
+  - - 4
+    - Steel Beam
+  - - 5
+    - Concrete
+  :sink_value: 632
+  :sink_cost: 316
+  :build_cost: 329.8913592443382
+  :mj_cost: 149.99998800000097
+  :energy_cost: 1287.8921312735295
+  :build_costs:
+    Encased Industrial Beam: 329.8913592443382
+  :energy_costs:
+    Encased Industrial Beam: 1287.8921312735295
+  :true_cost: 365.27301120240224
+  :true_costs:
+    Encased Industrial Beam: 365.27301120240224
+- :name: Steel Pipe
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 2
+    - Steel Pipe
+  :ingredients:
+  - - 3
+    - Steel Ingot
+  :sink_value: 48
+  :sink_cost: 24
+  :build_cost: 48.027739523903215
+  :mj_cost: 23.999998080000154
+  :energy_cost: 163.24596863687034
+  :build_costs:
+    Steel Pipe: 24.013869761951607
+  :energy_costs:
+    Steel Pipe: 81.62298431843517
+  :true_cost: 52.51251888205899
+  :true_costs:
+    Steel Pipe: 26.256259441029496
+- :name: Encased Industrial Pipe
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Encased Industrial Beam
+  :ingredients:
+  - - 7
+    - Steel Pipe
+  - - 5
+    - Concrete
+  :sink_value: 632
+  :sink_cost: 228
+  :build_cost: 241.84050345051566
+  :mj_cost: 224.99998200000147
+  :energy_cost: 1127.6078443192682
+  :build_costs:
+    Encased Industrial Beam: 241.84050345051566
+  :energy_costs:
+    Encased Industrial Beam: 1127.6078443192682
+  :true_cost: 272.8187409318142
+  :true_costs:
+    Encased Industrial Beam: 272.8187409318142
+- :name: Caterium Ore
+  :alternate: false
+  :building:
+  - Miner
+  - 1
+  :products:
+  - - 1
+    - Caterium Ore
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 7
+  :build_cost: 54.34782608695652
+  :mj_cost: 29.999997600000196
+  :energy_cost: 8.48695652173913
+  :build_costs:
+    Caterium Ore: 54.34782608695652
+  :energy_costs:
+    Caterium Ore: 8.48695652173913
+  :true_cost: 54.58098423315815
+  :true_costs:
+    Caterium Ore: 54.58098423315815
+- :name: Caterium Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 4
+  :prerequisites: Caterium Research - Caterium Ingots
+  :products:
+  - - 1
+    - Caterium Ingot
+  :ingredients:
+  - - 3
+    - Caterium Ore
+  :sink_value: 42
+  :sink_cost: 21
+  :build_cost: 163.04347826086956
+  :mj_cost: 15.999998720000102
+  :energy_cost: 41.46086828521749
+  :build_costs:
+    Caterium Ingot: 163.04347826086956
+  :energy_costs:
+    Caterium Ingot: 41.46086828521749
+  :true_cost: 164.18251310387004
+  :true_costs:
+    Caterium Ingot: 164.18251310387004
+- :name: Pure Caterium Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 5
+  :prerequisites: Tier 3 - Coal PowerCaterium Research - Caterium
+  :products:
+  - - 1
+    - Caterium Ingot
+  :ingredients:
+  - - 2
+    - Caterium Ore
+  - - 2
+    - Water
+  :sink_value: 42
+  :sink_cost: 84
+  :build_cost: 108.69565217391305
+  :mj_cost: 149.99998800000097
+  :energy_cost: 186.97390104347923
+  :build_costs:
+    Caterium Ingot: 108.69565217391305
+  :energy_costs:
+    Caterium Ingot: 186.97390104347923
+  :true_cost: 113.83229780697566
+  :true_costs:
+    Caterium Ingot: 113.83229780697566
+- :name: Quickwire
+  :alternate: false
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Caterium Research - Quickwire
+  :products:
+  - - 5
+    - Quickwire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+  :sink_value: 85
+  :sink_cost: 42
+  :build_cost: 108.69565217391305
+  :mj_cost: 19.999998400000127
+  :energy_cost: 206.97389944347935
+  :build_costs:
+    Quickwire: 21.73913043478261
+  :energy_costs:
+    Quickwire: 41.39477988869587
+  :true_cost: 114.38174831247017
+  :true_costs:
+    Quickwire: 22.876349662494036
+- :name: Fused Quickwire
+  :alternate: true
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Caterium Research - Caterium Ingots
+  :products:
+  - - 12
+    - Quickwire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+  - - 5
+    - Copper Ingot
+  :sink_value: 204
+  :sink_cost: 72
+  :build_cost: 150.2756937539546
+  :mj_cost: 119.99999040000078
+  :energy_cost: 583.5562700258794
+  :build_costs:
+    Quickwire: 12.522974479496218
+  :energy_costs:
+    Quickwire: 48.62968916882328
+  :true_cost: 166.30745941400625
+  :true_costs:
+    Quickwire: 13.858954951167188
+- :name: Quickwire Stator
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 4 - Advanced Steel ProductionCaterium Research - Caterium Ingots
+  :products:
+  - - 2
+    - Stator
+  :ingredients:
+  - - 4
+    - Steel Pipe
+  - - 15
+    - Quickwire
+  :sink_value: 480
+  :sink_cost: 351
+  :build_cost: 283.9000962402497
+  :mj_cost: 224.99998200000147
+  :energy_cost: 1280.9372568060915
+  :build_costs:
+    Stator: 141.95004812012485
+  :energy_costs:
+    Stator: 640.4686284030457
+  :true_cost: 319.09068021843905
+  :true_costs:
+    Stator: 159.54534010921952
+- :name: Fused Wire
+  :alternate: true
+  :building:
+  - Assembler
+  - 20
+  :prerequisites: Caterium Research - Caterium
+  :products:
+  - - 30
+    - Wire
+  :ingredients:
+  - - 4
+    - Copper Ingot
+  - - 1
+    - Caterium Ingot
+  :sink_value: 180
+  :sink_cost: 66
+  :build_cost: 141.95968543794632
+  :mj_cost: 299.99997600000194
+  :energy_cost: 708.2397799094006
+  :build_costs:
+    Wire: 4.731989514598211
+  :energy_costs:
+    Wire: 23.607992663646687
+  :true_cost: 161.41682224864414
+  :true_costs:
+    Wire: 5.380560741621471
+- :name: Caterium Wire
+  :alternate: true
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Caterium Research - Caterium
+  :products:
+  - - 8
+    - Wire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+  :sink_value: 48
+  :sink_cost: 42
+  :build_cost: 108.69565217391305
+  :mj_cost: 15.999998720000102
+  :energy_cost: 202.97389976347932
+  :build_costs:
+    Wire: 13.58695652173913
+  :energy_costs:
+    Wire: 25.371737470434915
+  :true_cost: 114.27185821137127
+  :true_costs:
+    Wire: 14.283982276421408
+- :name: Wire
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 2
+    - Wire
+  :ingredients:
+  - - 1
+    - Copper Ingot
+  :sink_value: 12
+  :sink_cost: 6
+  :build_cost: 8.316008316008316
+  :mj_cost: 15.999998720000102
+  :energy_cost: 71.31647443647998
+  :build_costs:
+    Wire: 4.158004158004158
+  :energy_costs:
+    Wire: 35.65823721823999
+  :true_cost: 10.275252119208316
+  :true_costs:
+    Wire: 5.137626059604158
+- :name: Iron Wire
+  :alternate: true
+  :building:
+  - Constructor
+  - 24
+  :prerequisites: ''
+  :products:
+  - - 9
+    - Wire
+  :ingredients:
+  - - 5
+    - Iron Ingot
+  :sink_value: 54
+  :sink_cost: 10
+  :build_cost: 22.952324742606077
+  :mj_cost: 95.99999232000062
+  :energy_cost: 278.8075620680506
+  :build_costs:
+    Wire: 2.5502583047340086
+  :energy_costs:
+    Wire: 30.978618007561174
+  :true_cost: 30.611873151069005
+  :true_costs:
+    Wire: 3.4013192390076674
+- :name: Stator
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Stator
+  :ingredients:
+  - - 3
+    - Steel Pipe
+  - - 8
+    - Wire
+  :sink_value: 240
+  :sink_cost: 120
+  :build_cost: 92.44367572372688
+  :mj_cost: 179.99998560000117
+  :energy_cost: 672.6978826157961
+  :build_costs:
+    Stator: 92.44367572372688
+  :energy_costs:
+    Stator: 672.6978826157961
+  :true_cost: 110.9243867846004
+  :true_costs:
+    Stator: 110.9243867846004
+- :name: Cable
+  :alternate: false
+  :building:
+  - Constructor
+  - 2
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Cable
+  :ingredients:
+  - - 2
+    - Wire
+  :sink_value: 24
+  :sink_cost: 12
+  :build_cost: 5.100516609468017
+  :mj_cost: 7.999999360000051
+  :energy_cost: 69.9572353751224
+  :build_costs:
+    Cable: 5.100516609468017
+  :energy_costs:
+    Cable: 69.9572353751224
+  :true_cost: 7.022418680213138
+  :true_costs:
+    Cable: 7.022418680213138
+- :name: Coated Cable
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 9
+    - Cable
+  :ingredients:
+  - - 5
+    - Wire
+  - - 2
+    - Heavy Oil Residue
+  :sink_value: 216
+  :sink_cost: 150
+  :build_cost: 89.67436844674698
+  :mj_cost: 239.99998080000157
+  :energy_cost: 534.8730636378081
+  :build_costs:
+    Cable: 9.96381871630522
+  :energy_costs:
+    Cable: 59.4303404042009
+  :true_cost: 104.3686833818516
+  :true_costs:
+    Cable: 11.596520375761289
+- :name: Insulated Cable
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 20
+    - Cable
+  :ingredients:
+  - - 9
+    - Wire
+  - - 6
+    - Rubber
+  :sink_value: 480
+  :sink_cost: 414
+  :build_cost: 80.64463243491377
+  :mj_cost: 179.99998560000117
+  :energy_cost: 1386.4588337988257
+  :build_costs:
+    Cable: 4.032231621745689
+  :energy_costs:
+    Cable: 69.32294168994129
+  :true_cost: 118.73416083598042
+  :true_costs:
+    Cable: 5.9367080417990215
+- :name: Quickwire Cable
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - Caterium Ingots
+  :products:
+  - - 11
+    - Cable
+  :ingredients:
+  - - 3
+    - Quickwire
+  - - 2
+    - Rubber
+  :sink_value: 264
+  :sink_cost: 171
+  :build_cost: 56.79969266925789
+  :mj_cost: 359.99997120000234
+  :energy_cost: 815.1061340833969
+  :build_costs:
+    Cable: 5.16360842447799
+  :energy_costs:
+    Cable: 74.10055764394518
+  :true_cost: 79.19271833088968
+  :true_costs:
+    Cable: 7.199338030080879
+- :name: Automated Wiring
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Automated Wiring
+  :ingredients:
+  - - 1
+    - Stator
+  - - 20
+    - Cable
+  :sink_value: 1440
+  :sink_cost: 720
+  :build_cost: 173.08830815864064
+  :mj_cost: 359.99997120000234
+  :energy_cost: 2419.156687614624
+  :build_costs:
+    Automated Wiring: 173.08830815864064
+  :energy_costs:
+    Automated Wiring: 2419.156687614624
+  :true_cost: 239.54865671948198
+  :true_costs:
+    Automated Wiring: 239.54865671948198
+- :name: Circuit Board
+  :alternate: false
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Circuit Board
+  :ingredients:
+  - - 2
+    - Copper Sheet
+  - - 4
+    - Plastic
+  :sink_value: 696
+  :sink_cost: 348
+  :build_cost: 55.093555093555096
+  :mj_cost: 119.99999040000078
+  :energy_cost: 1048.291734063734
+  :build_costs:
+    Circuit Board: 55.093555093555096
+  :energy_costs:
+    Circuit Board: 1048.291734063734
+  :true_cost: 83.89277855684449
+  :true_costs:
+    Circuit Board: 83.89277855684449
+- :name: Electrode Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Circuit Board
+  :ingredients:
+  - - 6
+    - Rubber
+  - - 9
+    - Petroleum Coke
+  :sink_value: 696
+  :sink_cost: 540
+  :build_cost: 173.0769230769231
+  :mj_cost: 179.99998560000117
+  :energy_cost: 1452.6212501307768
+  :build_costs:
+    Circuit Board: 173.0769230769231
+  :energy_costs:
+    Circuit Board: 1452.6212501307768
+  :true_cost: 212.98410027831807
+  :true_costs:
+    Circuit Board: 212.98410027831807
+- :name: Silicon Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil ProcessingQuartz Research - Quartz
+  :products:
+  - - 5
+    - Circuit Board
+  :ingredients:
+  - - 11
+    - Copper Sheet
+  - - 11
+    - Silica
+  :sink_value: 3480
+  :sink_cost: 484
+  :build_cost: 450.04821499065054
+  :mj_cost: 359.99997120000234
+  :energy_cost: 2467.014996331098
+  :build_costs:
+    Circuit Board: 90.0096429981301
+  :energy_costs:
+    Circuit Board: 493.4029992662196
+  :true_cost: 517.8233522524939
+  :true_costs:
+    Circuit Board: 103.56467045049877
+- :name: Caterium Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 48
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - Caterium Ingots
+  :products:
+  - - 7
+    - Circuit Board
+  :ingredients:
+  - - 10
+    - Plastic
+  - - 30
+    - Quickwire
+  :sink_value: 4872
+  :sink_cost: 1260
+  :build_cost: 471.8430805387327
+  :mj_cost: 719.9999424000047
+  :energy_cost: 3773.037630041635
+  :build_costs:
+    Circuit Board: 67.4061543626761
+  :energy_costs:
+    Circuit Board: 539.0053757202336
+  :true_cost: 575.4979604849315
+  :true_costs:
+    Circuit Board: 82.21399435499022
+- :name: High-Speed Connector
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Caterium Research -  High-Speed Connector
+  :products:
+  - - 1
+    - High-Speed Connector
+  :ingredients:
+  - - 56
+    - Quickwire
+  - - 10
+    - Cable
+  - - 1
+    - Circuit Board
+  :sink_value: 3776
+  :sink_cost: 1888
+  :build_cost: 809.0150414319213
+  :mj_cost: 879.9999296000057
+  :energy_cost: 4835.497315673756
+  :build_costs:
+    High-Speed Connector: 809.0150414319213
+  :energy_costs:
+    High-Speed Connector: 4835.497315673756
+  :true_cost: 941.8583742801014
+  :true_costs:
+    High-Speed Connector: 941.8583742801014
+- :name: Silicon High-Speed Connector
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 40
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - High-Speed ConnectorQuartz
+    Research - Quartz
+  :products:
+  - - 2
+    - High-Speed Connector
+  :ingredients:
+  - - 60
+    - Quickwire
+  - - 25
+    - Silica
+  - - 2
+    - Circuit Board
+  :sink_value: 7552
+  :sink_cost: 2912
+  :build_cost: 1701.1274218463961
+  :mj_cost: 2199.999824000014
+  :energy_cost: 7351.550704319449
+  :build_costs:
+    High-Speed Connector: 850.5637109231981
+  :energy_costs:
+    High-Speed Connector: 3675.7753521597247
+  :true_cost: 1903.093100536491
+  :true_costs:
+    High-Speed Connector: 951.5465502682455
+- :name: Automated Speed Wiring
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 4 - Advanced Steel ProductionCaterium Research - A.I. Limiter
+  :products:
+  - - 4
+    - Automated Wiring
+  :ingredients:
+  - - 2
+    - Stator
+  - - 40
+    - Wire
+  - - 1
+    - High-Speed Connector
+  :sink_value: 5760
+  :sink_cost: 4496
+  :build_cost: 1095.9127250687354
+  :mj_cost: 1759.9998592000113
+  :energy_cost: 9180.037660407806
+  :build_costs:
+    Automated Wiring: 273.97818126718386
+  :energy_costs:
+    Automated Wiring: 2295.0094151019516
+  :true_cost: 1348.1115618931258
+  :true_costs:
+    Automated Wiring: 337.02789047328145
+- :name: Cast Screw
+  :alternate: true
+  :building:
+  - Constructor
+  - 24
+  :prerequisites: ''
+  :products:
+  - - 20
+    - Screw
+  :ingredients:
+  - - 5
+    - Iron Ingot
+  :sink_value: 40
+  :sink_cost: 10
+  :build_cost: 22.952324742606077
+  :mj_cost: 95.99999232000062
+  :energy_cost: 278.8075620680506
+  :build_costs:
+    Screw: 1.1476162371303038
+  :energy_costs:
+    Screw: 13.940378103402528
+  :true_cost: 30.611873151069005
+  :true_costs:
+    Screw: 1.5305936575534502
+- :name: Iron Rod
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Iron Rod
+  :ingredients:
+  - - 1
+    - Iron Ingot
+  :sink_value: 4
+  :sink_cost: 2
+  :build_cost: 4.590464948521215
+  :mj_cost: 15.999998720000102
+  :energy_cost: 52.56151266961009
+  :build_costs:
+    Iron Rod: 4.590464948521215
+  :energy_costs:
+    Iron Rod: 52.56151266961009
+  :true_cost: 6.0344625493346795
+  :true_costs:
+    Iron Rod: 6.0344625493346795
+- :name: Steel Rod
+  :alternate: true
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 4
+    - Iron Rod
+  :ingredients:
+  - - 1
+    - Steel Ingot
+  :sink_value: 16
+  :sink_cost: 8
+  :build_cost: 16.009246507967738
+  :mj_cost: 19.999998400000127
+  :energy_cost: 66.41532191895685
+  :build_costs:
+    Iron Rod: 4.0023116269919345
+  :energy_costs:
+    Iron Rod: 16.603830479739212
+  :true_cost: 17.833843263983034
+  :true_costs:
+    Iron Rod: 4.458460815995759
+- :name: Screw
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 4
+    - Screw
+  :ingredients:
+  - - 1
+    - Iron Rod
+  :sink_value: 8
+  :sink_cost: 4
+  :build_cost: 4.0023116269919345
+  :mj_cost: 23.999998080000154
+  :energy_cost: 40.60382855973937
+  :build_costs:
+    Screw: 1.0005779067479836
+  :energy_costs:
+    Screw: 10.150957139934842
+  :true_cost: 5.11780142258917
+  :true_costs:
+    Screw: 1.2794503556472925
+- :name: Steel Screw
+  :alternate: true
+  :building:
+  - Constructor
+  - 12
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 52
+    - Screw
+  :ingredients:
+  - - 1
+    - Steel Beam
+  :sink_value: 104
+  :sink_cost: 64
+  :build_cost: 64.03698603187095
+  :mj_cost: 47.99999616000031
+  :energy_cost: 249.6612889558273
+  :build_costs:
+    Screw: 1.231480500612903
+  :energy_costs:
+    Screw: 4.801178633765909
+  :true_cost: 70.89581265153654
+  :true_costs:
+    Screw: 1.363381012529549
+- :name: Reinforced Iron Plate
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 12
+    - Screw
+  :sink_value: 120
+  :sink_cost: 60
+  :build_cost: 34.42643779919995
+  :mj_cost: 179.99998560000117
+  :energy_cost: 574.5032527033055
+  :build_costs:
+    Reinforced Iron Plate: 34.42643779919995
+  :energy_costs:
+    Reinforced Iron Plate: 574.5032527033055
+  :true_cost: 50.20949419214791
+  :true_costs:
+    Reinforced Iron Plate: 50.20949419214791
+- :name: Adhered Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 1
+    - Rubber
+  :sink_value: 120
+  :sink_cost: 78
+  :build_cost: 20.82513607449669
+  :mj_cost: 239.99998080000157
+  :energy_cost: 530.9544192005071
+  :build_costs:
+    Reinforced Iron Plate: 20.82513607449669
+  :energy_costs:
+    Reinforced Iron Plate: 530.9544192005071
+  :true_cost: 35.41179594264249
+  :true_costs:
+    Reinforced Iron Plate: 35.41179594264249
+- :name: Bolted Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: ''
+  :products:
+  - - 3
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 18
+    - Iron Plate
+  - - 50
+    - Screw
+  :sink_value: 360
+  :sink_cost: 208
+  :build_cost: 117.28740409207163
+  :mj_cost: 179.99998560000117
+  :energy_cost: 1505.6231868690022
+  :build_costs:
+    Reinforced Iron Plate: 39.09580136402388
+  :energy_costs:
+    Reinforced Iron Plate: 501.87439562300074
+  :true_cost: 158.65067845660465
+  :true_costs:
+    Reinforced Iron Plate: 52.88355948553489
+- :name: Stitched Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 32
+  :prerequisites: ''
+  :products:
+  - - 3
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 10
+    - Iron Plate
+  - - 20
+    - Wire
+  :sink_value: 360
+  :sink_cost: 180
+  :build_cost: 88.37100429172042
+  :mj_cost: 479.99996160000313
+  :energy_cost: 1554.0586241247038
+  :build_costs:
+    Reinforced Iron Plate: 29.457001430573474
+  :energy_costs:
+    Reinforced Iron Plate: 518.0195413749012
+  :true_cost: 131.0649225369046
+  :true_costs:
+    Reinforced Iron Plate: 43.68830751230153
+- :name: Modular Frame
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 2
+    - Modular Frame
+  :ingredients:
+  - - 3
+    - Reinforced Iron Plate
+  - - 12
+    - Iron Rod
+  :sink_value: 816
+  :sink_cost: 408
+  :build_cost: 110.50314774739329
+  :mj_cost: 899.9999280000059
+  :energy_cost: 2692.109151358398
+  :build_costs:
+    Modular Frame: 55.25157387369664
+  :energy_costs:
+    Modular Frame: 1346.054575679199
+  :true_cost: 184.4621903671295
+  :true_costs:
+    Modular Frame: 92.23109518356475
+- :name: Bolted Frame
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 2
+    - Modular Frame
+  :ingredients:
+  - - 3
+    - Reinforced Iron Plate
+  - - 56
+    - Screw
+  :sink_value: 816
+  :sink_cost: 472
+  :build_cost: 118.50777100137717
+  :mj_cost: 359.99997120000234
+  :energy_cost: 2521.3168286378746
+  :build_costs:
+    Modular Frame: 59.25388550068858
+  :energy_costs:
+    Modular Frame: 1260.6584143189373
+  :true_cost: 187.77471684307702
+  :true_costs:
+    Modular Frame: 93.88735842153851
+- :name: Steeled Frame
+  :alternate: true
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Modular Frame
+  :ingredients:
+  - - 2
+    - Reinforced Iron Plate
+  - - 10
+    - Steel Pipe
+  :sink_value: 1224
+  :sink_cost: 480
+  :build_cost: 281.78896976850945
+  :mj_cost: 899.9999280000059
+  :energy_cost: 2778.138609585372
+  :build_costs:
+    Modular Frame: 93.92965658950315
+  :energy_costs:
+    Modular Frame: 926.0462031951239
+  :true_cost: 358.11145904283285
+  :true_costs:
+    Modular Frame: 119.37048634761095
+- :name: Heavy Encased Frame
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 64
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 3
+    - Heavy Modular Frame
+  :ingredients:
+  - - 8
+    - Modular Frame
+  - - 10
+    - Encased Industrial Beam
+  - - 36
+    - Steel Pipe
+  - - 22
+    - Concrete
+  :sink_value: 34560
+  :sink_cost: 10712
+  :build_cost: 4049.387963439147
+  :mj_cost: 3519.9997184000226
+  :energy_cost: 29960.428879686933
+  :build_costs:
+    Heavy Modular Frame: 1349.795987813049
+  :energy_costs:
+    Heavy Modular Frame: 9986.809626562312
+  :true_cost: 4872.476668925052
+  :true_costs:
+    Heavy Modular Frame: 1624.1588896416838
+- :name: Heavy Modular Frame
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 30
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Heavy Modular Frame
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 15
+    - Steel Pipe
+  - - 5
+    - Encased Industrial Beam
+  - - 100
+    - Screw
+  :sink_value: 11520
+  :sink_cost: 5760
+  :build_cost: 1945.7262237251339
+  :mj_cost: 1649.9998680000106
+  :energy_cost: 16257.752446762357
+  :build_costs:
+    Heavy Modular Frame: 1945.7262237251339
+  :energy_costs:
+    Heavy Modular Frame: 16257.752446762357
+  :true_cost: 2392.3677744603633
+  :true_costs:
+    Heavy Modular Frame: 2392.3677744603633
+- :name: Heavy Flexible Frame
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Heavy Modular Frame
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 3
+    - Encased Industrial Beam
+  - - 20
+    - Rubber
+  - - 104
+    - Screw
+  :sink_value: 11520
+  :sink_cost: 5344
+  :build_cost: 1298.1471743295128
+  :mj_cost: 879.9999296000057
+  :energy_cost: 15140.966837276277
+  :build_costs:
+    Heavy Modular Frame: 1298.1471743295128
+  :energy_costs:
+    Heavy Modular Frame: 15140.966837276277
+  :true_cost: 1714.1078017272127
+  :true_costs:
+    Heavy Modular Frame: 1714.1078017272127
+- :name: Computer
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 24
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Computer
+  :ingredients:
+  - - 10
+    - Circuit Board
+  - - 9
+    - Cable
+  - - 18
+    - Plastic
+  - - 52
+    - Screw
+  :sink_value: 17260
+  :sink_cost: 8630
+  :build_cost: 935.4586024502904
+  :mj_cost: 1319.9998944000085
+  :energy_cost: 10731.274520726905
+  :build_costs:
+    Computer: 935.4586024502904
+  :energy_costs:
+    Computer: 10731.274520726905
+  :true_cost: 1230.2738365361945
+  :true_costs:
+    Computer: 1230.2738365361945
+- :name: Quartz Crystal
+  :alternate: false
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Quartz Research - Quartz Crystals
+  :products:
+  - - 3
+    - Quartz Crystal
+  :ingredients:
+  - - 5
+    - Raw Quartz
+  :sink_value: 150
+  :sink_cost: 75
+  :build_cost: 285.7142857142857
+  :mj_cost: 31.999997440000204
+  :energy_cost: 82.16456886857164
+  :build_costs:
+    Quartz Crystal: 95.23809523809524
+  :energy_costs:
+    Quartz Crystal: 27.38818962285721
+  :true_cost: 287.9715540897959
+  :true_costs:
+    Quartz Crystal: 95.99051802993198
+- :name: Pure Quartz Crystal
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 3 - Coal PowerQuartz Research - Quartz Crystals
+  :products:
+  - - 7
+    - Quartz Crystal
+  :ingredients:
+  - - 9
+    - Raw Quartz
+  - - 5
+    - Water
+  :sink_value: 350
+  :sink_cost: 310
+  :build_cost: 514.2857142857143
+  :mj_cost: 239.99998080000157
+  :energy_cost: 380.2962093714301
+  :build_costs:
+    Quartz Crystal: 73.46938775510205
+  :energy_costs:
+    Quartz Crystal: 54.3280299102043
+  :true_cost: 524.7334123453691
+  :true_costs:
+    Quartz Crystal: 74.96191604933843
+- :name: AI Limiter
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Caterium Research - AI Limiter
+  :products:
+  - - 1
+    - AI Limiter
+  :ingredients:
+  - - 5
+    - Copper Sheet
+  - - 20
+    - Quickwire
+  :sink_value: 920
+  :sink_cost: 460
+  :build_cost: 292.0395311699659
+  :mj_cost: 179.99998560000117
+  :energy_cost: 1879.1761155588686
+  :build_costs:
+    AI Limiter: 292.0395311699659
+  :energy_costs:
+    AI Limiter: 1879.1761155588686
+  :true_cost: 343.66524863037444
+  :true_costs:
+    AI Limiter: 343.66524863037444
+- :name: Insulated Crystal Oscillator
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 5 - Oil ProcessingQuartz Research - Crystal OscillatorCaterium
+    Research - Caterium Electronics
+  :products:
+  - - 1
+    - Crystal Oscillator
+  :ingredients:
+  - - 10
+    - Quartz Crystal
+  - - 7
+    - Rubber
+  - - 1
+    - AI Limiter
+  :sink_value: 3072
+  :sink_cost: 1840
+  :build_cost: 1094.041101028679
+  :mj_cost: 1759.9998592000113
+  :energy_cost: 5264.716107680159
+  :build_costs:
+    Crystal Oscillator: 1094.041101028679
+  :energy_costs:
+    Crystal Oscillator: 5264.716107680159
+  :true_cost: 1238.67615893198
+  :true_costs:
+    Crystal Oscillator: 1238.67615893198
+- :name: Crystal Oscillator
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Quartz Research - Crystal Oscillatoror Tier 7 – Bauxite Refinement
+  :products:
+  - - 2
+    - Crystal Oscillator
+  :ingredients:
+  - - 36
+    - Quartz Crystal
+  - - 28
+    - Cable
+  - - 5
+    - Reinforced Iron Plate
+  :sink_value: 6144
+  :sink_cost: 3072
+  :build_cost: 2861.9261249650367
+  :mj_cost: 6599.999472000042
+  :energy_cost: 13151.623012088288
+  :build_costs:
+    Crystal Oscillator: 1430.9630624825184
+  :energy_costs:
+    Crystal Oscillator: 6575.811506044144
+  :true_cost: 3223.234449472957
+  :true_costs:
+    Crystal Oscillator: 1611.6172247364784
+- :name: Crystal Computer
+  :alternate: true
+  :building:
+  - Assembler
+  - 64
+  :prerequisites: Tier 5 - Industrial ManufacturingQuartz Research - Quartz Crystal
+  :products:
+  - - 3
+    - Computer
+  :ingredients:
+  - - 8
+    - Circuit Board
+  - - 3
+    - Crystal Oscillator
+  :sink_value: 51780
+  :sink_cost: 14784
+  :build_cost: 3821.3725379874454
+  :mj_cost: 959.9999232000063
+  :energy_cost: 21066.19125200235
+  :build_costs:
+    Computer: 1273.790845995815
+  :energy_costs:
+    Computer: 7022.06375066745
+  :true_cost: 4400.114055899598
+  :true_costs:
+    Computer: 1466.704685299866
+- :name: Caterium Computer
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Industrial ManufacturingCaterium Research - Caterium Ingots
+  :products:
+  - - 1
+    - Computer
+  :ingredients:
+  - - 7
+    - Circuit Board
+  - - 28
+    - Quickwire
+  - - 12
+    - Rubber
+  :sink_value: 17260
+  :sink_cost: 6068
+  :build_cost: 937.8709813492422
+  :mj_cost: 879.9999296000057
+  :energy_cost: 7869.9714286302415
+  :build_costs:
+    Computer: 937.8709813492422
+  :energy_costs:
+    Computer: 7869.9714286302415
+  :true_cost: 1154.0789876302929
+  :true_costs:
+    Computer: 1154.0789876302929
+- :name: Adaptive Control Unit
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 2
+    - Adaptive Control Unit
+  :ingredients:
+  - - 15
+    - Automated Wiring
+  - - 10
+    - Circuit Board
+  - - 2
+    - Heavy Modular Frame
+  - - 2
+    - Computer
+  :sink_value: 172240
+  :sink_cost: 86120
+  :build_cost: 7845.720104330952
+  :mj_cost: 6599.999472000042
+  :energy_cost: 83990.96565380684
+  :build_costs:
+    Adaptive Control Unit: 3922.860052165476
+  :energy_costs:
+    Adaptive Control Unit: 41995.48282690342
+  :true_cost: 10153.164215699271
+  :true_costs:
+    Adaptive Control Unit: 5076.582107849636
+- :name: Supercomputer
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Caterium Research - Supercomputeror Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Supercomputer
+  :ingredients:
+  - - 2
+    - Computer
+  - - 2
+    - AI Limiter
+  - - 3
+    - High-Speed Connector
+  - - 28
+    - Plastic
+  :sink_value: 99576
+  :sink_cost: 49788
+  :build_cost: 5156.09691856495
+  :mj_cost: 1759.9998592000113
+  :energy_cost: 40228.398529814905
+  :build_costs:
+    Supercomputer: 5156.09691856495
+  :energy_costs:
+    Supercomputer: 40228.398529814905
+  :true_cost: 6261.272702351074
+  :true_costs:
+    Supercomputer: 6261.272702351074
+- :name: Electromagnetic Control Rod
+  :alternate: false
+  :building:
+  - Assembler
+  - 30
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Electromagnetic Control Rod
+  :ingredients:
+  - - 3
+    - Stator
+  - - 2
+    - AI Limiter
+  :sink_value: 5120
+  :sink_cost: 2560
+  :build_cost: 861.4100895111126
+  :mj_cost: 449.99996400000293
+  :energy_cost: 6226.445842965129
+  :build_costs:
+    Electromagnetic Control Rod: 430.7050447555563
+  :energy_costs:
+    Electromagnetic Control Rod: 3113.2229214825643
+  :true_cost: 1032.4662939881766
+  :true_costs:
+    Electromagnetic Control Rod: 516.2331469940883
+- :name: Electromagnetic Connection Rod
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 8 - Nuclear PowerCaterium Research - AI Limiter
+  :products:
+  - - 2
+    - Electromagnetic Control Rod
+  :ingredients:
+  - - 2
+    - Stator
+  - - 1
+    - High-Speed Connector
+  :sink_value: 5120
+  :sink_cost: 4256
+  :build_cost: 993.902392879375
+  :mj_cost: 224.99998200000147
+  :energy_cost: 6405.893062905349
+  :build_costs:
+    Electromagnetic Control Rod: 496.9511964396875
+  :energy_costs:
+    Electromagnetic Control Rod: 3202.9465314526747
+  :true_cost: 1169.8884660361155
+  :true_costs:
+    Electromagnetic Control Rod: 584.9442330180577
+- :name: Alclad Aluminum Sheet
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 3
+    - Alclad Aluminum Sheet
+  :ingredients:
+  - - 3
+    - Aluminum Ingot
+  - - 1
+    - Copper Ingot
+  :sink_value: 798
+  :sink_cost: 399
+  :build_cost: 207.74970345522496
+  :mj_cost: 89.99999280000058
+  :energy_cost: 341.82779609979417
+  :build_costs:
+    Alclad Aluminum Sheet: 69.24990115174165
+  :energy_costs:
+    Alclad Aluminum Sheet: 113.9425986999314
+  :true_cost: 217.14057697445008
+  :true_costs:
+    Alclad Aluminum Sheet: 72.38019232481669
+- :name: Classic Battery
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 4
+    - Battery
+  :ingredients:
+  - - 6
+    - Sulfur
+  - - 7
+    - Alclad Aluminum Sheet
+  - - 8
+    - Plastic
+  - - 12
+    - Wire
+  :sink_value: 1860
+  :sink_cost: 2600
+  :build_cost: 1118.5912741157608
+  :mj_cost: 439.99996480000283
+  :energy_cost: 2949.680234483381
+  :build_costs:
+    Battery: 279.6478185289402
+  :energy_costs:
+    Battery: 737.4200586208452
+  :true_cost: 1199.6264453927768
+  :true_costs:
+    Battery: 299.9066113481942
+- :name: Battery
+  :alternate: false
+  :building:
+  - Blender
+  - 3
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Battery
+  - - 1
+    - Water
+  :ingredients:
+  - - 2
+    - Sulfuric Acid
+  - - 2
+    - Alumina Solution
+  - - 1
+    - Aluminum Casing
+  :sink_value: 500
+  :sink_cost: 585
+  :build_cost: 371.8692886274417
+  :mj_cost: 224.9999820000014
+  :energy_cost: 521.1759754714948
+  :build_costs:
+    Battery: 371.8692886274417
+    Water: 371.8692886274417
+  :energy_costs:
+    Battery: 521.1759754714948
+    Water: 521.1759754714948
+  :true_cost: 386.18730993160364
+  :true_costs:
+    Battery: 386.18730993160364
+    Water: 386.18730993160364
+- :name: Super-State Computer
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 50
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Supercomputer
+  :ingredients:
+  - - 3
+    - Computer
+  - - 2
+    - Electromagnetic Control Rod
+  - - 20
+    - Battery
+  - - 45
+    - Wire
+  :sink_value: 199152
+  :sink_cost: 66470
+  :build_cost: 9382.741027850674
+  :mj_cost: 2749.999780000018
+  :energy_cost: 48728.798891613034
+  :build_costs:
+    Supercomputer: 4691.370513925337
+  :energy_costs:
+    Supercomputer: 24364.399445806517
+  :true_cost: 10721.44429410378
+  :true_costs:
+    Supercomputer: 5360.72214705189
+- :name: Radio Control Unit
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 48
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 2
+    - Radio Control Unit
+  :ingredients:
+  - - 32
+    - Aluminum Casing
+  - - 1
+    - Crystal Oscillator
+  - - 1
+    - Computer
+  :sink_value: 39200
+  :sink_cost: 32908
+  :build_cost: 5045.710590654957
+  :mj_cost: 2639.999788800017
+  :energy_cost: 20005.599889989116
+  :build_costs:
+    Radio Control Unit: 2522.8552953274784
+  :energy_costs:
+    Radio Control Unit: 10002.799944994558
+  :true_cost: 5595.3149832370755
+  :true_costs:
+    Radio Control Unit: 2797.6574916185377
+- :name: Radio Control System
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 40
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 3
+    - Radio Control Unit
+  :ingredients:
+  - - 1
+    - Crystal Oscillator
+  - - 10
+    - Circuit Board
+  - - 60
+    - Aluminum Casing
+  - - 30
+    - Rubber
+  :sink_value: 58800
+  :sink_cost: 35412
+  :build_cost: 7707.43638613642
+  :mj_cost: 2199.999824000014
+  :energy_cost: 25425.98717868394
+  :build_costs:
+    Radio Control Unit: 2569.1454620454733
+  :energy_costs:
+    Radio Control Unit: 8475.329059561313
+  :true_cost: 8405.952517418946
+  :true_costs:
+    Radio Control Unit: 2801.9841724729818
+- :name: Heat Sink
+  :alternate: false
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Heat Sink
+  :ingredients:
+  - - 5
+    - Alclad Aluminum Sheet
+  - - 3
+    - Copper Sheet
+  :sink_value: 2804
+  :sink_cost: 1402
+  :build_cost: 371.19753070673323
+  :mj_cost: 119.99999040000078
+  :energy_cost: 1125.6623918490989
+  :build_costs:
+    Heat Sink: 371.19753070673323
+  :energy_costs:
+    Heat Sink: 1125.6623918490989
+  :true_cost: 402.1223216915986
+  :true_costs:
+    Heat Sink: 402.1223216915986
+- :name: Heat Exchanger
+  :alternate: true
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Heat Sink
+  :ingredients:
+  - - 3
+    - Aluminum Casing
+  - - 3
+    - Rubber
+  :sink_value: 2804
+  :sink_cost: 1359
+  :build_cost: 311.389763997126
+  :mj_cost: 89.99999280000058
+  :energy_cost: 950.4736888227657
+  :build_costs:
+    Heat Sink: 311.389763997126
+  :energy_costs:
+    Heat Sink: 950.4736888227657
+  :true_cost: 337.50167852522395
+  :true_costs:
+    Heat Sink: 337.50167852522395
+- :name: Radio Connection Unit
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 8 - Advanced Aluminum ProductionCaterium Research - AI Limiter
+  :products:
+  - - 1
+    - Radio Control Unit
+  :ingredients:
+  - - 4
+    - Heat Sink
+  - - 2
+    - High-Speed Connector
+  - - 12
+    - Quartz Crystal
+  :sink_value: 19600
+  :sink_cost: 19368
+  :build_cost: 3745.2217919135715
+  :mj_cost: 879.9999296000057
+  :energy_cost: 15004.825675161033
+  :build_costs:
+    Radio Control Unit: 3745.2217919135715
+  :energy_costs:
+    Radio Control Unit: 15004.825675161033
+  :true_cost: 4157.442277494919
+  :true_costs:
+    Radio Control Unit: 4157.442277494919
+- :name: Nitrogen Gas
+  :alternate: false
+  :building:
+  - Resource Well Extractor
+  - 1
+  :products:
+  - - 1
+    - Nitrogen Gas
+  :ingredients: []
+  :sink_cost: 
+  :sink_value: 126
+  :build_cost: 51.282051282051285
+  :mj_cost: 149.99998800000094
+  :energy_cost: 33.32
+  :build_costs:
+    Nitrogen Gas: 51.282051282051285
+  :energy_costs:
+    Nitrogen Gas: 33.32
+  :true_cost: 52.1974358974359
+  :true_costs:
+    Nitrogen Gas: 52.1974358974359
+- :name: Cooling System
+  :alternate: false
+  :building:
+  - Blender
+  - 10
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Cooling System
+  :ingredients:
+  - - 2
+    - Heat Sink
+  - - 2
+    - Rubber
+  - - 5
+    - Water
+  - - 25
+    - Nitrogen Gas
+  :sink_value: 12006
+  :sink_cost: 9053
+  :build_cost: 1924.0615792763035
+  :mj_cost: 749.9999400000047
+  :energy_cost: 3843.164413022461
+  :build_costs:
+    Cooling System: 1924.0615792763035
+  :energy_costs:
+    Cooling System: 3843.164413022461
+  :true_cost: 2029.643019194503
+  :true_costs:
+    Cooling System: 2029.643019194503
+- :name: Copper Rotor
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 3
+    - Rotor
+  :ingredients:
+  - - 6
+    - Copper Sheet
+  - - 52
+    - Screw
+  :sink_value: 420
+  :sink_cost: 248
+  :build_cost: 101.92610104694505
+  :mj_cost: 239.99998080000157
+  :energy_cost: 1639.7485679754957
+  :build_costs:
+    Rotor: 33.97536701564835
+  :energy_costs:
+    Rotor: 546.5828559918319
+  :true_cost: 146.97413862868945
+  :true_costs:
+    Rotor: 48.99137954289648
+- :name: Rotor
+  :alternate: false
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Rotor
+  :ingredients:
+  - - 5
+    - Iron Rod
+  - - 25
+    - Screw
+  :sink_value: 140
+  :sink_cost: 70
+  :build_cost: 45.02600580365926
+  :mj_cost: 224.99998200000147
+  :energy_cost: 561.7930628970686
+  :build_costs:
+    Rotor: 45.02600580365926
+  :energy_costs:
+    Rotor: 561.7930628970686
+  :true_cost: 60.45988115797433
+  :true_costs:
+    Rotor: 60.45988115797433
+- :name: Steel Rotor
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 1
+    - Rotor
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 6
+    - Wire
+  :sink_value: 140
+  :sink_cost: 84
+  :build_cost: 63.32928935230727
+  :mj_cost: 179.99998560000117
+  :energy_cost: 529.1176622822386
+  :build_costs:
+    Rotor: 63.32928935230727
+  :energy_costs:
+    Rotor: 529.1176622822386
+  :true_cost: 77.86548886555559
+  :true_costs:
+    Rotor: 77.86548886555559
+- :name: Rigour Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 48
+  :prerequisites: Tier 4 - Advanced Steel ProductionQuartz Research - Quartz Crystals
+  :products:
+  - - 6
+    - Motor
+  :ingredients:
+  - - 3
+    - Rotor
+  - - 3
+    - Stator
+  - - 1
+    - Crystal Oscillator
+  :sink_value: 9120
+  :sink_cost: 4212
+  :build_cost: 1473.2982292468046
+  :mj_cost: 2639.999788800017
+  :energy_cost: 11562.55811230306
+  :build_costs:
+    Motor: 245.54970487446744
+  :energy_costs:
+    Motor: 1927.0930187171768
+  :true_cost: 1790.9509246397458
+  :true_costs:
+    Motor: 298.491820773291
+- :name: Electric Motor
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 2
+    - Motor
+  :ingredients:
+  - - 1
+    - Electromagnetic Control Rod
+  - - 2
+    - Rotor
+  :sink_value: 3040
+  :sink_cost: 2840
+  :build_cost: 498.655778786853
+  :mj_cost: 239.99998080000157
+  :energy_cost: 4446.3886142662295
+  :build_costs:
+    Motor: 249.3278893934265
+  :energy_costs:
+    Motor: 2223.1943071331148
+  :true_cost: 620.8093121458153
+  :true_costs:
+    Motor: 310.40465607290764
+- :name: Motor
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Motor
+  :ingredients:
+  - - 2
+    - Rotor
+  - - 2
+    - Stator
+  :sink_value: 1520
+  :sink_cost: 760
+  :build_cost: 252.8380854787505
+  :mj_cost: 179.99998560000117
+  :energy_cost: 2618.561462815257
+  :build_costs:
+    Motor: 252.8380854787505
+  :energy_costs:
+    Motor: 2618.561462815257
+  :true_cost: 324.77658720444435
+  :true_costs:
+    Motor: 324.77658720444435
+- :name: Cooling Device
+  :alternate: true
+  :building:
+  - Blender
+  - 32
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 2
+    - Cooling System
+  :ingredients:
+  - - 5
+    - Heat Sink
+  - - 1
+    - Motor
+  - - 24
+    - Nitrogen Gas
+  :sink_value: 24012
+  :sink_cost: 18564
+  :build_cost: 3033.2677556293283
+  :mj_cost: 2399.999808000015
+  :energy_cost: 9879.14127083102
+  :build_costs:
+    Cooling System: 1516.6338778146642
+  :energy_costs:
+    Cooling System: 4939.57063541551
+  :true_cost: 3304.6727355972134
+  :true_costs:
+    Cooling System: 1652.3363677986067
+- :name: OC Supercomputer
+  :alternate: true
+  :building:
+  - Assembler
+  - 20
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Supercomputer
+  :ingredients:
+  - - 3
+    - Radio Control Unit
+  - - 3
+    - Cooling System
+  :sink_value: 99576
+  :sink_cost: 94818
+  :build_cost: 12118.467519426427
+  :mj_cost: 299.99997600000194
+  :energy_cost: 45127.111717230204
+  :build_costs:
+    Supercomputer: 12118.467519426427
+  :energy_costs:
+    Supercomputer: 45127.111717230204
+  :true_cost: 13358.22333583385
+  :true_costs:
+    Supercomputer: 13358.22333583385
+- :name: Assembly Director System
+  :alternate: false
+  :building:
+  - Assembler
+  - 80
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Assembly Director System
+  :ingredients:
+  - - 2
+    - Adaptive Control Unit
+  - - 1
+    - Supercomputer
+  :sink_value: 543632
+  :sink_cost: 271816
+  :build_cost: 12537.09061825629
+  :mj_cost: 1199.9999040000077
+  :energy_cost: 109555.36500361336
+  :build_costs:
+    Assembly Director System: 12537.09061825629
+  :energy_costs:
+    Assembly Director System: 109555.36500361336
+  :true_cost: 15546.853393080833
+  :true_costs:
+    Assembly Director System: 15546.853393080833
+- :name: Iron Rebar
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Alien Organisms - The Rebar Gun
+  :products:
+  - - 1
+    - Iron Rebar
+  :ingredients:
+  - - 1
+    - Iron Rod
+  :sink_value: 1
+  :sink_cost: 4
+  :build_cost: 4.0023116269919345
+  :mj_cost: 15.999998720000102
+  :energy_cost: 32.603829199739316
+  :build_costs:
+    Iron Rebar: 4.0023116269919345
+  :energy_costs:
+    Iron Rebar: 32.603829199739316
+  :true_cost: 4.8980212203913664
+  :true_costs:
+    Iron Rebar: 4.8980212203913664
+- :name: Stun Rebar
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Caterium Research - Stun Rebar
+  :products:
+  - - 1
+    - Stun Rebar
+  :ingredients:
+  - - 1
+    - Iron Rebar
+  - - 5
+    - Quickwire
+  :sink_value: 1
+  :sink_cost: 86
+  :build_cost: 66.61718402447303
+  :mj_cost: 89.99999280000058
+  :energy_cost: 365.7522678438563
+  :build_costs:
+    Stun Rebar: 66.61718402447303
+  :energy_costs:
+    Stun Rebar: 365.7522678438563
+  :true_cost: 76.66532325095261
+  :true_costs:
+    Stun Rebar: 76.66532325095261
+- :name: Packaged Water
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Water
+  :ingredients:
+  - - 2
+    - Water
+  - - 2
+    - Empty Canister
+  :sink_value: 260
+  :sink_cost: 190
+  :build_cost: 7.894587977708183
+  :mj_cost: 19.99999840000013
+  :energy_cost: 188.10686089558823
+  :build_costs:
+    Packaged Water: 3.9472939888540917
+  :energy_costs:
+    Packaged Water: 94.05343044779411
+  :true_cost: 13.062358881433134
+  :true_costs:
+    Packaged Water: 6.531179440716567
+- :name: Infused Uranium Cell
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 12
+  :prerequisites: Tier 8 - Nuclear PowerCaterium Research - Caterium IngotsQuartz
+    Research - QuartzSulfur Research - Sulfur
+  :products:
+  - - 4
+    - Encased Uranium Cell
+  :ingredients:
+  - - 5
+    - Uranium
+  - - 3
+    - Silica
+  - - 5
+    - Sulfur
+  - - 15
+    - Quickwire
+  :sink_value: 588
+  :sink_cost: 545
+  :build_cost: 15009.947791456952
+  :mj_cost: 659.9999472000043
+  :energy_cost: 1656.5834058514752
+  :build_costs:
+    Encased Uranium Cell: 3752.486947864238
+  :energy_costs:
+    Encased Uranium Cell: 414.1458514628688
+  :true_cost: 15055.45832458474
+  :true_costs:
+    Encased Uranium Cell: 3763.864581146185
+- :name: Beacon
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 1 - Field Research
+  :products:
+  - - 1
+    - Beacon
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 1
+    - Iron Rod
+  - - 15
+    - Wire
+  - - 2
+    - Cable
+  :sink_value: 320
+  :sink_cost: 160
+  :build_cost: 61.530400900605514
+  :mj_cost: 439.99996480000283
+  :energy_cost: 1196.2748394850853
+  :build_costs:
+    Beacon: 61.530400900605514
+  :energy_costs:
+    Beacon: 1196.2748394850853
+  :true_cost: 94.39509429305292
+  :true_costs:
+    Beacon: 94.39509429305292
+- :name: Crystal Beacon
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 3 - Basic Steel ProductionQuartz Research - Quartz Crystals
+  :products:
+  - - 20
+    - Beacon
+  :ingredients:
+  - - 4
+    - Steel Beam
+  - - 16
+    - Steel Pipe
+  - - 1
+    - Crystal Oscillator
+  :sink_value: 6400
+  :sink_cost: 3712
+  :build_cost: 1734.4109613473884
+  :mj_cost: 6599.999472000042
+  :energy_cost: 13977.328499958472
+  :build_costs:
+    Beacon: 86.72054806736942
+  :energy_costs:
+    Beacon: 698.8664249979236
+  :true_cost: 2118.403502555039
+  :true_costs:
+    Beacon: 105.92017512775193
+- :name: Uranium Fuel Unit
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 300
+  :prerequisites: Tier 8 - Nuclear PowerQuartz Research - Quartz Crystals
+  :products:
+  - - 3
+    - Uranium Fuel Rod
+  :ingredients:
+  - - 100
+    - Encased Uranium Cell
+  - - 10
+    - Electromagnetic Control Rod
+  - - 3
+    - Crystal Oscillator
+  - - 6
+    - Beacon
+  :sink_value: 132276
+  :sink_cost: 51436
+  :build_cost: 383207.05094246904
+  :mj_cost: 16499.998680000106
+  :energy_cost: 112018.61040106362
+  :build_costs:
+    Uranium Fuel Rod: 127735.68364748968
+  :energy_costs:
+    Uranium Fuel Rod: 37339.53680035454
+  :true_cost: 386284.48529414664
+  :true_costs:
+    Uranium Fuel Rod: 128761.49509804888
+- :name: Uranium Fuel Rod
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 150
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 1
+    - Uranium Fuel Rod
+  :ingredients:
+  - - 50
+    - Encased Uranium Cell
+  - - 3
+    - Encased Industrial Beam
+  - - 5
+    - Electromagnetic Control Rod
+  :sink_value: 44092
+  :sink_cost: 22046
+  :build_cost: 190503.39412734122
+  :mj_cost: 8249.999340000053
+  :energy_cost: 47906.23005351412
+  :build_costs:
+    Uranium Fuel Rod: 190503.39412734122
+  :energy_costs:
+    Uranium Fuel Rod: 47906.23005351412
+  :true_cost: 191819.4993485916
+  :true_costs:
+    Uranium Fuel Rod: 191819.4993485916
+- :name: Uranium Waste
+  :alternate: false
+  :building:
+  - Nuclear Power Plant
+  - 300
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 50
+    - Uranium Waste
+  :ingredients:
+  - - 1
+    - Uranium Fuel Rod
+  - - 1200
+    - Water
+  :sink_value: 
+  :sink_cost: 86092
+  :build_cost: 127735.68364748968
+  :mj_cost: -749999.9400000046
+  :energy_cost: -700660.4031996501
+  :build_costs:
+    Uranium Waste: 2554.713672949794
+  :energy_costs:
+    Uranium Waste: -14013.208063993003
+  :true_cost: 108486.77147167512
+  :true_costs:
+    Uranium Waste: 2169.7354294335028
+- :name: Nitric Acid
+  :alternate: false
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 3
+    - Nitric Acid
+  :ingredients:
+  - - 12
+    - Nitrogen Gas
+  - - 3
+    - Water
+  - - 1
+    - Iron Plate
+  :sink_value: 528
+  :sink_cost: 1623
+  :build_cost: 619.1211992043195
+  :mj_cost: 449.9999640000028
+  :energy_cost: 925.2885942373506
+  :build_costs:
+    Nitric Acid: 206.3737330681065
+  :energy_costs:
+    Nitric Acid: 308.4295314124502
+  :true_cost: 644.5412155295214
+  :true_costs:
+    Nitric Acid: 214.8470718431738
+- :name: Non-fissile Uranium
+  :alternate: false
+  :building:
+  - Blender
+  - 24
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Non-fissile Uranium
+  - - 6
+    - Water
+  :ingredients:
+  - - 15
+    - Uranium Waste
+  - - 10
+    - Silica
+  - - 6
+    - Nitric Acid
+  - - 6
+    - Sulfuric Acid
+  :sink_value: 210
+  :sink_cost: 1532
+  :build_cost: 40411.237939869745
+  :mj_cost: 1799.9998560000113
+  :energy_cost: -205744.2193685689
+  :build_costs:
+    Non-fissile Uranium: 2020.5618969934872
+    Water: 6735.206323311624
+  :energy_costs:
+    Non-fissile Uranium: -10287.210968428446
+    Water: -34290.70322809482
+  :true_cost: 34758.92422095302
+  :true_costs:
+    Non-fissile Uranium: 1737.9462110476506
+    Water: 5793.154036825503
+- :name: Fertile Uranium
+  :alternate: true
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Non-fissile Uranium
+  - - 8
+    - Water
+  :ingredients:
+  - - 5
+    - Uranium
+  - - 5
+    - Uranium Waste
+  - - 3
+    - Nitric Acid
+  - - 5
+    - Sulfuric Acid
+  :sink_value: 280
+  :sink_cost: 933
+  :build_cost: 28117.000340895644
+  :mj_cost: 899.9999280000056
+  :energy_cost: -67882.3047444585
+  :build_costs:
+    Non-fissile Uranium: 1405.8500170447821
+    Water: 3514.6250426119555
+  :energy_costs:
+    Non-fissile Uranium: -3394.115237222925
+    Water: -8485.288093057312
+  :true_cost: 26252.101858905025
+  :true_costs:
+    Non-fissile Uranium: 1312.6050929452513
+    Water: 3281.512732363128
+- :name: Golden Factory Cart
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: AWESOME Shop - Golden FICSIT Factory Cart™
+  :products:
+  - - 1
+    - Golden Factory Cart
+  :ingredients:
+  - - 15
+    - Caterium Ingot
+  - - 4
+    - Iron Rod
+  - - 2
+    - Rotor
+  :sink_value: 1
+  :sink_cost: 926
+  :build_cost: 1714.39476314796
+  :mj_cost: 0.0
+  :energy_cost: 3964.1895495548097
+  :build_costs:
+    Golden Factory Cart: 1714.39476314796
+  :energy_costs:
+    Golden Factory Cart: 3964.1895495548097
+  :true_cost: 1823.301069454411
+  :true_costs:
+    Golden Factory Cart: 1823.301069454411
+- :name: Homing Rifle Ammo
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Caterium Research - Bullet Guidance System
+  :products:
+  - - 10
+    - Homing Rifle Ammo
+  :ingredients:
+  - - 20
+    - Rifle Ammo
+  - - 1
+    - High-Speed Connector
+  :sink_value: 10
+  :sink_cost: 3796
+  :build_cost: 1037.0806152722907
+  :mj_cost: 359.99997120000234
+  :energy_cost: 6459.039435221868
+  :build_costs:
+    Homing Rifle Ammo: 103.70806152722908
+  :energy_costs:
+    Homing Rifle Ammo: 645.9039435221869
+  :true_cost: 1214.526753602562
+  :true_costs:
+    Homing Rifle Ammo: 121.4526753602562
+- :name: Flower Petals
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Flower Petals
+  :ingredients: []
+  :alternate: false
+  :sink_value: 10
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Flower Petals: 0.0
+  :energy_costs:
+    Flower Petals: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Flower Petals: 0.0
+- :name: Packaged Oil
+  :alternate: false
+  :building:
+  - Packager
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Oil
+  :ingredients:
+  - - 2
+    - Crude Oil
+  - - 2
+    - Empty Canister
+  :sink_value: 360
+  :sink_cost: 240
+  :build_cost: 110.45869054181075
+  :mj_cost: 39.99999680000026
+  :energy_cost: 254.74685929558837
+  :build_costs:
+    Packaged Oil: 55.22934527090538
+  :energy_costs:
+    Packaged Oil: 127.37342964779418
+  :true_cost: 117.4572306323489
+  :true_costs:
+    Packaged Oil: 58.72861531617445
+- :name: Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Sulfur Research - The Nobelisk Detonator
+  :products:
+  - - 1
+    - Nobelisk
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 2
+    - Black Powder
+  :sink_value: 1
+  :sink_cost: 76
+  :build_cost: 155.66735649461685
+  :mj_cost: 89.99999280000058
+  :energy_cost: 334.963197148509
+  :build_costs:
+    Nobelisk: 155.66735649461685
+  :energy_costs:
+    Nobelisk: 334.963197148509
+  :true_cost: 164.8696421305649
+  :true_costs:
+    Nobelisk: 164.8696421305649
+- :name: Cluster Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Sulfur Research - Cluster Nobelisk
+  :products:
+  - - 1
+    - Cluster Nobelisk
+  :ingredients:
+  - - 3
+    - Nobelisk
+  - - 4
+    - Smokeless Powder
+  :sink_value: 1
+  :sink_cost: 235
+  :build_cost: 759.2043803483548
+  :mj_cost: 359.99997120000234
+  :energy_cost: 2028.3039980688084
+  :build_costs:
+    Cluster Nobelisk: 759.2043803483548
+  :energy_costs:
+    Cluster Nobelisk: 2028.3039980688084
+  :true_cost: 814.9270176579374
+  :true_costs:
+    Cluster Nobelisk: 814.9270176579374
+- :name: Packaged Sulfuric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Sulfuric Acid
+  :ingredients:
+  - - 2
+    - Sulfuric Acid
+  - - 2
+    - Empty Canister
+  :sink_value: 304
+  :sink_cost: 212
+  :build_cost: 183.33318446893622
+  :mj_cost: 29.999997600000196
+  :energy_cost: 291.7805385461151
+  :build_costs:
+    Packaged Sulfuric Acid: 91.66659223446811
+  :energy_costs:
+    Packaged Sulfuric Acid: 145.89026927305756
+  :true_cost: 191.34913333009322
+  :true_costs:
+    Packaged Sulfuric Acid: 95.67456666504661
+- :name: Plastic Smart Plating
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 24
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Smart Plating
+  :ingredients:
+  - - 1
+    - Reinforced Iron Plate
+  - - 1
+    - Rotor
+  - - 3
+    - Plastic
+  :sink_value: 1040
+  :sink_cost: 485
+  :build_cost: 83.6466569362989
+  :mj_cost: 1319.9998944000085
+  :energy_cost: 2875.7812733654273
+  :build_costs:
+    Smart Plating: 41.82332846814945
+  :energy_costs:
+    Smart Plating: 1437.8906366827136
+  :true_cost: 162.65163697381064
+  :true_costs:
+    Smart Plating: 81.32581848690532
+- :name: Smart Plating
+  :alternate: false
+  :building:
+  - Assembler
+  - 30
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Smart Plating
+  :ingredients:
+  - - 1
+    - Reinforced Iron Plate
+  - - 1
+    - Rotor
+  :sink_value: 520
+  :sink_cost: 260
+  :build_cost: 54.80050309014504
+  :mj_cost: 449.99996400000293
+  :energy_cost: 1527.537239192342
+  :build_costs:
+    Smart Plating: 54.80050309014504
+  :energy_costs:
+    Smart Plating: 1527.537239192342
+  :true_cost: 96.76581185916544
+  :true_costs:
+    Smart Plating: 96.76581185916544
+- :name: Modular Engine
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 60
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Modular Engine
+  :ingredients:
+  - - 2
+    - Motor
+  - - 15
+    - Rubber
+  - - 2
+    - Smart Plating
+  :sink_value: 9960
+  :sink_cost: 4980
+  :build_cost: 718.976835916003
+  :mj_cost: 3299.999736000021
+  :energy_cost: 12562.483237530583
+  :build_costs:
+    Modular Engine: 718.976835916003
+  :energy_costs:
+    Modular Engine: 12562.483237530583
+  :true_cost: 1064.1000017822278
+  :true_costs:
+    Modular Engine: 1064.1000017822278
+- :name: Blade Runners
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Quartz Research - Blade Runners
+  :products:
+  - - 1
+    - Blade Runners
+  :ingredients:
+  - - 20
+    - Silica
+  - - 3
+    - Modular Frame
+  - - 3
+    - Rotor
+  :sink_value: 4088
+  :sink_cost: 2044
+  :build_cost: 919.6301381490515
+  :mj_cost: 0.0
+  :energy_cost: 6602.51931801275
+  :build_costs:
+    Blade Runners: 919.6301381490515
+  :energy_costs:
+    Blade Runners: 6602.51931801275
+  :true_cost: 1101.0180315010502
+  :true_costs:
+    Blade Runners: 1101.0180315010502
+- :name: Color Cartridge
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 2 - Resource Sink Bonus Program
+  :products:
+  - - 10
+    - Color Cartridge
+  :ingredients:
+  - - 5
+    - Flower Petals
+  :sink_value: 100
+  :sink_cost: 50
+  :build_cost: 0.0
+  :mj_cost: 23.999998080000154
+  :energy_cost: 23.999998080000154
+  :build_costs:
+    Color Cartridge: 0.0
+  :energy_costs:
+    Color Cartridge: 2.3999998080000156
+  :true_cost: 0.6593406065934109
+  :true_costs:
+    Color Cartridge: 0.06593406065934108
+- :name: Jetpack
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 6 - Jetpack
+  :products:
+  - - 1
+    - Jetpack
+  :ingredients:
+  - - 50
+    - Plastic
+  - - 50
+    - Rubber
+  - - 15
+    - Circuit Board
+  - - 5
+    - Motor
+  :sink_value: 35580
+  :sink_cost: 24790
+  :build_cost: 3200.3793013509403
+  :mj_cost: 0.0
+  :energy_cost: 34133.001428043324
+  :build_costs:
+    Jetpack: 3200.3793013509403
+  :energy_costs:
+    Jetpack: 34133.001428043324
+  :true_cost: 4138.09912080268
+  :true_costs:
+    Jetpack: 4138.09912080268
+- :name: Explosive Rebar
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 12
+  :prerequisites: Sulfur Research - Explosive Rebar
+  :products:
+  - - 1
+    - Explosive Rebar
+  :ingredients:
+  - - 2
+    - Iron Rebar
+  - - 2
+    - Smokeless Powder
+  - - 2
+    - Steel Pipe
+  :sink_value: 1
+  :sink_cost: 166
+  :build_cost: 202.1335182101392
+  :mj_cost: 659.9999472000043
+  :energy_cost: 1220.1607919479927
+  :build_costs:
+    Explosive Rebar: 202.1335182101392
+  :energy_costs:
+    Explosive Rebar: 1220.1607919479927
+  :true_cost: 235.6544190878313
+  :true_costs:
+    Explosive Rebar: 235.6544190878313
+- :name: Pulse Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Quartz Research - Explosive Resonance Application
+  :products:
+  - - 5
+    - Pulse Nobelisk
+  :ingredients:
+  - - 5
+    - Nobelisk
+  - - 1
+    - Crystal Oscillator
+  :sink_value: 5
+  :sink_cost: 3077
+  :build_cost: 1872.377883501763
+  :mj_cost: 899.9999280000059
+  :energy_cost: 7839.5320214227095
+  :build_costs:
+    Pulse Nobelisk: 374.47557670035263
+  :energy_costs:
+    Pulse Nobelisk: 1567.9064042845418
+  :true_cost: 2087.749642332057
+  :true_costs:
+    Pulse Nobelisk: 417.5499284664115
+- :name: Leaves
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Leaves
+  :ingredients: []
+  :alternate: false
+  :sink_value: 3
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Leaves: 0.0
+  :energy_costs:
+    Leaves: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Leaves: 0.0
+- :name: Biomass (Leaves)
+  :alternate: false
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 5
+    - Biomass
+  :ingredients:
+  - - 10
+    - Leaves
+  :sink_value: 60
+  :sink_cost: 30
+  :build_cost: 0.0
+  :mj_cost: 19.999998400000127
+  :energy_cost: 19.999998400000127
+  :build_costs:
+    Biomass: 0.0
+  :energy_costs:
+    Biomass: 3.9999996800000255
+  :true_cost: 0.549450505494509
+  :true_costs:
+    Biomass: 0.10989010109890181
+- :name: Wood
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Wood
+  :ingredients: []
+  :alternate: false
+  :sink_value: 30
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Wood: 0.0
+  :energy_costs:
+    Wood: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Wood: 0.0
+- :name: Biomass (Wood)
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 20
+    - Biomass
+  :ingredients:
+  - - 4
+    - Wood
+  :sink_value: 240
+  :sink_cost: 120
+  :build_cost: 0.0
+  :mj_cost: 15.999998720000102
+  :energy_cost: 15.999998720000102
+  :build_costs:
+    Biomass: 0.0
+  :energy_costs:
+    Biomass: 0.7999999360000051
+  :true_cost: 0.43956040439560723
+  :true_costs:
+    Biomass: 0.02197802021978036
+- :name: Mycelia
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Mycelia
+  :ingredients: []
+  :alternate: false
+  :sink_value: 10
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Mycelia: 0.0
+  :energy_costs:
+    Mycelia: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Mycelia: 0.0
+- :name: Biomass (Mycelia)
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Mycelia Research - Mycelia
+  :products:
+  - - 10
+    - Biomass
+  :ingredients:
+  - - 10
+    - Mycelia
+  :sink_value: 120
+  :sink_cost: 100
+  :build_cost: 0.0
+  :mj_cost: 15.999998720000102
+  :energy_cost: 15.999998720000102
+  :build_costs:
+    Biomass: 0.0
+  :energy_costs:
+    Biomass: 1.5999998720000101
+  :true_cost: 0.43956040439560723
+  :true_costs:
+    Biomass: 0.04395604043956072
+- :name: Solid Biofuel
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 2 - Obstacle Clearing
+  :products:
+  - - 4
+    - Solid Biofuel
+  :ingredients:
+  - - 8
+    - Biomass
+  :sink_value: 192
+  :sink_cost: 96
+  :build_cost: 0.0
+  :mj_cost: 15.999998720000102
+  :energy_cost: 22.39999820800014
+  :build_costs:
+    Solid Biofuel: 0.0
+  :energy_costs:
+    Solid Biofuel: 5.599999552000035
+  :true_cost: 0.6153845661538501
+  :true_costs:
+    Solid Biofuel: 0.15384614153846252
+- :name: Liquid Biofuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Liquid Biofuel
+  :ingredients:
+  - - 6
+    - Solid Biofuel
+  - - 3
+    - Water
+  :sink_value: 620
+  :sink_cost: 393
+  :build_cost: 0.0
+  :mj_cost: 119.99999040000078
+  :energy_cost: 183.599987712001
+  :build_costs:
+    Liquid Biofuel: 0.0
+  :energy_costs:
+    Liquid Biofuel: 45.89999692800025
+  :true_cost: 5.043955706373654
+  :true_costs:
+    Liquid Biofuel: 1.2609889265934136
+- :name: Packaged Liquid Biofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Liquid Biofuel
+  :ingredients:
+  - - 2
+    - Liquid Biofuel
+  - - 2
+    - Empty Canister
+  :sink_value: 740
+  :sink_cost: 430
+  :build_cost: 7.894587977708183
+  :mj_cost: 29.999997600000196
+  :energy_cost: 269.9068539515888
+  :build_costs:
+    Packaged Liquid Biofuel: 3.9472939888540917
+  :energy_costs:
+    Packaged Liquid Biofuel: 134.9534269757944
+  :true_cost: 15.309611437916667
+  :true_costs:
+    Packaged Liquid Biofuel: 7.654805718958333
+- :name: Packaged Nitrogen Gas
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 8 - Advanced Aluminum ProductionTier 5 - Alternative Fluid
+    Transport
+  :products:
+  - - 1
+    - Packaged Nitrogen Gas
+  :ingredients:
+  - - 4
+    - Nitrogen Gas
+  - - 1
+    - Empty Fluid Tank
+  :sink_value: 312
+  :sink_cost: 729
+  :build_cost: 271.606103507944
+  :mj_cost: 9.999999200000065
+  :energy_cost: 212.78377474110468
+  :build_costs:
+    Packaged Nitrogen Gas: 271.606103507944
+  :energy_costs:
+    Packaged Nitrogen Gas: 212.78377474110468
+  :true_cost: 277.4518116052271
+  :true_costs:
+    Packaged Nitrogen Gas: 277.4518116052271
+- :name: Instant Plutonium Cell
+  :alternate: true
+  :building:
+  - Particle Accelerator
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Encased Plutonium Cell
+  :ingredients:
+  - - 150
+    - Non-fissile Uranium
+  - - 20
+    - Aluminum Casing
+  :sink_value: 
+  :sink_cost: 7860
+  :build_cost: 212761.12662439045
+  :mj_cost: 59999.99520000038
+  :energy_cost: -446472.97003038914
+  :build_costs:
+    Encased Plutonium Cell: 10638.056331219523
+  :energy_costs:
+    Encased Plutonium Cell: -22323.648501519456
+  :true_cost: 200495.38568948966
+  :true_costs:
+    Encased Plutonium Cell: 10024.769284474483
+- :name: Plutonium Pellet
+  :alternate: false
+  :building:
+  - Particle Accelerator
+  - 60
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 30
+    - Plutonium Pellet
+  :ingredients:
+  - - 100
+    - Non-fissile Uranium
+  - - 25
+    - Uranium Waste
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 204452.84352822305
+  :mj_cost: 29999.99760000019
+  :energy_cost: -659741.7277221173
+  :build_costs:
+    Plutonium Pellet: 6815.094784274102
+  :energy_costs:
+    Plutonium Pellet: -21991.390924070576
+  :true_cost: 186328.07078860444
+  :true_costs:
+    Plutonium Pellet: 6210.9356929534815
+- :name: Encased Plutonium Cell
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Encased Plutonium Cell
+  :ingredients:
+  - - 2
+    - Plutonium Pellet
+  - - 4
+    - Concrete
+  :sink_value: 
+  :sink_cost: 48
+  :build_cost: 13689.184300641688
+  :mj_cost: 179.99998560000117
+  :energy_cost: -43537.784284868976
+  :build_costs:
+    Encased Plutonium Cell: 13689.184300641688
+  :energy_costs:
+    Encased Plutonium Cell: -43537.784284868976
+  :true_cost: 12493.09132578265
+  :true_costs:
+    Encased Plutonium Cell: 12493.09132578265
+- :name: Plutonium Fuel Rod
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 240
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Plutonium Fuel Rod
+  :ingredients:
+  - - 30
+    - Encased Plutonium Cell
+  - - 18
+    - Steel Beam
+  - - 6
+    - Electromagnetic Control Rod
+  - - 10
+    - Heat Sink
+  :sink_value: 153184
+  :sink_cost: 44552
+  :build_cost: 325992.48359366396
+  :mj_cost: 13199.998944000085
+  :energy_cost: -624695.4784141356
+  :build_costs:
+    Plutonium Fuel Rod: 325992.48359366396
+  :energy_costs:
+    Plutonium Fuel Rod: -624695.4784141356
+  :true_cost: 308830.51990096795
+  :true_costs:
+    Plutonium Fuel Rod: 308830.51990096795
+- :name: Fused Modular Frame
+  :alternate: false
+  :building:
+  - Blender
+  - 40
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Fused Modular Frame
+  :ingredients:
+  - - 1
+    - Heavy Modular Frame
+  - - 50
+    - Aluminum Casing
+  - - 25
+    - Nitrogen Gas
+  :sink_value: 62840
+  :sink_cost: 34320
+  :build_cost: 7340.9074390472
+  :mj_cost: 2999.999760000019
+  :energy_cost: 20430.6102691853
+  :build_costs:
+    Fused Modular Frame: 7340.9074390472
+  :energy_costs:
+    Fused Modular Frame: 20430.6102691853
+  :true_cost: 7902.187940947895
+  :true_costs:
+    Fused Modular Frame: 7902.187940947895
+- :name: Heat-Fused Frame
+  :alternate: true
+  :building:
+  - Blender
+  - 20
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Fused Modular Frame
+  :ingredients:
+  - - 1
+    - Heavy Modular Frame
+  - - 50
+    - Aluminum Ingot
+  - - 8
+    - Nitric Acid
+  - - 10
+    - Fuel
+  :sink_value: 62840
+  :sink_cost: 20528
+  :build_cost: 6516.988463652537
+  :mj_cost: 1499.9998800000094
+  :energy_cost: 18129.384496917155
+  :build_costs:
+    Fused Modular Frame: 6516.988463652537
+  :energy_costs:
+    Fused Modular Frame: 18129.384496917155
+  :true_cost: 7015.048477304107
+  :true_costs:
+    Fused Modular Frame: 7015.048477304107
+- :name: Pressure Conversion Cube
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Pressure Conversion Cube
+  :ingredients:
+  - - 1
+    - Fused Modular Frame
+  - - 2
+    - Radio Control Unit
+  :sink_value: 257312
+  :sink_cost: 102040
+  :build_cost: 11562.699054307493
+  :mj_cost: 899.9999280000059
+  :energy_cost: 39034.98431490628
+  :build_costs:
+    Pressure Conversion Cube: 11562.699054307493
+  :energy_costs:
+    Pressure Conversion Cube: 39034.98431490628
+  :true_cost: 12635.088733288436
+  :true_costs:
+    Pressure Conversion Cube: 12635.088733288436
+- :name: Plutonium Fuel Unit
+  :alternate: true
+  :building:
+  - Assembler
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Plutonium Fuel Rod
+  :ingredients:
+  - - 20
+    - Encased Plutonium Cell
+  - - 1
+    - Pressure Conversion Cube
+  :sink_value: 153184
+  :sink_cost: 257312
+  :build_cost: 224323.82567869796
+  :mj_cost: 1799.9998560000117
+  :energy_cost: -405637.98585948284
+  :build_costs:
+    Plutonium Fuel Rod: 224323.82567869796
+  :energy_costs:
+    Plutonium Fuel Rod: -405637.98585948284
+  :true_cost: 213179.92496827262
+  :true_costs:
+    Plutonium Fuel Rod: 213179.92496827262
+- :name: Xeno-Zapper
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Xeno-Zapper
+  :ingredients:
+  - - 10
+    - Iron Rod
+  - - 2
+    - Reinforced Iron Plate
+  - - 15
+    - Cable
+  - - 50
+    - Wire
+  :sink_value: 1880
+  :sink_cost: 940
+  :build_cost: 269.6697779817985
+  :mj_cost: 0.0
+  :energy_cost: 3816.7221689255844
+  :build_costs:
+    Xeno-Zapper: 269.6697779817985
+  :energy_costs:
+    Xeno-Zapper: 3816.7221689255844
+  :true_cost: 374.52478262261127
+  :true_costs:
+    Xeno-Zapper: 374.52478262261127
+- :name: Zipline
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Caterium Research - Zipline
+  :products:
+  - - 1
+    - Zipline
+  :ingredients:
+  - - 1
+    - Xeno-Zapper
+  - - 30
+    - Quickwire
+  - - 3
+    - Iron Rod
+  - - 10
+    - Cable
+  :sink_value: 5284
+  :sink_cost: 2642
+  :build_cost: 697.6882634651178
+  :mj_cost: 0.0
+  :energy_cost: 6018.6537523289135
+  :build_costs:
+    Zipline: 697.6882634651178
+  :energy_costs:
+    Zipline: 6018.6537523289135
+  :true_cost: 863.0358940236044
+  :true_costs:
+    Zipline: 863.0358940236044
+- :name: Factory Cart
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Factory Cart™
+  :products:
+  - - 1
+    - Factory Cart
+  :ingredients:
+  - - 4
+    - Reinforced Iron Plate
+  - - 4
+    - Iron Rod
+  - - 2
+    - Rotor
+  :sink_value: 1
+  :sink_cost: 776
+  :build_cost: 167.26052483725118
+  :mj_cost: 0.0
+  :energy_cost: 3283.3987107046496
+  :build_costs:
+    Factory Cart: 167.26052483725118
+  :energy_costs:
+    Factory Cart: 3283.3987107046496
+  :true_cost: 257.46378612034596
+  :true_costs:
+    Factory Cart: 257.46378612034596
+- :name: Polyester Fabric
+  :alternate: false
+  :building:
+  - Refinery
+  - 2
+  :prerequisites: Mycelia Research - Synthetic Polyester Fabric
+  :products:
+  - - 1
+    - Fabric
+  :ingredients:
+  - - 1
+    - Polymer Resin
+  - - 1
+    - Water
+  :sink_value: 140
+  :sink_cost: 47
+  :build_cost: 23.66863905325444
+  :mj_cost: 59.99999520000039
+  :energy_cost: 99.22460947692355
+  :build_costs:
+    Fabric: 23.66863905325444
+  :energy_costs:
+    Fabric: 99.22460947692355
+  :true_cost: 26.394589863060034
+  :true_costs:
+    Fabric: 26.394589863060034
+- :name: Gas Mask
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 5 - Gas Mask
+  :products:
+  - - 1
+    - Gas Mask
+  :ingredients:
+  - - 100
+    - Rubber
+  - - 100
+    - Plastic
+  - - 100
+    - Fabric
+  :sink_value: 55000
+  :sink_cost: 27500
+  :build_cost: 4289.9408284023675
+  :mj_cost: 0.0
+  :energy_cost: 42747.372345000214
+  :build_costs:
+    Gas Mask: 4289.9408284023675
+  :energy_costs:
+    Gas Mask: 42747.372345000214
+  :true_cost: 5464.319189528747
+  :true_costs:
+    Gas Mask: 5464.319189528747
+- :name: Gas Filter
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 5 - Gas Mask
+  :products:
+  - - 1
+    - Gas Filter
+  :ingredients:
+  - - 5
+    - Coal
+  - - 2
+    - Rubber
+  - - 2
+    - Fabric
+  :sink_value: 1
+  :sink_cost: 415
+  :build_cost: 166.16964096277613
+  :mj_cost: 439.99996480000283
+  :energy_cost: 1002.0682711626471
+  :build_costs:
+    Gas Filter: 166.16964096277613
+  :energy_costs:
+    Gas Filter: 1002.0682711626471
+  :true_cost: 193.69898907164006
+  :true_costs:
+    Gas Filter: 193.69898907164006
+- :name: Hazmat Suit
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 7 - Hazmat Suit
+  :products:
+  - - 1
+    - Hazmat Suit
+  :ingredients:
+  - - 50
+    - Rubber
+  - - 50
+    - Plastic
+  - - 50
+    - Alclad Aluminum Sheet
+  - - 50
+    - Fabric
+  :sink_value: 54100
+  :sink_cost: 27050
+  :build_cost: 5607.465471788267
+  :mj_cost: 0.0
+  :energy_cost: 26349.893072112056
+  :build_costs:
+    Hazmat Suit: 5607.465471788267
+  :energy_costs:
+    Hazmat Suit: 26349.893072112056
+  :true_cost: 6331.363633110027
+  :true_costs:
+    Hazmat Suit: 6331.363633110027
+- :name: Chainsaw
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 2 - Obstacle Clearing
+  :products:
+  - - 1
+    - Chainsaw
+  :ingredients:
+  - - 5
+    - Reinforced Iron Plate
+  - - 25
+    - Iron Rod
+  - - 160
+    - Screw
+  - - 15
+    - Cable
+  :sink_value: 2760
+  :sink_cost: 1380
+  :build_cost: 424.75941045314454
+  :mj_cost: 0.0
+  :energy_cost: 5733.865125734709
+  :build_costs:
+    Chainsaw: 424.75941045314454
+  :energy_costs:
+    Chainsaw: 5733.865125734709
+  :true_cost: 582.2831776436585
+  :true_costs:
+    Chainsaw: 582.2831776436585
+- :name: Object Scanner
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 1 - Field Research
+  :products:
+  - - 1
+    - Object Scanner
+  :ingredients:
+  - - 4
+    - Reinforced Iron Plate
+  - - 20
+    - Wire
+  - - 50
+    - Screw
+  :sink_value: 1400
+  :sink_cost: 700
+  :build_cost: 184.3346057300661
+  :mj_cost: 0.0
+  :energy_cost: 3250.9378939499943
+  :build_costs:
+    Object Scanner: 184.3346057300661
+  :energy_costs:
+    Object Scanner: 3250.9378939499943
+  :true_cost: 273.6460863330879
+  :true_costs:
+    Object Scanner: 273.6460863330879
+- :name: Bacon Agaric
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Bacon Agaric
+  :ingredients: []
+  :alternate: false
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Bacon Agaric: 0.0
+  :energy_costs:
+    Bacon Agaric: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Bacon Agaric: 0.0
+- :name: Hover Pack
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 7 - Hover Pack
+  :products:
+  - - 1
+    - Hover Pack
+  :ingredients:
+  - - 8
+    - Motor
+  - - 4
+    - Heavy Modular Frame
+  - - 8
+    - Computer
+  - - 40
+    - Alclad Aluminum Sheet
+  :sink_value: 413920
+  :sink_cost: 206960
+  :build_cost: 17636.54548711154
+  :mj_cost: 0.0
+  :energy_cost: 122881.45803302586
+  :build_costs:
+    Hover Pack: 17636.54548711154
+  :energy_costs:
+    Hover Pack: 122881.45803302586
+  :true_cost: 21012.409718788076
+  :true_costs:
+    Hover Pack: 21012.409718788076
+- :name: Paleberry
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Paleberry
+  :ingredients: []
+  :alternate: false
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Paleberry: 0.0
+  :energy_costs:
+    Paleberry: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Paleberry: 0.0
+- :name: Packaged Alumina Solution
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 7 - Bauxite RefinementTier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Alumina Solution
+  :ingredients:
+  - - 2
+    - Alumina Solution
+  - - 2
+    - Empty Canister
+  :sink_value: 320
+  :sink_cost: 220
+  :build_cost: 110.14407673026443
+  :mj_cost: 9.999999200000065
+  :energy_cost: 208.39315906409544
+  :build_costs:
+    Packaged Alumina Solution: 55.072038365132215
+  :energy_costs:
+    Packaged Alumina Solution: 104.19657953204772
+  :true_cost: 115.86916351773958
+  :true_costs:
+    Packaged Alumina Solution: 57.93458175886979
+- :name: Hog Remains
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Hog Remains
+  :ingredients: []
+  :alternate: false
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Hog Remains: 0.0
+  :energy_costs:
+    Hog Remains: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Hog Remains: 0.0
+- :name: Hog Protein
+  :alternate: false
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Alien Organisms - Hog Research
+  :products:
+  - - 1
+    - Alien Protein
+  :ingredients:
+  - - 1
+    - Hog Remains
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 0.0
+  :mj_cost: 11.999999040000077
+  :energy_cost: 11.999999040000077
+  :build_costs:
+    Alien Protein: 0.0
+  :energy_costs:
+    Alien Protein: 11.999999040000077
+  :true_cost: 0.32967030329670544
+  :true_costs:
+    Alien Protein: 0.32967030329670544
+- :name: Beryl Nut
+  :building:
+  - Gather
+  - 1
+  :products:
+  - - 1
+    - Beryl Nut
+  :ingredients: []
+  :alternate: false
+  :sink_value: 
+  :sink_cost: 
+  :build_cost: 0
+  :mj_cost: 0.0
+  :energy_cost: 0
+  :build_costs:
+    Beryl Nut: 0.0
+  :energy_costs:
+    Beryl Nut: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Beryl Nut: 0.0
+- :name: Protein Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - Protein Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 1
+    - Alien Protein
+  - - 10
+    - Beryl Nut
+  :sink_value: 125
+  :sink_cost: 
+  :build_cost: 0.0
+  :mj_cost: 0.0
+  :energy_cost: 11.999999040000077
+  :build_costs:
+    Medicinal Inhaler: 0.0
+  :energy_costs:
+    Medicinal Inhaler: 11.999999040000077
+  :true_cost: 0.32967030329670544
+  :true_costs:
+    Medicinal Inhaler: 0.32967030329670544
+- :name: Therapeutic Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - Therapeutic Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 15
+    - Mycelia
+  - - 1
+    - Alien Protein
+  - - 1
+    - Bacon Agaric
+  :sink_value: 125
+  :sink_cost: 150
+  :build_cost: 0.0
+  :mj_cost: 0.0
+  :energy_cost: 11.999999040000077
+  :build_costs:
+    Medicinal Inhaler: 0.0
+  :energy_costs:
+    Medicinal Inhaler: 11.999999040000077
+  :true_cost: 0.32967030329670544
+  :true_costs:
+    Medicinal Inhaler: 0.32967030329670544
+- :name: Nutritional Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Nutrients - Nutritional Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 1
+    - Bacon Agaric
+  - - 2
+    - Paleberry
+  - - 5
+    - Beryl Nut
+  :sink_value: 125
+  :sink_cost: 
+  :build_cost: 0.0
+  :mj_cost: 0.0
+  :energy_cost: 0.0
+  :build_costs:
+    Medicinal Inhaler: 0.0
+  :energy_costs:
+    Medicinal Inhaler: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Medicinal Inhaler: 0.0
+- :name: Vitamin Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Mycelia Research - Vitamin Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 10
+    - Mycelia
+  - - 5
+    - Paleberry
+  :sink_value: 125
+  :sink_cost: 100
+  :build_cost: 0.0
+  :mj_cost: 0.0
+  :energy_cost: 0.0
+  :build_costs:
+    Medicinal Inhaler: 0.0
+  :energy_costs:
+    Medicinal Inhaler: 0.0
+  :true_cost: 0.0
+  :true_costs:
+    Medicinal Inhaler: 0.0
+- :name: Iodine Infused Filter
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 7 - Hazmat Suit
+  :products:
+  - - 1
+    - Iodine Infused Filter
+  :ingredients:
+  - - 1
+    - Gas Filter
+  - - 8
+    - Quickwire
+  - - 1
+    - Aluminum Casing
+  :sink_value: 1
+  :sink_cost: 530
+  :build_cost: 360.5346401824032
+  :mj_cost: 879.9999296000057
+  :energy_cost: 2403.3217317656986
+  :build_costs:
+    Iodine Infused Filter: 360.5346401824032
+  :energy_costs:
+    Iodine Infused Filter: 2403.3217317656986
+  :true_cost: 426.5599624836587
+  :true_costs:
+    Iodine Infused Filter: 426.5599624836587
+- :name: Versatile Framework
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 2
+    - Versatile Framework
+  :ingredients:
+  - - 1
+    - Modular Frame
+  - - 12
+    - Steel Beam
+  :sink_value: 2352
+  :sink_cost: 1176
+  :build_cost: 823.6954062561481
+  :mj_cost: 359.99997120000234
+  :energy_cost: 4125.990060429125
+  :build_costs:
+    Versatile Framework: 411.84770312807404
+  :energy_costs:
+    Versatile Framework: 2062.9950302145626
+  :true_cost: 937.0467815426625
+  :true_costs:
+    Versatile Framework: 468.52339077133126
+- :name: Flexible Framework
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Versatile Framework
+  :ingredients:
+  - - 1
+    - Modular Frame
+  - - 6
+    - Steel Beam
+  - - 8
+    - Rubber
+  :sink_value: 2352
+  :sink_cost: 1272
+  :build_cost: 516.3965669879993
+  :mj_cost: 879.9999296000057
+  :energy_cost: 4672.8906435618655
+  :build_costs:
+    Versatile Framework: 258.19828349399967
+  :energy_costs:
+    Versatile Framework: 2336.4453217809328
+  :true_cost: 644.7726835693693
+  :true_costs:
+    Versatile Framework: 322.38634178468465
+- :name: Magnetic Field Generator
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Magnetic Field Generator
+  :ingredients:
+  - - 5
+    - Versatile Framework
+  - - 2
+    - Electromagnetic Control Rod
+  - - 10
+    - Battery
+  :sink_value: 31300
+  :sink_cost: 15650
+  :build_cost: 4948.879692270513
+  :mj_cost: 6599.999472000042
+  :energy_cost: 31882.872510078287
+  :build_costs:
+    Magnetic Field Generator: 2474.4398461352566
+  :energy_costs:
+    Magnetic Field Generator: 15941.436255039143
+  :true_cost: 5824.78278320673
+  :true_costs:
+    Magnetic Field Generator: 2912.391391603365
+- :name: Packaged Nitric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 8 - Particle EnrichmentTier 5 - Alternative Fluid Transport
+  :products:
+  - - 1
+    - Packaged Nitric Acid
+  :ingredients:
+  - - 1
+    - Nitric Acid
+  - - 1
+    - Empty Fluid Tank
+  :sink_value: 412
+  :sink_cost: 401
+  :build_cost: 272.85163144784536
+  :mj_cost: 19.99999840000013
+  :energy_cost: 397.93330535355494
+  :build_costs:
+    Packaged Nitric Acid: 272.85163144784536
+  :energy_costs:
+    Packaged Nitric Acid: 397.93330535355494
+  :true_cost: 283.78386511140457
+  :true_costs:
+    Packaged Nitric Acid: 283.78386511140457
+- :name: Gas Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Mycelia Research - Toxic Cellular Modification
+  :products:
+  - - 1
+    - Gas Nobelisk
+  :ingredients:
+  - - 1
+    - Nobelisk
+  - - 10
+    - Biomass
+  :sink_value: 1
+  :sink_cost: 121
+  :build_cost: 155.66735649461685
+  :mj_cost: 179.99998560000117
+  :energy_cost: 522.9631821085102
+  :build_costs:
+    Gas Nobelisk: 155.66735649461685
+  :energy_costs:
+    Gas Nobelisk: 522.9631821085102
+  :true_cost: 170.03447688221328
+  :true_costs:
+    Gas Nobelisk: 170.03447688221328
+- :name: Automated Miner
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 60
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Portable Miner
+  :ingredients:
+  - - 1
+    - Motor
+  - - 4
+    - Steel Pipe
+  - - 4
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  :sink_value: 1
+  :sink_cost: 1644
+  :build_cost: 365.0875980696497
+  :mj_cost: 3299.999736000021
+  :energy_cost: 5710.897274384592
+  :build_costs:
+    Portable Miner: 365.0875980696497
+  :energy_costs:
+    Portable Miner: 5710.897274384592
+  :true_cost: 521.9803803329627
+  :true_costs:
+    Portable Miner: 521.9803803329627
+- :name: Xeno-Basher
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 4 - Improved Melee Combat
+  :products:
+  - - 1
+    - Xeno-Basher
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 2
+    - Xeno-Zapper
+  - - 25
+    - Cable
+  - - 500
+    - Wire
+  :sink_value: 18800
+  :sink_cost: 9400
+  :build_cost: 2191.532368242727
+  :mj_cost: 0.0
+  :energy_cost: 31586.09976227628
+  :build_costs:
+    Xeno-Basher: 2191.532368242727
+  :energy_costs:
+    Xeno-Basher: 31586.09976227628
+  :true_cost: 3059.2823617118556
+  :true_costs:
+    Xeno-Basher: 3059.2823617118556
+- :name: Packaged Fuel
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Fuel
+  :ingredients:
+  - - 2
+    - Fuel
+  - - 2
+    - Empty Canister
+  :sink_value: 540
+  :sink_cost: 330
+  :build_cost: 46.35612643924665
+  :mj_cost: 29.999997600000196
+  :energy_cost: 358.09684929558915
+  :build_costs:
+    Packaged Fuel: 23.178063219623326
+  :energy_costs:
+    Packaged Fuel: 179.04842464779458
+  :true_cost: 56.19395196934526
+  :true_costs:
+    Packaged Fuel: 28.09697598467263
+- :name: Diluted Packaged Fuel
+  :alternate: true
+  :building:
+  - Refinery
+  - 2
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Packaged Fuel
+  :ingredients:
+  - - 1
+    - Heavy Oil Residue
+  - - 2
+    - Packaged Water
+  :sink_value: 540
+  :sink_cost: 320
+  :build_cost: 46.35612643924665
+  :mj_cost: 59.99999520000039
+  :energy_cost: 318.0968524955889
+  :build_costs:
+    Packaged Fuel: 23.178063219623326
+  :energy_costs:
+    Packaged Fuel: 159.04842624779445
+  :true_cost: 55.09505095835624
+  :true_costs:
+    Packaged Fuel: 27.54752547917812
+- :name: Turbo Motor
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 8 - Leading-edge Production
+  :products:
+  - - 1
+    - Turbo Motor
+  :ingredients:
+  - - 4
+    - Cooling System
+  - - 2
+    - Radio Control Unit
+  - - 4
+    - Motor
+  - - 24
+    - Rubber
+  :sink_value: 242720
+  :sink_cost: 94744
+  :build_cost: 12325.214152180713
+  :mj_cost: 1759.9998592000113
+  :energy_cost: 52942.859510242975
+  :build_costs:
+    Turbo Motor: 12325.214152180713
+  :energy_costs:
+    Turbo Motor: 52942.859510242975
+  :true_cost: 13779.688314550025
+  :true_costs:
+    Turbo Motor: 13779.688314550025
+- :name: Turbo Electric Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 64
+  :prerequisites: Tier 8 - Leading-edge ProductionTier 8 - Nuclear Power
+  :products:
+  - - 3
+    - Turbo Motor
+  :ingredients:
+  - - 7
+    - Motor
+  - - 9
+    - Radio Control Unit
+  - - 5
+    - Electromagnetic Control Rod
+  - - 7
+    - Rotor
+  :sink_value: 728160
+  :sink_cost: 200820
+  :build_cost: 26815.898384955897
+  :mj_cost: 3519.9997184000226
+  :energy_cost: 126427.04495372693
+  :build_costs:
+    Turbo Motor: 8938.632794985298
+  :energy_costs:
+    Turbo Motor: 42142.348317908974
+  :true_cost: 30289.168850717626
+  :true_costs:
+    Turbo Motor: 10096.389616905875
+- :name: Turbo Pressure Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 2
+    - Turbo Motor
+  :ingredients:
+  - - 4
+    - Motor
+  - - 1
+    - Pressure Conversion Cube
+  - - 24
+    - Packaged Nitrogen Gas
+  - - 8
+    - Stator
+  :sink_value: 485440
+  :sink_cost: 272800
+  :build_cost: 19802.993763785835
+  :mj_cost: 1759.9998592000113
+  :energy_cost: 58991.74990368788
+  :build_costs:
+    Turbo Motor: 9901.496881892917
+  :energy_costs:
+    Turbo Motor: 29495.87495184394
+  :true_cost: 21423.64623366737
+  :true_costs:
+    Turbo Motor: 10711.823116833684
+- :name: Thermal Propulsion Rocket
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 8 - Leading-Edge Production
+  :products:
+  - - 2
+    - Thermal Propulsion Rocket
+  :ingredients:
+  - - 5
+    - Modular Engine
+  - - 2
+    - Turbo Motor
+  - - 6
+    - Cooling System
+  - - 2
+    - Fused Modular Frame
+  :sink_value: 1465912
+  :sink_cost: 732956
+  :build_cost: 43605.92996374367
+  :mj_cost: 6599.999472000042
+  :energy_cost: 219593.30510179832
+  :build_costs:
+    Thermal Propulsion Rocket: 21802.964981871835
+  :energy_costs:
+    Thermal Propulsion Rocket: 109796.65255089916
+  :true_cost: 49638.71307093593
+  :true_costs:
+    Thermal Propulsion Rocket: 24819.356535467967
+- :name: Packaged Heavy Oil Residue
+  :alternate: false
+  :building:
+  - Packager
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Heavy Oil Residue
+  :ingredients:
+  - - 2
+    - Heavy Oil Residue
+  - - 2
+    - Empty Canister
+  :sink_value: 360
+  :sink_cost: 240
+  :build_cost: 84.81766490078512
+  :mj_cost: 39.99999680000026
+  :energy_cost: 328.08685209558894
+  :build_costs:
+    Packaged Heavy Oil Residue: 42.40883245039256
+  :energy_costs:
+    Packaged Heavy Oil Residue: 164.04342604779447
+  :true_cost: 93.83103995835624
+  :true_costs:
+    Packaged Heavy Oil Residue: 46.91551997917812
+- :name: Copper Powder
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 5
+    - Copper Powder
+  :ingredients:
+  - - 30
+    - Copper Ingot
+  :sink_value: 360
+  :sink_cost: 180
+  :build_cost: 249.48024948024948
+  :mj_cost: 23.999998080000154
+  :energy_cost: 1683.4942695743962
+  :build_costs:
+    Copper Powder: 49.896049896049895
+  :energy_costs:
+    Copper Powder: 336.69885391487924
+  :true_cost: 295.73009205097463
+  :true_costs:
+    Copper Powder: 59.14601841019493
+- :name: Nuclear Pasta
+  :alternate: false
+  :building:
+  - Particle Accelerator
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Nuclear Pasta
+  :ingredients:
+  - - 200
+    - Copper Powder
+  - - 1
+    - Pressure Conversion Cube
+  :sink_value: 543424
+  :sink_cost: 271712
+  :build_cost: 21541.909033517473
+  :mj_cost: 59999.99520000038
+  :energy_cost: 166374.7502978825
+  :build_costs:
+    Nuclear Pasta: 21541.909033517473
+  :energy_costs:
+    Nuclear Pasta: 166374.7502978825
+  :true_cost: 26112.643931810948
+  :true_costs:
+    Nuclear Pasta: 26112.643931810948
+- :name: Plutonium Waste
+  :alternate: false
+  :building:
+  - Nuclear Power Plant
+  - 600
+  :prerequisites: Tier 8 - Nuclear PowerTier 8 - Particle Enrichment
+  :products:
+  - - 10
+    - Plutonium Waste
+  :ingredients:
+  - - 1
+    - Plutonium Fuel Rod
+  - - 2400
+    - Water
+  :sink_value: 
+  :sink_cost: 237184
+  :build_cost: 224323.82567869796
+  :mj_cost: -1499999.8800000092
+  :energy_cost: -1881637.865859492
+  :build_costs:
+    Plutonium Waste: 22432.382567869798
+  :energy_costs:
+    Plutonium Waste: -188163.7865859492
+  :true_cost: 172630.4777155251
+  :true_costs:
+    Plutonium Waste: 17263.047771552512
+- :name: Nuke Nobelisk
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Sulfur Research - Nuclear Deterrent Development
+  :products:
+  - - 1
+    - Nuke Nobelisk
+  :ingredients:
+  - - 5
+    - Nobelisk
+  - - 20
+    - Encased Uranium Cell
+  - - 10
+    - Smokeless Powder
+  - - 6
+    - AI Limiter
+  :sink_value: 1
+  :sink_cost: 9045
+  :build_cost: 78310.8187039389
+  :mj_cost: 6599.999472000042
+  :energy_cost: 29491.325268911376
+  :build_costs:
+    Nuke Nobelisk: 78310.8187039389
+  :energy_costs:
+    Nuke Nobelisk: 29491.325268911376
+  :true_cost: 79121.0199475903
+  :true_costs:
+    Nuke Nobelisk: 79121.0199475903
+- :name: Rifle
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Sulfur Research - The Rifle
+  :products:
+  - - 1
+    - Rifle
+  :ingredients:
+  - - 25
+    - Steel Pipe
+  - - 3
+    - Heavy Modular Frame
+  - - 20
+    - Circuit Board
+  - - 250
+    - Screw
+  :sink_value: 9480
+  :sink_cost: 49580
+  :build_cost: 6248.002271428456
+  :mj_cost: 0.0
+  :energy_cost: 45318.8502870362
+  :build_costs:
+    Rifle: 6248.002271428456
+  :energy_costs:
+    Rifle: 45318.8502870362
+  :true_cost: 7493.025630962417
+  :true_costs:
+    Rifle: 7493.025630962417
+- :name: Rebar Gun
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - The Rebar Gun
+  :products:
+  - - 1
+    - Rebar Gun
+  :ingredients:
+  - - 6
+    - Reinforced Iron Plate
+  - - 16
+    - Iron Rod
+  - - 100
+    - Screw
+  :sink_value: 1968
+  :sink_cost: 984
+  :build_cost: 289.04559315364946
+  :mj_cost: 0.0
+  :energy_cost: 4466.483516872354
+  :build_costs:
+    Rebar Gun: 289.04559315364946
+  :energy_costs:
+    Rebar Gun: 4466.483516872354
+  :true_cost: 411.7511842765163
+  :true_costs:
+    Rebar Gun: 411.7511842765163
+- :name: Color Gun
+  :alternate: true
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Flower Petals Research - Color Gun
+  :products:
+  - - 1
+    - Color Gun
+  :ingredients:
+  - - 5
+    - Iron Plate
+  - - 80
+    - Screw
+  - - 40
+    - Wire
+  :sink_value: 860
+  :sink_cost: 430
+  :build_cost: 200.73948382771914
+  :mj_cost: 0.0
+  :energy_cost: 2278.464442683973
+  :build_costs:
+    Color Gun: 200.73948382771914
+  :energy_costs:
+    Color Gun: 2278.464442683973
+  :true_cost: 263.3346608245316
+  :true_costs:
+    Color Gun: 263.3346608245316
+- :name: Shatter Rebar
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Quartz Research - Shatter Rebar
+  :products:
+  - - 1
+    - Shatter Rebar
+  :ingredients:
+  - - 2
+    - Iron Rebar
+  - - 3
+    - Quartz Crystal
+  :sink_value: 1
+  :sink_cost: 152
+  :build_cost: 228.41278651929002
+  :mj_cost: 179.99998560000117
+  :energy_cost: 408.19173373009266
+  :build_costs:
+    Shatter Rebar: 228.41278651929002
+  :energy_costs:
+    Shatter Rebar: 408.19173373009266
+  :true_cost: 239.62684513824863
+  :true_costs:
+    Shatter Rebar: 239.62684513824863
+- :name: Nobelisk Detonator
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Sulfur Research - The Nobelisk Detonator
+  :products:
+  - - 1
+    - Nobelisk Detonator
+  :ingredients:
+  - - 1
+    - Object Scanner
+  - - 10
+    - Steel Beam
+  - - 50
+    - Cable
+  :sink_value: 6480
+  :sink_cost: 3240
+  :build_cost: 1026.31604713606
+  :mj_cost: 0.0
+  :energy_cost: 8733.697906405328
+  :build_costs:
+    Nobelisk Detonator: 1026.31604713606
+  :energy_costs:
+    Nobelisk Detonator: 8733.697906405328
+  :true_cost: 1266.252802806536
+  :true_costs:
+    Nobelisk Detonator: 1266.252802806536
+- :name: Parachute
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Mycelia Research - Parachute
+  :products:
+  - - 5
+    - Parachute
+  :ingredients:
+  - - 10
+    - Fabric
+  - - 5
+    - Cable
+  :sink_value: 3040
+  :sink_cost: 1520
+  :build_cost: 256.84754864127285
+  :mj_cost: 0.0
+  :energy_cost: 1338.8608032189418
+  :build_costs:
+    Parachute: 51.36950972825457
+  :energy_costs:
+    Parachute: 267.77216064378837
+  :true_cost: 293.6294388395954
+  :true_costs:
+    Parachute: 58.72588776791908

@@ -1,0 +1,9775 @@
+---
+- :name: AI Limiter
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Caterium Research - AI Limiter
+  :products:
+  - - 1
+    - AI Limiter
+  :ingredients:
+  - - 5
+    - Copper Sheet
+  - - 20
+    - Quickwire
+- :name: Electromagnetic Control Rod
+  :alternate: false
+  :building:
+  - Assembler
+  - 30
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Electromagnetic Control Rod
+  :ingredients:
+  - - 3
+    - Stator
+  - - 2
+    - AI Limiter
+- :name: Nuke Nobelisk
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Sulfur Research - Nuclear Deterrent Development
+  :products:
+  - - 1
+    - Nuke Nobelisk
+  :ingredients:
+  - - 5
+    - Nobelisk
+  - - 20
+    - Encased Uranium Cell
+  - - 10
+    - Smokeless Powder
+  - - 6
+    - AI Limiter
+- :name: Supercomputer
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Caterium Research - Supercomputeror Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Supercomputer
+  :ingredients:
+  - - 2
+    - Computer
+  - - 2
+    - AI Limiter
+  - - 3
+    - High-Speed Connector
+  - - 28
+    - Plastic
+- :name: Insulated Crystal Oscillator
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 5 - Oil ProcessingQuartz Research - Crystal OscillatorCaterium
+    Research - Caterium Electronics
+  :products:
+  - - 1
+    - Crystal Oscillator
+  :ingredients:
+  - - 10
+    - Quartz Crystal
+  - - 7
+    - Rubber
+  - - 1
+    - AI Limiter
+- :name: Drone
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Drone
+  :ingredients:
+  - - 4
+    - Motor
+  - - 10
+    - Alclad Aluminum Sheet
+  - - 1
+    - Radio Control Unit
+  - - 2
+    - AI Limiter
+  - - 1
+    - Portable Miner
+- :name: Lights Control Panel
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Lights Control Panel
+  :products:
+  - - 1
+    - Lights Control Panel
+  :ingredients:
+  - - 10
+    - Cable
+  - - 5
+    - Reinforced Iron Plate
+  - - 3
+    - AI Limiter
+- :name: Power Switch
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research - Power Switch
+  :products:
+  - - 1
+    - Power Switch
+  :ingredients:
+  - - 20
+    - Quickwire
+  - - 4
+    - Steel Beam
+  - - 1
+    - AI Limiter
+- :name: Smart Splitter
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research - Smart Splitter
+  :products:
+  - - 1
+    - Smart Splitter
+  :ingredients:
+  - - 2
+    - Reinforced Iron Plate
+  - - 2
+    - Rotor
+  - - 1
+    - AI Limiter
+- :name: Adaptive Control Unit
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 2
+    - Adaptive Control Unit
+  :ingredients:
+  - - 15
+    - Automated Wiring
+  - - 10
+    - Circuit Board
+  - - 2
+    - Heavy Modular Frame
+  - - 2
+    - Computer
+- :name: Assembly Director System
+  :alternate: false
+  :building:
+  - Assembler
+  - 80
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Assembly Director System
+  :ingredients:
+  - - 2
+    - Adaptive Control Unit
+  - - 1
+    - Supercomputer
+- :name: Alclad Aluminum Sheet
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 3
+    - Alclad Aluminum Sheet
+  :ingredients:
+  - - 3
+    - Aluminum Ingot
+  - - 1
+    - Copper Ingot
+- :name: Hazmat Suit
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 7 - Hazmat Suit
+  :products:
+  - - 1
+    - Hazmat Suit
+  :ingredients:
+  - - 50
+    - Rubber
+  - - 50
+    - Plastic
+  - - 50
+    - Alclad Aluminum Sheet
+  - - 50
+    - Fabric
+- :name: Heat Sink
+  :alternate: false
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Heat Sink
+  :ingredients:
+  - - 5
+    - Alclad Aluminum Sheet
+  - - 3
+    - Copper Sheet
+- :name: Hover Pack
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 7 - Hover Pack
+  :products:
+  - - 1
+    - Hover Pack
+  :ingredients:
+  - - 8
+    - Motor
+  - - 4
+    - Heavy Modular Frame
+  - - 8
+    - Computer
+  - - 40
+    - Alclad Aluminum Sheet
+- :name: Classic Battery
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 4
+    - Battery
+  :ingredients:
+  - - 6
+    - Sulfur
+  - - 7
+    - Alclad Aluminum Sheet
+  - - 8
+    - Plastic
+  - - 12
+    - Wire
+- :name: Conveyor Belt Mk.5
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 7 - Logistics Mk.5
+  :products:
+  - - 1
+    - Conveyor Belt Mk.5
+  :ingredients:
+  - - 1
+    - Alclad Aluminum Sheet
+- :name: Conveyor Lift Mk.5
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 7 - Logistics Mk.5
+  :products:
+  - - 1
+    - Conveyor Lift Mk.5
+  :ingredients:
+  - - 2
+    - Alclad Aluminum Sheet
+- :name: Drone Port
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Drone Port
+  :ingredients:
+  - - 20
+    - Heavy Modular Frame
+  - - 20
+    - High-Speed Connector
+  - - 50
+    - Alclad Aluminum Sheet
+  - - 50
+    - Aluminum Casing
+  - - 10
+    - Radio Control Unit
+- :name: Nuclear Power Plant
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 1
+    - Nuclear Power Plant
+  :ingredients:
+  - - 250
+    - Concrete
+  - - 25
+    - Heavy Modular Frame
+  - - 5
+    - Supercomputer
+  - - 100
+    - Cable
+  - - 100
+    - Alclad Aluminum Sheet
+- :name: Alien DNA Capsule
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Alien Organisms - Bio-Organic Properties
+  :products:
+  - - 1
+    - Alien DNA Capsule
+  :ingredients:
+  - - 1
+    - Alien Protein
+- :name: Hog Protein
+  :alternate: false
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Alien Organisms - Hog Research
+  :products:
+  - - 1
+    - Alien Protein
+  :ingredients:
+  - - 1
+    - Hog Remains
+- :name: Spitter Protein
+  :alternate: false
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Alien Organisms - Spitter Research
+  :products:
+  - - 1
+    - Alien Protein
+  :ingredients:
+  - - 1
+    - Plasma Spitter Remains
+- :name: Hatcher Protein
+  :alternate: false
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Alien Organisms - Hatcher Research
+  :products:
+  - - 1
+    - Alien Protein
+  :ingredients:
+  - - 1
+    - Hatcher Remains
+- :name: Stinger Protein
+  :alternate: false
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Alien Organisms - Stinger Research
+  :products:
+  - - 1
+    - Alien Protein
+  :ingredients:
+  - - 1
+    - Stinger Remains
+- :name: Biomass (Alien Protein)
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Alien Organisms - Bio-Organic Properties
+  :products:
+  - - 100
+    - Biomass
+  :ingredients:
+  - - 1
+    - Alien Protein
+- :name: Protein Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - Protein Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 1
+    - Alien Protein
+  - - 10
+    - Beryl Nut
+- :name: Therapeutic Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - Therapeutic Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 15
+    - Mycelia
+  - - 1
+    - Alien Protein
+  - - 1
+    - Bacon Agaric
+- :name: Alumina Solution
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 12
+    - Alumina Solution
+  - - 5
+    - Silica
+  :ingredients:
+  - - 12
+    - Bauxite
+  - - 18
+    - Water
+- :name: Unpackage Alumina Solution
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 7 - Bauxite RefinementTier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Alumina Solution
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Alumina Solution
+- :name: Sloppy Alumina
+  :alternate: true
+  :building:
+  - Refinery
+  - 3
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 12
+    - Alumina Solution
+  :ingredients:
+  - - 10
+    - Bauxite
+  - - 10
+    - Water
+- :name: Aluminum Scrap
+  :alternate: false
+  :building:
+  - Refinery
+  - 1
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 6
+    - Aluminum Scrap
+  - - 2
+    - Water
+  :ingredients:
+  - - 4
+    - Alumina Solution
+  - - 2
+    - Coal
+- :name: Battery
+  :alternate: false
+  :building:
+  - Blender
+  - 3
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Battery
+  - - 1
+    - Water
+  :ingredients:
+  - - 2
+    - Sulfuric Acid
+  - - 2
+    - Alumina Solution
+  - - 1
+    - Aluminum Casing
+- :name: Packaged Alumina Solution
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 7 - Bauxite RefinementTier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Alumina Solution
+  :ingredients:
+  - - 2
+    - Alumina Solution
+  - - 2
+    - Empty Canister
+- :name: Electrode - Aluminum Scrap
+  :alternate: true
+  :building:
+  - Refinery
+  - 4
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 20
+    - Aluminum Scrap
+  - - 7
+    - Water
+  :ingredients:
+  - - 12
+    - Alumina Solution
+  - - 4
+    - Petroleum Coke
+- :name: Aluminum Casing
+  :alternate: false
+  :building:
+  - Constructor
+  - 2
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 2
+    - Aluminum Casing
+  :ingredients:
+  - - 3
+    - Aluminum Ingot
+- :name: Alclad Casing
+  :alternate: true
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 15
+    - Aluminum Casing
+  :ingredients:
+  - - 20
+    - Aluminum Ingot
+  - - 10
+    - Copper Ingot
+- :name: Fused Modular Frame
+  :alternate: false
+  :building:
+  - Blender
+  - 40
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Fused Modular Frame
+  :ingredients:
+  - - 1
+    - Heavy Modular Frame
+  - - 50
+    - Aluminum Casing
+  - - 25
+    - Nitrogen Gas
+- :name: Iodine Infused Filter
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 7 - Hazmat Suit
+  :products:
+  - - 1
+    - Iodine Infused Filter
+  :ingredients:
+  - - 1
+    - Gas Filter
+  - - 8
+    - Quickwire
+  - - 1
+    - Aluminum Casing
+- :name: Radio Control Unit
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 48
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 2
+    - Radio Control Unit
+  :ingredients:
+  - - 32
+    - Aluminum Casing
+  - - 1
+    - Crystal Oscillator
+  - - 1
+    - Computer
+- :name: Turbo Rifle Ammo
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 12
+  :prerequisites: Sulfur Research - Turbo Rifle Ammo
+  :products:
+  - - 50
+    - Turbo Rifle Ammo
+  :ingredients:
+  - - 25
+    - Rifle Ammo
+  - - 3
+    - Aluminum Casing
+  - - 3
+    - Packaged Turbofuel
+- :name: Turbo Rifle Ammo
+  :alternate: false
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Sulfur Research - Turbo Rifle Ammo
+  :products:
+  - - 50
+    - Turbo Rifle Ammo
+  :ingredients:
+  - - 25
+    - Rifle Ammo
+  - - 3
+    - Aluminum Casing
+  - - 3
+    - Turbofuel
+- :name: Instant Plutonium Cell
+  :alternate: true
+  :building:
+  - Particle Accelerator
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Encased Plutonium Cell
+  :ingredients:
+  - - 150
+    - Non-fissile Uranium
+  - - 20
+    - Aluminum Casing
+- :name: Heat Exchanger
+  :alternate: true
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Heat Sink
+  :ingredients:
+  - - 3
+    - Aluminum Casing
+  - - 3
+    - Rubber
+- :name: Radio Control System
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 40
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 3
+    - Radio Control Unit
+  :ingredients:
+  - - 1
+    - Crystal Oscillator
+  - - 10
+    - Circuit Board
+  - - 60
+    - Aluminum Casing
+  - - 30
+    - Rubber
+- :name: Blender
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 1
+    - Blender
+  :ingredients:
+  - - 20
+    - Motor
+  - - 10
+    - Heavy Modular Frame
+  - - 50
+    - Aluminum Casing
+  - - 5
+    - Radio Control Unit
+- :name: Aluminum Ingot
+  :alternate: false
+  :building:
+  - Foundry
+  - 4
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 4
+    - Aluminum Ingot
+  :ingredients:
+  - - 6
+    - Aluminum Scrap
+  - - 5
+    - Silica
+- :name: Pure Aluminum Ingot
+  :alternate: true
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 1
+    - Aluminum Ingot
+  :ingredients:
+  - - 2
+    - Aluminum Scrap
+- :name: Empty Fluid Tank
+  :alternate: false
+  :building:
+  - Constructor
+  - 1
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Empty Fluid Tank
+  :ingredients:
+  - - 1
+    - Aluminum Ingot
+- :name: Heat-Fused Frame
+  :alternate: true
+  :building:
+  - Blender
+  - 20
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Fused Modular Frame
+  :ingredients:
+  - - 1
+    - Heavy Modular Frame
+  - - 50
+    - Aluminum Ingot
+  - - 8
+    - Nitric Acid
+  - - 10
+    - Fuel
+- :name: Instant Scrap
+  :alternate: true
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 7 - Bauxite RefinementTier 7 - Aeronautical Engineering
+  :products:
+  - - 30
+    - Aluminum Scrap
+  - - 5
+    - Water
+  :ingredients:
+  - - 15
+    - Bauxite
+  - - 10
+    - Coal
+  - - 5
+    - Sulfuric Acid
+  - - 6
+    - Water
+- :name: Automated Wiring
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Automated Wiring
+  :ingredients:
+  - - 1
+    - Stator
+  - - 20
+    - Cable
+- :name: Automated Speed Wiring
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 4 - Advanced Steel ProductionCaterium Research - A.I. Limiter
+  :products:
+  - - 4
+    - Automated Wiring
+  :ingredients:
+  - - 2
+    - Stator
+  - - 40
+    - Wire
+  - - 1
+    - High-Speed Connector
+- :name: Nutritional Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Nutrients - Nutritional Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 1
+    - Bacon Agaric
+  - - 2
+    - Paleberry
+  - - 5
+    - Beryl Nut
+- :name: Magnetic Field Generator
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Magnetic Field Generator
+  :ingredients:
+  - - 5
+    - Versatile Framework
+  - - 2
+    - Electromagnetic Control Rod
+  - - 10
+    - Battery
+- :name: Super-State Computer
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 50
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 8 - Nuclear Power
+  :products:
+  - - 2
+    - Supercomputer
+  :ingredients:
+  - - 3
+    - Computer
+  - - 2
+    - Electromagnetic Control Rod
+  - - 20
+    - Battery
+  - - 45
+    - Wire
+- :name: Beacon
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 1 - Field Research
+  :products:
+  - - 1
+    - Beacon
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 1
+    - Iron Rod
+  - - 15
+    - Wire
+  - - 2
+    - Cable
+- :name: Crystal Beacon
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 3 - Basic Steel ProductionQuartz Research - Quartz Crystals
+  :products:
+  - - 20
+    - Beacon
+  :ingredients:
+  - - 4
+    - Steel Beam
+  - - 16
+    - Steel Pipe
+  - - 1
+    - Crystal Oscillator
+- :name: Uranium Fuel Unit
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 300
+  :prerequisites: Tier 8 - Nuclear PowerQuartz Research - Quartz Crystals
+  :products:
+  - - 3
+    - Uranium Fuel Rod
+  :ingredients:
+  - - 100
+    - Encased Uranium Cell
+  - - 10
+    - Electromagnetic Control Rod
+  - - 3
+    - Crystal Oscillator
+  - - 6
+    - Beacon
+- :name: Biomass (Leaves)
+  :alternate: false
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 5
+    - Biomass
+  :ingredients:
+  - - 10
+    - Leaves
+- :name: Biomass (Wood)
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 20
+    - Biomass
+  :ingredients:
+  - - 4
+    - Wood
+- :name: Biomass (Mycelia)
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Mycelia Research - Mycelia
+  :products:
+  - - 10
+    - Biomass
+  :ingredients:
+  - - 10
+    - Mycelia
+- :name: Fabric
+  :alternate: false
+  :building:
+  - Assembler
+  - 4
+  :prerequisites: Mycelia Research - Fabric
+  :products:
+  - - 1
+    - Fabric
+  :ingredients:
+  - - 1
+    - Mycelia
+  - - 5
+    - Biomass
+- :name: Gas Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Mycelia Research - Toxic Cellular Modification
+  :products:
+  - - 1
+    - Gas Nobelisk
+  :ingredients:
+  - - 1
+    - Nobelisk
+  - - 10
+    - Biomass
+- :name: Solid Biofuel
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 2 - Obstacle Clearing
+  :products:
+  - - 4
+    - Solid Biofuel
+  :ingredients:
+  - - 8
+    - Biomass
+- :name: Biocoal
+  :alternate: true
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 6
+    - Coal
+  :ingredients:
+  - - 5
+    - Biomass
+- :name: U-Jelly Landing Pad
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Jump Pads
+  :products:
+  - - 1
+    - U-Jelly Landing Pad
+  :ingredients:
+  - - 2
+    - Rotor
+  - - 20
+    - Cable
+  - - 200
+    - Biomass
+- :name: Black Powder
+  :alternate: false
+  :building:
+  - Assembler
+  - 4
+  :prerequisites: Sulfur Research - Black Powder
+  :products:
+  - - 2
+    - Black Powder
+  :ingredients:
+  - - 1
+    - Coal
+  - - 1
+    - Sulfur
+- :name: Fine Black Powder
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Alternate Recipe - Compacted Coal
+  :products:
+  - - 4
+    - Black Powder
+  :ingredients:
+  - - 2
+    - Sulfur
+  - - 1
+    - Compacted Coal
+- :name: Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Sulfur Research - The Nobelisk Detonator
+  :products:
+  - - 1
+    - Nobelisk
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 2
+    - Black Powder
+- :name: Smokeless Powder
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Sulfur Research - Smokeless Powder
+  :products:
+  - - 2
+    - Smokeless Powder
+  :ingredients:
+  - - 2
+    - Black Powder
+  - - 1
+    - Heavy Oil Residue
+- :name: Blade Runners
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Quartz Research - Blade Runners
+  :products:
+  - - 1
+    - Blade Runners
+  :ingredients:
+  - - 20
+    - Silica
+  - - 3
+    - Modular Frame
+  - - 3
+    - Rotor
+- :name: Cable
+  :alternate: false
+  :building:
+  - Constructor
+  - 2
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Cable
+  :ingredients:
+  - - 2
+    - Wire
+- :name: Coated Cable
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 9
+    - Cable
+  :ingredients:
+  - - 5
+    - Wire
+  - - 2
+    - Heavy Oil Residue
+- :name: Insulated Cable
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 20
+    - Cable
+  :ingredients:
+  - - 9
+    - Wire
+  - - 6
+    - Rubber
+- :name: Quickwire Cable
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - Caterium Ingots
+  :products:
+  - - 11
+    - Cable
+  :ingredients:
+  - - 3
+    - Quickwire
+  - - 2
+    - Rubber
+- :name: Chainsaw
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 2 - Obstacle Clearing
+  :products:
+  - - 1
+    - Chainsaw
+  :ingredients:
+  - - 5
+    - Reinforced Iron Plate
+  - - 25
+    - Iron Rod
+  - - 160
+    - Screw
+  - - 15
+    - Cable
+- :name: Computer
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 24
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Computer
+  :ingredients:
+  - - 10
+    - Circuit Board
+  - - 9
+    - Cable
+  - - 18
+    - Plastic
+  - - 52
+    - Screw
+- :name: Crystal Oscillator
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Quartz Research - Crystal Oscillatoror Tier 7 – Bauxite Refinement
+  :products:
+  - - 2
+    - Crystal Oscillator
+  :ingredients:
+  - - 36
+    - Quartz Crystal
+  - - 28
+    - Cable
+  - - 5
+    - Reinforced Iron Plate
+- :name: High-Speed Connector
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Caterium Research -  High-Speed Connector
+  :products:
+  - - 1
+    - High-Speed Connector
+  :ingredients:
+  - - 56
+    - Quickwire
+  - - 10
+    - Cable
+  - - 1
+    - Circuit Board
+- :name: Nobelisk Detonator
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Sulfur Research - The Nobelisk Detonator
+  :products:
+  - - 1
+    - Nobelisk Detonator
+  :ingredients:
+  - - 1
+    - Object Scanner
+  - - 10
+    - Steel Beam
+  - - 50
+    - Cable
+- :name: Parachute
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Mycelia Research - Parachute
+  :products:
+  - - 5
+    - Parachute
+  :ingredients:
+  - - 10
+    - Fabric
+  - - 5
+    - Cable
+- :name: Xeno-Basher
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 4 - Improved Melee Combat
+  :products:
+  - - 1
+    - Xeno-Basher
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 2
+    - Xeno-Zapper
+  - - 25
+    - Cable
+  - - 500
+    - Wire
+- :name: Xeno-Zapper
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Xeno-Zapper
+  :ingredients:
+  - - 10
+    - Iron Rod
+  - - 2
+    - Reinforced Iron Plate
+  - - 15
+    - Cable
+  - - 50
+    - Wire
+- :name: Zipline
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Caterium Research - Zipline
+  :products:
+  - - 1
+    - Zipline
+  :ingredients:
+  - - 1
+    - Xeno-Zapper
+  - - 30
+    - Quickwire
+  - - 3
+    - Iron Rod
+  - - 10
+    - Cable
+- :name: Assembler
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Assembler
+  :ingredients:
+  - - 8
+    - Reinforced Iron Plate
+  - - 4
+    - Rotor
+  - - 10
+    - Cable
+- :name: AWESOME Shop
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Resource Sink Bonus Program
+  :products:
+  - - 1
+    - AWESOME Shop
+  :ingredients:
+  - - 200
+    - Screw
+  - - 10
+    - Iron Plate
+  - - 30
+    - Cable
+- :name: AWESOME Sink
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Resource Sink Bonus Program
+  :products:
+  - - 1
+    - AWESOME Sink
+  :ingredients:
+  - - 15
+    - Reinforced Iron Plate
+  - - 30
+    - Cable
+  - - 45
+    - Concrete
+- :name: Blueprint Designer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - FICSIT Blueprints
+  :products:
+  - - 1
+    - Blueprint Designer
+  :ingredients:
+  - - 15
+    - Modular Frame
+  - - 25
+    - Cable
+  - - 100
+    - Concrete
+  - - 100
+    - Steel Beam
+- :name: Coal Generator
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Coal Generator
+  :ingredients:
+  - - 20
+    - Reinforced Iron Plate
+  - - 10
+    - Rotor
+  - - 30
+    - Cable
+- :name: Constructor
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Constructor
+  :ingredients:
+  - - 2
+    - Reinforced Iron Plate
+  - - 8
+    - Cable
+- :name: Conveyor Splitter
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Logistics
+  :products:
+  - - 1
+    - Conveyor Splitter
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Cable
+- :name: FICSMAS Power Light
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: FICSMAS Research - FICSMAS Lights
+  :products:
+  - - 1
+    - FICSMAS Power Light
+  :ingredients:
+  - - 1
+    - Cable
+  - - 1
+    - FICSMAS Ornament Bundle
+- :name: Fluid Freight Platform
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Fluid Freight Platform
+  :ingredients:
+  - - 6
+    - Heavy Modular Frame
+  - - 2
+    - Computer
+  - - 50
+    - Concrete
+  - - 25
+    - Cable
+  - - 5
+    - Motor
+- :name: Freight Platform
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Freight Platform
+  :ingredients:
+  - - 6
+    - Heavy Modular Frame
+  - - 2
+    - Computer
+  - - 50
+    - Concrete
+  - - 25
+    - Cable
+  - - 5
+    - Motor
+- :name: Jump Pad
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Jump Pads
+  :products:
+  - - 1
+    - Jump Pad
+  :ingredients:
+  - - 2
+    - Rotor
+  - - 15
+    - Iron Plate
+  - - 10
+    - Cable
+- :name: MAM
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Field Research
+  :products:
+  - - 1
+    - MAM
+  :ingredients:
+  - - 5
+    - Reinforced Iron Plate
+  - - 15
+    - Cable
+  - - 45
+    - Wire
+- :name: Manufacturer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Manufacturer
+  :ingredients:
+  - - 5
+    - Motor
+  - - 10
+    - Heavy Modular Frame
+  - - 50
+    - Cable
+  - - 50
+    - Plastic
+- :name: Oil Extractor
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Oil Extractor
+  :ingredients:
+  - - 15
+    - Motor
+  - - 20
+    - Encased Industrial Beam
+  - - 60
+    - Cable
+- :name: Power Line
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Power Line
+  :ingredients:
+  - - 1
+    - Cable
+- :name: Radar Tower
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Quartz Research - Radar Technology
+  :products:
+  - - 1
+    - Radar Tower
+  :ingredients:
+  - - 30
+    - Heavy Modular Frame
+  - - 30
+    - Crystal Oscillator
+  - - 10
+    - Circuit Board
+  - - 100
+    - Cable
+- :name: Train Station
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Train Station
+  :ingredients:
+  - - 4
+    - Heavy Modular Frame
+  - - 8
+    - Computer
+  - - 50
+    - Concrete
+  - - 25
+    - Cable
+- :name: Truck Station
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Vehicular Transport
+  :products:
+  - - 1
+    - Truck Station
+  :ingredients:
+  - - 15
+    - Modular Frame
+  - - 20
+    - Rotor
+  - - 50
+    - Cable
+- :name: Caterium Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 4
+  :prerequisites: Caterium Research - Caterium Ingots
+  :products:
+  - - 1
+    - Caterium Ingot
+  :ingredients:
+  - - 3
+    - Caterium Ore
+- :name: Pure Caterium Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 5
+  :prerequisites: Tier 3 - Coal PowerCaterium Research - Caterium
+  :products:
+  - - 1
+    - Caterium Ingot
+  :ingredients:
+  - - 2
+    - Caterium Ore
+  - - 2
+    - Water
+- :name: Golden Factory Cart
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: AWESOME Shop - Golden FICSIT Factory Cart™
+  :products:
+  - - 1
+    - Golden Factory Cart
+  :ingredients:
+  - - 15
+    - Caterium Ingot
+  - - 4
+    - Iron Rod
+  - - 2
+    - Rotor
+- :name: Quickwire
+  :alternate: false
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Caterium Research - Quickwire
+  :products:
+  - - 5
+    - Quickwire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+- :name: Fused Quickwire
+  :alternate: true
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Caterium Research - Caterium Ingots
+  :products:
+  - - 12
+    - Quickwire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+  - - 5
+    - Copper Ingot
+- :name: Fused Wire
+  :alternate: true
+  :building:
+  - Assembler
+  - 20
+  :prerequisites: Caterium Research - Caterium
+  :products:
+  - - 30
+    - Wire
+  :ingredients:
+  - - 4
+    - Copper Ingot
+  - - 1
+    - Caterium Ingot
+- :name: Caterium Wire
+  :alternate: true
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Caterium Research - Caterium
+  :products:
+  - - 8
+    - Wire
+  :ingredients:
+  - - 1
+    - Caterium Ingot
+- :name: Circuit Board
+  :alternate: false
+  :building:
+  - Assembler
+  - 8
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Circuit Board
+  :ingredients:
+  - - 2
+    - Copper Sheet
+  - - 4
+    - Plastic
+- :name: Electrode Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Circuit Board
+  :ingredients:
+  - - 6
+    - Rubber
+  - - 9
+    - Petroleum Coke
+- :name: Silicon Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil ProcessingQuartz Research - Quartz
+  :products:
+  - - 5
+    - Circuit Board
+  :ingredients:
+  - - 11
+    - Copper Sheet
+  - - 11
+    - Silica
+- :name: Caterium Circuit Board
+  :alternate: true
+  :building:
+  - Assembler
+  - 48
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - Caterium Ingots
+  :products:
+  - - 7
+    - Circuit Board
+  :ingredients:
+  - - 10
+    - Plastic
+  - - 30
+    - Quickwire
+- :name: Jetpack
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 6 - Jetpack
+  :products:
+  - - 1
+    - Jetpack
+  :ingredients:
+  - - 50
+    - Plastic
+  - - 50
+    - Rubber
+  - - 15
+    - Circuit Board
+  - - 5
+    - Motor
+- :name: Rifle
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Sulfur Research - The Rifle
+  :products:
+  - - 1
+    - Rifle
+  :ingredients:
+  - - 25
+    - Steel Pipe
+  - - 3
+    - Heavy Modular Frame
+  - - 20
+    - Circuit Board
+  - - 250
+    - Screw
+- :name: Crystal Computer
+  :alternate: true
+  :building:
+  - Assembler
+  - 64
+  :prerequisites: Tier 5 - Industrial ManufacturingQuartz Research - Quartz Crystal
+  :products:
+  - - 3
+    - Computer
+  :ingredients:
+  - - 8
+    - Circuit Board
+  - - 3
+    - Crystal Oscillator
+- :name: Caterium Computer
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Industrial ManufacturingCaterium Research - Caterium Ingots
+  :products:
+  - - 1
+    - Computer
+  :ingredients:
+  - - 7
+    - Circuit Board
+  - - 28
+    - Quickwire
+  - - 12
+    - Rubber
+- :name: Silicon High-Speed Connector
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 40
+  :prerequisites: Tier 5 - Oil ProcessingCaterium Research - High-Speed ConnectorQuartz
+    Research - Quartz
+  :products:
+  - - 2
+    - High-Speed Connector
+  :ingredients:
+  - - 60
+    - Quickwire
+  - - 25
+    - Silica
+  - - 2
+    - Circuit Board
+- :name: Block Signal
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Block Signal
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 1
+    - Copper Sheet
+  - - 2
+    - Circuit Board
+- :name: Truck
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Truck
+  :ingredients:
+  - - 15
+    - Motor
+  - - 10
+    - Circuit Board
+  - - 5
+    - Heavy Modular Frame
+  - - 50
+    - Rubber
+  - - 20
+    - Encased Industrial Beam
+# - :name: Coal
+#   :alternate: false
+#   :building:
+#   - Miner
+#   - 1
+#   :prerequisites: Tier 3 - Coal Power
+#   :products:
+#   - - 1
+#     - Coal
+#   :ingredients: []
+- :name: Charcoal
+  :alternate: true
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 10
+    - Coal
+  :ingredients:
+  - - 1
+    - Wood
+- :name: Compacted Coal
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Sulfur Research - Compacted Coal
+  :products:
+  - - 5
+    - Compacted Coal
+  :ingredients:
+  - - 5
+    - Coal
+  - - 5
+    - Sulfur
+- :name: Gas Filter
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 8
+  :prerequisites: Tier 5 - Gas Mask
+  :products:
+  - - 1
+    - Gas Filter
+  :ingredients:
+  - - 5
+    - Coal
+  - - 2
+    - Rubber
+  - - 2
+    - Fabric
+- :name: Steel Ingot
+  :alternate: false
+  :building:
+  - Foundry
+  - 4
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Steel Ingot
+  :ingredients:
+  - - 3
+    - Iron Ore
+  - - 3
+    - Coal
+- :name: Solid Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 3
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Steel Ingot
+  :ingredients:
+  - - 2
+    - Iron Ingot
+  - - 2
+    - Coal
+- :name: Color Cartridge
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 2 - Resource Sink Bonus Program
+  :products:
+  - - 10
+    - Color Cartridge
+  :ingredients:
+  - - 5
+    - Flower Petals
+- :name: Color Gun
+  :alternate: true
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Flower Petals Research - Color Gun
+  :products:
+  - - 1
+    - Color Gun
+  :ingredients:
+  - - 5
+    - Iron Plate
+  - - 80
+    - Screw
+  - - 40
+    - Wire
+- :name: Turbofuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 16
+  :prerequisites: Sulfur Research - Turbo Fuel
+  :products:
+  - - 5
+    - Turbofuel
+  :ingredients:
+  - - 6
+    - Fuel
+  - - 4
+    - Compacted Coal
+- :name: Compacted Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 16
+  :prerequisites: Tier 3 - Basic Steel ProductionAlternate Recipe - Compacted Coal
+  :products:
+  - - 10
+    - Steel Ingot
+  :ingredients:
+  - - 6
+    - Iron Ore
+  - - 3
+    - Compacted Coal
+- :name: Turbo Heavy Fuel
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 5 - Oil ProcessingSulfur Research - Compacted Coal
+  :products:
+  - - 4
+    - Turbofuel
+  :ingredients:
+  - - 5
+    - Heavy Oil Residue
+  - - 4
+    - Compacted Coal
+- :name: Electric Locomotive
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Electric Locomotive
+  :ingredients:
+  - - 5
+    - Heavy Modular Frame
+  - - 10
+    - Motor
+  - - 15
+    - Steel Pipe
+  - - 5
+    - Computer
+- :name: Fuel Generator
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Expanded Power Infrastructure
+  :products:
+  - - 1
+    - Fuel Generator
+  :ingredients:
+  - - 5
+    - Computer
+  - - 10
+    - Heavy Modular Frame
+  - - 15
+    - Motor
+  - - 50
+    - Rubber
+  - - 50
+    - Quickwire
+- :name: Path Signal
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Path Signal
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 1
+    - Copper Sheet
+  - - 1
+    - Computer
+- :name: Concrete
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Concrete
+  :ingredients:
+  - - 3
+    - Limestone
+- :name: Rubber Concrete
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 9
+    - Concrete
+  :ingredients:
+  - - 10
+    - Limestone
+  - - 2
+    - Rubber
+- :name: Wet Concrete
+  :alternate: true
+  :building:
+  - Refinery
+  - 3
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 4
+    - Concrete
+  :ingredients:
+  - - 6
+    - Limestone
+  - - 5
+    - Water
+- :name: Fine Concrete
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Quartz Research - Quartz
+  :products:
+  - - 10
+    - Concrete
+  :ingredients:
+  - - 3
+    - Silica
+  - - 12
+    - Limestone
+- :name: Encased Industrial Beam
+  :alternate: false
+  :building:
+  - Assembler
+  - 10
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Encased Industrial Beam
+  :ingredients:
+  - - 4
+    - Steel Beam
+  - - 5
+    - Concrete
+- :name: Encased Plutonium Cell
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Encased Plutonium Cell
+  :ingredients:
+  - - 2
+    - Plutonium Pellet
+  - - 4
+    - Concrete
+- :name: Encased Uranium Cell
+  :alternate: false
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 5
+    - Encased Uranium Cell
+  - - 2
+    - Sulfuric Acid
+  :ingredients:
+  - - 10
+    - Uranium
+  - - 3
+    - Concrete
+  - - 8
+    - Sulfuric Acid
+- :name: Encased Industrial Pipe
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Encased Industrial Beam
+  :ingredients:
+  - - 7
+    - Steel Pipe
+  - - 5
+    - Concrete
+- :name: Heavy Encased Frame
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 64
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 3
+    - Heavy Modular Frame
+  :ingredients:
+  - - 8
+    - Modular Frame
+  - - 10
+    - Encased Industrial Beam
+  - - 36
+    - Steel Pipe
+  - - 22
+    - Concrete
+- :name: Basic Wall 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Basic Wall 1m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Basic Wall 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Basic Wall 1m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Basic Wall 1m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Basic Wall 1m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Basic Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Basic Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Basic Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Basic Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Basic Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Basic Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Beam Connector
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Structural Beam Pack
+  :products:
+  - - 1
+    - Beam Connector
+  :ingredients:
+  - - 2
+    - Concrete
+- :name: Beam Connector Double
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Structural Beam Pack
+  :products:
+  - - 1
+    - Beam Connector Double
+  :ingredients:
+  - - 2
+    - Concrete
+- :name: Beam Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Structural Beam Pack
+  :products:
+  - - 1
+    - Beam Support
+  :ingredients:
+  - - 2
+    - Concrete
+- :name: Big Concrete Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Concrete Pillar Set
+  :products:
+  - - 1
+    - Big Concrete Pillar
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Big Metal Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Metal Pillar Set
+  :products:
+  - - 1
+    - Big Metal Pillar
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Big Pillar Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: |-
+    AWESOME Shop - Metal Pillar Set
+    AWESOME Shop - Concrete Pillar Set
+
+    AWESOME Shop - Frame Pillar Set
+  :products:
+  - - 1
+    - Big Pillar Support
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Center Door Wall (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Center Door Wall (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Center Door Wall (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls
+  :products:
+  - - 1
+    - Center Door Wall (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Center Door Wall (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Center Door Wall (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Conveyor Ceiling Mount
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Ceiling Mount
+  :products:
+  - - 1
+    - Conveyor Ceiling Mount
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Conveyor Lift Floor Hole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Lift Floor Hole
+  :products:
+  - - 1
+    - Conveyor Lift Floor Hole
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Conveyor Pole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 4
+  :products:
+  - - 1
+    - Conveyor Pole
+  :ingredients:
+  - - 1
+    - Iron Rod
+  - - 1
+    - Iron Plate
+  - - 1
+    - Concrete
+- :name: Conveyor Wall Mount
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Wall Mount
+  :products:
+  - - 1
+    - Conveyor Wall Mount
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Conveyor Wall x1 (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x1 (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Conveyor Wall x1 (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls
+  :products:
+  - - 1
+    - Conveyor Wall x1 (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Conveyor Wall x1 (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x1 (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Conveyor Wall x2 (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x2 (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Conveyor Wall x2 (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls
+  :products:
+  - - 1
+    - Conveyor Wall x2 (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Conveyor Wall x2 (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x2 (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Conveyor Wall x3 (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x3 (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Conveyor Wall x3 (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls
+  :products:
+  - - 1
+    - Conveyor Wall x3 (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Conveyor Wall x3 (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Conveyor Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Conveyor Wall x3 (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Double Ramp 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Double Ramp 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Double Ramp 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack
+  :products:
+  - - 1
+    - Double Ramp 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Double Ramp 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Double Ramp 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Double Ramp 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Double Ramp 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack
+  :products:
+  - - 1
+    - Double Ramp 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Double Ramp 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Double Ramp 8m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 8m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 8m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Double Ramp 8m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Double Ramp 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 8m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Double Ramp 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack
+  :products:
+  - - 1
+    - Double Ramp 8m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Double Ramp 8m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Double Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Double Ramp 8m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Down Corner Ramp 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Down Corner Ramp 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Down Corner Ramp 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Down Corner Ramp 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Down Corner Ramp 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Down Corner Ramp 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Down Corner Ramp 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Down Corner Ramp 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Down Corner Ramp 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Down Corner Ramp 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Down Corner Ramp 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Down Corner Ramp 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Down Corner Ramp 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Down Corner Ramp 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Down Corner Ramp 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Down Corner Ramp 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Down Corner Ramp 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Empty Platform
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Empty Platform
+  :ingredients:
+  - - 6
+    - Heavy Modular Frame
+  - - 50
+    - Concrete
+- :name: Empty Platform With Catwalk
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Empty Platform With Catwalk
+  :ingredients:
+  - - 6
+    - Heavy Modular Frame
+  - - 50
+    - Concrete
+- :name: FICSIT Roof 1m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Roofs
+  :products:
+  - - 1
+    - FICSIT Roof 1m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: FICSIT Roof 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Roofs
+  :products:
+  - - 1
+    - FICSIT Roof 2m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: FICSIT Roof 4m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Roofs
+  :products:
+  - - 1
+    - FICSIT Roof 4m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: FICSIT Roof Flat
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Roofs
+  :products:
+  - - 1
+    - FICSIT Roof Flat
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Foundation 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Foundation 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Foundation 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Foundation 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Foundation 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Foundation 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Foundation 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Foundation 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Foundation 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Foundation 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Foundation 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Foundation 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Foundation 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Foundation 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Foundation 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Foundation 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Foundation 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Foundation 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Foundation 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Foundation 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Foundation 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Foundation 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Foundation 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Foundation 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Foundation 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Foundry
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 1
+    - Foundry
+  :ingredients:
+  - - 10
+    - Modular Frame
+  - - 10
+    - Rotor
+  - - 20
+    - Concrete
+- :name: Frame Window (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Frame Window (Concrete)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Concrete
+- :name: Gate Hole Wall (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Gates∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Gate Hole Wall (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Gate Hole Wall (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Gates
+  :products:
+  - - 1
+    - Gate Hole Wall (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Gate Hole Wall (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Gates∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Gate Hole Wall (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Giant FICSMAS Tree
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: FICSMAS Research - FICSMAS Tree Base
+  :products:
+  - - 1
+    - Giant FICSMAS Tree
+  :ingredients:
+  - - 100
+    - FICSMAS Tree Branch
+  - - 50
+    - Reinforced Iron Plate
+  - - 500
+    - Concrete
+- :name: Glass Roof 1m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Glass Roof Material
+  :products:
+  - - 1
+    - Glass Roof 1m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Silica
+- :name: Glass Roof 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Glass Roof Material
+  :products:
+  - - 1
+    - Glass Roof 2m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Silica
+- :name: Glass Roof 4m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Glass Roof Material
+  :products:
+  - - 1
+    - Glass Roof 4m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Silica
+- :name: Glass Roof Flat
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Glass Roof Material
+  :products:
+  - - 1
+    - Glass Roof Flat
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Silica
+- :name: Half Foundation 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Half Foundation 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Half Foundation 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set
+  :products:
+  - - 1
+    - Half Foundation 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Half Foundation 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Half Foundation 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Half Foundation 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Half Foundation 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set
+  :products:
+  - - 1
+    - Half Foundation 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Half Foundation 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Half Foundation 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Half Foundation 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Half Foundation 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Half Foundation 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set
+  :products:
+  - - 1
+    - Half Foundation 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Half Foundation 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Half Foundation Set∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Half Foundation 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Hypertube Floor Hole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Hypertube Floor Hole
+  :products:
+  - - 1
+    - Hypertube Floor Hole
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Hypertube Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Hypertubes
+  :products:
+  - - 1
+    - Hypertube Support
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Hypertube Wall Hole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Hypertube Wall Attachments
+  :products:
+  - - 1
+    - Hypertube Wall Hole
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Hypertube Wall Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Hypertube Wall Attachments
+  :products:
+  - - 1
+    - Hypertube Wall Support
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Inner Corner Extension 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inner Corner Extension 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inner Corner Extension 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inner Corner Extension 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inner Corner Extension 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inner Corner Extension 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inner Corner Extension 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inner Corner Extension 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Extension 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inner Corner Extension 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Inner Corner Extension 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inner Corner Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inner Corner Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inner Corner Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inner Corner Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inner Corner Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inner Corner Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inner Corner Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inner Corner Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inner Corner Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Down Corner 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Down Corner 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Down Corner 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Down Corner 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Down Corner 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Down Corner 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Down Corner 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Down Corner 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Down Corner 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Down Corner 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Down Corner 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Down Corner 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Down Corner 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Down Corner 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Ramp 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Ramp 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack
+  :products:
+  - - 1
+    - Inv. Ramp 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Ramp 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Ramp 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack
+  :products:
+  - - 1
+    - Inv. Ramp 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Ramp 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Ramp 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Ramp 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack
+  :products:
+  - - 1
+    - Inv. Ramp 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp Wall 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Concrete
+    Wall Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 1m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Inv. Ramp Wall 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle
+  :products:
+  - - 1
+    - Inv. Ramp Wall 1m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp Wall 1m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Steel Wall
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 1m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp Wall 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Concrete
+    Wall Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 2m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Inv. Ramp Wall 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle
+  :products:
+  - - 1
+    - Inv. Ramp Wall 2m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp Wall 2m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Steel Wall
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 2m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Concrete
+    Wall Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Inv. Ramp Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle
+  :products:
+  - - 1
+    - Inv. Ramp Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Steel Wall
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Ramp Wall 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Concrete
+    Wall Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 8m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Inv. Ramp Wall 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle
+  :products:
+  - - 1
+    - Inv. Ramp Wall 8m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Ramp Wall 8m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Ramp Wall Bundle∧ AWESOME Shop - Steel Wall
+    Material
+  :products:
+  - - 1
+    - Inv. Ramp Wall 8m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Up Corner 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Up Corner 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Up Corner 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Up Corner 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Up Corner 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Up Corner 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Up Corner 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Up Corner 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inv. Up Corner 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Asphalt
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Coated
+    Concrete Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inv. Up Corner 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inv. Up Corner 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack
+  :products:
+  - - 1
+    - Inv. Up Corner 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inv. Up Corner 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Inverted Corner Ramp Pack∧ AWESOME Shop - Grip Metal
+    Foundation Material
+  :products:
+  - - 1
+    - Inv. Up Corner 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inverted Inner Corner Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Inner Corner Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Inner Corner Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Inner Corner Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inverted Inner Corner Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Inner Corner Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Inner Corner Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Inner Corner Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inverted Inner Corner Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Inner Corner Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inverted Outer Corner Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Outer Corner Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Outer Corner Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Outer Corner Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inverted Outer Corner Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Outer Corner Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Outer Corner Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Outer Corner Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inverted Outer Corner Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Outer Corner Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Inverted Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Inverted Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Inverted Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Inverted Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Inverted Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Metal Roof 1m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel Roof Material
+  :products:
+  - - 1
+    - Metal Roof 1m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Metal Roof 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel Roof Material
+  :products:
+  - - 1
+    - Metal Roof 2m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Metal Roof 4m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel Roof Material
+  :products:
+  - - 1
+    - Metal Roof 4m
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Metal Roof Flat
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel Roof Material
+  :products:
+  - - 1
+    - Metal Roof Flat
+  :ingredients:
+  - - 3
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Miner Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 5
+  :products:
+  - - 1
+    - Miner Mk.1
+  :ingredients:
+  - - 1
+    - Portable Miner
+  - - 10
+    - Iron Plate
+  - - 10
+    - Concrete
+- :name: Outer Corner Extension 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Outer Corner Extension 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Outer Corner Extension 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Outer Corner Extension 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Outer Corner Extension 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Outer Corner Extension 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Outer Corner Extension 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Outer Corner Extension 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Extension 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Outer Corner Extension 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Extensions Pack
+  :products:
+  - - 1
+    - Outer Corner Extension 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Outer Corner Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Outer Corner Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Outer Corner Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Outer Corner Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Outer Corner Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Outer Corner Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Outer Corner Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Outer Corner Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Outer Corner Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Panel Window (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Panel Window (Concrete)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Concrete
+- :name: Pipeline Floor Hole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Pipeline Floor Hole
+  :products:
+  - - 1
+    - Pipeline Floor Hole
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Pipeline Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Pipeline Support
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Pipeline Wall Hole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Pipeline Wall Attachments
+  :products:
+  - - 1
+    - Pipeline Wall Hole
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Pipeline Wall Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Pipeline Wall Attachments
+  :products:
+  - - 1
+    - Pipeline Wall Support
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Power Pole Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Power Pole Mk.1
+  :ingredients:
+  - - 3
+    - Wire
+  - - 1
+    - Iron Rod
+  - - 1
+    - Concrete
+- :name: Power Pole Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research
+  :products:
+  - - 1
+    - Power Pole Mk.2
+  :ingredients:
+  - - 6
+    - Quickwire
+  - - 2
+    - Iron Rod
+  - - 2
+    - Concrete
+- :name: Quarter Pipe (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Quarter Pipe (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Quarter Pipe (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Quarter Pipe (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Quarter Pipe (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Quarter Pipe (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Quarter Pipe (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Quarter Pipe (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Quarter Pipe (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Quarter Pipes Pack
+  :products:
+  - - 1
+    - Quarter Pipe (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Ramp 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Ramp 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Ramp 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Ramp 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Ramp 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Ramp 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Ramp 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Ramp 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Ramp 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Ramp 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Ramp 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Ramp 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Asphalt Foundation Material
+  :products:
+  - - 1
+    - Ramp 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Coated Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Ramp 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Ramp 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Concrete Foundation Material
+  :products:
+  - - 1
+    - Ramp 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Ramp 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Ramp 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building∧ AWESOME Shop - Grip Metal Foundation Material
+  :products:
+  - - 1
+    - Ramp 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp Wall 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 1m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Ramp Wall 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle
+  :products:
+  - - 1
+    - Ramp Wall 1m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp Wall 1m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 1m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp Wall 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 2m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Ramp Wall 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle
+  :products:
+  - - 1
+    - Ramp Wall 2m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp Wall 2m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 2m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Ramp Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle
+  :products:
+  - - 1
+    - Ramp Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Ramp Wall 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 8m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Ramp Wall 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle
+  :products:
+  - - 1
+    - Ramp Wall 8m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Ramp Wall 8m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Ramp Wall Bundle∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Ramp Wall 8m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Reinforced Window (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Reinforced Window (Concrete)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Concrete
+- :name: Road Barrier
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Road Barrier
+  :products:
+  - - 1
+    - Road Barrier
+  :ingredients:
+  - - 2
+    - Concrete
+- :name: Side Door Wall (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Side Door Wall (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Side Door Wall (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls
+  :products:
+  - - 1
+    - Side Door Wall (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Side Door Wall (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Door Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Side Door Wall (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Single Window (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Single Window (Concrete)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Concrete
+- :name: Small Concrete Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Concrete Pillar Set
+  :products:
+  - - 1
+    - Small Concrete Pillar
+  :ingredients:
+  - - 3
+    - Concrete
+- :name: Small Metal Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Metal Pillar Set
+  :products:
+  - - 1
+    - Small Metal Pillar
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 1
+    - Iron Plate
+- :name: Small Pillar Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: |-
+    AWESOME Shop - Metal Pillar Set
+    AWESOME Shop - Concrete Pillar Set
+
+    AWESOME Shop - Frame Pillar Set
+  :products:
+  - - 1
+    - Small Pillar Support
+  :ingredients:
+  - - 3
+    - Concrete
+- :name: Space Elevator
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 1
+    - Space Elevator
+  :ingredients:
+  - - 500
+    - Concrete
+  - - 250
+    - Iron Plate
+  - - 400
+    - Iron Rod
+  - - 1500
+    - Wire
+- :name: Stackable Conveyor Pole
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Logistics Mk.2
+  :products:
+  - - 1
+    - Stackable Conveyor Pole
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 2
+    - Iron Plate
+  - - 2
+    - Concrete
+- :name: Stackable Hypertube Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Hypertubes
+  :products:
+  - - 1
+    - Stackable Hypertube Support
+  :ingredients:
+  - - 4
+    - Iron Plate
+  - - 2
+    - Iron Rod
+  - - 2
+    - Concrete
+- :name: Stackable Pipeline Support
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Logistics Mk.3
+  :products:
+  - - 1
+    - Stackable Pipeline Support
+  :ingredients:
+  - - 4
+    - Iron Plate
+  - - 2
+    - Iron Rod
+  - - 2
+    - Concrete
+- :name: Stairs Left
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Stairs
+  :products:
+  - - 1
+    - Stairs Left
+  :ingredients:
+  - - 6
+    - Concrete
+- :name: Stairs Right
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Stairs
+  :products:
+  - - 1
+    - Stairs Right
+  :ingredients:
+  - - 6
+    - Concrete
+- :name: Tar Roof 1m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tar Roof Material
+  :products:
+  - - 1
+    - Tar Roof 1m
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Tar Roof 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tar Roof Material
+  :products:
+  - - 1
+    - Tar Roof 2m
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Tar Roof 4m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Roofs
+  :products:
+  - - 1
+    - Tar Roof 4m
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Tar Roof Flat
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tar Roof Material
+  :products:
+  - - 1
+    - Tar Roof Flat
+  :ingredients:
+  - - 5
+    - Concrete
+- :name: Tilted Concave Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Concave Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Concave Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Concave Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Concave Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Concave Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Tilted Concave Wall 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Concave Wall 8m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Concave Wall 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Concave Wall 8m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Concave Wall 8m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Concave Wall 8m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Tilted Corner Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Corner Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Corner Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Corner Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Corner Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Corner Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Tilted Corner Wall 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Corner Wall 8m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Corner Wall 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Corner Wall 8m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Corner Wall 8m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Corner Wall 8m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Tilted Wall 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Wall 4m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Wall 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Wall 4m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Wall 4m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Wall 4m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Tilted Wall 8m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Concrete Wall Material
+  :products:
+  - - 1
+    - Tilted Wall 8m (Concrete)
+  :ingredients:
+  - - 4
+    - Concrete
+- :name: Tilted Wall 8m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls
+  :products:
+  - - 1
+    - Tilted Wall 8m (FICSIT)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Tilted Wall 8m (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Tilted Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Tilted Wall 8m (Steel)
+  :ingredients:
+  - - 2
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Up Corner Ramp 1m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 1m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 1m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Up Corner Ramp 1m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Up Corner Ramp 1m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 1m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 1m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Up Corner Ramp 1m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Up Corner Ramp 1m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 1m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Up Corner Ramp 2m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 2m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 2m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Up Corner Ramp 2m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Up Corner Ramp 2m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 2m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 2m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Up Corner Ramp 2m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Up Corner Ramp 2m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 2m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Up Corner Ramp 4m (Asphalt)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Asphalt Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 4m (Asphalt)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 4m (Coated)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Coated Concrete
+    Foundation Material
+  :products:
+  - - 1
+    - Up Corner Ramp 4m (Coated)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Plastic
+- :name: Up Corner Ramp 4m (Concrete)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Concrete Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 4m (Concrete)
+  :ingredients:
+  - - 7
+    - Concrete
+- :name: Up Corner Ramp 4m (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack
+  :products:
+  - - 1
+    - Up Corner Ramp 4m (FICSIT)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Iron Plate
+- :name: Up Corner Ramp 4m (Grip Metal)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Corner Ramp Pack∧ AWESOME Shop - Grip Metal Foundation
+    Material
+  :products:
+  - - 1
+    - Up Corner Ramp 4m (Grip Metal)
+  :ingredients:
+  - - 5
+    - Concrete
+  - - 2
+    - Steel Beam
+- :name: Cooling System
+  :alternate: false
+  :building:
+  - Blender
+  - 10
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Cooling System
+  :ingredients:
+  - - 2
+    - Heat Sink
+  - - 2
+    - Rubber
+  - - 5
+    - Water
+  - - 25
+    - Nitrogen Gas
+- :name: Cooling Device
+  :alternate: true
+  :building:
+  - Blender
+  - 32
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 2
+    - Cooling System
+  :ingredients:
+  - - 5
+    - Heat Sink
+  - - 1
+    - Motor
+  - - 24
+    - Nitrogen Gas
+- :name: Thermal Propulsion Rocket
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 120
+  :prerequisites: Tier 8 - Leading-Edge Production
+  :products:
+  - - 2
+    - Thermal Propulsion Rocket
+  :ingredients:
+  - - 5
+    - Modular Engine
+  - - 2
+    - Turbo Motor
+  - - 6
+    - Cooling System
+  - - 2
+    - Fused Modular Frame
+- :name: Turbo Motor
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 8 - Leading-edge Production
+  :products:
+  - - 1
+    - Turbo Motor
+  :ingredients:
+  - - 4
+    - Cooling System
+  - - 2
+    - Radio Control Unit
+  - - 4
+    - Motor
+  - - 24
+    - Rubber
+- :name: OC Supercomputer
+  :alternate: true
+  :building:
+  - Assembler
+  - 20
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Supercomputer
+  :ingredients:
+  - - 3
+    - Radio Control Unit
+  - - 3
+    - Cooling System
+- :name: Particle Accelerator
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Particle Accelerator
+  :ingredients:
+  - - 25
+    - Radio Control Unit
+  - - 100
+    - Electromagnetic Control Rod
+  - - 10
+    - Supercomputer
+  - - 50
+    - Cooling System
+  - - 20
+    - Fused Modular Frame
+  - - 10
+    - Turbo Motor
+- :name: Copper Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Copper Ingot
+  :ingredients:
+  - - 1
+    - Copper Ore
+- :name: Copper Alloy Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: ''
+  :products:
+  - - 20
+    - Copper Ingot
+  :ingredients:
+  - - 10
+    - Copper Ore
+  - - 5
+    - Iron Ore
+- :name: Pure Copper Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 24
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 15
+    - Copper Ingot
+  :ingredients:
+  - - 6
+    - Copper Ore
+  - - 4
+    - Water
+- :name: Copper FICSMAS Ornament
+  :alternate: false
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: FICSMAS Research - FICSMAS Gift Tree
+  :products:
+  - - 1
+    - Copper FICSMAS Ornament
+  :ingredients:
+  - - 2
+    - Red FICSMAS Ornament
+  - - 2
+    - Copper Ingot
+- :name: Copper Powder
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 5
+    - Copper Powder
+  :ingredients:
+  - - 30
+    - Copper Ingot
+- :name: Copper Sheet
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Copper Sheet
+  :ingredients:
+  - - 2
+    - Copper Ingot
+- :name: Wire
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 2
+    - Wire
+  :ingredients:
+  - - 1
+    - Copper Ingot
+- :name: Steamed Copper Sheet
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 3
+    - Copper Sheet
+  :ingredients:
+  - - 3
+    - Copper Ingot
+  - - 3
+    - Water
+- :name: Iron Alloy Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 6
+  :prerequisites: ''
+  :products:
+  - - 5
+    - Iron Ingot
+  :ingredients:
+  - - 2
+    - Iron Ore
+  - - 2
+    - Copper Ore
+- :name: Nuclear Pasta
+  :alternate: false
+  :building:
+  - Particle Accelerator
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Nuclear Pasta
+  :ingredients:
+  - - 200
+    - Copper Powder
+  - - 1
+    - Pressure Conversion Cube
+- :name: Rifle Ammo
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Sulfur Research - The Rifle
+  :products:
+  - - 15
+    - Rifle Ammo
+  :ingredients:
+  - - 3
+    - Copper Sheet
+  - - 2
+    - Smokeless Powder
+- :name: Coated Iron Canister
+  :alternate: true
+  :building:
+  - Assembler
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 1
+    - Copper Sheet
+- :name: Copper Rotor
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 3
+    - Rotor
+  :ingredients:
+  - - 6
+    - Copper Sheet
+  - - 52
+    - Screw
+- :name: Flood Light Tower
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Flood Lights
+  :products:
+  - - 1
+    - Flood Light Tower
+  :ingredients:
+  - - 25
+    - Quickwire
+  - - 4
+    - Copper Sheet
+  - - 8
+    - Encased Industrial Beam
+- :name: Fluid Buffer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Fluid Buffer
+  :ingredients:
+  - - 10
+    - Copper Sheet
+  - - 5
+    - Modular Frame
+- :name: Geothermal Generator
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research - Geothermal Generator
+  :products:
+  - - 1
+    - Geothermal Generator
+  :ingredients:
+  - - 8
+    - Supercomputer
+  - - 16
+    - Heavy Modular Frame
+  - - 16
+    - High-Speed Connector
+  - - 40
+    - Copper Sheet
+  - - 80
+    - Rubber
+- :name: Hypertube
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Hypertubes
+  :products:
+  - - 1
+    - Hypertube
+  :ingredients:
+  - - 1
+    - Copper Sheet
+  - - 1
+    - Steel Pipe
+- :name: Large Billboard
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Billboard Set
+  :products:
+  - - 1
+    - Large Billboard
+  :ingredients:
+  - - 12
+    - Encased Industrial Beam
+  - - 20
+    - Copper Sheet
+  - - 5
+    - Crystal Oscillator
+- :name: Pipeline Junction Cross
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Pipeline Junction Cross
+  :ingredients:
+  - - 5
+    - Copper Sheet
+- :name: Pipeline Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Pipeline Mk.1
+  :ingredients:
+  - - 1
+    - Copper Sheet
+- :name: Pipeline Mk.1 (No Indicator)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Clean Pipeline Mk.1
+  :products:
+  - - 1
+    - Pipeline Mk.1 (No Indicator)
+  :ingredients:
+  - - 1
+    - Copper Sheet
+- :name: Pipeline Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Pipeline Engineering Mk.2
+  :products:
+  - - 1
+    - Pipeline Mk.2
+  :ingredients:
+  - - 2
+    - Copper Sheet
+  - - 1
+    - Plastic
+- :name: Pipeline Mk.2 (No Indicator)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Clean Pipeline Mk.2
+  :products:
+  - - 1
+    - Pipeline Mk.2 (No Indicator)
+  :ingredients:
+  - - 2
+    - Copper Sheet
+  - - 1
+    - Plastic
+- :name: Pipeline Pump Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Pipeline Pump Mk.1
+  :ingredients:
+  - - 2
+    - Copper Sheet
+  - - 2
+    - Rotor
+- :name: Refinery
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Refinery
+  :ingredients:
+  - - 10
+    - Motor
+  - - 10
+    - Encased Industrial Beam
+  - - 30
+    - Steel Pipe
+  - - 20
+    - Copper Sheet
+- :name: Small Billboard
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Billboard Set
+  :products:
+  - - 1
+    - Small Billboard
+  :ingredients:
+  - - 3
+    - Encased Industrial Beam
+  - - 4
+    - Copper Sheet
+  - - 1
+    - Crystal Oscillator
+- :name: Wall Mounted Flood Light
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Flood Lights
+  :products:
+  - - 1
+    - Wall Mounted Flood Light
+  :ingredients:
+  - - 25
+    - Quickwire
+  - - 4
+    - Copper Sheet
+  - - 2
+    - Encased Industrial Beam
+- :name: Water Extractor
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 1
+    - Water Extractor
+  :ingredients:
+  - - 20
+    - Copper Sheet
+  - - 10
+    - Reinforced Iron Plate
+  - - 10
+    - Rotor
+# - :name: Crude Oil
+#   :alternate: false
+#   :building:
+#   - Oil Extractor
+#   - 1
+#   :prerequisites: Tier 5 - Oil Processing
+#   :products:
+#   - - 2
+#     - Crude Oil
+#   :ingredients: []
+- :name: Unpackage Oil
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Crude Oil
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Oil
+- :name: Fuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Fuel
+  - - 3
+    - Polymer Resin
+  :ingredients:
+  - - 6
+    - Crude Oil
+- :name: Packaged Oil
+  :alternate: false
+  :building:
+  - Packager
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Oil
+  :ingredients:
+  - - 2
+    - Crude Oil
+  - - 2
+    - Empty Canister
+- :name: Plastic
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Plastic
+  - - 1
+    - Heavy Oil Residue
+  :ingredients:
+  - - 3
+    - Crude Oil
+- :name: Rubber
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Rubber
+  - - 2
+    - Heavy Oil Residue
+  :ingredients:
+  - - 3
+    - Crude Oil
+- :name: Heavy Oil Residue
+  :alternate: true
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Heavy Oil Residue
+  - - 2
+    - Polymer Resin
+  :ingredients:
+  - - 3
+    - Crude Oil
+- :name: Polymer Resin
+  :alternate: true
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 13
+    - Polymer Resin
+  - - 2
+    - Heavy Oil Residue
+  :ingredients:
+  - - 6
+    - Crude Oil
+- :name: Pulse Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Quartz Research - Explosive Resonance Application
+  :products:
+  - - 5
+    - Pulse Nobelisk
+  :ingredients:
+  - - 5
+    - Nobelisk
+  - - 1
+    - Crystal Oscillator
+- :name: Rigour Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 48
+  :prerequisites: Tier 4 - Advanced Steel ProductionQuartz Research - Quartz Crystals
+  :products:
+  - - 6
+    - Motor
+  :ingredients:
+  - - 3
+    - Rotor
+  - - 3
+    - Stator
+  - - 1
+    - Crystal Oscillator
+- :name: Explorer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Quartz Research - The Explorer
+  :products:
+  - - 1
+    - Explorer
+  :ingredients:
+  - - 5
+    - Crystal Oscillator
+  - - 5
+    - Motor
+  - - 15
+    - Steel Pipe
+  - - 5
+    - Heavy Modular Frame
+- :name: Electromagnetic Connection Rod
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 8 - Nuclear PowerCaterium Research - AI Limiter
+  :products:
+  - - 2
+    - Electromagnetic Control Rod
+  :ingredients:
+  - - 2
+    - Stator
+  - - 1
+    - High-Speed Connector
+- :name: Plutonium Fuel Rod
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 240
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Plutonium Fuel Rod
+  :ingredients:
+  - - 30
+    - Encased Plutonium Cell
+  - - 18
+    - Steel Beam
+  - - 6
+    - Electromagnetic Control Rod
+  - - 10
+    - Heat Sink
+- :name: Uranium Fuel Rod
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 150
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 1
+    - Uranium Fuel Rod
+  :ingredients:
+  - - 50
+    - Encased Uranium Cell
+  - - 3
+    - Encased Industrial Beam
+  - - 5
+    - Electromagnetic Control Rod
+- :name: Electric Motor
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 2
+    - Motor
+  :ingredients:
+  - - 1
+    - Electromagnetic Control Rod
+  - - 2
+    - Rotor
+- :name: Turbo Electric Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 64
+  :prerequisites: Tier 8 - Leading-edge ProductionTier 8 - Nuclear Power
+  :products:
+  - - 3
+    - Turbo Motor
+  :ingredients:
+  - - 7
+    - Motor
+  - - 9
+    - Radio Control Unit
+  - - 5
+    - Electromagnetic Control Rod
+  - - 7
+    - Rotor
+- :name: Empty Canister
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Plastic
+- :name: Steel Canister
+  :alternate: true
+  :building:
+  - Constructor
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 3
+    - Steel Ingot
+- :name: Unpackage Fuel
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Fuel
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Fuel
+- :name: Unpackage Heavy Oil Residue
+  :alternate: false
+  :building:
+  - Packager
+  - 6
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Heavy Oil Residue
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Heavy Oil Residue
+- :name: Unpackage Liquid Biofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Liquid Biofuel
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Liquid Biofuel
+- :name: Unpackage Sulfuric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 1
+    - Sulfuric Acid
+  - - 1
+    - Empty Canister
+  :ingredients:
+  - - 1
+    - Packaged Sulfuric Acid
+- :name: Unpackage Turbofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 6
+  :prerequisites: Tier 5 - Alternative Fluid Transport∧ one of:Sulfur Research - Turbo
+    FuelOR Alternate Recipe - Turbo Heavy FuelOR Alternate Recipe - Turbo Blend Fuel
+  :products:
+  - - 2
+    - Turbofuel
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Turbofuel
+- :name: Unpackage Water
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Water
+  - - 2
+    - Empty Canister
+  :ingredients:
+  - - 2
+    - Packaged Water
+- :name: Packaged Fuel
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Fuel
+  :ingredients:
+  - - 2
+    - Fuel
+  - - 2
+    - Empty Canister
+- :name: Packaged Heavy Oil Residue
+  :alternate: false
+  :building:
+  - Packager
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Heavy Oil Residue
+  :ingredients:
+  - - 2
+    - Heavy Oil Residue
+  - - 2
+    - Empty Canister
+- :name: Packaged Liquid Biofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Liquid Biofuel
+  :ingredients:
+  - - 2
+    - Liquid Biofuel
+  - - 2
+    - Empty Canister
+- :name: Packaged Sulfuric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 7 - Aeronautical EngineeringTier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Sulfuric Acid
+  :ingredients:
+  - - 2
+    - Sulfuric Acid
+  - - 2
+    - Empty Canister
+- :name: Packaged Turbofuel
+  :alternate: false
+  :building:
+  - Packager
+  - 6
+  :prerequisites: Tier 5 - Alternative Fluid Transport∧ one of:Sulfur Research - Turbo
+    FuelOR Alternate Recipe - Turbo Heavy FuelOR Alternate Recipe - Turbo Blend Fuel
+  :products:
+  - - 2
+    - Packaged Turbofuel
+  :ingredients:
+  - - 2
+    - Turbofuel
+  - - 2
+    - Empty Canister
+- :name: Packaged Water
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 2
+    - Packaged Water
+  :ingredients:
+  - - 2
+    - Water
+  - - 2
+    - Empty Canister
+- :name: Unpackage Nitric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 3
+  :prerequisites: Tier 8 - Particle EnrichmentTier 5 - Alternative Fluid Transport
+  :products:
+  - - 1
+    - Nitric Acid
+  - - 1
+    - Empty Fluid Tank
+  :ingredients:
+  - - 1
+    - Packaged Nitric Acid
+- :name: Unpackage Nitrogen Gas
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 8 - Advanced Aluminum ProductionTier 5 - Alternative Fluid
+    Transport
+  :products:
+  - - 4
+    - Nitrogen Gas
+  - - 1
+    - Empty Fluid Tank
+  :ingredients:
+  - - 1
+    - Packaged Nitrogen Gas
+- :name: Packaged Nitric Acid
+  :alternate: false
+  :building:
+  - Packager
+  - 2
+  :prerequisites: Tier 8 - Particle EnrichmentTier 5 - Alternative Fluid Transport
+  :products:
+  - - 1
+    - Packaged Nitric Acid
+  :ingredients:
+  - - 1
+    - Nitric Acid
+  - - 1
+    - Empty Fluid Tank
+- :name: Packaged Nitrogen Gas
+  :alternate: false
+  :building:
+  - Packager
+  - 1
+  :prerequisites: Tier 8 - Advanced Aluminum ProductionTier 5 - Alternative Fluid
+    Transport
+  :products:
+  - - 1
+    - Packaged Nitrogen Gas
+  :ingredients:
+  - - 4
+    - Nitrogen Gas
+  - - 1
+    - Empty Fluid Tank
+- :name: Heavy Modular Frame
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 30
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Heavy Modular Frame
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 15
+    - Steel Pipe
+  - - 5
+    - Encased Industrial Beam
+  - - 100
+    - Screw
+- :name: Heavy Flexible Frame
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Heavy Modular Frame
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 3
+    - Encased Industrial Beam
+  - - 20
+    - Rubber
+  - - 104
+    - Screw
+- :name: Conveyor Belt Mk.4
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Expanded power Infrastructure
+  :products:
+  - - 1
+    - Conveyor Belt Mk.4
+  :ingredients:
+  - - 1
+    - Encased Industrial Beam
+- :name: Conveyor Lift Mk.4
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Expanded Power Infrastructure
+  :products:
+  - - 1
+    - Conveyor Lift Mk.4
+  :ingredients:
+  - - 2
+    - Encased Industrial Beam
+- :name: Hypertube Entrance
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Hypertubes
+  :products:
+  - - 1
+    - Hypertube Entrance
+  :ingredients:
+  - - 4
+    - Encased Industrial Beam
+  - - 4
+    - Rotor
+  - - 10
+    - Steel Pipe
+- :name: Miner Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Miner Mk.2
+  :ingredients:
+  - - 2
+    - Portable Miner
+  - - 10
+    - Encased Industrial Beam
+  - - 20
+    - Steel Pipe
+  - - 10
+    - Modular Frame
+- :name: Pipeline Pump Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Pipeline Engineering Mk.2
+  :products:
+  - - 1
+    - Pipeline Pump Mk.2
+  :ingredients:
+  - - 2
+    - Motor
+  - - 4
+    - Encased Industrial Beam
+  - - 8
+    - Plastic
+- :name: Resource Well Pressurizer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Resource Well Pressurizer
+  :ingredients:
+  - - 200
+    - Wire
+  - - 50
+    - Rubber
+  - - 50
+    - Encased Industrial Beam
+  - - 50
+    - Motor
+- :name: Plutonium Fuel Unit
+  :alternate: true
+  :building:
+  - Assembler
+  - 120
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Plutonium Fuel Rod
+  :ingredients:
+  - - 20
+    - Encased Plutonium Cell
+  - - 1
+    - Pressure Conversion Cube
+- :name: Infused Uranium Cell
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 12
+  :prerequisites: Tier 8 - Nuclear PowerCaterium Research - Caterium IngotsQuartz
+    Research - QuartzSulfur Research - Sulfur
+  :products:
+  - - 4
+    - Encased Uranium Cell
+  :ingredients:
+  - - 5
+    - Uranium
+  - - 3
+    - Silica
+  - - 5
+    - Sulfur
+  - - 15
+    - Quickwire
+- :name: Polyester Fabric
+  :alternate: false
+  :building:
+  - Refinery
+  - 2
+  :prerequisites: Mycelia Research - Synthetic Polyester Fabric
+  :products:
+  - - 1
+    - Fabric
+  :ingredients:
+  - - 1
+    - Polymer Resin
+  - - 1
+    - Water
+- :name: Gas Mask
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 5 - Gas Mask
+  :products:
+  - - 1
+    - Gas Mask
+  :ingredients:
+  - - 100
+    - Rubber
+  - - 100
+    - Plastic
+  - - 100
+    - Fabric
+- :name: Factory Cart
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: AWESOME Shop - FICSIT Factory Cart™
+  :products:
+  - - 1
+    - Factory Cart
+  :ingredients:
+  - - 4
+    - Reinforced Iron Plate
+  - - 4
+    - Iron Rod
+  - - 2
+    - Rotor
+- :name: Residual Fuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 4
+    - Fuel
+  :ingredients:
+  - - 6
+    - Heavy Oil Residue
+- :name: Diluted Fuel
+  :alternate: true
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 7 - Bauxite Refinement
+  :products:
+  - - 10
+    - Fuel
+  :ingredients:
+  - - 5
+    - Heavy Oil Residue
+  - - 10
+    - Water
+- :name: Recycled Plastic
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Plastic
+  :ingredients:
+  - - 6
+    - Rubber
+  - - 6
+    - Fuel
+- :name: Recycled Rubber
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Rubber
+  :ingredients:
+  - - 6
+    - Plastic
+  - - 6
+    - Fuel
+- :name: Turbo Blend Fuel
+  :alternate: true
+  :building:
+  - Blender
+  - 8
+  :prerequisites: Tier 7 - Bauxite RefinementSulfur Research - Sulfur
+  :products:
+  - - 6
+    - Turbofuel
+  :ingredients:
+  - - 2
+    - Fuel
+  - - 4
+    - Heavy Oil Residue
+  - - 3
+    - Sulfur
+  - - 3
+    - Petroleum Coke
+- :name: Pressure Conversion Cube
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 1
+    - Pressure Conversion Cube
+  :ingredients:
+  - - 1
+    - Fused Modular Frame
+  - - 2
+    - Radio Control Unit
+- :name: Miner Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 8 - Leading-edge Production
+  :products:
+  - - 1
+    - Miner Mk.3
+  :ingredients:
+  - - 3
+    - Portable Miner
+  - - 50
+    - Steel Pipe
+  - - 5
+    - Supercomputer
+  - - 10
+    - Fused Modular Frame
+  - - 3
+    - Turbo Motor
+- :name: The HUB
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - The HUB
+  :ingredients:
+  - - 1
+    - HUB Parts
+- :name: Radio Connection Unit
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 8 - Advanced Aluminum ProductionCaterium Research - AI Limiter
+  :products:
+  - - 1
+    - Radio Control Unit
+  :ingredients:
+  - - 4
+    - Heat Sink
+  - - 2
+    - High-Speed Connector
+  - - 12
+    - Quartz Crystal
+- :name: Freight Car
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Freight Car
+  :ingredients:
+  - - 4
+    - Heavy Modular Frame
+  - - 10
+    - Steel Pipe
+- :name: Industrial Fluid Buffer
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 1
+    - Industrial Fluid Buffer
+  :ingredients:
+  - - 30
+    - Plastic
+  - - 3
+    - Heavy Modular Frame
+- :name: Programmable Splitter
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research - Programmable Splitter
+  :products:
+  - - 1
+    - Programmable Splitter
+  :ingredients:
+  - - 1
+    - Heavy Modular Frame
+  - - 1
+    - Motor
+  - - 1
+    - Supercomputer
+- :name: Petroleum Coke
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 12
+    - Petroleum Coke
+  :ingredients:
+  - - 4
+    - Heavy Oil Residue
+- :name: Diluted Packaged Fuel
+  :alternate: true
+  :building:
+  - Refinery
+  - 2
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Packaged Fuel
+  :ingredients:
+  - - 1
+    - Heavy Oil Residue
+  - - 2
+    - Packaged Water
+- :name: Homing Rifle Ammo
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Caterium Research - Bullet Guidance System
+  :products:
+  - - 10
+    - Homing Rifle Ammo
+  :ingredients:
+  - - 20
+    - Rifle Ammo
+  - - 1
+    - High-Speed Connector
+- :name: Double Wall Outlet Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium ResearchAWESOME Shop - Wall Outlets Mk.3
+  :products:
+  - - 1
+    - Double Wall Outlet Mk.3
+  :ingredients:
+  - - 6
+    - High-Speed Connector
+  - - 6
+    - Steel Pipe
+- :name: Power Pole Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium Research
+  :products:
+  - - 1
+    - Power Pole Mk.3
+  :ingredients:
+  - - 2
+    - High-Speed Connector
+  - - 2
+    - Steel Pipe
+  - - 3
+    - Rubber
+- :name: Wall Outlet Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium ResearchAWESOME Shop - Wall Outlets Mk.3
+  :products:
+  - - 1
+    - Wall Outlet Mk.3
+  :ingredients:
+  - - 3
+    - High-Speed Connector
+  - - 3
+    - Steel Pipe
+- :name: Iron Ingot
+  :alternate: false
+  :building:
+  - Smelter
+  - 2
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Iron Ingot
+  :ingredients:
+  - - 1
+    - Iron Ore
+- :name: Pure Iron Ingot
+  :alternate: true
+  :building:
+  - Refinery
+  - 12
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 13
+    - Iron Ingot
+  :ingredients:
+  - - 7
+    - Iron Ore
+  - - 4
+    - Water
+- :name: Iron FICSMAS Ornament
+  :alternate: false
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: FICSMAS Research - FICSMAS Gift Tree
+  :products:
+  - - 1
+    - Iron FICSMAS Ornament
+  :ingredients:
+  - - 3
+    - Blue FICSMAS Ornament
+  - - 3
+    - Iron Ingot
+- :name: Iron Plate
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: The beginning
+  :products:
+  - - 2
+    - Iron Plate
+  :ingredients:
+  - - 3
+    - Iron Ingot
+- :name: Iron Rod
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Iron Rod
+  :ingredients:
+  - - 1
+    - Iron Ingot
+- :name: Coated Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 15
+    - Iron Plate
+  :ingredients:
+  - - 10
+    - Iron Ingot
+  - - 2
+    - Plastic
+- :name: Cast Screw
+  :alternate: true
+  :building:
+  - Constructor
+  - 24
+  :prerequisites: ''
+  :products:
+  - - 20
+    - Screw
+  :ingredients:
+  - - 5
+    - Iron Ingot
+- :name: Iron Wire
+  :alternate: true
+  :building:
+  - Constructor
+  - 24
+  :prerequisites: ''
+  :products:
+  - - 9
+    - Wire
+  :ingredients:
+  - - 5
+    - Iron Ingot
+- :name: Coke Steel Ingot
+  :alternate: true
+  :building:
+  - Foundry
+  - 12
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 20
+    - Steel Ingot
+  :ingredients:
+  - - 15
+    - Iron Ore
+  - - 15
+    - Petroleum Coke
+- :name: Steel Coated Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 18
+    - Iron Plate
+  :ingredients:
+  - - 3
+    - Steel Ingot
+  - - 2
+    - Plastic
+- :name: Nitric Acid
+  :alternate: false
+  :building:
+  - Blender
+  - 6
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 3
+    - Nitric Acid
+  :ingredients:
+  - - 12
+    - Nitrogen Gas
+  - - 3
+    - Water
+  - - 1
+    - Iron Plate
+- :name: Portable Miner
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 1
+  :products:
+  - - 1
+    - Portable Miner
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 4
+    - Iron Rod
+- :name: Reinforced Iron Plate
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 1
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 12
+    - Screw
+- :name: Automated Miner
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 60
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Portable Miner
+  :ingredients:
+  - - 1
+    - Motor
+  - - 4
+    - Steel Pipe
+  - - 4
+    - Iron Rod
+  - - 2
+    - Iron Plate
+- :name: Adhered Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 1
+    - Rubber
+- :name: Bolted Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: ''
+  :products:
+  - - 3
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 18
+    - Iron Plate
+  - - 50
+    - Screw
+- :name: Stitched Iron Plate
+  :alternate: true
+  :building:
+  - Assembler
+  - 32
+  :prerequisites: ''
+  :products:
+  - - 3
+    - Reinforced Iron Plate
+  :ingredients:
+  - - 10
+    - Iron Plate
+  - - 20
+    - Wire
+- :name: Automated Gate
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Gates
+  :products:
+  - - 1
+    - Automated Gate
+  :ingredients:
+  - - 6
+    - Iron Plate
+- :name: Biomass Burner
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 6
+  :products:
+  - - 1
+    - Biomass Burner
+  :ingredients:
+  - - 15
+    - Iron Plate
+  - - 15
+    - Iron Rod
+  - - 25
+    - Wire
+- :name: Catwalk Corner
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk Corner
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Catwalk Crossing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk Crossing
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Catwalk Ramp
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk Ramp
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Catwalk Stairs
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk Stairs
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Catwalk Straight
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk Straight
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Catwalk T-Crossing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Catwalks
+  :products:
+  - - 1
+    - Catwalk T-Crossing
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Conveyor Belt Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 4
+  :products:
+  - - 1
+    - Conveyor Belt Mk.1
+  :ingredients:
+  - - 1
+    - Iron Plate
+- :name: Conveyor Lift Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Logistics
+  :products:
+  - - 1
+    - Conveyor Lift Mk.1
+  :ingredients:
+  - - 2
+    - Iron Plate
+- :name: Conveyor Merger
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Logistics
+  :products:
+  - - 1
+    - Conveyor Merger
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Iron Rod
+- :name: Craft Bench
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: The beginning
+  :products:
+  - - 1
+    - Craft Bench
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 3
+    - Iron Rod
+- :name: Equipment Workshop
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 1
+  :products:
+  - - 1
+    - Equipment Workshop
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 4
+    - Iron Rod
+- :name: Frame Window (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls
+  :products:
+  - - 1
+    - Frame Window (FICSIT)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Iron Plate
+- :name: Hazard Storage Box
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Hazard Box - Personal Storage Skin
+  :products:
+  - - 1
+    - Hazard Storage Box
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 6
+    - Iron Rod
+- :name: Label Sign 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Label Sign Bundle
+  :products:
+  - - 1
+    - Label Sign 2m
+  :ingredients:
+  - - 2
+    - Iron Plate
+  - - 2
+    - Quartz Crystal
+- :name: Label Sign 3m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Label Sign Bundle
+  :products:
+  - - 1
+    - Label Sign 3m
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 3
+    - Quartz Crystal
+- :name: Label Sign 4m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Label Sign Bundle
+  :products:
+  - - 1
+    - Label Sign 4m
+  :ingredients:
+  - - 4
+    - Iron Plate
+  - - 4
+    - Quartz Crystal
+- :name: Lookout Tower
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 1 - Base Building
+  :products:
+  - - 1
+    - Lookout Tower
+  :ingredients:
+  - - 5
+    - Iron Plate
+  - - 5
+    - Iron Rod
+- :name: Medical Storage Box
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Medical Box - Personal Storage Skin
+  :products:
+  - - 1
+    - Medical Storage Box
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 6
+    - Iron Rod
+- :name: Panel Window (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls
+  :products:
+  - - 1
+    - Panel Window (FICSIT)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Iron Plate
+- :name: Personal Storage Box
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 1 (HUB upgrade)Tier 1 - Field Research (standalone
+    building)
+  :products:
+  - - 1
+    - Personal Storage Box
+  :ingredients:
+  - - 6
+    - Iron Plate
+  - - 6
+    - Iron Rod
+- :name: Reinforced Window (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls
+  :products:
+  - - 1
+    - Reinforced Window (FICSIT)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Iron Plate
+- :name: Single Window (FICSIT)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls
+  :products:
+  - - 1
+    - Single Window (FICSIT)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Iron Plate
+- :name: Square Sign 0.5m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Label Sign Bundle
+  :products:
+  - - 1
+    - Square Sign 0.5m
+  :ingredients:
+  - - 1
+    - Iron Plate
+  - - 1
+    - Quartz Crystal
+- :name: Square Sign 1m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Display Sign Bundle
+  :products:
+  - - 1
+    - Square Sign 1m
+  :ingredients:
+  - - 1
+    - Iron Plate
+  - - 5
+    - Quartz Crystal
+- :name: Square Sign 2m
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Display Sign Bundle
+  :products:
+  - - 1
+    - Square Sign 2m
+  :ingredients:
+  - - 3
+    - Iron Plate
+  - - 10
+    - Quartz Crystal
+- :name: Storage Container
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 5
+  :products:
+  - - 1
+    - Storage Container
+  :ingredients:
+  - - 10
+    - Iron Plate
+  - - 10
+    - Iron Rod
+- :name: Walkway Crossing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Walkways
+  :products:
+  - - 1
+    - Walkway Crossing
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Walkway Ramp
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Walkways
+  :products:
+  - - 1
+    - Walkway Ramp
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Walkway Straight
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Walkways
+  :products:
+  - - 1
+    - Walkway Straight
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Walkway T-Crossing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Walkways
+  :products:
+  - - 1
+    - Walkway T-Crossing
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Walkway Turn
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Walkways
+  :products:
+  - - 1
+    - Walkway Turn
+  :ingredients:
+  - - 2
+    - Iron Rod
+  - - 1
+    - Iron Plate
+- :name: Steel Rod
+  :alternate: true
+  :building:
+  - Constructor
+  - 5
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 4
+    - Iron Rod
+  :ingredients:
+  - - 1
+    - Steel Ingot
+- :name: Iron Rebar
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Alien Organisms - The Rebar Gun
+  :products:
+  - - 1
+    - Iron Rebar
+  :ingredients:
+  - - 1
+    - Iron Rod
+- :name: Modular Frame
+  :alternate: false
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 2
+    - Modular Frame
+  :ingredients:
+  - - 3
+    - Reinforced Iron Plate
+  - - 12
+    - Iron Rod
+- :name: Rebar Gun
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Alien Organisms - The Rebar Gun
+  :products:
+  - - 1
+    - Rebar Gun
+  :ingredients:
+  - - 6
+    - Reinforced Iron Plate
+  - - 16
+    - Iron Rod
+  - - 100
+    - Screw
+- :name: Rotor
+  :alternate: false
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Rotor
+  :ingredients:
+  - - 5
+    - Iron Rod
+  - - 25
+    - Screw
+- :name: Screw
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 0 - HUB Upgrade 3
+  :products:
+  - - 4
+    - Screw
+  :ingredients:
+  - - 1
+    - Iron Rod
+- :name: Double Wall Outlet Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 3AWESOME Shop - Wall Outlets Mk.1
+  :products:
+  - - 1
+    - Double Wall Outlet Mk.1
+  :ingredients:
+  - - 8
+    - Wire
+  - - 2
+    - Iron Rod
+- :name: Double Wall Outlet Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium ResearchAWESOME Shop - Wall Outlets Mk.2
+  :products:
+  - - 1
+    - Double Wall Outlet Mk.2
+  :ingredients:
+  - - 16
+    - Quickwire
+  - - 4
+    - Iron Rod
+- :name: Industrial Railing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Industrial Railing
+  :products:
+  - - 1
+    - Industrial Railing
+  :ingredients:
+  - - 4
+    - Iron Rod
+- :name: Ladder
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Organization
+  :products:
+  - - 1
+    - Ladder
+  :ingredients:
+  - - 2
+    - Iron Rod
+- :name: Modern Railing
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Modern Railing
+  :products:
+  - - 1
+    - Modern Railing
+  :ingredients:
+  - - 2
+    - Iron Rod
+- :name: Smelter
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 2
+  :products:
+  - - 1
+    - Smelter
+  :ingredients:
+  - - 5
+    - Iron Rod
+  - - 8
+    - Wire
+- :name: Street Light
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Street Light
+  :products:
+  - - 1
+    - Street Light
+  :ingredients:
+  - - 10
+    - Quickwire
+  - - 4
+    - Wire
+  - - 4
+    - Iron Rod
+- :name: Wall Outlet Mk.1
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 0 - HUB Upgrade 3AWESOME Shop - Wall Outlets Mk.1
+  :products:
+  - - 1
+    - Wall Outlet Mk.1
+  :ingredients:
+  - - 4
+    - Wire
+  - - 1
+    - Iron Rod
+- :name: Wall Outlet Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Caterium ResearchAWESOME Shop - Wall Outlets Mk.2
+  :products:
+  - - 1
+    - Wall Outlet Mk.2
+  :ingredients:
+  - - 8
+    - Quickwire
+  - - 2
+    - Iron Rod
+- :name: Cheap Silica
+  :alternate: true
+  :building:
+  - Assembler
+  - 16
+  :prerequisites: Quartz Research - Silica
+  :products:
+  - - 7
+    - Silica
+  :ingredients:
+  - - 3
+    - Raw Quartz
+  - - 5
+    - Limestone
+- :name: Liquid Biofuel
+  :alternate: false
+  :building:
+  - Refinery
+  - 4
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 4
+    - Liquid Biofuel
+  :ingredients:
+  - - 6
+    - Solid Biofuel
+  - - 3
+    - Water
+- :name: Vitamin Inhaler
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Mycelia Research - Vitamin Inhaler
+  :products:
+  - - 1
+    - Medicinal Inhaler
+  :ingredients:
+  - - 10
+    - Mycelia
+  - - 5
+    - Paleberry
+- :name: Modular Engine
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 60
+  :prerequisites: Tier 5 - Industrial Manufacturing
+  :products:
+  - - 1
+    - Modular Engine
+  :ingredients:
+  - - 2
+    - Motor
+  - - 15
+    - Rubber
+  - - 2
+    - Smart Plating
+- :name: Bolted Frame
+  :alternate: true
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 2
+    - Modular Frame
+  :ingredients:
+  - - 3
+    - Reinforced Iron Plate
+  - - 56
+    - Screw
+- :name: Steeled Frame
+  :alternate: true
+  :building:
+  - Assembler
+  - 60
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 3
+    - Modular Frame
+  :ingredients:
+  - - 2
+    - Reinforced Iron Plate
+  - - 10
+    - Steel Pipe
+- :name: Versatile Framework
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 2
+    - Versatile Framework
+  :ingredients:
+  - - 1
+    - Modular Frame
+  - - 12
+    - Steel Beam
+- :name: Flexible Framework
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 16
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Versatile Framework
+  :ingredients:
+  - - 1
+    - Modular Frame
+  - - 6
+    - Steel Beam
+  - - 8
+    - Rubber
+- :name: Power Storage
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Logistics Mk.3
+  :products:
+  - - 1
+    - Power Storage
+  :ingredients:
+  - - 100
+    - Wire
+  - - 10
+    - Modular Frame
+  - - 5
+    - Stator
+- :name: Tractor
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 3 - Vehicular Transport
+  :products:
+  - - 1
+    - Tractor
+  :ingredients:
+  - - 5
+    - Modular Frame
+  - - 5
+    - Rotor
+  - - 10
+    - Reinforced Iron Plate
+- :name: Motor
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Motor
+  :ingredients:
+  - - 2
+    - Rotor
+  - - 2
+    - Stator
+- :name: Turbo Pressure Motor
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 32
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 2
+    - Turbo Motor
+  :ingredients:
+  - - 4
+    - Motor
+  - - 1
+    - Pressure Conversion Cube
+  - - 24
+    - Packaged Nitrogen Gas
+  - - 8
+    - Stator
+- :name: Non-fissile Uranium
+  :alternate: false
+  :building:
+  - Blender
+  - 24
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Non-fissile Uranium
+  - - 6
+    - Water
+  :ingredients:
+  - - 15
+    - Uranium Waste
+  - - 10
+    - Silica
+  - - 6
+    - Nitric Acid
+  - - 6
+    - Sulfuric Acid
+- :name: Fertile Uranium
+  :alternate: true
+  :building:
+  - Blender
+  - 12
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 20
+    - Non-fissile Uranium
+  - - 8
+    - Water
+  :ingredients:
+  - - 5
+    - Uranium
+  - - 5
+    - Uranium Waste
+  - - 3
+    - Nitric Acid
+  - - 5
+    - Sulfuric Acid
+- :name: Cluster Nobelisk
+  :alternate: false
+  :building:
+  - Assembler
+  - 24
+  :prerequisites: Sulfur Research - Cluster Nobelisk
+  :products:
+  - - 1
+    - Cluster Nobelisk
+  :ingredients:
+  - - 3
+    - Nobelisk
+  - - 4
+    - Smokeless Powder
+- :name: Plutonium Pellet
+  :alternate: false
+  :building:
+  - Particle Accelerator
+  - 60
+  :prerequisites: Tier 8 - Particle Enrichment
+  :products:
+  - - 30
+    - Plutonium Pellet
+  :ingredients:
+  - - 100
+    - Non-fissile Uranium
+  - - 25
+    - Uranium Waste
+- :name: Object Scanner
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Tier 1 - Field Research
+  :products:
+  - - 1
+    - Object Scanner
+  :ingredients:
+  - - 4
+    - Reinforced Iron Plate
+  - - 20
+    - Wire
+  - - 50
+    - Screw
+- :name: Residual Plastic
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Plastic
+  :ingredients:
+  - - 6
+    - Polymer Resin
+  - - 2
+    - Water
+- :name: Plastic Smart Plating
+  :alternate: true
+  :building:
+  - Manufacturer
+  - 24
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Smart Plating
+  :ingredients:
+  - - 1
+    - Reinforced Iron Plate
+  - - 1
+    - Rotor
+  - - 3
+    - Plastic
+- :name: Packager
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Alternative Fluid Transport
+  :products:
+  - - 1
+    - Packager
+  :ingredients:
+  - - 20
+    - Steel Beam
+  - - 10
+    - Rubber
+  - - 10
+    - Plastic
+- :name: Resource Well Extractor
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 8 - Advanced Aluminum Production
+  :products:
+  - - 1
+    - Resource Well Extractor
+  :ingredients:
+  - - 10
+    - Steel Beam
+  - - 10
+    - Plastic
+- :name: Plutonium Waste
+  :alternate: false
+  :building:
+  - Nuclear Power Plant
+  - 600
+  :prerequisites: Tier 8 - Nuclear PowerTier 8 - Particle Enrichment
+  :products:
+  - - 10
+    - Plutonium Waste
+  :ingredients:
+  - - 1
+    - Plutonium Fuel Rod
+  - - 2400
+    - Water
+- :name: Residual Rubber
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 2
+    - Rubber
+  :ingredients:
+  - - 4
+    - Polymer Resin
+  - - 4
+    - Water
+- :name: Power Shard (1)
+  :alternate: false
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Power Slugs Research - Blue Power Slugs
+  :products:
+  - - 1
+    - Power Shard
+  :ingredients:
+  - - 1
+    - Blue Power Slug
+- :name: Power Shard (2)
+  :alternate: false
+  :building:
+  - Constructor
+  - 12
+  :prerequisites: Power Slugs Research - Yellow Power Slugs
+  :products:
+  - - 2
+    - Power Shard
+  :ingredients:
+  - - 1
+    - Yellow Power Slug
+- :name: Power Shard (5)
+  :alternate: false
+  :building:
+  - Constructor
+  - 24
+  :prerequisites: Power Slugs Research - Purple Power Slugs
+  :products:
+  - - 5
+    - Power Shard
+  :ingredients:
+  - - 1
+    - Purple Power Slug
+- :name: Quartz Crystal
+  :alternate: false
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Quartz Research - Quartz Crystals
+  :products:
+  - - 3
+    - Quartz Crystal
+  :ingredients:
+  - - 5
+    - Raw Quartz
+- :name: Pure Quartz Crystal
+  :alternate: true
+  :building:
+  - Refinery
+  - 8
+  :prerequisites: Tier 3 - Coal PowerQuartz Research - Quartz Crystals
+  :products:
+  - - 7
+    - Quartz Crystal
+  :ingredients:
+  - - 9
+    - Raw Quartz
+  - - 5
+    - Water
+- :name: Shatter Rebar
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Quartz Research - Shatter Rebar
+  :products:
+  - - 1
+    - Shatter Rebar
+  :ingredients:
+  - - 2
+    - Iron Rebar
+  - - 3
+    - Quartz Crystal
+- :name: Stun Rebar
+  :alternate: false
+  :building:
+  - Assembler
+  - 6
+  :prerequisites: Caterium Research - Stun Rebar
+  :products:
+  - - 1
+    - Stun Rebar
+  :ingredients:
+  - - 1
+    - Iron Rebar
+  - - 5
+    - Quickwire
+- :name: Quickwire Stator
+  :alternate: true
+  :building:
+  - Assembler
+  - 15
+  :prerequisites: Tier 4 - Advanced Steel ProductionCaterium Research - Caterium Ingots
+  :products:
+  - - 2
+    - Stator
+  :ingredients:
+  - - 4
+    - Steel Pipe
+  - - 15
+    - Quickwire
+- :name: Ceiling Light
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Indoor Lighting
+  :products:
+  - - 1
+    - Ceiling Light
+  :ingredients:
+  - - 50
+    - Quickwire
+  - - 16
+    - Wire
+  - - 6
+    - Steel Beam
+- :name: Silica
+  :alternate: false
+  :building:
+  - Constructor
+  - 8
+  :prerequisites: Quartz Research - Silica
+  :products:
+  - - 5
+    - Silica
+  :ingredients:
+  - - 3
+    - Raw Quartz
+- :name: Explosive Rebar
+  :alternate: false
+  :building:
+  - Manufacturer
+  - 12
+  :prerequisites: Sulfur Research - Explosive Rebar
+  :products:
+  - - 1
+    - Explosive Rebar
+  :ingredients:
+  - - 2
+    - Iron Rebar
+  - - 2
+    - Smokeless Powder
+  - - 2
+    - Steel Pipe
+- :name: Smart Plating
+  :alternate: false
+  :building:
+  - Assembler
+  - 30
+  :prerequisites: Tier 2 - Part Assembly
+  :products:
+  - - 1
+    - Smart Plating
+  :ingredients:
+  - - 1
+    - Reinforced Iron Plate
+  - - 1
+    - Rotor
+- :name: Conveyor Belt Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Logistics Mk.2
+  :products:
+  - - 1
+    - Conveyor Belt Mk.2
+  :ingredients:
+  - - 1
+    - Reinforced Iron Plate
+- :name: Conveyor Lift Mk.2
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 2 - Logistics Mk.2
+  :products:
+  - - 1
+    - Conveyor Lift Mk.2
+  :ingredients:
+  - - 2
+    - Reinforced Iron Plate
+- :name: Cyber Wagon
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Vehicles
+  :products:
+  - - 1
+    - Cyber Wagon
+  :ingredients:
+  - - 10
+    - Reinforced Iron Plate
+- :name: Steel Rotor
+  :alternate: true
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 1
+    - Rotor
+  :ingredients:
+  - - 2
+    - Steel Pipe
+  - - 6
+    - Wire
+- :name: Valve
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 5 - Oil Processing
+  :products:
+  - - 1
+    - Valve
+  :ingredients:
+  - - 4
+    - Rubber
+  - - 4
+    - Steel Beam
+- :name: Steel Screw
+  :alternate: true
+  :building:
+  - Constructor
+  - 12
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 52
+    - Screw
+  :ingredients:
+  - - 1
+    - Steel Beam
+- :name: Frame Window (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Frame Window (Steel)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Full Frame Window
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel-Framed Windows
+  :products:
+  - - 1
+    - Full Frame Window
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Hex Frame Window
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Steel-Framed Windows
+  :products:
+  - - 1
+    - Hex Frame Window
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Panel Window (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Panel Window (Steel)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Reinforced Window (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Reinforced Window (Steel)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Single Window (Steel)
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Windowed Walls∧ AWESOME Shop - Steel Wall Material
+  :products:
+  - - 1
+    - Single Window (Steel)
+  :ingredients:
+  - - 2
+    - Silica
+  - - 2
+    - Steel Beam
+- :name: Stator
+  :alternate: false
+  :building:
+  - Assembler
+  - 12
+  :prerequisites: Tier 4 - Advanced Steel Production
+  :products:
+  - - 1
+    - Stator
+  :ingredients:
+  - - 3
+    - Steel Pipe
+  - - 8
+    - Wire
+- :name: Steel Beam
+  :alternate: false
+  :building:
+  - Constructor
+  - 4
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 1
+    - Steel Beam
+  :ingredients:
+  - - 4
+    - Steel Ingot
+- :name: Big Frame Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Concrete Pillar Set
+  :products:
+  - - 1
+    - Big Frame Pillar
+  :ingredients:
+  - - 5
+    - Steel Beam
+- :name: Conveyor Belt Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Logistics Mk.3
+  :products:
+  - - 1
+    - Conveyor Belt Mk.3
+  :ingredients:
+  - - 1
+    - Steel Beam
+- :name: Conveyor Lift Mk.3
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Logistics Mk.3
+  :products:
+  - - 1
+    - Conveyor Lift Mk.3
+  :ingredients:
+  - - 2
+    - Steel Beam
+- :name: Industrial Storage Container
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 4 - Logistics Mk.3
+  :products:
+  - - 1
+    - Industrial Storage Container
+  :ingredients:
+  - - 20
+    - Steel Beam
+  - - 20
+    - Steel Pipe
+- :name: Metal Beam
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Structural Beam Pack
+  :products:
+  - - 1
+    - Metal Beam
+  :ingredients:
+  - - 2
+    - Steel Beam
+- :name: Painted Beam
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Structural Beam Pack
+  :products:
+  - - 1
+    - Painted Beam
+  :ingredients:
+  - - 2
+    - Steel Beam
+- :name: Railway
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: Tier 6 - Monorail Train Technology
+  :products:
+  - - 1
+    - Railway
+  :ingredients:
+  - - 1
+    - Steel Pipe
+  - - 1
+    - Steel Beam
+- :name: Small Frame Pillar
+  :alternate: false
+  :building:
+  - Build Gun
+  - 0
+  :prerequisites: AWESOME Shop - Concrete Pillar Set
+  :products:
+  - - 1
+    - Small Frame Pillar
+  :ingredients:
+  - - 3
+    - Steel Beam
+- :name: Steel Pipe
+  :alternate: false
+  :building:
+  - Constructor
+  - 6
+  :prerequisites: Tier 3 - Basic Steel Production
+  :products:
+  - - 2
+    - Steel Pipe
+  :ingredients:
+  - - 3
+    - Steel Ingot
+- :name: Sulfuric Acid
+  :alternate: false
+  :building:
+  - Refinery
+  - 6
+  :prerequisites: Tier 7 - Aeronautical Engineering
+  :products:
+  - - 5
+    - Sulfuric Acid
+  :ingredients:
+  - - 5
+    - Sulfur
+  - - 5
+    - Water
+- :name: Uranium Waste
+  :alternate: false
+  :building:
+  - Nuclear Power Plant
+  - 300
+  :prerequisites: Tier 8 - Nuclear Power
+  :products:
+  - - 50
+    - Uranium Waste
+  :ingredients:
+  - - 1
+    - Uranium Fuel Rod
+  - - 1200
+    - Water
+- :name: Water
+  :alternate: false
+  :building:
+  - Water Extractor
+  - 1
+  :prerequisites: Tier 3 - Coal Power
+  :products:
+  - - 2
+    - Water
+  :ingredients: []
+- :name: Candy Cane Basher
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: FICSMAS Research - Candy Cane Basher
+  :products:
+  - - 1
+    - Candy Cane Basher
+  :ingredients:
+  - - 2
+    - Xeno-Zapper
+  - - 25
+    - Candy Cane
+  - - 15
+    - FICSMAS Gift
+- :name: Zipline
+  :alternate: false
+  :building:
+  - Equipment Workshop
+  - 0
+  :prerequisites: Caterium Research - Zipline
+  :products:
+  - - 1
+    - Zipline
+  :ingredients:
+  - - 1
+    - Xeno-Zapper
+  - - 30
+    - Quickwire
+  - - 3
+    - Iron Rod
+  - - 10
+    - Cable

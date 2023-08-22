@@ -1,0 +1,530 @@
+---
+- :name: Uranium Waste
+  :sink_value: 0
+  :energy: 0
+- :name: Plutonium Waste
+  :sink_value: 0
+  :energy: 0
+- :name: Battery
+  :sink_value: 465
+  :energy: 6000
+- :name: Aluminum Ingot
+  :sink_value: 131
+  :energy: 0
+- :name: Color Cartridge
+  :sink_value: 10
+  :energy: 900
+- :name: Cable
+  :sink_value: 24
+  :energy: 0
+- :name: Concrete
+  :sink_value: 12
+  :energy: 0
+- :name: Modular Frame
+  :sink_value: 408
+  :energy: 0
+- :name: Steel Beam
+  :sink_value: 64
+  :energy: 0
+- :name: Non-fissile Uranium
+  :sink_value: 0
+  :energy: 0
+- :name: Plutonium Pellet
+  :sink_value: 0
+  :energy: 0
+- :name: Encased Plutonium Cell
+  :sink_value: 0
+  :energy: 0
+- :name: Silica
+  :sink_value: 20
+  :energy: 0
+- :name: Iron Plate
+  :sink_value: 6
+  :energy: 0
+- :name: Power Shard
+  :sink_value: 0
+  :energy: 0
+- :name: Iron Rod
+  :sink_value: 4
+  :energy: 0
+- :name: Wire
+  :sink_value: 6
+  :energy: 0
+- :name: HUB Parts
+  :sink_value: 0
+  :energy: 0
+- :name: Iron Ingot
+  :sink_value: 2
+  :energy: 0
+- :name: Reinforced Iron Plate
+  :sink_value: 120
+  :energy: 0
+- :name: Rotor
+  :sink_value: 140
+  :energy: 0
+- :name: Copper Sheet
+  :sink_value: 24
+  :energy: 0
+- :name: Screw
+  :sink_value: 2
+  :energy: 0
+- :name: Compacted Coal
+  :sink_value: 28
+  :energy: 630
+- :name: Heavy Oil Residue
+  :sink_value: 30
+  :energy: 0
+- :name: Turbofuel
+  :sink_value: 225
+  :energy: 2
+- :name: Empty Canister
+  :sink_value: 60
+  :energy: 0
+- :name: Packaged Turbofuel
+  :sink_value: 570
+  :energy: 2000
+- :name: Circuit Board
+  :sink_value: 696
+  :energy: 0
+- :name: Plastic
+  :sink_value: 75
+  :energy: 0
+- :name: Motor
+  :sink_value: 1520
+  :energy: 0
+- :name: Encased Industrial Beam
+  :sink_value: 632
+  :energy: 0
+- :name: Steel Pipe
+  :sink_value: 24
+  :energy: 0
+- :name: Rubber
+  :sink_value: 60
+  :energy: 0
+- :name: Fuel
+  :sink_value: 75
+  :energy: 0
+- :name: Polymer Resin
+  :sink_value: 12
+  :energy: 0
+- :name: Petroleum Coke
+  :sink_value: 20
+  :energy: 180
+- :name: Steel Ingot
+  :sink_value: 8
+  :energy: 0
+- :name: Versatile Framework
+  :sink_value: 1176
+  :energy: 0
+- :name: Heavy Modular Frame
+  :sink_value: 11520
+  :energy: 0
+- :name: Packaged Fuel
+  :sink_value: 270
+  :energy: 750
+- :name: Packaged Oil
+  :sink_value: 180
+  :energy: 320
+- :name: Packaged Heavy Oil Residue
+  :sink_value: 180
+  :energy: 400
+- :name: Packaged Water
+  :sink_value: 130
+  :energy: 0
+- :name: Copper Ingot
+  :sink_value: 6
+  :energy: 0
+- :name: Quartz Crystal
+  :sink_value: 50
+  :energy: 0
+- :name: Caterium Ingot
+  :sink_value: 42
+  :energy: 0
+- :name: Aluminum Scrap
+  :sink_value: 27
+  :energy: 0
+- :name: Sulfuric Acid
+  :sink_value: 16
+  :energy: 0
+- :name: Encased Uranium Cell
+  :sink_value: 147
+  :energy: 0
+- :name: Heat Sink
+  :sink_value: 2804
+  :energy: 0
+- :name: Cooling System
+  :sink_value: 12006
+  :energy: 0
+- :name: Nitric Acid
+  :sink_value: 94
+  :energy: 0
+- :name: Aluminum Casing
+  :sink_value: 393
+  :energy: 0
+- :name: Radio Control Unit
+  :sink_value: 19600
+  :energy: 0
+- :name: Alclad Aluminum Sheet
+  :sink_value: 266
+  :energy: 0
+- :name: Computer
+  :sink_value: 17260
+  :energy: 0
+- :name: Crystal Oscillator
+  :sink_value: 3072
+  :energy: 0
+- :name: Alumina Solution
+  :sink_value: 20
+  :energy: 0
+- :name: Smart Plating
+  :sink_value: 520
+  :energy: 0
+- :name: High-Speed Connector
+  :sink_value: 3776
+  :energy: 0
+- :name: Automated Wiring
+  :sink_value: 1440
+  :energy: 0
+- :name: Stator
+  :sink_value: 240
+  :energy: 0
+- :name: AI Limiter
+  :sink_value: 920
+  :energy: 0
+- :name: Quickwire
+  :sink_value: 17
+  :energy: 0
+- :name: Modular Engine
+  :sink_value: 9960
+  :energy: 0
+- :name: Adaptive Control Unit
+  :sink_value: 86120
+  :energy: 0
+- :name: Turbo Motor
+  :sink_value: 242720
+  :energy: 0
+- :name: Pressure Conversion Cube
+  :sink_value: 257312
+  :energy: 0
+- :name: Fused Modular Frame
+  :sink_value: 62840
+  :energy: 0
+- :name: Supercomputer
+  :sink_value: 99576
+  :energy: 0
+- :name: Electromagnetic Control Rod
+  :sink_value: 2560
+  :energy: 0
+- :name: Copper Powder
+  :sink_value: 72
+  :energy: 0
+- :name: Empty Fluid Tank
+  :sink_value: 225
+  :energy: 0
+- :name: Nuclear Pasta
+  :sink_value: 543424
+  :energy: 0
+- :name: Assembly Director System
+  :sink_value: 543632
+  :energy: 0
+- :name: Magnetic Field Generator
+  :sink_value: 15650
+  :energy: 0
+- :name: Thermal Propulsion Rocket
+  :sink_value: 732956
+  :energy: 0
+- :name: Black Powder
+  :sink_value: 14
+  :energy: 0
+- :name: Gas Filter
+  :sink_value: 830
+  :energy: 0
+- :name: Iodine Infused Filter
+  :sink_value: 2718
+  :energy: 0
+- :name: Alien DNA Capsule
+  :sink_value: 0
+  :energy: 0
+- :name: Blue Power Slug
+  :sink_value: 0
+  :energy: 0
+- :name: Alien Protein
+  :sink_value: 0
+  :energy: 0
+- :name: Purple Power Slug
+  :sink_value: 0
+  :energy: 0
+- :name: Yellow Power Slug
+  :sink_value: 0
+  :energy: 0
+- :name: Smokeless Powder
+  :sink_value: 58
+  :energy: 0
+- :name: FICSMAS Wonder Star
+  :sink_value: 1
+  :energy: 0
+- :name: FICSMAS Ornament Bundle
+  :sink_value: 1
+  :energy: 0
+- :name: FICSMAS Decoration
+  :sink_value: 1
+  :energy: 0
+- :name: Candy Cane
+  :sink_value: 1
+  :energy: 0
+- :name: Actual Snow
+  :sink_value: 1
+  :energy: 0
+- :name: FICSMAS Bow
+  :sink_value: 1
+  :energy: 0
+- :name: Copper FICSMAS Ornament
+  :sink_value: 1
+  :energy: 0
+- :name: Iron FICSMAS Ornament
+  :sink_value: 1
+  :energy: 0
+- :name: FICSMAS Tree Branch
+  :sink_value: 1
+  :energy: 0
+- :name: Red FICSMAS Ornament
+  :sink_value: 1
+  :energy: 0
+- :name: Blue FICSMAS Ornament
+  :sink_value: 1
+  :energy: 0
+- :name: FICSMAS Gift
+  :sink_value: 1
+  :energy: 0
+- :name: Water
+  :sink_value: 5
+  :energy: 0
+- :name: Iron Ore
+  :sink_value: 1
+  :energy: 0
+  :mined_per_second: 1173.0
+  :mj_cost: 10.757101449275364
+- :name: Limestone
+  :sink_value: 2
+  :energy: 0
+  :mined_per_second: 881.0
+  :mj_cost: 10.702746878547106
+- :name: Coal
+  :sink_value: 3
+  :energy: 300
+  :mined_per_second: 502.0
+  :mj_cost: 10.880398406374502
+- :name: Sulfur
+  :sink_value: 11
+  :energy: 0
+  :mined_per_second: 114.0
+  :mj_cost: 10.836842105263159
+- :name: Crude Oil
+  :sink_value: 30
+  :energy: 0
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+- :name: Raw Quartz
+  :sink_value: 15
+  :energy: 0
+  :mined_per_second: 175.0
+  :mj_cost: 10.032914285714288
+- :name: Copper Ore
+  :sink_value: 3
+  :energy: 0
+  :mined_per_second: 481.0
+  :mj_cost: 11.624532224532226
+- :name: Caterium Ore
+  :sink_value: 7
+  :energy: 0
+  :mined_per_second: 184.0
+  :mj_cost: 8.48695652173913
+- :name: Uranium
+  :sink_value: 35
+  :energy: 0
+  :mined_per_second: 35.0
+  :mj_cost: 14.85257142857143
+- :name: Nitrogen Gas
+  :sink_value: 10
+  :energy: 0
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+- :name: Bauxite
+  :sink_value: 8
+  :energy: 0
+  :mined_per_second: 163.0
+  :mj_cost: 11.171779141104295
+- :name: Flower Petals
+  :sink_value: 10
+  :energy: 100
+- :name: Wood
+  :sink_value: 30
+  :energy: 100
+- :name: Biomass
+  :sink_value: 12
+  :energy: 180
+- :name: Solid Biofuel
+  :sink_value: 48
+  :energy: 450
+- :name: Liquid Biofuel
+  :sink_value: 261
+  :energy: 0
+- :name: Packaged Liquid Biofuel
+  :sink_value: 370
+  :energy: 750
+- :name: Packaged Alumina Solution
+  :sink_value: 160
+  :energy: 0
+- :name: Packaged Nitrogen Gas
+  :sink_value: 312
+  :energy: 0
+- :name: Packaged Nitric Acid
+  :sink_value: 412
+  :energy: 0
+- :name: Packaged Sulfuric Acid
+  :sink_value: 152
+  :energy: 0
+- :name: Fabric
+  :sink_value: 140
+  :energy: 15
+- :name: Stinger Remains
+  :sink_value: 0
+  :energy: 250
+- :name: Plasma Spitter Remains
+  :sink_value: 0
+  :energy: 250
+- :name: Hog Remains
+  :sink_value: 0
+  :energy: 250
+- :name: Hatcher Remains
+  :sink_value: 0
+  :energy: 250
+- :name: Mycelia
+  :sink_value: 10
+  :energy: 20
+- :name: Leaves
+  :sink_value: 3
+  :energy: 15
+- :name: Uranium Fuel Rod
+  :sink_value: 44092
+  :energy: 750000
+- :name: Plutonium Fuel Rod
+  :sink_value: 153184
+  :energy: 1500000
+- :name: Beacon
+  :sink_value: 320
+  :energy: 0
+- :name: Bacon Agaric
+  :sink_value: 0
+  :energy: 0
+- :name: Paleberry
+  :sink_value: 0
+  :energy: 0
+- :name: Beryl Nut
+  :sink_value: 0
+  :energy: 0
+- :name: Medicinal Inhaler
+  :sink_value: 125
+  :energy: 0
+- :name: Parachute
+  :sink_value: 608
+  :energy: 0
+- :name: Explosive Rebar
+  :sink_value: 360
+  :energy: 0
+- :name: Stun Rebar
+  :sink_value: 186
+  :energy: 0
+- :name: Iron Rebar
+  :sink_value: 8
+  :energy: 0
+- :name: Homing Rifle Ammo
+  :sink_value: 855
+  :energy: 0
+- :name: Nobelisk
+  :sink_value: 152
+  :energy: 0
+- :name: Cluster Nobelisk
+  :sink_value: 1376
+  :energy: 0
+- :name: Gas Nobelisk
+  :sink_value: 544
+  :energy: 0
+- :name: Nuke Nobelisk
+  :sink_value: 19600
+  :energy: 0
+- :name: Pulse Nobelisk
+  :sink_value: 1533
+  :energy: 0
+- :name: Sweet Fireworks
+  :sink_value: 18
+  :energy: 0
+- :name: Fancy Fireworks
+  :sink_value: 14
+  :energy: 0
+- :name: Sparkly Fireworks
+  :sink_value: 10
+  :energy: 0
+- :name: Snowball
+  :sink_value: 1
+  :energy: 0
+- :name: Turbo Rifle Ammo
+  :sink_value: 120
+  :energy: 0
+- :name: Rifle Ammo
+  :sink_value: 25
+  :energy: 0
+- :name: Xeno-Zapper
+  :sink_value: 1880
+  :energy: 0
+- :name: Portable Miner
+  :sink_value: 56
+  :energy: 0
+- :name: Hover Pack
+  :sink_value: 413920
+  :energy: 0
+- :name: Hazmat Suit
+  :sink_value: 54100
+  :energy: 0
+- :name: Gas Mask
+  :sink_value: 55000
+  :energy: 0
+- :name: Jetpack
+  :sink_value: 49580
+  :energy: 0
+- :name: Xeno-Basher
+  :sink_value: 18800
+  :energy: 0
+- :name: Chainsaw
+  :sink_value: 2760
+  :energy: 0
+- :name: Object Scanner
+  :sink_value: 1400
+  :energy: 0
+- :name: Rebar Gun
+  :sink_value: 1968
+  :energy: 0
+- :name: Rifle
+  :sink_value: 9480
+  :energy: 0
+- :name: Blade Runners
+  :sink_value: 4088
+  :energy: 0
+- :name: Zipline
+  :sink_value: 5284
+  :energy: 0
+- :name: Nobelisk Detonator
+  :sink_value: 6480
+  :energy: 0
+- :name: Candy Cane Basher
+  :sink_value: 1
+  :energy: 0
+- :name: Factory Cart™
+  :sink_value: 1552
+  :energy: 0
+- :name: Golden Factory Cart™
+  :sink_value: 1852
+  :energy: 0
+- :name: Shatter Rebar
+  :sink_value: 332
+  :energy: 0

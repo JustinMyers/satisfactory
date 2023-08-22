@@ -1,0 +1,592 @@
+True cost  Item name                    Recipe name
+
+213179.92  Plutonium Fuel Rod           Plutonium Fuel Unit (alt)
+                                          Instant Plutonium Cell (alt)
+                                          Pressure Conversion Cube 
+
+128761.5   Uranium Fuel Rod             Uranium Fuel Unit (alt)
+                                          Infused Uranium Cell (alt)
+                                          Electromagnetic Control Rod 
+                                          Insulated Crystal Oscillator (alt)
+                                          Beacon 
+
+12635.09   Pressure Conversion Cube     Pressure Conversion Cube 
+                                          Heat-Fused Frame (alt)
+                                          Radio Control Unit 
+
+10096.39   Turbo Motor                  Turbo Electric Motor (alt)
+                                          Rigour Motor (alt)
+                                          Radio Control Unit 
+                                          Electromagnetic Control Rod 
+                                          Copper Rotor (alt)
+
+10024.77   Encased Plutonium Cell       Instant Plutonium Cell (alt)
+                                          Fertile Uranium (alt)
+                                          Alclad Casing (alt)
+
+7015.05    Fused Modular Frame          Heat-Fused Frame (alt)
+                                          Heavy Encased Frame (alt)
+                                          Pure Aluminum Ingot (alt)
+                                          Nitric Acid 
+                                          Diluted Fuel (alt)
+
+5360.72    Supercomputer                Super-State Computer (alt)
+                                          Caterium Computer (alt)
+                                          Electromagnetic Control Rod 
+                                          Classic Battery (alt)
+                                          Iron Wire (alt)
+
+5076.58    Adaptive Control Unit        Adaptive Control Unit 
+                                          Automated Wiring 
+                                          Caterium Circuit Board (alt)
+                                          Heavy Encased Frame (alt)
+                                          Caterium Computer (alt)
+
+3763.86    Encased Uranium Cell         Infused Uranium Cell (alt)
+                                          Uranium 
+                                          Cheap Silica (alt)
+                                          Sulfur 
+                                          Fused Quickwire (alt)
+
+2857.55    Uranium                      Uranium 
+
+2797.66    Radio Control Unit           Radio Control Unit 
+                                          Alclad Casing (alt)
+                                          Insulated Crystal Oscillator (alt)
+                                          Caterium Computer (alt)
+
+2169.74    Uranium Waste                Uranium Waste 
+                                          Uranium Fuel Unit (alt)
+                                          Water 
+
+1652.34    Cooling System               Cooling Device (alt)
+                                          Heat Exchanger (alt)
+                                          Rigour Motor (alt)
+                                          Nitrogen Gas 
+
+1624.16    Heavy Modular Frame          Heavy Encased Frame (alt)
+                                          Modular Frame 
+                                          Encased Industrial Pipe (alt)
+                                          Steel Pipe 
+                                          Rubber Concrete (alt)
+
+1312.61    Non-fissile Uranium          Fertile Uranium (alt)
+                                          Uranium 
+                                          Uranium Waste 
+                                          Nitric Acid 
+                                          Sulfuric Acid 
+
+1238.68    Crystal Oscillator           Insulated Crystal Oscillator (alt)
+                                          Pure Quartz Crystal (alt)
+                                          Recycled Rubber (alt)
+                                          AI Limiter 
+
+1154.08    Computer                     Caterium Computer (alt)
+                                          Caterium Circuit Board (alt)
+                                          Fused Quickwire (alt)
+                                          Recycled Rubber (alt)
+
+1064.1     Modular Engine               Modular Engine 
+                                          Rigour Motor (alt)
+                                          Recycled Rubber (alt)
+                                          Plastic Smart Plating (alt)
+
+941.86     High-Speed Connector         High-Speed Connector 
+                                          Fused Quickwire (alt)
+                                          Insulated Cable (alt)
+                                          Caterium Circuit Board (alt)
+
+516.23     Electromagnetic Control Rod  Electromagnetic Control Rod 
+                                          Stator 
+                                          AI Limiter 
+
+374.52     Xeno-Zapper                  Xeno-Zapper 
+                                          Steel Rod (alt)
+                                          Adhered Iron Plate (alt)
+                                          Insulated Cable (alt)
+                                          Iron Wire (alt)
+
+343.67     AI Limiter                   AI Limiter 
+                                          Steamed Copper Sheet (alt)
+                                          Fused Quickwire (alt)
+
+337.5      Heat Sink                    Heat Exchanger (alt)
+                                          Alclad Casing (alt)
+                                          Recycled Rubber (alt)
+
+322.39     Versatile Framework          Flexible Framework (alt)
+                                          Modular Frame 
+                                          Steel Beam 
+                                          Recycled Rubber (alt)
+
+299.91     Battery                      Classic Battery (alt)
+                                          Sulfur 
+                                          Alclad Aluminum Sheet 
+                                          Recycled Plastic (alt)
+                                          Iron Wire (alt)
+
+298.49     Motor                        Rigour Motor (alt)
+                                          Copper Rotor (alt)
+                                          Stator 
+                                          Insulated Crystal Oscillator (alt)
+
+273.65     Object Scanner               Object Scanner 
+                                          Adhered Iron Plate (alt)
+                                          Iron Wire (alt)
+                                          Screw 
+
+272.82     Encased Industrial Beam      Encased Industrial Pipe (alt)
+                                          Steel Pipe 
+                                          Rubber Concrete (alt)
+
+239.55     Automated Wiring             Automated Wiring 
+                                          Stator 
+                                          Insulated Cable (alt)
+
+214.85     Nitric Acid                  Nitric Acid 
+                                          Nitrogen Gas 
+                                          Water 
+                                          Steel Coated Plate (alt)
+
+193.7      Gas Filter                   Gas Filter 
+                                          Coal 
+                                          Recycled Rubber (alt)
+                                          Polyester Fabric 
+
+164.87     Nobelisk                     Nobelisk 
+                                          Steel Pipe 
+                                          Black Powder 
+
+113.83     Caterium Ingot               Pure Caterium Ingot (alt)
+                                          Caterium Ore 
+                                          Water 
+
+110.92     Stator                       Stator 
+                                          Steel Pipe 
+                                          Iron Wire (alt)
+
+97.81      Aluminum Casing              Alclad Casing (alt)
+                                          Pure Aluminum Ingot (alt)
+                                          Pure Copper Ingot (alt)
+
+94.4       Beacon                       Beacon 
+                                          Steel Coated Plate (alt)
+                                          Steel Rod (alt)
+                                          Iron Wire (alt)
+                                          Insulated Cable (alt)
+
+92.23      Modular Frame                Modular Frame 
+                                          Adhered Iron Plate (alt)
+                                          Steel Rod (alt)
+
+89.28      Sulfuric Acid                Sulfuric Acid 
+                                          Sulfur 
+                                          Water 
+
+88.02      Sulfur                       Sulfur 
+
+87.85      Turbofuel                    Turbo Blend Fuel (alt)
+                                          Diluted Fuel (alt)
+                                          Heavy Oil Residue (alt)
+                                          Sulfur 
+                                          Petroleum Coke 
+
+82.21      Circuit Board                Caterium Circuit Board (alt)
+                                          Recycled Plastic (alt)
+                                          Fused Quickwire (alt)
+
+81.33      Smart Plating                Plastic Smart Plating (alt)
+                                          Adhered Iron Plate (alt)
+                                          Copper Rotor (alt)
+                                          Recycled Plastic (alt)
+
+77.61      Smokeless Powder             Smokeless Powder 
+                                          Black Powder 
+                                          Heavy Oil Residue (alt)
+
+74.96      Quartz Crystal               Pure Quartz Crystal (alt)
+                                          Raw Quartz 
+                                          Water 
+
+72.38      Alclad Aluminum Sheet        Alclad Aluminum Sheet 
+                                          Pure Aluminum Ingot (alt)
+                                          Pure Copper Ingot (alt)
+
+69.58      Steel Beam                   Steel Beam 
+                                          Coke Steel Ingot (alt)
+
+68.39      Empty Fluid Tank             Empty Fluid Tank 
+                                          Pure Aluminum Ingot (alt)
+
+68.28      Aluminum Ingot               Pure Aluminum Ingot (alt)
+                                          Electrode - Aluminum Scrap (alt)
+
+61.66      Bauxite                      Bauxite 
+
+59.15      Copper Powder                Copper Powder 
+                                          Pure Copper Ingot (alt)
+
+57.42      Raw Quartz                   Raw Quartz 
+
+54.94      Black Powder                 Black Powder 
+                                          Coal 
+                                          Sulfur 
+
+54.58      Caterium Ore                 Caterium Ore 
+
+52.2       Crude Oil                    Crude Oil 
+
+52.2       Nitrogen Gas                 Nitrogen Gas 
+
+51.82      Alumina Solution             Sloppy Alumina (alt)
+                                          Bauxite 
+                                          Water 
+
+48.99      Rotor                        Copper Rotor (alt)
+                                          Steamed Copper Sheet (alt)
+                                          Screw 
+
+40.38      Heavy Oil Residue            Heavy Oil Residue (alt)
+                                          Crude Oil 
+
+35.41      Reinforced Iron Plate        Adhered Iron Plate (alt)
+                                          Steel Coated Plate (alt)
+                                          Recycled Rubber (alt)
+
+34.03      Aluminum Scrap               Electrode - Aluminum Scrap (alt)
+                                          Sloppy Alumina (alt)
+                                          Petroleum Coke 
+
+33.87      Silica                       Cheap Silica (alt)
+                                          Raw Quartz 
+                                          Limestone 
+
+26.39      Fabric                       Polyester Fabric 
+                                          Polymer Resin (alt)
+                                          Water 
+
+26.26      Steel Pipe                   Steel Pipe 
+                                          Coke Steel Ingot (alt)
+
+24.47      Polymer Resin                Polymer Resin (alt)
+                                          Crude Oil 
+
+21.7       Fuel                         Diluted Fuel (alt)
+                                          Heavy Oil Residue (alt)
+                                          Water 
+
+21.11      Copper Ore                   Copper Ore 
+
+20.22      Coal                         Coal 
+
+17.28      Steel Ingot                  Coke Steel Ingot (alt)
+                                          Iron Ore 
+                                          Petroleum Coke 
+
+16.57      Concrete                     Rubber Concrete (alt)
+                                          Limestone 
+                                          Recycled Rubber (alt)
+
+13.99      Plastic                      Recycled Plastic (alt)
+                                          Recycled Rubber (alt)
+                                          Diluted Fuel (alt)
+
+13.87      Petroleum Coke               Petroleum Coke 
+                                          Heavy Oil Residue (alt)
+
+13.86      Rubber                       Recycled Rubber (alt)
+                                          Recycled Plastic (alt)
+                                          Diluted Fuel (alt)
+
+13.86      Quickwire                    Fused Quickwire (alt)
+                                          Pure Caterium Ingot (alt)
+                                          Pure Copper Ingot (alt)
+
+13.14      Rifle Ammo                   Rifle Ammo 
+                                          Steamed Copper Sheet (alt)
+                                          Smokeless Powder 
+
+12.31      Copper Sheet                 Steamed Copper Sheet (alt)
+                                          Pure Copper Ingot (alt)
+                                          Water 
+
+11.64      Limestone                    Limestone 
+
+9.84       Copper Ingot                 Pure Copper Ingot (alt)
+                                          Copper Ore 
+                                          Water 
+
+8.82       Iron Ore                     Iron Ore 
+
+6.53       Packaged Water               Packaged Water 
+                                          Water 
+                                          Coated Iron Canister (alt)
+
+5.98       Empty Canister               Coated Iron Canister (alt)
+                                          Steel Coated Plate (alt)
+                                          Steamed Copper Sheet (alt)
+
+5.94       Cable                        Insulated Cable (alt)
+                                          Iron Wire (alt)
+                                          Recycled Rubber (alt)
+
+5.59       Iron Ingot                   Pure Iron Ingot (alt)
+                                          Iron Ore 
+                                          Water 
+
+4.99       Iron Plate                   Steel Coated Plate (alt)
+                                          Coke Steel Ingot (alt)
+                                          Recycled Plastic (alt)
+
+4.9        Iron Rebar                   Iron Rebar 
+                                          Steel Rod (alt)
+
+4.46       Iron Rod                     Steel Rod (alt)
+                                          Coke Steel Ingot (alt)
+
+3.4        Wire                         Iron Wire (alt)
+                                          Pure Iron Ingot (alt)
+
+1.28       Screw                        Screw 
+                                          Steel Rod (alt)
+
+1.26       Liquid Biofuel               Liquid Biofuel 
+                                          Solid Biofuel 
+                                          Water 
+
+0.27       Water                        Water 
+
+0.15       Solid Biofuel                Solid Biofuel 
+                                          Biomass (Wood) 
+
+0.02       Biomass                      Biomass (Wood) 
+                                          Wood 
+
+0.0        Flower Petals                Flower Petals 
+
+0.0        Wood                         Wood 
+
+0.0        Bacon Agaric                 Bacon Agaric 
+
+0.0        Paleberry                    Paleberry 
+
+0.0        Hog Remains                  Hog Remains 
+
+0.0        Beryl Nut                    Beryl Nut 
+
+Unused Items
+
+79121.02   Nuke Nobelisk                Nuke Nobelisk 
+                                          Nobelisk 
+                                          Infused Uranium Cell (alt)
+                                          Smokeless Powder 
+                                          AI Limiter 
+
+26112.64   Nuclear Pasta                Nuclear Pasta 
+                                          Copper Powder 
+                                          Pressure Conversion Cube 
+
+24819.36   Thermal Propulsion Rocket    Thermal Propulsion Rocket 
+                                          Modular Engine 
+                                          Turbo Electric Motor (alt)
+                                          Cooling Device (alt)
+                                          Heat-Fused Frame (alt)
+
+21012.41   Hover Pack                   Hover Pack 
+                                          Rigour Motor (alt)
+                                          Heavy Encased Frame (alt)
+                                          Caterium Computer (alt)
+                                          Alclad Aluminum Sheet 
+
+17263.05   Plutonium Waste              Plutonium Waste 
+                                          Plutonium Fuel Unit (alt)
+                                          Water 
+
+15546.85   Assembly Director System     Assembly Director System 
+                                          Adaptive Control Unit 
+                                          Super-State Computer (alt)
+
+7493.03    Rifle                        Rifle 
+                                          Steel Pipe 
+                                          Heavy Encased Frame (alt)
+                                          Caterium Circuit Board (alt)
+                                          Screw 
+
+6331.36    Hazmat Suit                  Hazmat Suit 
+                                          Recycled Rubber (alt)
+                                          Recycled Plastic (alt)
+                                          Alclad Aluminum Sheet 
+                                          Polyester Fabric 
+
+6210.94    Plutonium Pellet             Plutonium Pellet 
+                                          Fertile Uranium (alt)
+                                          Uranium Waste 
+
+5464.32    Gas Mask                     Gas Mask 
+                                          Recycled Rubber (alt)
+                                          Recycled Plastic (alt)
+                                          Polyester Fabric 
+
+4138.1     Jetpack                      Jetpack 
+                                          Recycled Plastic (alt)
+                                          Recycled Rubber (alt)
+                                          Caterium Circuit Board (alt)
+                                          Rigour Motor (alt)
+
+3059.28    Xeno-Basher                  Xeno-Basher 
+                                          Modular Frame 
+                                          Xeno-Zapper 
+                                          Insulated Cable (alt)
+                                          Iron Wire (alt)
+
+2912.39    Magnetic Field Generator     Magnetic Field Generator 
+                                          Flexible Framework (alt)
+                                          Electromagnetic Control Rod 
+                                          Classic Battery (alt)
+
+1823.3     Golden Factory Cart          Golden Factory Cart 
+                                          Pure Caterium Ingot (alt)
+                                          Steel Rod (alt)
+                                          Copper Rotor (alt)
+
+1266.25    Nobelisk Detonator           Nobelisk Detonator 
+                                          Object Scanner 
+                                          Steel Beam 
+                                          Insulated Cable (alt)
+
+1101.02    Blade Runners                Blade Runners 
+                                          Cheap Silica (alt)
+                                          Modular Frame 
+                                          Copper Rotor (alt)
+
+863.04     Zipline                      Zipline 
+                                          Xeno-Zapper 
+                                          Fused Quickwire (alt)
+                                          Steel Rod (alt)
+                                          Insulated Cable (alt)
+
+814.93     Cluster Nobelisk             Cluster Nobelisk 
+                                          Nobelisk 
+                                          Smokeless Powder 
+
+582.28     Chainsaw                     Chainsaw 
+                                          Adhered Iron Plate (alt)
+                                          Steel Rod (alt)
+                                          Screw 
+                                          Insulated Cable (alt)
+
+521.98     Portable Miner               Automated Miner (alt)
+                                          Rigour Motor (alt)
+                                          Steel Pipe 
+                                          Steel Rod (alt)
+                                          Steel Coated Plate (alt)
+
+426.56     Iodine Infused Filter        Iodine Infused Filter 
+                                          Gas Filter 
+                                          Fused Quickwire (alt)
+                                          Alclad Casing (alt)
+
+417.55     Pulse Nobelisk               Pulse Nobelisk 
+                                          Nobelisk 
+                                          Insulated Crystal Oscillator (alt)
+
+411.75     Rebar Gun                    Rebar Gun 
+                                          Adhered Iron Plate (alt)
+                                          Steel Rod (alt)
+                                          Screw 
+
+283.78     Packaged Nitric Acid         Packaged Nitric Acid 
+                                          Nitric Acid 
+                                          Empty Fluid Tank 
+
+277.45     Packaged Nitrogen Gas        Packaged Nitrogen Gas 
+                                          Nitrogen Gas 
+                                          Empty Fluid Tank 
+
+263.33     Color Gun                    Color Gun (alt)
+                                          Steel Coated Plate (alt)
+                                          Screw 
+                                          Iron Wire (alt)
+
+257.46     Factory Cart                 Factory Cart 
+                                          Adhered Iron Plate (alt)
+                                          Steel Rod (alt)
+                                          Copper Rotor (alt)
+
+239.63     Shatter Rebar                Shatter Rebar 
+                                          Iron Rebar 
+                                          Pure Quartz Crystal (alt)
+
+235.65     Explosive Rebar              Explosive Rebar 
+                                          Iron Rebar 
+                                          Smokeless Powder 
+                                          Steel Pipe 
+
+170.03     Gas Nobelisk                 Gas Nobelisk 
+                                          Nobelisk 
+                                          Biomass (Wood) 
+
+121.45     Homing Rifle Ammo            Homing Rifle Ammo 
+                                          Rifle Ammo 
+                                          High-Speed Connector 
+
+109.23     Compacted Coal               Compacted Coal 
+                                          Coal 
+                                          Sulfur 
+
+95.67      Packaged Sulfuric Acid       Packaged Sulfuric Acid 
+                                          Sulfuric Acid 
+                                          Coated Iron Canister (alt)
+
+94.66      Packaged Turbofuel           Packaged Turbofuel 
+                                          Turbo Blend Fuel (alt)
+                                          Coated Iron Canister (alt)
+
+76.67      Stun Rebar                   Stun Rebar 
+                                          Iron Rebar 
+                                          Fused Quickwire (alt)
+
+58.73      Packaged Oil                 Packaged Oil 
+                                          Crude Oil 
+                                          Coated Iron Canister (alt)
+
+58.73      Parachute                    Parachute 
+                                          Polyester Fabric 
+                                          Insulated Cable (alt)
+
+57.93      Packaged Alumina Solution    Packaged Alumina Solution 
+                                          Sloppy Alumina (alt)
+                                          Coated Iron Canister (alt)
+
+46.92      Packaged Heavy Oil Residue   Packaged Heavy Oil Residue 
+                                          Heavy Oil Residue (alt)
+                                          Coated Iron Canister (alt)
+
+27.55      Packaged Fuel                Diluted Packaged Fuel (alt)
+                                          Heavy Oil Residue (alt)
+                                          Packaged Water 
+
+18.2       Turbo Rifle Ammo             Turbo Rifle Ammo 
+                                          Rifle Ammo 
+                                          Alclad Casing (alt)
+                                          Turbo Blend Fuel (alt)
+
+7.65       Packaged Liquid Biofuel      Packaged Liquid Biofuel 
+                                          Liquid Biofuel 
+                                          Coated Iron Canister (alt)
+
+0.33       Alien Protein                Hog Protein 
+                                          Hog Remains 
+
+0.07       Color Cartridge              Color Cartridge 
+                                          Flower Petals 
+
+0.0        Leaves                       Leaves 
+
+0.0        Mycelia                      Mycelia 
+
+0.0        Medicinal Inhaler            Nutritional Inhaler 
+                                          Bacon Agaric 
+                                          Paleberry 
+                                          Beryl Nut 
+
