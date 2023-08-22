@@ -1,0 +1,47 @@
+True cost  Item name                    Recipe name
+
+|Iron Wire|Wire|
+|Steel Rod|Iron Rod|
+|Steel Coated Plate|Iron Plate|
+|Pure Iron Ingot|Iron Ingot|
+|Insulated Cable|Cable|
+|Coated Iron Canister|Empty Canister|
+|Pure Copper Ingot|Copper Ingot|
+|Steamed Copper Sheet|Copper Sheet|
+|Fused Quickwire|Quickwire|
+|Recycled Rubber|Rubber|
+|Recycled Plastic|Plastic|
+|Rubber Concrete|Concrete|
+|Coke Steel Ingot|Steel Ingot|
+|Diluted Fuel|Fuel|
+|Polymer Resin|Polymer Resin|
+|Cheap Silica|Silica|
+|Electrode - Aluminum Scrap|Aluminum Scrap|
+|Adhered Iron Plate|Reinforced Iron Plate|
+|Heavy Oil Residue|Heavy Oil Residue|
+|Copper Rotor|Rotor|
+|Sloppy Alumina|Alumina Solution|
+|Pure Aluminum Ingot|Aluminum Ingot|
+|Pure Quartz Crystal|Quartz Crystal|
+|Plastic Smart Plating|Smart Plating|
+|Caterium Circuit Board|Circuit Board|
+|Turbo Blend Fuel|Turbofuel|
+|Alclad Casing|Aluminum Casing|
+|Pure Caterium Ingot|Caterium Ingot|
+|Encased Industrial Pipe|Encased Industrial Beam|
+|Rigour Motor|Motor|
+|Classic Battery|Battery|
+|Flexible Framework|Versatile Framework|
+|Heat Exchanger|Heat Sink|
+|Caterium Computer|Computer|
+|Insulated Crystal Oscillator|Crystal Oscillator|
+|Fertile Uranium|Non-fissile Uranium|
+|Heavy Encased Frame|Heavy Modular Frame|
+|Cooling Device|Cooling System|
+|Infused Uranium Cell|Encased Uranium Cell|
+|Super-State Computer|Supercomputer|
+|Heat-Fused Frame|Fused Modular Frame|
+|Instant Plutonium Cell|Encased Plutonium Cell|
+|Turbo Electric Motor|Turbo Motor|
+|Uranium Fuel Unit|Uranium Fuel Rod|
+|Plutonium Fuel Unit|Plutonium Fuel Rod|

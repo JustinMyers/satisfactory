@@ -1,0 +1,461 @@
+---
+- :name: AI Limiter
+  :sink_value: 920
+  :energy: 
+- :name: Adaptive Control Unit
+  :sink_value: 86120
+  :energy: 
+- :name: Alclad Aluminum Sheet
+  :sink_value: 266
+  :energy: 
+- :name: Alien Carapace
+  :sink_value: 
+  :energy: 250
+- :name: Alien DNA Capsule
+  :sink_value: 1000
+  :energy: 
+- :name: Alien Organs
+  :sink_value: 
+  :energy: 250
+- :name: Alien Protein
+  :sink_value: 
+  :energy: 
+- :name: Hog Remains
+  :sink_value: 
+  :energy: 250
+- :name: Alumina Solution
+  :sink_value: 50.0
+  :energy: 
+- :name: Aluminum Casing
+  :sink_value: 393
+  :energy: 
+- :name: Aluminum Ingot
+  :sink_value: 131
+  :energy: 
+- :name: Aluminum Scrap
+  :sink_value: 27
+  :energy: 
+- :name: Assembly Director System
+  :sink_value: 543632
+  :energy: 
+- :name: Automated Wiring
+  :sink_value: 1440
+  :energy: 
+- :name: Bacon Agaric
+  :sink_value: 
+  :energy: 0
+- :name: Battery
+  :sink_value: 465
+  :energy: 6000
+- :name: Bauxite
+  :sink_value: 8
+  :energy: 
+  :mined_per_second: 163.0
+  :mj_cost: 11.171779141104295
+- :name: Beacon
+  :sink_value: 320
+  :energy: 0
+- :name: Beryl Nut
+  :sink_value: 
+  :energy: 0
+- :name: Biomass
+  :sink_value: 12
+  :energy: 180
+- :name: Black Powder
+  :sink_value: 14
+  :energy: 
+- :name: Blade Runners
+  :sink_value: 4088
+  :energy: 0
+- :name: Boom Box
+  :sink_value: 
+  :energy: 0
+- :name: Build Gun
+  :sink_value: 
+  :energy: 
+- :name: Cable
+  :sink_value: 24
+  :energy: 
+- :name: Caterium Ingot
+  :sink_value: 42
+  :energy: 
+- :name: Caterium Ore
+  :sink_value: 7
+  :energy: 
+  :mined_per_second: 184.0
+  :mj_cost: 8.48695652173913
+- :name: Chainsaw
+  :sink_value: 2760
+  :energy: 0
+- :name: Circuit Board
+  :sink_value: 696
+  :energy: 
+- :name: Coal
+  :sink_value: 3
+  :energy: 300
+  :mined_per_second: 502.0
+  :mj_cost: 10.880398406374502
+- :name: Color Cartridge
+  :sink_value: 10
+  :energy: 900
+- :name: Color Gun
+  :sink_value: 860
+  :energy: 0
+- :name: Compacted Coal
+  :sink_value: 28
+  :energy: 630
+- :name: Computer
+  :sink_value: 17260
+  :energy: 
+- :name: Concrete
+  :sink_value: 12
+  :energy: 
+- :name: Cooling System
+  :sink_value: 12006
+  :energy: 
+- :name: Copper Ingot
+  :sink_value: 6
+  :energy: 
+- :name: Copper Ore
+  :sink_value: 3
+  :energy: 
+  :mined_per_second: 481.0
+  :mj_cost: 11.624532224532226
+- :name: Copper Powder
+  :sink_value: 72
+  :energy: 
+- :name: Copper Sheet
+  :sink_value: 24
+  :energy: 
+- :name: Crude Oil
+  :sink_value: 60.0
+  :energy: 
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+- :name: Crystal Oscillator
+  :sink_value: 3072
+  :energy: 
+- :name: Cup
+  :sink_value: 
+  :energy: 
+- :name: Electromagnetic Control Rod
+  :sink_value: 2560
+  :energy: 
+- :name: Empty Canister
+  :sink_value: 60
+  :energy: 
+- :name: Empty Fluid Tank
+  :sink_value: 225
+  :energy: 
+- :name: Encased Industrial Beam
+  :sink_value: 632
+  :energy: 
+- :name: Encased Plutonium Cell
+  :sink_value: 0
+  :energy: 
+- :name: Encased Uranium Cell
+  :sink_value: 147
+  :energy: 
+- :name: FICSIT Coupon
+  :sink_value: 1
+  :energy: 
+- :name: Fabric
+  :sink_value: 140
+  :energy: 15
+- :name: FICSIT Factory Cart™
+  :sink_value: 2
+  :energy: 
+- :name: Flower Petals
+  :sink_value: 10
+  :energy: 100
+- :name: Fuel
+  :sink_value: 105.0
+  :energy: 750
+- :name: Fused Modular Frame
+  :sink_value: 62840
+  :energy: 
+- :name: Gas Mask
+  :sink_value: 55000
+  :energy: 0
+- :name: HUB Parts
+  :sink_value: 
+  :energy: 
+- :name: Hard Drive
+  :sink_value: 
+  :energy: 
+- :name: Hazmat Suit
+  :sink_value: 54100
+  :energy: 0
+- :name: Heat Sink
+  :sink_value: 2804
+  :energy: 
+- :name: Heavy Modular Frame
+  :sink_value: 11520
+  :energy: 
+- :name: Heavy Oil Residue
+  :sink_value: 60.0
+  :energy: 400
+- :name: High-Speed Connector
+  :sink_value: 3776
+  :energy: 
+- :name: Hover Pack
+  :sink_value: 413920
+  :energy: 0
+- :name: Iron Ingot
+  :sink_value: 2
+  :energy: 
+- :name: Iron Ore
+  :sink_value: 1
+  :energy: 
+  :mined_per_second: 1173.0
+  :mj_cost: 10.757101449275364
+- :name: Iron Plate
+  :sink_value: 6
+  :energy: 
+- :name: Iron Rod
+  :sink_value: 4
+  :energy: 
+- :name: Jetpack
+  :sink_value: 35580
+  :energy: 0
+- :name: Leaves
+  :sink_value: 3
+  :energy: 15
+- :name: Limestone
+  :sink_value: 2
+  :energy: 
+  :mined_per_second: 881.0
+  :mj_cost: 10.702746878547106
+- :name: Liquid Biofuel
+  :sink_value: 155.0
+  :energy: 750
+- :name: Magnetic Field Generator
+  :sink_value: 15650
+  :energy: 
+- :name: Medicinal Inhaler
+  :sink_value: 125
+  :energy: 0
+- :name: Mercer Sphere
+  :sink_value: 
+  :energy: 
+- :name: Modular Engine
+  :sink_value: 9960
+  :energy: 
+- :name: Modular Frame
+  :sink_value: 408
+  :energy: 
+- :name: Motor
+  :sink_value: 1520
+  :energy: 
+- :name: Mycelia
+  :sink_value: 10
+  :energy: 20
+- :name: Nitric Acid
+  :sink_value: 176.0
+  :energy: 
+- :name: Nitrogen Gas
+  :sink_value: 126.0
+  :energy: 
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+- :name: Nobelisk Detonator
+  :sink_value: 6480
+  :energy: 0
+- :name: Non-fissile Uranium
+  :sink_value: 0
+  :energy: 
+- :name: Nuclear Pasta
+  :sink_value: 543424
+  :energy: 
+- :name: Object Scanner
+  :sink_value: 1400
+  :energy: 0
+- :name: Packaged Alumina Solution
+  :sink_value: 160
+  :energy: 
+- :name: Packaged Fuel
+  :sink_value: 270
+  :energy: 750
+- :name: Packaged Heavy Oil Residue
+  :sink_value: 180
+  :energy: 400
+- :name: Packaged Liquid Biofuel
+  :sink_value: 370
+  :energy: 750
+- :name: Packaged Nitric Acid
+  :sink_value: 412
+  :energy: 
+- :name: Packaged Nitrogen Gas
+  :sink_value: 312
+  :energy: 
+- :name: Packaged Oil
+  :sink_value: 180
+  :energy: 320
+- :name: Packaged Sulfuric Acid
+  :sink_value: 152
+  :energy: 
+- :name: Packaged Turbofuel
+  :sink_value: 570
+  :energy: 2000
+- :name: Packaged Water
+  :sink_value: 130
+  :energy: 
+- :name: Paleberry
+  :sink_value: 
+  :energy: 0
+- :name: Parachute
+  :sink_value: 608
+  :energy: 0
+- :name: Petroleum Coke
+  :sink_value: 20
+  :energy: 180
+- :name: Plastic
+  :sink_value: 75
+  :energy: 
+- :name: Plutonium Fuel Rod
+  :sink_value: 153184
+  :energy: 1500000
+- :name: Plutonium Pellet
+  :sink_value: 0
+  :energy: 
+- :name: Plutonium Waste
+  :sink_value: 0
+  :energy: 
+- :name: Polymer Resin
+  :sink_value: 12
+  :energy: 
+- :name: Power Shard
+  :sink_value: 
+  :energy: 
+- :name: Power Slug
+  :sink_value: 
+  :energy: 
+- :name: Pressure Conversion Cube
+  :sink_value: 257312
+  :energy: 
+- :name: Quantum Computer
+  :sink_value: 
+  :energy: 
+- :name: Quartz Crystal
+  :sink_value: 50
+  :energy: 
+- :name: Quickwire
+  :sink_value: 17
+  :energy: 
+- :name: Radio Control Unit
+  :sink_value: 19600
+  :energy: 
+- :name: Raw Quartz
+  :sink_value: 15
+  :energy: 
+  :mined_per_second: 175.0
+  :mj_cost: 10.032914285714288
+- :name: Rebar Gun
+  :sink_value: 1968
+  :energy: 0
+- :name: Reinforced Iron Plate
+  :sink_value: 120
+  :energy: 
+- :name: Rifle
+  :sink_value: 9480
+  :energy: 0
+- :name: Rotor
+  :sink_value: 140
+  :energy: 
+- :name: Rubber
+  :sink_value: 60
+  :energy: 
+- :name: SAM Ore
+  :sink_value: 
+  :energy: 
+- :name: Screw
+  :sink_value: 2
+  :energy: 
+- :name: Silica
+  :sink_value: 20
+  :energy: 
+- :name: Smart Plating
+  :sink_value: 520
+  :energy: 
+- :name: Smokeless Powder
+  :sink_value: 58
+  :energy: 
+- :name: Solid Biofuel
+  :sink_value: 48
+  :energy: 450
+- :name: Somersloop
+  :sink_value: 
+  :energy: 
+- :name: Stator
+  :sink_value: 240
+  :energy: 
+- :name: Adequate Pioneering
+  :sink_value: 
+  :energy: 
+- :name: Steel Beam
+  :sink_value: 64
+  :energy: 
+- :name: Steel Ingot
+  :sink_value: 8
+  :energy: 
+- :name: Steel Pipe
+  :sink_value: 24
+  :energy: 
+- :name: Sulfur
+  :sink_value: 11
+  :energy: 
+  :mined_per_second: 114.0
+  :mj_cost: 10.836842105263159
+- :name: Sulfuric Acid
+  :sink_value: 46.0
+  :energy: 
+- :name: Supercomputer
+  :sink_value: 99576
+  :energy: 
+- :name: Superposition Oscillator
+  :sink_value: 
+  :energy: 
+- :name: Thermal Propulsion Rocket
+  :sink_value: 732956
+  :energy: 
+- :name: Turbo Motor
+  :sink_value: 242720
+  :energy: 0
+- :name: Turbofuel
+  :sink_value: 255.0
+  :energy: 2000
+- :name: Uranium
+  :sink_value: 35
+  :energy: 
+  :mined_per_second: 35.0
+  :mj_cost: 14.85257142857143
+- :name: Uranium Fuel Rod
+  :sink_value: 44092
+  :energy: 750000
+- :name: Uranium Waste
+  :sink_value: 0
+  :energy: 
+- :name: Versatile Framework
+  :sink_value: 1176
+  :energy: 
+- :name: Vines
+  :sink_value: 
+  :energy: 
+- :name: Water
+  :sink_value: 35.0
+  :energy: 
+- :name: Wire
+  :sink_value: 6
+  :energy: 
+- :name: Wood
+  :sink_value: 30
+  :energy: 100
+- :name: Xeno-Basher
+  :sink_value: 18800
+  :energy: 0
+- :name: Xeno-Zapper
+  :sink_value: 1880
+  :energy: 0
+- :name: Zipline
+  :sink_value: 5284
+  :energy: 0

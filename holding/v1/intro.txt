@@ -1,0 +1,7 @@
+Hi folks. I thought I would share the results of what I've been working on lately. I've always found the recipe comparisons in the wiki to be hard to interpret. I don't like the WP/Weighted Point consumption metric it uses.
+
+The project creates a Directed Acyclic Graph of all recipes and calculates their costs. All items choose their lowest "true cost" which is the sum of raw materials plus energy. The cost of energy is determined by choosing the highest "energy / raw materials" ratio in the game, which is Uranium Fuel Rod.
+
+Raw materials are assumed to have the raw material cost of their sink value plus energy used to harvest it with a non-overclocked Miner Mk.3.
+
+Water's raw material cost is set to zero plus the cost of the energy - this is the only major assumption I've made. I would welcome conversation about how to "price" Water and other fluids. Other fluids were "priced" as 1/5 the cost difference between the Packaged version and the sink cost of an Empty Container.

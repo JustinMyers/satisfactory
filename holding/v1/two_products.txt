@@ -1,0 +1,107 @@
+{:name=>"Plastic",
+ :alternate=>false,
+ :building=>["Refinery", 6],
+ :prerequisites=>"Tier 5 - Oil Processing",
+ :products=>[[2, "Plastic"], [1, "Heavy Oil Residue"]],
+ :ingredients=>[[3, "Crude Oil"]],
+ :sink_value=>210,
+ :sink_cost=>180,
+ :build_cost=>180.0,
+ :mj_cost=>179.99998560000117,
+ :energy_cost=>209.99998320000137,
+ :build_costs=>{"Plastic"=>90.0, "Heavy Oil Residue"=>180.0},
+ :energy_costs=>
+  {"Plastic"=>104.99999160000068, "Heavy Oil Residue"=>209.99998320000137}}
+
+
+
+
+{:name=>"Rubber",
+ :alternate=>false,
+ :building=>["Refinery", 6],
+ :prerequisites=>"Tier 5 - Oil Processing",
+ :products=>[[2, "Rubber"], [2, "Heavy Oil Residue"]],
+ :ingredients=>[[3, "Crude Oil"]],
+ :sink_value=>240,
+ :sink_cost=>180,
+ :build_cost=>180.0,
+ :mj_cost=>179.99998560000117,
+ :energy_cost=>209.99998320000137,
+ :build_costs=>{"Rubber"=>90.0, "Heavy Oil Residue"=>90.0},
+ :energy_costs=>
+  {"Rubber"=>104.99999160000068, "Heavy Oil Residue"=>104.99999160000068}}
+
+
+
+
+{:name=>"Heavy Oil Residue",
+ :alternate=>true,
+ :building=>["Refinery", 6],
+ :prerequisites=>"Tier 5 - Oil Processing",
+ :products=>[[4, "Heavy Oil Residue"], [2, "Polymer Resin"]],
+ :ingredients=>[[3, "Crude Oil"]],
+ :sink_value=>264,
+ :sink_cost=>180,
+ :build_cost=>180.0,
+ :mj_cost=>179.99998560000117,
+ :energy_cost=>209.99998320000137,
+ :build_costs=>{"Heavy Oil Residue"=>45.0, "Polymer Resin"=>90.0},
+ :energy_costs=>
+  {"Heavy Oil Residue"=>52.49999580000034,
+   "Polymer Resin"=>104.99999160000068}}
+
+
+
+
+{:name=>"Polymer Resin",
+ :alternate=>true,
+ :building=>["Refinery", 6],
+ :prerequisites=>"Tier 5 - Oil Processing",
+ :products=>[[13, "Polymer Resin"], [2, "Heavy Oil Residue"]],
+ :ingredients=>[[6, "Crude Oil"]],
+ :sink_value=>276,
+ :sink_cost=>360,
+ :build_cost=>360.0,
+ :mj_cost=>179.99998560000117,
+ :energy_cost=>239.99998080000157,
+ :build_costs=>
+  {"Polymer Resin"=>27.692307692307693, "Heavy Oil Residue"=>180.0},
+ :energy_costs=>
+  {"Polymer Resin"=>18.461536984615506,
+   "Heavy Oil Residue"=>119.99999040000078}}
+
+
+
+{:name=>"Fuel",
+ :alternate=>false,
+ :building=>["Refinery", 6],
+ :prerequisites=>"Tier 5 - Oil Processing",
+ :products=>[[4, "Fuel"], [3, "Polymer Resin"]],
+ :ingredients=>[[6, "Crude Oil"]],
+ :sink_value=>456,
+ :sink_cost=>360,
+ :build_cost=>360.0,
+ :mj_cost=>179.99998560000117,
+ :energy_cost=>239.99998080000157,
+ :build_costs=>{"Fuel"=>90.0, "Polymer Resin"=>120.0},
+ :energy_costs=>
+  {"Fuel"=>59.99999520000039, "Polymer Resin"=>79.99999360000052}}
+
+
+
+{:name=>"Encased Uranium Cell",
+ :alternate=>false,
+ :building=>["Blender", 12],
+ :prerequisites=>"Tier 8 - Nuclear Power",
+ :products=>[[5, "Encased Uranium Cell"], [2, "Sulfuric Acid"]],
+ :ingredients=>[[10, "Uranium"], [3, "Concrete"], [8, "Sulfuric Acid"]],
+ :sink_value=>827,
+ :sink_cost=>754,
+ :build_cost=>447.0,
+ :mj_cost=>899.9999280000056,
+ :energy_cost=>1457.3748834100093,
+ :build_costs=>{"Encased Uranium Cell"=>89.4, "Sulfuric Acid"=>223.5},
+ :energy_costs=>
+  {"Encased Uranium Cell"=>291.47497668200185,
+   "Sulfuric Acid"=>728.6874417050046}}
+

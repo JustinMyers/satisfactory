@@ -1,0 +1,1319 @@
+---
+- :name: Crude Oil
+  :sink_value: 60.0
+  :energy: 
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+  :sink_cost: 
+  :build_cost:
+  - 51.282051282051285
+  - 33.32
+  - Crude Oil
+  - false
+- :name: Heavy Oil Residue
+  :sink_value: 60.0
+  :energy: 400
+  :sink_cost: 
+  :build_cost:
+  - 38.46153846153847
+  - 69.9899964000003
+  - Heavy Oil Residue
+  - true
+- :name: Petroleum Coke
+  :sink_value: 20
+  :energy: 180
+  :sink_cost: 
+  :build_cost:
+  - 12.820512820512823
+  - 38.32999760000019
+  - Petroleum Coke
+  - false
+- :name: Bauxite
+  :sink_value: 8
+  :energy: 
+  :mined_per_second: 163.0
+  :mj_cost: 11.171779141104295
+  :sink_cost: 
+  :build_cost:
+  - 61.34969325153374
+  - 11.171779141104295
+  - Bauxite
+  - false
+- :name: Water
+  :sink_value: 35.0
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 10.0
+  - Water
+  - false
+- :name: Alumina Solution
+  :sink_value: 50.0
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 51.12474437627812
+  - 25.143148684253628
+  - Sloppy Alumina
+  - true
+- :name: Coal
+  :sink_value: 3
+  :energy: 300
+  :mined_per_second: 502.0
+  :mj_cost: 10.880398406374502
+  :sink_cost: 
+  :build_cost:
+  - 19.9203187250996
+  - 10.880398406374502
+  - Coal
+  - false
+- :name: Uranium
+  :sink_value: 35
+  :energy: 
+  :mined_per_second: 35.0
+  :mj_cost: 14.85257142857143
+  :sink_cost: 
+  :build_cost:
+  - 2857.1428571428573
+  - 14.85257142857143
+  - Uranium
+  - false
+- :name: Limestone
+  :sink_value: 2
+  :energy: 
+  :mined_per_second: 881.0
+  :mj_cost: 10.702746878547106
+  :sink_cost: 
+  :build_cost:
+  - 11.350737797956867
+  - 10.702746878547106
+  - Limestone
+  - false
+- :name: Polymer Resin
+  :sink_value: 12
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 23.66863905325444
+  - 29.224614276923166
+  - Polymer Resin
+  - true
+- :name: Rubber
+  :sink_value: 60
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 9.615384615384617
+  - 154.60854768846235
+  - Recycled Rubber
+  - true
+- :name: Fuel
+  :sink_value: 105.0
+  :energy: 750
+  :sink_cost: 
+  :build_cost:
+  - 19.230769230769234
+  - 89.99499460000042
+  - Diluted Fuel
+  - true
+- :name: Plastic
+  :sink_value: 75
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 9.615384615384617
+  - 159.22210557692387
+  - Recycled Plastic
+  - true
+- :name: Raw Quartz
+  :sink_value: 15
+  :energy: 
+  :mined_per_second: 175.0
+  :mj_cost: 10.032914285714288
+  :sink_cost: 
+  :build_cost:
+  - 57.142857142857146
+  - 10.032914285714288
+  - Raw Quartz
+  - false
+- :name: Silica
+  :sink_value: 20
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 32.597465774050825
+  - 46.230351149982845
+  - Cheap Silica
+  - true
+- :name: Concrete
+  :sink_value: 12
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 14.748683023370878
+  - 66.2493944180441
+  - Rubber Concrete
+  - true
+- :name: Sulfur
+  :sink_value: 11
+  :energy: 
+  :mined_per_second: 114.0
+  :mj_cost: 10.836842105263159
+  :sink_cost: 
+  :build_cost:
+  - 87.71929824561403
+  - 10.836842105263159
+  - Sulfur
+  - false
+- :name: Sulfuric Acid
+  :sink_value: 46.0
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 87.71929824561403
+  - 56.8368392252634
+  - Sulfuric Acid
+  - false
+- :name: Aluminum Scrap
+  :sink_value: 27
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 33.23894918986944
+  - 28.751888250552252
+  - Electrode - Aluminum Scrap
+  - true
+- :name: Aluminum Ingot
+  :sink_value: 131
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 66.47789837973887
+  - 65.50377586110456
+  - Pure Aluminum Ingot
+  - true
+- :name: Copper Ore
+  :sink_value: 3
+  :energy: 
+  :mined_per_second: 481.0
+  :mj_cost: 11.624532224532226
+  :sink_cost: 
+  :build_cost:
+  - 20.79002079002079
+  - 11.624532224532226
+  - Copper Ore
+  - false
+- :name: Iron Ore
+  :sink_value: 1
+  :energy: 
+  :mined_per_second: 1173.0
+  :mj_cost: 10.757101449275364
+  :sink_cost: 
+  :build_cost:
+  - 8.525149190110827
+  - 10.757101449275364
+  - Iron Ore
+  - false
+- :name: Copper Ingot
+  :sink_value: 6
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 8.316008316008316
+  - 55.31647571647987
+  - Pure Copper Ingot
+  - true
+- :name: Aluminum Casing
+  :sink_value: 393
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 94.18120338365738
+  - 132.21601765245936
+  - Alclad Casing
+  - true
+- :name: Empty Fluid Tank
+  :sink_value: 225
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 66.47789837973887
+  - 69.50377554110459
+  - Empty Fluid Tank
+  - false
+- :name: Copper Sheet
+  :sink_value: 24
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 8.316008316008316
+  - 145.31646931648038
+  - Steamed Copper Sheet
+  - true
+- :name: Compacted Coal
+  :sink_value: 28
+  :energy: 630
+  :sink_cost: 
+  :build_cost:
+  - 107.63961697071363
+  - 57.7172376316379
+  - Compacted Coal
+  - false
+- :name: Black Powder
+  :sink_value: 14
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 53.819808485356816
+  - 40.85861785581903
+  - Black Powder
+  - false
+- :name: Smokeless Powder
+  :sink_value: 58
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 73.05057771612604
+  - 165.85360885581974
+  - Smokeless Powder
+  - false
+- :name: Rifle Ammo
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 11.40327869201847
+  - 63.17710741740545
+  - Rifle Ammo
+  - false
+- :name: Turbofuel
+  :sink_value: 255.0
+  :energy: 2000
+  :sink_cost: 
+  :build_cost:
+  - 82.32118758434548
+  - 201.24174098596598
+  - Turbo Blend Fuel
+  - true
+- :name: Iron Ingot
+  :sink_value: 2
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 4.590464948521215
+  - 36.56151394960999
+  - Pure Iron Ingot
+  - true
+- :name: Steel Ingot
+  :sink_value: 8
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 16.009246507967738
+  - 46.415323518956725
+  - Coke Steel Ingot
+  - true
+- :name: Iron Plate
+  :sink_value: 6
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 3.736583819704025
+  - 45.448630237347714
+  - Steel Coated Plate
+  - true
+- :name: Empty Canister
+  :sink_value: 60
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 3.9472939888540917
+  - 74.05343124779405
+  - Coated Iron Canister
+  - true
+- :name: Packaged Turbofuel
+  :sink_value: 570
+  :energy: 2000
+  :sink_cost: 
+  :build_cost:
+  - 86.26848157319957
+  - 305.2951698337602
+  - Packaged Turbofuel
+  - false
+- :name: Turbo Rifle Ammo
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 16.291782804089408
+  - 69.59601778700836
+  - Turbo Rifle Ammo
+  - false
+- :name: Steel Beam
+  :sink_value: 64
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 64.03698603187095
+  - 201.661292795827
+  - Steel Beam
+  - false
+- :name: Steel Pipe
+  :sink_value: 24
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 24.013869761951607
+  - 81.62298431843517
+  - Steel Pipe
+  - false
+- :name: Encased Industrial Beam
+  :sink_value: 632
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 241.84050345051566
+  - 1127.6078443192682
+  - Encased Industrial Pipe
+  - true
+- :name: Caterium Ore
+  :sink_value: 7
+  :energy: 
+  :mined_per_second: 184.0
+  :mj_cost: 8.48695652173913
+  :sink_cost: 
+  :build_cost:
+  - 54.34782608695652
+  - 8.48695652173913
+  - Caterium Ore
+  - false
+- :name: Caterium Ingot
+  :sink_value: 42
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 108.69565217391305
+  - 186.97390104347923
+  - Pure Caterium Ingot
+  - true
+- :name: Quickwire
+  :sink_value: 17
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 12.522974479496218
+  - 48.62968916882328
+  - Fused Quickwire
+  - true
+- :name: Wire
+  :sink_value: 6
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 2.5502583047340086
+  - 30.978618007561174
+  - Iron Wire
+  - true
+- :name: Stator
+  :sink_value: 240
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 92.44367572372688
+  - 672.6978826157961
+  - Stator
+  - false
+- :name: Cable
+  :sink_value: 24
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 4.032231621745689
+  - 69.32294168994129
+  - Insulated Cable
+  - true
+- :name: Circuit Board
+  :sink_value: 696
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 67.4061543626761
+  - 539.0053757202336
+  - Caterium Circuit Board
+  - true
+- :name: High-Speed Connector
+  :sink_value: 3776
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 809.0150414319213
+  - 4835.497315673756
+  - High-Speed Connector
+  - false
+- :name: Automated Wiring
+  :sink_value: 1440
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 173.08830815864064
+  - 2419.156687614624
+  - Automated Wiring
+  - false
+- :name: Iron Rod
+  :sink_value: 4
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 4.0023116269919345
+  - 16.603830479739212
+  - Steel Rod
+  - true
+- :name: Screw
+  :sink_value: 2
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 1.0005779067479836
+  - 10.150957139934842
+  - Screw
+  - false
+- :name: Reinforced Iron Plate
+  :sink_value: 120
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 20.82513607449669
+  - 530.9544192005071
+  - Adhered Iron Plate
+  - true
+- :name: Modular Frame
+  :sink_value: 408
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 55.25157387369664
+  - 1346.054575679199
+  - Modular Frame
+  - false
+- :name: Heavy Modular Frame
+  :sink_value: 11520
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 1349.795987813049
+  - 9986.809626562312
+  - Heavy Encased Frame
+  - true
+- :name: Quartz Crystal
+  :sink_value: 50
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 73.46938775510205
+  - 54.3280299102043
+  - Pure Quartz Crystal
+  - true
+- :name: AI Limiter
+  :sink_value: 920
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 292.0395311699659
+  - 1879.1761155588686
+  - AI Limiter
+  - false
+- :name: Crystal Oscillator
+  :sink_value: 3072
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 1094.041101028679
+  - 5264.716107680159
+  - Insulated Crystal Oscillator
+  - true
+- :name: Computer
+  :sink_value: 17260
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 937.8709813492422
+  - 7869.9714286302415
+  - Caterium Computer
+  - true
+- :name: Adaptive Control Unit
+  :sink_value: 86120
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 3922.860052165476
+  - 41995.48282690342
+  - Adaptive Control Unit
+  - false
+- :name: Electromagnetic Control Rod
+  :sink_value: 2560
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 430.7050447555563
+  - 3113.2229214825643
+  - Electromagnetic Control Rod
+  - false
+- :name: Alclad Aluminum Sheet
+  :sink_value: 266
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 69.24990115174165
+  - 113.9425986999314
+  - Alclad Aluminum Sheet
+  - false
+- :name: Battery
+  :sink_value: 465
+  :energy: 6000
+  :sink_cost: 
+  :build_cost:
+  - 279.6478185289402
+  - 737.4200586208452
+  - Classic Battery
+  - true
+- :name: Heat Sink
+  :sink_value: 2804
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 311.389763997126
+  - 950.4736888227657
+  - Heat Exchanger
+  - true
+- :name: Radio Control Unit
+  :sink_value: 19600
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 2522.8552953274784
+  - 10002.799944994558
+  - Radio Control Unit
+  - false
+- :name: Nitrogen Gas
+  :sink_value: 126.0
+  :energy: 
+  :mined_per_second: 195.0
+  :mj_cost: 33.32
+  :sink_cost: 
+  :build_cost:
+  - 51.282051282051285
+  - 33.32
+  - Nitrogen Gas
+  - false
+- :name: Rotor
+  :sink_value: 140
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 33.97536701564835
+  - 546.5828559918319
+  - Copper Rotor
+  - true
+- :name: Motor
+  :sink_value: 1520
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 245.54970487446744
+  - 1927.0930187171768
+  - Rigour Motor
+  - true
+- :name: Cooling System
+  :sink_value: 12006
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 1516.6338778146642
+  - 4939.57063541551
+  - Cooling Device
+  - true
+- :name: Supercomputer
+  :sink_value: 99576
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 4691.370513925337
+  - 24364.399445806517
+  - Super-State Computer
+  - true
+- :name: Assembly Director System
+  :sink_value: 543632
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 12537.09061825629
+  - 109555.36500361336
+  - Assembly Director System
+  - false
+- :name: Iron Rebar
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 4.0023116269919345
+  - 32.603829199739316
+  - Iron Rebar
+  - false
+- :name: Stun Rebar
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 66.61718402447303
+  - 365.7522678438563
+  - Stun Rebar
+  - false
+- :name: Packaged Water
+  :sink_value: 130
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 3.9472939888540917
+  - 94.05343044779411
+  - Packaged Water
+  - false
+- :name: Encased Uranium Cell
+  :sink_value: 147
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 3752.486947864238
+  - 414.1458514628688
+  - Infused Uranium Cell
+  - true
+- :name: Beacon
+  :sink_value: 320
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 61.530400900605514
+  - 1196.2748394850853
+  - Beacon
+  - false
+- :name: Uranium Fuel Rod
+  :sink_value: 44092
+  :energy: 750000
+  :sink_cost: 
+  :build_cost:
+  - 127735.68364748968
+  - 37339.53680035454
+  - Uranium Fuel Unit
+  - true
+- :name: Uranium Waste
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 2554.713672949794
+  - -14013.208063993003
+  - Uranium Waste
+  - false
+- :name: Nitric Acid
+  :sink_value: 176.0
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 206.3737330681065
+  - 308.4295314124502
+  - Nitric Acid
+  - false
+- :name: Non-fissile Uranium
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 1405.8500170447821
+  - -3394.115237222925
+  - Fertile Uranium
+  - true
+- :name: Golden Factory Cart
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 1714.39476314796
+  - 3964.1895495548097
+  - Golden Factory Cart
+  - false
+- :name: Homing Rifle Ammo
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 103.70806152722908
+  - 645.9039435221869
+  - Homing Rifle Ammo
+  - false
+- :name: Flower Petals
+  :sink_value: 10
+  :energy: 100
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Flower Petals
+  - false
+- :name: Packaged Oil
+  :sink_value: 180
+  :energy: 320
+  :sink_cost: 
+  :build_cost:
+  - 55.22934527090538
+  - 127.37342964779418
+  - Packaged Oil
+  - false
+- :name: Nobelisk
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 155.66735649461685
+  - 334.963197148509
+  - Nobelisk
+  - false
+- :name: Cluster Nobelisk
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 759.2043803483548
+  - 2028.3039980688084
+  - Cluster Nobelisk
+  - false
+- :name: Packaged Sulfuric Acid
+  :sink_value: 152
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 91.66659223446811
+  - 145.89026927305756
+  - Packaged Sulfuric Acid
+  - false
+- :name: Smart Plating
+  :sink_value: 520
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 41.82332846814945
+  - 1437.8906366827136
+  - Plastic Smart Plating
+  - true
+- :name: Modular Engine
+  :sink_value: 9960
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 718.976835916003
+  - 12562.483237530583
+  - Modular Engine
+  - false
+- :name: Blade Runners
+  :sink_value: 4088
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 919.6301381490515
+  - 6602.51931801275
+  - Blade Runners
+  - false
+- :name: Color Cartridge
+  :sink_value: 10
+  :energy: 900
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 2.3999998080000156
+  - Color Cartridge
+  - false
+- :name: Jetpack
+  :sink_value: 35580
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 3200.3793013509403
+  - 34133.001428043324
+  - Jetpack
+  - false
+- :name: Explosive Rebar
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 202.1335182101392
+  - 1220.1607919479927
+  - Explosive Rebar
+  - false
+- :name: Pulse Nobelisk
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 374.47557670035263
+  - 1567.9064042845418
+  - Pulse Nobelisk
+  - false
+- :name: Leaves
+  :sink_value: 3
+  :energy: 15
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Leaves
+  - false
+- :name: Wood
+  :sink_value: 30
+  :energy: 100
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Wood
+  - false
+- :name: Mycelia
+  :sink_value: 10
+  :energy: 20
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Mycelia
+  - false
+- :name: Biomass
+  :sink_value: 12
+  :energy: 180
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.7999999360000051
+  - Biomass (Wood)
+  - false
+- :name: Solid Biofuel
+  :sink_value: 48
+  :energy: 450
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 5.599999552000035
+  - Solid Biofuel
+  - false
+- :name: Liquid Biofuel
+  :sink_value: 155.0
+  :energy: 750
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 45.89999692800025
+  - Liquid Biofuel
+  - false
+- :name: Packaged Liquid Biofuel
+  :sink_value: 370
+  :energy: 750
+  :sink_cost: 
+  :build_cost:
+  - 3.9472939888540917
+  - 134.9534269757944
+  - Packaged Liquid Biofuel
+  - false
+- :name: Packaged Nitrogen Gas
+  :sink_value: 312
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 271.606103507944
+  - 212.78377474110468
+  - Packaged Nitrogen Gas
+  - false
+- :name: Plutonium Pellet
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 6815.094784274102
+  - -21991.390924070576
+  - Plutonium Pellet
+  - false
+- :name: Encased Plutonium Cell
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 10638.056331219523
+  - -22323.648501519456
+  - Instant Plutonium Cell
+  - true
+- :name: Fused Modular Frame
+  :sink_value: 62840
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 6516.988463652537
+  - 18129.384496917155
+  - Heat-Fused Frame
+  - true
+- :name: Pressure Conversion Cube
+  :sink_value: 257312
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 11562.699054307493
+  - 39034.98431490628
+  - Pressure Conversion Cube
+  - false
+- :name: Plutonium Fuel Rod
+  :sink_value: 153184
+  :energy: 1500000
+  :sink_cost: 
+  :build_cost:
+  - 224323.82567869796
+  - -405637.98585948284
+  - Plutonium Fuel Unit
+  - true
+- :name: Xeno-Zapper
+  :sink_value: 1880
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 269.6697779817985
+  - 3816.7221689255844
+  - Xeno-Zapper
+  - false
+- :name: Zipline
+  :sink_value: 5284
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 697.6882634651178
+  - 6018.6537523289135
+  - Zipline
+  - false
+- :name: Factory Cart
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 167.26052483725118
+  - 3283.3987107046496
+  - Factory Cart
+  - false
+- :name: Fabric
+  :sink_value: 140
+  :energy: 15
+  :sink_cost: 
+  :build_cost:
+  - 23.66863905325444
+  - 99.22460947692355
+  - Polyester Fabric
+  - false
+- :name: Gas Mask
+  :sink_value: 55000
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 4289.9408284023675
+  - 42747.372345000214
+  - Gas Mask
+  - false
+- :name: Gas Filter
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 166.16964096277613
+  - 1002.0682711626471
+  - Gas Filter
+  - false
+- :name: Hazmat Suit
+  :sink_value: 54100
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 5607.465471788267
+  - 26349.893072112056
+  - Hazmat Suit
+  - false
+- :name: Chainsaw
+  :sink_value: 2760
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 424.75941045314454
+  - 5733.865125734709
+  - Chainsaw
+  - false
+- :name: Object Scanner
+  :sink_value: 1400
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 184.3346057300661
+  - 3250.9378939499943
+  - Object Scanner
+  - false
+- :name: Bacon Agaric
+  :sink_value: 
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Bacon Agaric
+  - false
+- :name: Hover Pack
+  :sink_value: 413920
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 17636.54548711154
+  - 122881.45803302586
+  - Hover Pack
+  - false
+- :name: Paleberry
+  :sink_value: 
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Paleberry
+  - false
+- :name: Packaged Alumina Solution
+  :sink_value: 160
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 55.072038365132215
+  - 104.19657953204772
+  - Packaged Alumina Solution
+  - false
+- :name: Hog Remains
+  :sink_value: 
+  :energy: 250
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Hog Remains
+  - false
+- :name: Alien Protein
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 11.999999040000077
+  - Hog Protein
+  - false
+- :name: Beryl Nut
+  :sink_value: 
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Beryl Nut
+  - false
+- :name: Medicinal Inhaler
+  :sink_value: 125
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 0.0
+  - 0.0
+  - Nutritional Inhaler
+  - false
+- :name: Iodine Infused Filter
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 360.5346401824032
+  - 2403.3217317656986
+  - Iodine Infused Filter
+  - false
+- :name: Versatile Framework
+  :sink_value: 1176
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 258.19828349399967
+  - 2336.4453217809328
+  - Flexible Framework
+  - true
+- :name: Magnetic Field Generator
+  :sink_value: 15650
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 2474.4398461352566
+  - 15941.436255039143
+  - Magnetic Field Generator
+  - false
+- :name: Packaged Nitric Acid
+  :sink_value: 412
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 272.85163144784536
+  - 397.93330535355494
+  - Packaged Nitric Acid
+  - false
+- :name: Gas Nobelisk
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 155.66735649461685
+  - 522.9631821085102
+  - Gas Nobelisk
+  - false
+- :name: Portable Miner
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 365.0875980696497
+  - 5710.897274384592
+  - Automated Miner
+  - true
+- :name: Xeno-Basher
+  :sink_value: 18800
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 2191.532368242727
+  - 31586.09976227628
+  - Xeno-Basher
+  - false
+- :name: Packaged Fuel
+  :sink_value: 270
+  :energy: 750
+  :sink_cost: 
+  :build_cost:
+  - 23.178063219623326
+  - 159.04842624779445
+  - Diluted Packaged Fuel
+  - true
+- :name: Turbo Motor
+  :sink_value: 242720
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 8938.632794985298
+  - 42142.348317908974
+  - Turbo Electric Motor
+  - true
+- :name: Thermal Propulsion Rocket
+  :sink_value: 732956
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 21802.964981871835
+  - 109796.65255089916
+  - Thermal Propulsion Rocket
+  - false
+- :name: Packaged Heavy Oil Residue
+  :sink_value: 180
+  :energy: 400
+  :sink_cost: 
+  :build_cost:
+  - 42.40883245039256
+  - 164.04342604779447
+  - Packaged Heavy Oil Residue
+  - false
+- :name: Copper Powder
+  :sink_value: 72
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 49.896049896049895
+  - 336.69885391487924
+  - Copper Powder
+  - false
+- :name: Nuclear Pasta
+  :sink_value: 543424
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 21541.909033517473
+  - 166374.7502978825
+  - Nuclear Pasta
+  - false
+- :name: Plutonium Waste
+  :sink_value: 
+  :energy: 
+  :sink_cost: 
+  :build_cost:
+  - 22432.382567869798
+  - -188163.7865859492
+  - Plutonium Waste
+  - false
+- :name: Nuke Nobelisk
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 78310.8187039389
+  - 29491.325268911376
+  - Nuke Nobelisk
+  - false
+- :name: Rifle
+  :sink_value: 9480
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 6248.002271428456
+  - 45318.8502870362
+  - Rifle
+  - false
+- :name: Rebar Gun
+  :sink_value: 1968
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 289.04559315364946
+  - 4466.483516872354
+  - Rebar Gun
+  - false
+- :name: Color Gun
+  :sink_value: 860
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 200.73948382771914
+  - 2278.464442683973
+  - Color Gun
+  - true
+- :name: Shatter Rebar
+  :sink_value: 1
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 228.41278651929002
+  - 408.19173373009266
+  - Shatter Rebar
+  - false
+- :name: Nobelisk Detonator
+  :sink_value: 6480
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 1026.31604713606
+  - 8733.697906405328
+  - Nobelisk Detonator
+  - false
+- :name: Parachute
+  :sink_value: 608
+  :energy: 0
+  :sink_cost: 
+  :build_cost:
+  - 51.36950972825457
+  - 267.77216064378837
+  - Parachute
+  - false
