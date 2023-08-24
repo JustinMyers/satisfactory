@@ -163,9 +163,10 @@ end
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
+recipes = $recipes.select { |r| r.product.first == "Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }.map &:dup
-recipes = $recipes.select { |r| r.product.first == "Thermal Propulsion Rocket" }
+# recipes = $recipes.select { |r| r.product.first == "Thermal Propulsion Rocket" }
 
 recipes.each do |recipe|
   recipe_report(recipe, true)
@@ -185,3 +186,6 @@ end
 # show product name next to recipe name
 
 # show how to make n amount of an item?
+
+# satisfactorytools.com shows a strange combination of recipes for maximizing Iron Plate
+# can I duplicate or beat this?
