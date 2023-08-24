@@ -45,6 +45,15 @@ class Recipe
     output
   end
 
+  def global_cost
+    output = {}
+    max_p = max_production
+    unit_cost.each_pair do |resource, count|
+      output[resource] = count * max_production
+    end
+    output
+  end
+
   def average_consumption
     total = 0
     unit_cost.each_pair do |resource, count|
@@ -72,6 +81,26 @@ class Recipe
       if $resource_limits.keys.include?(ingredient.first)
         puts "  " * (index + 1) + ingredient.first
       end
+    end
+  end
+
+  def building_report(max_production_target, building_output = {}, report_on_precursors = true, depth = 0)
+    building_name, seconds = building
+    runs_per_minute = 60 / seconds.to_f
+    quantity_per_minute = product_quantity * runs_per_minute
+    number_of_buildings_needed = max_production_target / quantity_per_minute.to_f
+    spacer = "  " * depth
+
+    building_output[building_name] ||= {}
+    building_output[building_name][name] ||= 0
+    building_output[building_name][name] += number_of_buildings_needed.ceil
+
+    puts "#{spacer}To make #{max_production_target.ceil(1)} #{product_name} per minute with recipe '#{name}' you need #{number_of_buildings_needed.ceil} '#{building_name}'"
+    precursors.each do |precursor_recipe|
+      item_name = precursor_recipe.product_name
+      item_quantity = ingredients.detect { |i| i.first == item_name }.last
+      target_item_quantity = item_quantity * (max_production_target / product_quantity.to_f)
+      precursor_recipe.building_report(target_item_quantity, building_output, report_on_precursors, depth + 1)
     end
   end
 
@@ -155,37 +184,62 @@ def recipe_report(recipe, print_precursors = false)
     next if resource == "Water"
     consumed = (unit_cost[resource].to_f * max_production)
     consumed_percent = consumed / count.to_f * 100
-    puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + " / " + count.to_s.ljust(10) + consumed_percent.round(2).to_s + "%"
+    puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + " / " + count.round(2).to_s.ljust(10) + consumed_percent.round(2).to_s + "%"
   end
   puts
 end
 
+def priority_list
+  products = [
+    "Uranium Fuel Rod",
+    "Plutonium Fuel Rod",
+  # "Thermal Propulsion Rocket",
+  ]
+
+  products.each do |product|
+    recipes = $recipes.select { |r| r.product_name == product }
+
+    recipe = recipes[recipes.map(&:max_production).each_with_index.max[1]]
+
+    recipe_report(recipe, true)
+
+    $resource_limits[product] = recipe.max_production
+
+    recipe.global_cost.each_pair do |resource, count|
+      $resource_limits[resource] -= count
+    end
+  end
+end
+
+recipes = $recipes.select { |r| r.product.first == "Electromagnetic Control Rod" }
+recipes.each do |r|
+  building_output = {}
+  r.building_report(r.max_production, building_output)
+  pp building_output
+  puts
+end
+
+# priority_list
+
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
-recipes = $recipes.select { |r| r.product.first == "Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
-# recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }.map &:dup
-# recipes = $recipes.select { |r| r.product.first == "Thermal Propulsion Rocket" }
 
-recipes.each do |recipe|
-  recipe_report(recipe, true)
-end
+# recipes.each do |recipe|
+#   recipe_report(recipe, true)
+# end
 
-# OOH! Subtract recipe maxed global consumption cost from resource limits
-# to establish a new set a limits to see how many of the next thing you can make
-
-# is this how you'd do the "maximize uranium fuel rods, then plutonium fuel rods" trick?
-# a list of items to maximize for in descending order
-# ex: uranium waste, plutonium fuel rod, thermal propulsion rocket
-
-# how many buildngs would be needed per recipe
-
-# how many of each item are being made per minute
+# NOTES
 
 # show product name next to recipe name
 
-# show how to make n amount of an item?
-
 # satisfactorytools.com shows a strange combination of recipes for maximizing Iron Plate
 # can I duplicate or beat this?
+
+# put byproducts into global resource list?
+
+# a permutation technique to find "best order of recipes for same product to maximize production"
+# the Iron Plate problem.
+
+# show how to craft things without alternates
