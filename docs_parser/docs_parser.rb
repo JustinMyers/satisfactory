@@ -263,6 +263,7 @@ $recipes.reject! { |recipe| recipe.produced_in == "(\"/Game/FactoryGame/Equipmen
 $recipes.reject! { |recipe| recipe.data_product.include? "Building" }
 $recipes.reject! { |recipe| recipe.data_product.include? "Buildable" }
 $recipes.reject! { |recipe| recipe.data_display_name.include? "ackage" }
+$recipes.reject! { |recipe| recipe.building == "Equipment Workshop" }
 [
   "Charcoal",
   "Biomass",

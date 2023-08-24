@@ -171,6 +171,8 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
+$recipes.reject! &:alternate
+
 def recipe_report(recipe, print_precursors = false)
   if print_precursors
     recipe.print_precursors
@@ -211,15 +213,17 @@ def priority_list
   end
 end
 
-recipes = $recipes.select { |r| r.product.first == "Electromagnetic Control Rod" }
+# priority_list
+
+recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
+
 recipes.each do |r|
   building_output = {}
   r.building_report(r.max_production, building_output)
   pp building_output
+  recipe_report(r, true)
   puts
 end
-
-# priority_list
 
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
@@ -232,8 +236,6 @@ end
 
 # NOTES
 
-# show product name next to recipe name
-
 # satisfactorytools.com shows a strange combination of recipes for maximizing Iron Plate
 # can I duplicate or beat this?
 
@@ -241,5 +243,3 @@ end
 
 # a permutation technique to find "best order of recipes for same product to maximize production"
 # the Iron Plate problem.
-
-# show how to craft things without alternates
