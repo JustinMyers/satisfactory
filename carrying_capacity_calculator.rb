@@ -42,9 +42,16 @@ class Recipe
         output[ingredient] += count / product.last.to_f
       end
     end
-    # puts name
-    # pp output
     output
+  end
+
+  def average_consumption
+    total = 0
+    unit_cost.each_pair do |resource, count|
+      next if resource == "Water"
+      total = total + (count / $resource_limits[resource].to_f)
+    end
+    total
   end
 
   def max_production
@@ -57,22 +64,42 @@ class Recipe
   end
 
   def print_precursors(index = 0)
-    puts "  " * index + name + (alternate ? "*" : "")
+    puts "  " * index + name + (alternate ? "*" : "") # + lineage.to_s
     precursors.each do |precursor|
       precursor.print_precursors(index + 1)
+    end
+    ingredients.each do |ingredient|
+      if $resource_limits.keys.include?(ingredient.first)
+        puts "  " * (index + 1) + ingredient.first
+      end
     end
   end
 
   def precursors
     return @precursors if @precursors
     max = 0
-    max_precursors = nil
     chains.each do |chain|
       @temp_precursors = chain
       if max_production > max
         max = max_production
         @precursors = chain
+      elsif max > 0 && max_production == max
+        switch = true
+        @precursors.each_with_index do |precursor, index|
+          challenger = chain[index]
+          next if challenger.name == precursor.name
+          if challenger.average_consumption > precursor.average_consumption
+            switch = false
+          end
+        end
+        if switch
+          # puts "#{name} [#{lineage}] - replacing precursors!"
+          # pp @precursors.map &:name
+          # pp chain.map &:name
+          @precursors = chain
+        end
       end
+      @temp_precursors = nil
     end
     @precursors ||= []
   end
@@ -81,7 +108,7 @@ class Recipe
     chains_output = []
     preceding_recipes = ingredients.map do |ingredient|
       ingredient_name, ingredient_quatity = ingredient
-      recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }
+      recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map &:dup
       recipes.each do |recipe|
         recipe.lineage = [name] + Array(lineage)
       end
@@ -115,9 +142,19 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
+# recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
+# recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
+# recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
+# recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
 
-recipes.each do |r|
-  puts r.max_production
-  r.print_precursors
-end
+# recipes.each do |r|
+#   puts r.max_production
+#   pp r.unit_cost
+#   puts (r.average_consumption * 100000000000).floor
+#   r.print_precursors
+#   puts
+# end
+
+puts recipes.last.max_production
+recipes.last.print_precursors

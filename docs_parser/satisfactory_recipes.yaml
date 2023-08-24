@@ -2003,13 +2003,11 @@
   id: 282
 - name: Recycled Plastic
   ingredients:
-  - - Rubber
-    - 6
   - - Fuel
     - 6
   product:
   - Plastic
-  - 12
+  - 6
   byproduct: 
   building:
   - Refinery

@@ -1,0 +1,269 @@
+30.54545454545454
+Plutonium Fuel Unit*
+  Instant Plutonium Cell*
+    Fertile Uranium*
+      Uranium Waste
+        Uranium Fuel Unit*
+          Infused Uranium Cell*
+            Cheap Silica*
+              Raw Quartz
+              Limestone
+            Fused Quickwire*
+              Pure Caterium Ingot*
+                Caterium Ore
+                Water
+              Pure Copper Ingot*
+                Copper Ore
+                Water
+            Uranium
+            Sulfur
+          Electromagnetic Control Rod
+            Stator
+              Steel Pipe
+                Coke Steel Ingot*
+                  Petroleum Coke
+                    Heavy Oil Residue*
+                      Crude Oil
+                  Iron Ore
+              Wire
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+            AI Limiter
+              Steamed Copper Sheet*
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+                Water
+              Fused Quickwire*
+                Pure Caterium Ingot*
+                  Caterium Ore
+                  Water
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+          Insulated Crystal Oscillator*
+            Pure Quartz Crystal*
+              Raw Quartz
+              Water
+            Recycled Rubber*
+              Diluted Fuel*
+                Heavy Oil Residue*
+                  Crude Oil
+                Water
+            AI Limiter
+              Steamed Copper Sheet*
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+                Water
+              Fused Quickwire*
+                Pure Caterium Ingot*
+                  Caterium Ore
+                  Water
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+          Beacon
+            Steel Coated Plate*
+              Solid Steel Ingot*
+                Pure Iron Ingot*
+                  Iron Ore
+                  Water
+                Coal
+              Recycled Plastic*
+                Diluted Fuel*
+                  Heavy Oil Residue*
+                    Crude Oil
+                  Water
+            Steel Rod*
+              Coke Steel Ingot*
+                Petroleum Coke
+                  Heavy Oil Residue*
+                    Crude Oil
+                Iron Ore
+            Iron Wire*
+              Pure Iron Ingot*
+                Iron Ore
+                Water
+            Quickwire Cable*
+              Fused Quickwire*
+                Pure Caterium Ingot*
+                  Caterium Ore
+                  Water
+                Pure Copper Ingot*
+                  Copper Ore
+                  Water
+              Recycled Rubber*
+                Diluted Fuel*
+                  Heavy Oil Residue*
+                    Crude Oil
+                  Water
+        Water
+      Nitric Acid
+        Steel Coated Plate*
+          Solid Steel Ingot*
+            Pure Iron Ingot*
+              Iron Ore
+              Water
+            Coal
+          Recycled Plastic*
+            Diluted Fuel*
+              Heavy Oil Residue*
+                Crude Oil
+              Water
+        Nitrogen Gas
+        Water
+      Sulfuric Acid
+        Sulfur
+        Water
+      Uranium
+    Alclad Casing*
+      Aluminum Ingot
+        Electrode - Aluminum Scrap*
+          Sloppy Alumina*
+            Bauxite
+            Water
+          Petroleum Coke
+            Heavy Oil Residue*
+              Crude Oil
+        Cheap Silica*
+          Raw Quartz
+          Limestone
+      Pure Copper Ingot*
+        Copper Ore
+        Water
+  Pressure Conversion Cube
+    Heat-Fused Frame*
+      Heavy Encased Frame*
+        Modular Frame
+          Reinforced Iron Plate
+            Steel Coated Plate*
+              Solid Steel Ingot*
+                Pure Iron Ingot*
+                  Iron Ore
+                  Water
+                Coal
+              Recycled Plastic*
+                Diluted Fuel*
+                  Heavy Oil Residue*
+                    Crude Oil
+                  Water
+            Cast Screw*
+              Pure Iron Ingot*
+                Iron Ore
+                Water
+          Steel Rod*
+            Coke Steel Ingot*
+              Petroleum Coke
+                Heavy Oil Residue*
+                  Crude Oil
+              Iron Ore
+        Encased Industrial Pipe*
+          Steel Pipe
+            Coke Steel Ingot*
+              Petroleum Coke
+                Heavy Oil Residue*
+                  Crude Oil
+              Iron Ore
+          Wet Concrete*
+            Limestone
+            Water
+        Steel Pipe
+          Coke Steel Ingot*
+            Petroleum Coke
+              Heavy Oil Residue*
+                Crude Oil
+            Iron Ore
+        Wet Concrete*
+          Limestone
+          Water
+      Aluminum Ingot
+        Electrode - Aluminum Scrap*
+          Sloppy Alumina*
+            Bauxite
+            Water
+          Petroleum Coke
+            Heavy Oil Residue*
+              Crude Oil
+        Cheap Silica*
+          Raw Quartz
+          Limestone
+      Nitric Acid
+        Steel Coated Plate*
+          Solid Steel Ingot*
+            Pure Iron Ingot*
+              Iron Ore
+              Water
+            Coal
+          Recycled Plastic*
+            Diluted Fuel*
+              Heavy Oil Residue*
+                Crude Oil
+              Water
+        Nitrogen Gas
+        Water
+      Diluted Fuel*
+        Heavy Oil Residue*
+          Crude Oil
+        Water
+    Radio Control Unit
+      Alclad Casing*
+        Aluminum Ingot
+          Electrode - Aluminum Scrap*
+            Sloppy Alumina*
+              Bauxite
+              Water
+            Petroleum Coke
+              Heavy Oil Residue*
+                Crude Oil
+          Cheap Silica*
+            Raw Quartz
+            Limestone
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+      Insulated Crystal Oscillator*
+        Pure Quartz Crystal*
+          Raw Quartz
+          Water
+        Recycled Rubber*
+          Diluted Fuel*
+            Heavy Oil Residue*
+              Crude Oil
+            Water
+        AI Limiter
+          Steamed Copper Sheet*
+            Pure Copper Ingot*
+              Copper Ore
+              Water
+            Water
+          Fused Quickwire*
+            Pure Caterium Ingot*
+              Caterium Ore
+              Water
+            Pure Copper Ingot*
+              Copper Ore
+              Water
+      Caterium Computer*
+        Silicon Circuit Board*
+          Steamed Copper Sheet*
+            Pure Copper Ingot*
+              Copper Ore
+              Water
+            Water
+          Cheap Silica*
+            Raw Quartz
+            Limestone
+        Fused Quickwire*
+          Pure Caterium Ingot*
+            Caterium Ore
+            Water
+          Pure Copper Ingot*
+            Copper Ore
+            Water
+        Recycled Rubber*
+          Diluted Fuel*
+            Heavy Oil Residue*
+              Crude Oil
+            Water

@@ -179,7 +179,7 @@ class Recipe < SatisfactoryEntity
     when "Recycled Rubber"
       details["ingredients"] = [["Fuel", 6]]
       details["product"] = ["Rubber", 6]
-    when "Recyled Plastic"
+    when "Recycled Plastic"
       details["ingredients"] = [["Fuel", 6]]
       details["product"] = ["Plastic", 6]
     end
