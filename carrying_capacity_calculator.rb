@@ -29,7 +29,7 @@ class Recipe
 
   def unit_cost
     output = {}
-    (@temp_precursors || precursors).map do |precursor|
+    (@temp_precursors || precursors).each do |precursor|
       precursor.unit_cost.each_pair do |resource, count|
         output[resource] ||= 0
         ingredient_count = ingredients.detect { |i| i.first == precursor.product.first }.last / product.last.to_f
@@ -142,19 +142,44 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
+def recipe_report(recipe, print_precursors = false)
+  if print_precursors
+    recipe.print_precursors
+    puts
+  end
+  max_production = recipe.max_production
+  puts "Recipe '#{recipe.name}' makes #{max_production} #{recipe.product.first} per minute, consuming:"
+  puts
+  unit_cost = recipe.unit_cost
+  $resource_limits.each_pair do |resource, count|
+    next if resource == "Water"
+    consumed = (unit_cost[resource].to_f * max_production)
+    consumed_percent = consumed / count.to_f * 100
+    puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + " / " + count.to_s.ljust(10) + consumed_percent.round(2).to_s + "%"
+  end
+  puts
+end
+
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
-recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
+# recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }.map &:dup
+recipes = $recipes.select { |r| r.product.first == "Thermal Propulsion Rocket" }
 
-# recipes.each do |r|
-#   puts r.max_production
-#   pp r.unit_cost
-#   puts (r.average_consumption * 100000000000).floor
-#   r.print_precursors
-#   puts
-# end
+recipes.each do |recipe|
+  recipe_report(recipe, true)
+end
 
-puts recipes.last.max_production
-recipes.last.print_precursors
+# OOH! Subtract recipe maxed global consumption cost from resource limits
+# to establish a new set a limits to see how many of the next thing you can make
+
+# is this how you'd do the "maximize uranium fuel rods, then plutonium fuel rods" trick?
+# a list of items to maximize for in descending order
+# ex: uranium waste, plutonium fuel rod, thermal propulsion rocket
+
+# how many buildngs would be needed per recipe
+
+# how many of each item are being made per minute
+
+# show product name next to recipe name
