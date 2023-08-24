@@ -183,3 +183,5 @@ end
 # how many of each item are being made per minute
 
 # show product name next to recipe name
+
+# show how to make n amount of an item?
