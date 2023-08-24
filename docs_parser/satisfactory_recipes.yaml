@@ -1,28 +1,32 @@
 ---
-- :name: Iron Plate
-  :ingredients:
+- name: Iron Plate
+  ingredients:
   - - Iron Ingot
     - 3
-  :products:
-  - - Iron Plate
-    - 2
-  :building:
+  product:
+  - Iron Plate
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Iron Rod
-  :ingredients:
+  alternate: false
+  id: 89
+- name: Iron Rod
+  ingredients:
   - - Iron Ingot
     - 1
-  :products:
-  - - Iron Rod
-    - 1
-  :building:
+  product:
+  - Iron Rod
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Xeno-Zapper
-  :ingredients:
+  alternate: false
+  id: 90
+- name: Xeno-Zapper
+  ingredients:
   - - Iron Rod
     - 10
   - - Reinforced Iron Plate
@@ -31,858 +35,750 @@
     - 15
   - - Wire
     - 50
-  :products:
-  - - Xeno-Zapper
-    - 1
-  :building:
+  product:
+  - Xeno-Zapper
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 40
-  :alternate: false
-- :name: Iron Ingot
-  :ingredients:
+  alternate: false
+  id: 91
+- name: Iron Ingot
+  ingredients:
   - - Iron Ore
     - 1
-  :products:
-  - - Iron Ingot
-    - 1
-  :building:
+  product:
+  - Iron Ingot
+  - 1
+  byproduct: 
+  building:
   - Smelter
   - 2
-  :alternate: false
-- :name: Wet Concrete
-  :ingredients:
+  alternate: false
+  id: 92
+- name: Wet Concrete
+  ingredients:
   - - Limestone
     - 6
   - - Water
-    - 5000
-  :products:
-  - - Concrete
-    - 4
-  :building:
+    - 5
+  product:
+  - Concrete
+  - 4
+  byproduct: 
+  building:
   - Refinery
   - 3
-  :alternate: true
-- :name: Color Cartridge
-  :ingredients:
+  alternate: true
+  id: 106
+- name: Color Cartridge
+  ingredients:
   - - Flower Petals
     - 5
-  :products:
-  - - Color Cartridge
-    - 10
-  :building:
+  product:
+  - Color Cartridge
+  - 10
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Turbo Heavy Fuel
-  :ingredients:
+  alternate: false
+  id: 117
+- name: Turbo Heavy Fuel
+  ingredients:
   - - Heavy Oil Residue
-    - 5000
+    - 5
   - - Compacted Coal
     - 4
-  :products:
-  - - Turbofuel
-    - 4000
-  :building:
+  product:
+  - Turbofuel
+  - 4
+  byproduct: 
+  building:
   - Refinery
   - 8
-  :alternate: true
-- :name: Packaged Turbofuel
-  :ingredients:
-  - - Turbofuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Turbofuel
-    - 2
-  :building:
-  - Packager
-  - 6
-  :alternate: false
-- :name: Unpackage Turbofuel
-  :ingredients:
-  - - Packaged Turbofuel
-    - 2
-  :products:
-  - - Turbofuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 6
-  :alternate: false
-- :name: Charcoal
-  :ingredients:
-  - - Wood
-    - 1
-  :products:
-  - - Coal
-    - 10
-  :building:
-  - Constructor
-  - 4
-  :alternate: true
-- :name: Biocoal
-  :ingredients:
-  - - Biomass
-    - 5
-  :products:
-  - - Coal
-    - 6
-  :building:
-  - Constructor
-  - 8
-  :alternate: true
-- :name: Compacted Coal
-  :ingredients:
+  alternate: true
+  id: 118
+- name: Compacted Coal
+  ingredients:
   - - Coal
     - 5
   - - Sulfur
     - 5
-  :products:
-  - - Compacted Coal
-    - 5
-  :building:
+  product:
+  - Compacted Coal
+  - 5
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Circuit Board
-  :ingredients:
+  alternate: true
+  id: 123
+- name: Circuit Board
+  ingredients:
   - - Copper Sheet
     - 2
   - - Plastic
     - 4
-  :products:
-  - - Circuit Board
-    - 1
-  :building:
+  product:
+  - Circuit Board
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 8
-  :alternate: false
-- :name: Fuel
-  :ingredients:
+  alternate: false
+  id: 124
+- name: Fuel
+  ingredients:
   - - Crude Oil
-    - 6000
-  :products:
-  - - Fuel
-    - 4000
-  - - Polymer Resin
+    - 6
+  product:
+  - Fuel
+  - 4
+  byproduct:
+  - Polymer Resin
+  - 3
+  building:
+  - Refinery
+  - 6
+  alternate: false
+  id: 128
+- name: Petroleum Coke
+  ingredients:
+  - - Heavy Oil Residue
+    - 4
+  product:
+  - Petroleum Coke
+  - 12
+  byproduct: 
+  building:
+  - Refinery
+  - 6
+  alternate: false
+  id: 129
+- name: Plastic
+  ingredients:
+  - - Crude Oil
     - 3
-  :building:
+  product:
+  - Plastic
+  - 2
+  byproduct:
+  - Heavy Oil Residue
+  - 1
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Petroleum Coke
-  :ingredients:
-  - - Heavy Oil Residue
-    - 4000
-  :products:
-  - - Petroleum Coke
-    - 12
-  :building:
-  - Refinery
-  - 6
-  :alternate: false
-- :name: Plastic
-  :ingredients:
+  alternate: false
+  id: 130
+- name: Rubber
+  ingredients:
   - - Crude Oil
-    - 3000
-  :products:
-  - - Plastic
-    - 2
-  - - Heavy Oil Residue
-    - 1000
-  :building:
+    - 3
+  product:
+  - Rubber
+  - 2
+  byproduct:
+  - Heavy Oil Residue
+  - 2
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Rubber
-  :ingredients:
-  - - Crude Oil
-    - 3000
-  :products:
-  - - Rubber
-    - 2
+  alternate: false
+  id: 131
+- name: Residual Fuel
+  ingredients:
   - - Heavy Oil Residue
-    - 2000
-  :building:
+    - 6
+  product:
+  - Fuel
+  - 4
+  byproduct: 
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Residual Fuel
-  :ingredients:
-  - - Heavy Oil Residue
-    - 6000
-  :products:
-  - - Fuel
-    - 4000
-  :building:
-  - Refinery
-  - 6
-  :alternate: false
-- :name: Residual Plastic
-  :ingredients:
+  alternate: false
+  id: 132
+- name: Residual Plastic
+  ingredients:
   - - Polymer Resin
     - 6
   - - Water
-    - 2000
-  :products:
-  - - Plastic
     - 2
-  :building:
+  product:
+  - Plastic
+  - 2
+  byproduct: 
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Residual Rubber
-  :ingredients:
+  alternate: false
+  id: 133
+- name: Residual Rubber
+  ingredients:
   - - Polymer Resin
     - 4
   - - Water
-    - 4000
-  :products:
-  - - Rubber
-    - 2
-  :building:
+    - 4
+  product:
+  - Rubber
+  - 2
+  byproduct: 
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Steel Rod
-  :ingredients:
+  alternate: false
+  id: 134
+- name: Steel Rod
+  ingredients:
   - - Steel Ingot
     - 1
-  :products:
-  - - Iron Rod
-    - 4
-  :building:
+  product:
+  - Iron Rod
+  - 4
+  byproduct: 
+  building:
   - Constructor
   - 5
-  :alternate: true
-- :name: Steel Beam
-  :ingredients:
+  alternate: true
+  id: 135
+- name: Steel Beam
+  ingredients:
   - - Steel Ingot
     - 4
-  :products:
-  - - Steel Beam
-    - 1
-  :building:
+  product:
+  - Steel Beam
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Steel Pipe
-  :ingredients:
+  alternate: false
+  id: 137
+- name: Steel Pipe
+  ingredients:
   - - Steel Ingot
     - 3
-  :products:
-  - - Steel Pipe
-    - 2
-  :building:
+  product:
+  - Steel Pipe
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Steel Ingot
-  :ingredients:
+  alternate: false
+  id: 138
+- name: Steel Ingot
+  ingredients:
   - - Iron Ore
     - 3
   - - Coal
     - 3
-  :products:
-  - - Steel Ingot
-    - 3
-  :building:
+  product:
+  - Steel Ingot
+  - 3
+  byproduct: 
+  building:
   - Foundry
   - 4
-  :alternate: false
-- :name: Versatile Framework
-  :ingredients:
+  alternate: false
+  id: 139
+- name: Versatile Framework
+  ingredients:
   - - Modular Frame
     - 1
   - - Steel Beam
     - 12
-  :products:
-  - - Versatile Framework
-    - 2
-  :building:
+  product:
+  - Versatile Framework
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: false
-- :name: Steel Coated Plate
-  :ingredients:
+  alternate: false
+  id: 140
+- name: Steel Coated Plate
+  ingredients:
   - - Steel Ingot
     - 3
   - - Plastic
     - 2
-  :products:
-  - - Iron Plate
-    - 18
-  :building:
+  product:
+  - Iron Plate
+  - 18
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: true
-- :name: Steel Canister
-  :ingredients:
+  alternate: true
+  id: 141
+- name: Steel Canister
+  ingredients:
   - - Steel Ingot
     - 3
-  :products:
-  - - Empty Canister
-    - 2
-  :building:
+  product:
+  - Empty Canister
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 3
-  :alternate: true
-- :name: Empty Canister
-  :ingredients:
+  alternate: true
+  id: 142
+- name: Empty Canister
+  ingredients:
   - - Plastic
     - 2
-  :products:
-  - - Empty Canister
-    - 4
-  :building:
+  product:
+  - Empty Canister
+  - 4
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Packaged Fuel
-  :ingredients:
-  - - Fuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Fuel
-    - 2
-  :building:
-  - Packager
-  - 3
-  :alternate: false
-- :name: Liquid Biofuel
-  :ingredients:
+  alternate: false
+  id: 145
+- name: Liquid Biofuel
+  ingredients:
   - - Solid Biofuel
     - 6
   - - Water
-    - 3000
-  :products:
-  - - Liquid Biofuel
-    - 4000
-  :building:
+    - 3
+  product:
+  - Liquid Biofuel
+  - 4
+  byproduct: 
+  building:
   - Refinery
   - 4
-  :alternate: false
-- :name: Packaged Liquid Biofuel
-  :ingredients:
-  - - Liquid Biofuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Liquid Biofuel
-    - 2
-  :building:
-  - Packager
-  - 3
-  :alternate: false
-- :name: Packaged Oil
-  :ingredients:
-  - - Crude Oil
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Oil
-    - 2
-  :building:
-  - Packager
-  - 4
-  :alternate: false
-- :name: Packaged Heavy Oil Residue
-  :ingredients:
-  - - Heavy Oil Residue
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Heavy Oil Residue
-    - 2
-  :building:
-  - Packager
-  - 4
-  :alternate: false
-- :name: Packaged Water
-  :ingredients:
-  - - Water
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Water
-    - 2
-  :building:
-  - Packager
-  - 2
-  :alternate: false
-- :name: Unpackage Liquid Biofuel
-  :ingredients:
-  - - Packaged Liquid Biofuel
-    - 2
-  :products:
-  - - Liquid Biofuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 2
-  :alternate: false
-- :name: Unpackage Fuel
-  :ingredients:
-  - - Packaged Fuel
-    - 2
-  :products:
-  - - Fuel
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 2
-  :alternate: false
-- :name: Unpackage Oil
-  :ingredients:
-  - - Packaged Oil
-    - 2
-  :products:
-  - - Crude Oil
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 2
-  :alternate: false
-- :name: Unpackage Heavy Oil Residue
-  :ingredients:
-  - - Packaged Heavy Oil Residue
-    - 2
-  :products:
-  - - Heavy Oil Residue
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 6
-  :alternate: false
-- :name: Unpackage Water
-  :ingredients:
-  - - Packaged Water
-    - 2
-  :products:
-  - - Water
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Steamed Copper Sheet
-  :ingredients:
+  alternate: false
+  id: 147
+- name: Steamed Copper Sheet
+  ingredients:
   - - Copper Ingot
     - 3
   - - Water
-    - 3000
-  :products:
-  - - Copper Sheet
     - 3
-  :building:
+  product:
+  - Copper Sheet
+  - 3
+  byproduct: 
+  building:
   - Refinery
   - 8
-  :alternate: true
-- :name: Rubber Concrete
-  :ingredients:
+  alternate: true
+  id: 157
+- name: Rubber Concrete
+  ingredients:
   - - Limestone
     - 10
   - - Rubber
     - 2
-  :products:
-  - - Concrete
-    - 9
-  :building:
+  product:
+  - Concrete
+  - 9
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Recycled Rubber
-  :ingredients:
-  - - Plastic
-    - 6
+  alternate: true
+  id: 158
+- name: Recycled Rubber
+  ingredients:
   - - Fuel
-    - 6000
-  :products:
-  - - Rubber
-    - 12
-  :building:
+    - 6
+  product:
+  - Rubber
+  - 6
+  byproduct: 
+  building:
   - Refinery
   - 12
-  :alternate: true
-- :name: Pure Quartz Crystal
-  :ingredients:
+  alternate: true
+  id: 159
+- name: Pure Quartz Crystal
+  ingredients:
   - - Raw Quartz
     - 9
   - - Water
-    - 5000
-  :products:
-  - - Quartz Crystal
-    - 7
-  :building:
+    - 5
+  product:
+  - Quartz Crystal
+  - 7
+  byproduct: 
+  building:
   - Refinery
   - 8
-  :alternate: true
-- :name: Quartz Crystal
-  :ingredients:
+  alternate: true
+  id: 160
+- name: Quartz Crystal
+  ingredients:
   - - Raw Quartz
     - 5
-  :products:
-  - - Quartz Crystal
-    - 3
-  :building:
+  product:
+  - Quartz Crystal
+  - 3
+  byproduct: 
+  building:
   - Constructor
   - 8
-  :alternate: false
-- :name: Pure Iron Ingot
-  :ingredients:
+  alternate: false
+  id: 161
+- name: Pure Iron Ingot
+  ingredients:
   - - Iron Ore
     - 7
   - - Water
-    - 4000
-  :products:
-  - - Iron Ingot
-    - 13
-  :building:
+    - 4
+  product:
+  - Iron Ingot
+  - 13
+  byproduct: 
+  building:
   - Refinery
   - 12
-  :alternate: true
-- :name: Pure Copper Ingot
-  :ingredients:
+  alternate: true
+  id: 162
+- name: Pure Copper Ingot
+  ingredients:
   - - Copper Ore
     - 6
   - - Water
-    - 4000
-  :products:
-  - - Copper Ingot
-    - 15
-  :building:
+    - 4
+  product:
+  - Copper Ingot
+  - 15
+  byproduct: 
+  building:
   - Refinery
   - 24
-  :alternate: true
-- :name: Pure Caterium Ingot
-  :ingredients:
+  alternate: true
+  id: 163
+- name: Pure Caterium Ingot
+  ingredients:
   - - Caterium Ore
     - 2
   - - Water
-    - 2000
-  :products:
-  - - Caterium Ingot
-    - 1
-  :building:
+    - 2
+  product:
+  - Caterium Ingot
+  - 1
+  byproduct: 
+  building:
   - Refinery
   - 5
-  :alternate: true
-- :name: Pure Aluminum Ingot
-  :ingredients:
+  alternate: true
+  id: 164
+- name: Pure Aluminum Ingot
+  ingredients:
   - - Aluminum Scrap
     - 2
-  :products:
-  - - Aluminum Ingot
-    - 1
-  :building:
+  product:
+  - Aluminum Ingot
+  - 1
+  byproduct: 
+  building:
   - Smelter
   - 2
-  :alternate: true
-- :name: Encased Uranium Cell
-  :ingredients:
+  alternate: true
+  id: 165
+- name: Encased Uranium Cell
+  ingredients:
   - - Uranium
     - 10
   - - Concrete
     - 3
   - - Sulfuric Acid
-    - 8000
-  :products:
-  - - Encased Uranium Cell
-    - 5
-  - - Sulfuric Acid
-    - 2000
-  :building:
+    - 6
+  product:
+  - Encased Uranium Cell
+  - 5
+  byproduct: 
+  building:
   - Blender
   - 12
-  :alternate: false
-- :name: Cooling System
-  :ingredients:
+  alternate: false
+  id: 166
+- name: Cooling System
+  ingredients:
   - - Heat Sink
     - 2
   - - Rubber
     - 2
   - - Water
-    - 5000
+    - 5
   - - Nitrogen Gas
-    - 25000
-  :products:
-  - - Cooling System
-    - 1
-  :building:
+    - 25
+  product:
+  - Cooling System
+  - 1
+  byproduct: 
+  building:
   - Blender
   - 10
-  :alternate: false
-- :name: Nitric Acid
-  :ingredients:
+  alternate: false
+  id: 167
+- name: Nitric Acid
+  ingredients:
   - - Nitrogen Gas
-    - 12000
+    - 12
   - - Water
-    - 3000
+    - 3
   - - Iron Plate
     - 1
-  :products:
-  - - Nitric Acid
-    - 3000
-  :building:
+  product:
+  - Nitric Acid
+  - 3
+  byproduct: 
+  building:
   - Blender
   - 6
-  :alternate: false
-- :name: Non-fissile Uranium
-  :ingredients:
+  alternate: false
+  id: 168
+- name: Non-fissile Uranium
+  ingredients:
   - - Uranium Waste
     - 15
   - - Silica
     - 10
   - - Nitric Acid
-    - 6000
+    - 6
   - - Sulfuric Acid
-    - 6000
-  :products:
-  - - Non-fissile Uranium
-    - 20
-  - - Water
-    - 6000
-  :building:
+    - 6
+  product:
+  - Non-fissile Uranium
+  - 20
+  byproduct:
+  - Water
+  - 6
+  building:
   - Blender
   - 24
-  :alternate: false
-- :name: Aluminum Casing
-  :ingredients:
+  alternate: false
+  id: 169
+- name: Aluminum Casing
+  ingredients:
   - - Aluminum Ingot
     - 3
-  :products:
-  - - Aluminum Casing
-    - 2
-  :building:
+  product:
+  - Aluminum Casing
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 2
-  :alternate: false
-- :name: Alclad Aluminum Sheet
-  :ingredients:
+  alternate: false
+  id: 171
+- name: Alclad Aluminum Sheet
+  ingredients:
   - - Aluminum Ingot
     - 3
   - - Copper Ingot
     - 1
-  :products:
-  - - Alclad Aluminum Sheet
-    - 3
-  :building:
+  product:
+  - Alclad Aluminum Sheet
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 6
-  :alternate: false
-- :name: Radio Control Unit
-  :ingredients:
+  alternate: false
+  id: 172
+- name: Radio Control Unit
+  ingredients:
   - - Aluminum Casing
     - 32
   - - Crystal Oscillator
     - 1
   - - Computer
     - 1
-  :products:
-  - - Radio Control Unit
-    - 2
-  :building:
+  product:
+  - Radio Control Unit
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 48
-  :alternate: false
-- :name: Alumina Solution
-  :ingredients:
+  alternate: false
+  id: 173
+- name: Alumina Solution
+  ingredients:
   - - Bauxite
     - 12
   - - Water
-    - 18000
-  :products:
-  - - Alumina Solution
-    - 12000
-  - - Silica
-    - 5
-  :building:
+    - 18
+  product:
+  - Alumina Solution
+  - 12
+  byproduct:
+  - Silica
+  - 5
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Aluminum Scrap
-  :ingredients:
+  alternate: false
+  id: 174
+- name: Aluminum Scrap
+  ingredients:
   - - Alumina Solution
-    - 4000
+    - 4
   - - Coal
     - 2
-  :products:
-  - - Aluminum Scrap
-    - 6
-  - - Water
-    - 2000
-  :building:
+  product:
+  - Aluminum Scrap
+  - 6
+  byproduct:
+  - Water
+  - 2
+  building:
   - Refinery
   - 1
-  :alternate: false
-- :name: Packaged Alumina Solution
-  :ingredients:
-  - - Alumina Solution
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Alumina Solution
-    - 2
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Aluminum Ingot
-  :ingredients:
+  alternate: false
+  id: 175
+- name: Aluminum Ingot
+  ingredients:
   - - Aluminum Scrap
     - 6
   - - Silica
     - 5
-  :products:
-  - - Aluminum Ingot
-    - 4
-  :building:
+  product:
+  - Aluminum Ingot
+  - 4
+  byproduct: 
+  building:
   - Foundry
   - 4
-  :alternate: false
-- :name: Silica
-  :ingredients:
+  alternate: false
+  id: 177
+- name: Silica
+  ingredients:
   - - Raw Quartz
     - 3
-  :products:
-  - - Silica
-    - 5
-  :building:
+  product:
+  - Silica
+  - 5
+  byproduct: 
+  building:
   - Constructor
   - 8
-  :alternate: false
-- :name: Crystal Oscillator
-  :ingredients:
+  alternate: false
+  id: 178
+- name: Crystal Oscillator
+  ingredients:
   - - Quartz Crystal
     - 36
   - - Cable
     - 28
   - - Reinforced Iron Plate
     - 5
-  :products:
-  - - Crystal Oscillator
-    - 2
-  :building:
+  product:
+  - Crystal Oscillator
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 120
-  :alternate: false
-- :name: Unpackage Alumina Solution
-  :ingredients:
-  - - Packaged Alumina Solution
-    - 2
-  :products:
-  - - Alumina Solution
-    - 2000
-  - - Empty Canister
-    - 2
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Polymer Resin
-  :ingredients:
+  alternate: false
+  id: 179
+- name: Polymer Resin
+  ingredients:
   - - Crude Oil
-    - 6000
-  :products:
-  - - Polymer Resin
-    - 13
-  - - Heavy Oil Residue
-    - 2000
-  :building:
+    - 6
+  product:
+  - Polymer Resin
+  - 13
+  byproduct:
+  - Heavy Oil Residue
+  - 2
+  building:
   - Refinery
   - 6
-  :alternate: true
-- :name: Plastic Smart Plating
-  :ingredients:
+  alternate: true
+  id: 181
+- name: Plastic Smart Plating
+  ingredients:
   - - Reinforced Iron Plate
     - 1
   - - Rotor
     - 1
   - - Plastic
     - 3
-  :products:
-  - - Smart Plating
-    - 2
-  :building:
+  product:
+  - Smart Plating
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 24
-  :alternate: true
-- :name: Automated Speed Wiring
-  :ingredients:
+  alternate: true
+  id: 182
+- name: Automated Speed Wiring
+  ingredients:
   - - Stator
     - 2
   - - Wire
     - 40
   - - High-Speed Connector
     - 1
-  :products:
-  - - Automated Wiring
-    - 4
-  :building:
+  product:
+  - Automated Wiring
+  - 4
+  byproduct: 
+  building:
   - Manufacturer
   - 32
-  :alternate: true
-- :name: Encased Industrial Beam
-  :ingredients:
+  alternate: true
+  id: 183
+- name: Encased Industrial Beam
+  ingredients:
   - - Steel Beam
     - 4
   - - Concrete
     - 5
-  :products:
-  - - Encased Industrial Beam
-    - 1
-  :building:
+  product:
+  - Encased Industrial Beam
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 10
-  :alternate: false
-- :name: Motor
-  :ingredients:
+  alternate: false
+  id: 184
+- name: Motor
+  ingredients:
   - - Rotor
     - 2
   - - Stator
     - 2
-  :products:
-  - - Motor
-    - 1
-  :building:
+  product:
+  - Motor
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Stator
-  :ingredients:
+  alternate: false
+  id: 185
+- name: Stator
+  ingredients:
   - - Steel Pipe
     - 3
   - - Wire
     - 8
-  :products:
-  - - Stator
-    - 1
-  :building:
+  product:
+  - Stator
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Heavy Modular Frame
-  :ingredients:
+  alternate: false
+  id: 186
+- name: Heavy Modular Frame
+  ingredients:
   - - Modular Frame
     - 5
   - - Steel Pipe
@@ -891,54 +787,62 @@
     - 5
   - - Screw
     - 100
-  :products:
-  - - Heavy Modular Frame
-    - 1
-  :building:
+  product:
+  - Heavy Modular Frame
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 30
-  :alternate: false
-- :name: Automated Wiring
-  :ingredients:
+  alternate: false
+  id: 188
+- name: Automated Wiring
+  ingredients:
   - - Stator
     - 1
   - - Cable
     - 20
-  :products:
-  - - Automated Wiring
-    - 1
-  :building:
+  product:
+  - Automated Wiring
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: false
-- :name: AI Limiter
-  :ingredients:
+  alternate: false
+  id: 189
+- name: AI Limiter
+  ingredients:
   - - Copper Sheet
     - 5
   - - Quickwire
     - 20
-  :products:
-  - - AI Limiter
-    - 1
-  :building:
+  product:
+  - AI Limiter
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Heavy Oil Residue
-  :ingredients:
+  alternate: false
+  id: 190
+- name: Heavy Oil Residue
+  ingredients:
   - - Crude Oil
-    - 3000
-  :products:
-  - - Heavy Oil Residue
-    - 4000
-  - - Polymer Resin
-    - 2
-  :building:
+    - 3
+  product:
+  - Heavy Oil Residue
+  - 4
+  byproduct:
+  - Polymer Resin
+  - 2
+  building:
   - Refinery
   - 6
-  :alternate: true
-- :name: Heavy Flexible Frame
-  :ingredients:
+  alternate: true
+  id: 191
+- name: Heavy Flexible Frame
+  ingredients:
   - - Modular Frame
     - 5
   - - Encased Industrial Beam
@@ -947,15 +851,17 @@
     - 20
   - - Screw
     - 104
-  :products:
-  - - Heavy Modular Frame
-    - 1
-  :building:
+  product:
+  - Heavy Modular Frame
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: true
-- :name: Computer
-  :ingredients:
+  alternate: true
+  id: 192
+- name: Computer
+  ingredients:
   - - Circuit Board
     - 10
   - - Cable
@@ -964,30 +870,34 @@
     - 18
   - - Screw
     - 52
-  :products:
-  - - Computer
-    - 1
-  :building:
+  product:
+  - Computer
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 24
-  :alternate: false
-- :name: Modular Engine
-  :ingredients:
+  alternate: false
+  id: 194
+- name: Modular Engine
+  ingredients:
   - - Motor
     - 2
   - - Rubber
     - 15
   - - Smart Plating
     - 2
-  :products:
-  - - Modular Engine
-    - 1
-  :building:
+  product:
+  - Modular Engine
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 60
-  :alternate: false
-- :name: Adaptive Control Unit
-  :ingredients:
+  alternate: false
+  id: 195
+- name: Adaptive Control Unit
+  ingredients:
   - - Automated Wiring
     - 15
   - - Circuit Board
@@ -996,238 +906,259 @@
     - 2
   - - Computer
     - 2
-  :products:
-  - - Adaptive Control Unit
-    - 2
-  :building:
+  product:
+  - Adaptive Control Unit
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 120
-  :alternate: false
-- :name: Fused Wire
-  :ingredients:
+  alternate: false
+  id: 196
+- name: Fused Wire
+  ingredients:
   - - Copper Ingot
     - 4
   - - Caterium Ingot
     - 1
-  :products:
-  - - Wire
-    - 30
-  :building:
+  product:
+  - Wire
+  - 30
+  byproduct: 
+  building:
   - Assembler
   - 20
-  :alternate: true
-- :name: Flexible Framework
-  :ingredients:
+  alternate: true
+  id: 198
+- name: Flexible Framework
+  ingredients:
   - - Modular Frame
     - 1
   - - Steel Beam
     - 6
   - - Rubber
     - 8
-  :products:
-  - - Versatile Framework
-    - 2
-  :building:
+  product:
+  - Versatile Framework
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: true
-- :name: Electrode Circuit Board
-  :ingredients:
+  alternate: true
+  id: 199
+- name: Electrode Circuit Board
+  ingredients:
   - - Rubber
     - 6
   - - Petroleum Coke
     - 9
-  :products:
-  - - Circuit Board
-    - 1
-  :building:
+  product:
+  - Circuit Board
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Electrode - Aluminum Scrap
-  :ingredients:
+  alternate: true
+  id: 200
+- name: Electrode - Aluminum Scrap
+  ingredients:
   - - Alumina Solution
-    - 12000
+    - 12
   - - Petroleum Coke
     - 4
-  :products:
-  - - Aluminum Scrap
-    - 20
-  - - Water
-    - 7000
-  :building:
+  product:
+  - Aluminum Scrap
+  - 20
+  byproduct:
+  - Water
+  - 7
+  building:
   - Refinery
   - 4
-  :alternate: true
-- :name: Diluted Packaged Fuel
-  :ingredients:
-  - - Heavy Oil Residue
-    - 1000
-  - - Packaged Water
-    - 2
-  :products:
-  - - Packaged Fuel
-    - 2
-  :building:
-  - Refinery
-  - 2
-  :alternate: true
-- :name: Copper Rotor
-  :ingredients:
+  alternate: true
+  id: 201
+- name: Copper Rotor
+  ingredients:
   - - Copper Sheet
     - 6
   - - Screw
     - 52
-  :products:
-  - - Rotor
-    - 3
-  :building:
+  product:
+  - Rotor
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 16
-  :alternate: true
-- :name: Modular Frame
-  :ingredients:
+  alternate: true
+  id: 203
+- name: Modular Frame
+  ingredients:
   - - Reinforced Iron Plate
     - 3
   - - Iron Rod
     - 12
-  :products:
-  - - Modular Frame
-    - 2
-  :building:
+  product:
+  - Modular Frame
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 60
-  :alternate: false
-- :name: Rotor
-  :ingredients:
+  alternate: false
+  id: 204
+- name: Rotor
+  ingredients:
   - - Iron Rod
     - 5
   - - Screw
     - 25
-  :products:
-  - - Rotor
-    - 1
-  :building:
+  product:
+  - Rotor
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 15
-  :alternate: false
-- :name: Copper Sheet
-  :ingredients:
+  alternate: false
+  id: 205
+- name: Copper Sheet
+  ingredients:
   - - Copper Ingot
     - 2
-  :products:
-  - - Copper Sheet
-    - 1
-  :building:
+  product:
+  - Copper Sheet
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Smart Plating
-  :ingredients:
+  alternate: false
+  id: 207
+- name: Smart Plating
+  ingredients:
   - - Reinforced Iron Plate
     - 1
   - - Rotor
     - 1
-  :products:
-  - - Smart Plating
-    - 1
-  :building:
+  product:
+  - Smart Plating
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 30
-  :alternate: false
-- :name: Copper Alloy Ingot
-  :ingredients:
+  alternate: false
+  id: 208
+- name: Copper Alloy Ingot
+  ingredients:
   - - Copper Ore
     - 10
   - - Iron Ore
     - 5
-  :products:
-  - - Copper Ingot
-    - 20
-  :building:
+  product:
+  - Copper Ingot
+  - 20
+  byproduct: 
+  building:
   - Foundry
   - 12
-  :alternate: true
-- :name: Coke Steel Ingot
-  :ingredients:
+  alternate: true
+  id: 209
+- name: Coke Steel Ingot
+  ingredients:
   - - Iron Ore
     - 15
   - - Petroleum Coke
     - 15
-  :products:
-  - - Steel Ingot
-    - 20
-  :building:
+  product:
+  - Steel Ingot
+  - 20
+  byproduct: 
+  building:
   - Foundry
   - 12
-  :alternate: true
-- :name: Coated Iron Plate
-  :ingredients:
+  alternate: true
+  id: 210
+- name: Coated Iron Plate
+  ingredients:
   - - Iron Ingot
     - 10
   - - Plastic
     - 2
-  :products:
-  - - Iron Plate
-    - 15
-  :building:
+  product:
+  - Iron Plate
+  - 15
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Coated Iron Canister
-  :ingredients:
+  alternate: true
+  id: 211
+- name: Coated Iron Canister
+  ingredients:
   - - Iron Plate
     - 2
   - - Copper Sheet
     - 1
-  :products:
-  - - Empty Canister
-    - 4
-  :building:
+  product:
+  - Empty Canister
+  - 4
+  byproduct: 
+  building:
   - Assembler
   - 4
-  :alternate: true
-- :name: Coated Cable
-  :ingredients:
+  alternate: true
+  id: 212
+- name: Coated Cable
+  ingredients:
   - - Wire
     - 5
   - - Heavy Oil Residue
-    - 2000
-  :products:
-  - - Cable
-    - 9
-  :building:
+    - 2
+  product:
+  - Cable
+  - 9
+  byproduct: 
+  building:
   - Refinery
   - 8
-  :alternate: true
-- :name: Bolted Frame
-  :ingredients:
+  alternate: true
+  id: 213
+- name: Bolted Frame
+  ingredients:
   - - Reinforced Iron Plate
     - 3
   - - Screw
     - 56
-  :products:
-  - - Modular Frame
-    - 2
-  :building:
+  product:
+  - Modular Frame
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: true
-- :name: Adhered Iron Plate
-  :ingredients:
+  alternate: true
+  id: 214
+- name: Adhered Iron Plate
+  ingredients:
   - - Iron Plate
     - 3
   - - Rubber
     - 1
-  :products:
-  - - Reinforced Iron Plate
-    - 1
-  :building:
+  product:
+  - Reinforced Iron Plate
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 16
-  :alternate: true
-- :name: Turbo Pressure Motor
-  :ingredients:
+  alternate: true
+  id: 215
+- name: Turbo Pressure Motor
+  ingredients:
   - - Motor
     - 4
   - - Pressure Conversion Cube
@@ -1236,65 +1167,75 @@
     - 24
   - - Stator
     - 8
-  :products:
-  - - Turbo Motor
-    - 2
-  :building:
+  product:
+  - Turbo Motor
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 32
-  :alternate: true
-- :name: Encased Plutonium Cell
-  :ingredients:
+  alternate: true
+  id: 216
+- name: Encased Plutonium Cell
+  ingredients:
   - - Plutonium Pellet
     - 2
   - - Concrete
     - 4
-  :products:
-  - - Encased Plutonium Cell
-    - 1
-  :building:
+  product:
+  - Encased Plutonium Cell
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Pressure Conversion Cube
-  :ingredients:
+  alternate: false
+  id: 217
+- name: Pressure Conversion Cube
+  ingredients:
   - - Fused Modular Frame
     - 1
   - - Radio Control Unit
     - 2
-  :products:
-  - - Pressure Conversion Cube
-    - 1
-  :building:
+  product:
+  - Pressure Conversion Cube
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 60
-  :alternate: false
-- :name: Copper Powder
-  :ingredients:
+  alternate: false
+  id: 218
+- name: Copper Powder
+  ingredients:
   - - Copper Ingot
     - 30
-  :products:
-  - - Copper Powder
-    - 5
-  :building:
+  product:
+  - Copper Powder
+  - 5
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Plutonium Pellet
-  :ingredients:
+  alternate: false
+  id: 220
+- name: Plutonium Pellet
+  ingredients:
   - - Non-fissile Uranium
     - 100
   - - Uranium Waste
     - 25
-  :products:
-  - - Plutonium Pellet
-    - 30
-  :building:
+  product:
+  - Plutonium Pellet
+  - 30
+  byproduct: 
+  building:
   - Particle Accelerator
   - 60
-  :alternate: false
-- :name: Plutonium Fuel Rod
-  :ingredients:
+  alternate: false
+  id: 221
+- name: Plutonium Fuel Rod
+  ingredients:
   - - Encased Plutonium Cell
     - 30
   - - Steel Beam
@@ -1303,71 +1244,51 @@
     - 6
   - - Heat Sink
     - 10
-  :products:
-  - - Plutonium Fuel Rod
-    - 1
-  :building:
+  product:
+  - Plutonium Fuel Rod
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 240
-  :alternate: false
-- :name: Packaged Nitric Acid
-  :ingredients:
-  - - Nitric Acid
-    - 1000
-  - - Empty Fluid Tank
-    - 1
-  :products:
-  - - Packaged Nitric Acid
-    - 1
-  :building:
-  - Packager
-  - 2
-  :alternate: false
-- :name: Nuclear Pasta
-  :ingredients:
+  alternate: false
+  id: 222
+- name: Nuclear Pasta
+  ingredients:
   - - Copper Powder
     - 200
   - - Pressure Conversion Cube
     - 1
-  :products:
-  - - Nuclear Pasta
-    - 1
-  :building:
+  product:
+  - Nuclear Pasta
+  - 1
+  byproduct: 
+  building:
   - Particle Accelerator
   - 120
-  :alternate: false
-- :name: Unpackage Nitric Acid
-  :ingredients:
-  - - Packaged Nitric Acid
-    - 1
-  :products:
-  - - Nitric Acid
-    - 1000
-  - - Empty Fluid Tank
-    - 1
-  :building:
-  - Packager
-  - 3
-  :alternate: false
-- :name: Turbo Blend Fuel
-  :ingredients:
+  alternate: false
+  id: 224
+- name: Turbo Blend Fuel
+  ingredients:
   - - Fuel
-    - 2000
+    - 2
   - - Heavy Oil Residue
-    - 4000
+    - 4
   - - Sulfur
     - 3
   - - Petroleum Coke
     - 3
-  :products:
-  - - Turbofuel
-    - 6000
-  :building:
+  product:
+  - Turbofuel
+  - 6
+  byproduct: 
+  building:
   - Blender
   - 8
-  :alternate: true
-- :name: Super-State Computer
-  :ingredients:
+  alternate: true
+  id: 226
+- name: Super-State Computer
+  ingredients:
   - - Computer
     - 3
   - - Electromagnetic Control Rod
@@ -1376,32 +1297,36 @@
     - 20
   - - Wire
     - 45
-  :products:
-  - - Supercomputer
-    - 2
-  :building:
+  product:
+  - Supercomputer
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 50
-  :alternate: true
-- :name: Battery
-  :ingredients:
+  alternate: true
+  id: 227
+- name: Battery
+  ingredients:
   - - Sulfuric Acid
-    - 2500
+    - 2
   - - Alumina Solution
-    - 2000
+    - 2
   - - Aluminum Casing
     - 1
-  :products:
-  - - Battery
-    - 1
-  - - Water
-    - 1500
-  :building:
+  product:
+  - Battery
+  - 1
+  byproduct:
+  - Water
+  - 1
+  building:
   - Blender
   - 3
-  :alternate: false
-- :name: Supercomputer
-  :ingredients:
+  alternate: false
+  id: 230
+- name: Supercomputer
+  ingredients:
   - - Computer
     - 2
   - - AI Limiter
@@ -1410,138 +1335,128 @@
     - 3
   - - Plastic
     - 28
-  :products:
-  - - Supercomputer
-    - 1
-  :building:
+  product:
+  - Supercomputer
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 32
-  :alternate: false
-- :name: Sulfuric Acid
-  :ingredients:
+  alternate: false
+  id: 231
+- name: Sulfuric Acid
+  ingredients:
   - - Sulfur
     - 5
   - - Water
-    - 5000
-  :products:
-  - - Sulfuric Acid
-    - 5000
-  :building:
+    - 5
+  product:
+  - Sulfuric Acid
+  - 5
+  byproduct: 
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Packaged Sulfuric Acid
-  :ingredients:
-  - - Sulfuric Acid
-    - 2000
-  - - Empty Canister
-    - 2
-  :products:
-  - - Packaged Sulfuric Acid
-    - 2
-  :building:
-  - Packager
-  - 3
-  :alternate: false
-- :name: Assembly Director System
-  :ingredients:
+  alternate: false
+  id: 232
+- name: Assembly Director System
+  ingredients:
   - - Adaptive Control Unit
     - 2
   - - Supercomputer
     - 1
-  :products:
-  - - Assembly Director System
-    - 1
-  :building:
+  product:
+  - Assembly Director System
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 80
-  :alternate: false
-- :name: High-Speed Connector
-  :ingredients:
+  alternate: false
+  id: 234
+- name: High-Speed Connector
+  ingredients:
   - - Quickwire
     - 56
   - - Cable
     - 10
   - - Circuit Board
     - 1
-  :products:
-  - - High-Speed Connector
-    - 1
-  :building:
+  product:
+  - High-Speed Connector
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: false
-- :name: Unpackage Sulfuric Acid
-  :ingredients:
-  - - Packaged Sulfuric Acid
-    - 1
-  :products:
-  - - Sulfuric Acid
-    - 1000
-  - - Empty Canister
-    - 1
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Electromagnetic Control Rod
-  :ingredients:
+  alternate: false
+  id: 235
+- name: Electromagnetic Control Rod
+  ingredients:
   - - Stator
     - 3
   - - AI Limiter
     - 2
-  :products:
-  - - Electromagnetic Control Rod
-    - 2
-  :building:
+  product:
+  - Electromagnetic Control Rod
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 30
-  :alternate: false
-- :name: Uranium Fuel Rod
-  :ingredients:
+  alternate: false
+  id: 237
+- name: Uranium Fuel Rod
+  ingredients:
   - - Encased Uranium Cell
     - 50
   - - Encased Industrial Beam
     - 3
   - - Electromagnetic Control Rod
     - 5
-  :products:
-  - - Uranium Fuel Rod
-    - 1
-  :building:
+  product:
+  - Uranium Fuel Rod
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 150
-  :alternate: false
-- :name: Magnetic Field Generator
-  :ingredients:
+  alternate: false
+  id: 239
+- name: Magnetic Field Generator
+  ingredients:
   - - Versatile Framework
     - 5
   - - Electromagnetic Control Rod
     - 2
   - - Battery
     - 10
-  :products:
-  - - Magnetic Field Generator
-    - 2
-  :building:
+  product:
+  - Magnetic Field Generator
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 120
-  :alternate: false
-- :name: Sloppy Alumina
-  :ingredients:
+  alternate: false
+  id: 240
+- name: Sloppy Alumina
+  ingredients:
   - - Bauxite
     - 10
   - - Water
-    - 10000
-  :products:
-  - - Alumina Solution
-    - 12000
-  :building:
+    - 10
+  product:
+  - Alumina Solution
+  - 12
+  byproduct: 
+  building:
   - Refinery
   - 3
-  :alternate: true
-- :name: Radio Control System
-  :ingredients:
+  alternate: true
+  id: 241
+- name: Radio Control System
+  ingredients:
   - - Crystal Oscillator
     - 1
   - - Circuit Board
@@ -1550,215 +1465,213 @@
     - 60
   - - Rubber
     - 30
-  :products:
-  - - Radio Control Unit
-    - 3
-  :building:
+  product:
+  - Radio Control Unit
+  - 3
+  byproduct: 
+  building:
   - Manufacturer
   - 40
-  :alternate: true
-- :name: Plutonium Fuel Unit
-  :ingredients:
+  alternate: true
+  id: 242
+- name: Plutonium Fuel Unit
+  ingredients:
   - - Encased Plutonium Cell
     - 20
   - - Pressure Conversion Cube
     - 1
-  :products:
-  - - Plutonium Fuel Rod
-    - 1
-  :building:
+  product:
+  - Plutonium Fuel Rod
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 120
-  :alternate: true
-- :name: OC Supercomputer
-  :ingredients:
+  alternate: true
+  id: 243
+- name: OC Supercomputer
+  ingredients:
   - - Radio Control Unit
     - 3
   - - Cooling System
     - 3
-  :products:
-  - - Supercomputer
-    - 1
-  :building:
+  product:
+  - Supercomputer
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 20
-  :alternate: true
-- :name: Heat Sink
-  :ingredients:
+  alternate: true
+  id: 244
+- name: Heat Sink
+  ingredients:
   - - Alclad Aluminum Sheet
     - 5
   - - Copper Sheet
     - 3
-  :products:
-  - - Heat Sink
-    - 1
-  :building:
+  product:
+  - Heat Sink
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 8
-  :alternate: false
-- :name: Fused Modular Frame
-  :ingredients:
+  alternate: false
+  id: 245
+- name: Fused Modular Frame
+  ingredients:
   - - Heavy Modular Frame
     - 1
   - - Aluminum Casing
     - 50
   - - Nitrogen Gas
-    - 25000
-  :products:
-  - - Fused Modular Frame
-    - 1
-  :building:
+    - 25
+  product:
+  - Fused Modular Frame
+  - 1
+  byproduct: 
+  building:
   - Blender
   - 40
-  :alternate: false
-- :name: Empty Fluid Tank
-  :ingredients:
+  alternate: false
+  id: 246
+- name: Empty Fluid Tank
+  ingredients:
   - - Aluminum Ingot
     - 1
-  :products:
-  - - Empty Fluid Tank
-    - 1
-  :building:
+  product:
+  - Empty Fluid Tank
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 1
-  :alternate: false
-- :name: Packaged Nitrogen Gas
-  :ingredients:
-  - - Nitrogen Gas
-    - 4000
-  - - Empty Fluid Tank
-    - 1
-  :products:
-  - - Packaged Nitrogen Gas
-    - 1
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Unpackage Nitrogen Gas
-  :ingredients:
-  - - Packaged Nitrogen Gas
-    - 1
-  :products:
-  - - Nitrogen Gas
-    - 4000
-  - - Empty Fluid Tank
-    - 1
-  :building:
-  - Packager
-  - 1
-  :alternate: false
-- :name: Instant Scrap
-  :ingredients:
+  alternate: false
+  id: 249
+- name: Instant Scrap
+  ingredients:
   - - Bauxite
     - 15
   - - Coal
     - 10
   - - Sulfuric Acid
-    - 5000
+    - 5
   - - Water
-    - 6000
-  :products:
-  - - Aluminum Scrap
-    - 30
-  - - Water
-    - 5000
-  :building:
+    - 1
+  product:
+  - Aluminum Scrap
+  - 30
+  byproduct: 
+  building:
   - Blender
   - 6
-  :alternate: true
-- :name: Instant Plutonium Cell
-  :ingredients:
+  alternate: true
+  id: 252
+- name: Instant Plutonium Cell
+  ingredients:
   - - Non-fissile Uranium
     - 150
   - - Aluminum Casing
     - 20
-  :products:
-  - - Encased Plutonium Cell
-    - 20
-  :building:
+  product:
+  - Encased Plutonium Cell
+  - 20
+  byproduct: 
+  building:
   - Particle Accelerator
   - 120
-  :alternate: true
-- :name: Heat-Fused Frame
-  :ingredients:
+  alternate: true
+  id: 253
+- name: Heat-Fused Frame
+  ingredients:
   - - Heavy Modular Frame
     - 1
   - - Aluminum Ingot
     - 50
   - - Nitric Acid
-    - 8000
+    - 8
   - - Fuel
-    - 10000
-  :products:
-  - - Fused Modular Frame
-    - 1
-  :building:
+    - 10
+  product:
+  - Fused Modular Frame
+  - 1
+  byproduct: 
+  building:
   - Blender
   - 20
-  :alternate: true
-- :name: Fertile Uranium
-  :ingredients:
+  alternate: true
+  id: 254
+- name: Fertile Uranium
+  ingredients:
   - - Uranium
     - 5
   - - Uranium Waste
     - 5
   - - Nitric Acid
-    - 3000
+    - 3
   - - Sulfuric Acid
-    - 5000
-  :products:
-  - - Non-fissile Uranium
-    - 20
-  - - Water
-    - 8000
-  :building:
+    - 5
+  product:
+  - Non-fissile Uranium
+  - 20
+  byproduct:
+  - Water
+  - 8
+  building:
   - Blender
   - 12
-  :alternate: true
-- :name: Electric Motor
-  :ingredients:
+  alternate: true
+  id: 255
+- name: Electric Motor
+  ingredients:
   - - Electromagnetic Control Rod
     - 1
   - - Rotor
     - 2
-  :products:
-  - - Motor
-    - 2
-  :building:
+  product:
+  - Motor
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 16
-  :alternate: true
-- :name: Diluted Fuel
-  :ingredients:
+  alternate: true
+  id: 256
+- name: Diluted Fuel
+  ingredients:
   - - Heavy Oil Residue
-    - 5000
+    - 5
   - - Water
-    - 10000
-  :products:
-  - - Fuel
-    - 10000
-  :building:
+    - 10
+  product:
+  - Fuel
+  - 10
+  byproduct: 
+  building:
   - Blender
   - 6
-  :alternate: true
-- :name: Cooling Device
-  :ingredients:
+  alternate: true
+  id: 257
+- name: Cooling Device
+  ingredients:
   - - Heat Sink
     - 5
   - - Motor
     - 1
   - - Nitrogen Gas
-    - 24000
-  :products:
-  - - Cooling System
-    - 2
-  :building:
+    - 24
+  product:
+  - Cooling System
+  - 2
+  byproduct: 
+  building:
   - Blender
   - 32
-  :alternate: true
-- :name: Classic Battery
-  :ingredients:
+  alternate: true
+  id: 258
+- name: Classic Battery
+  ingredients:
   - - Sulfur
     - 6
   - - Alclad Aluminum Sheet
@@ -1767,15 +1680,17 @@
     - 8
   - - Wire
     - 12
-  :products:
-  - - Battery
-    - 4
-  :building:
+  product:
+  - Battery
+  - 4
+  byproduct: 
+  building:
   - Manufacturer
   - 8
-  :alternate: true
-- :name: Automated Miner
-  :ingredients:
+  alternate: true
+  id: 259
+- name: Automated Miner
+  ingredients:
   - - Motor
     - 1
   - - Steel Pipe
@@ -1784,50 +1699,58 @@
     - 4
   - - Iron Plate
     - 2
-  :products:
-  - - Portable Miner
-    - 1
-  :building:
+  product:
+  - Portable Miner
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 60
-  :alternate: true
-- :name: Alclad Casing
-  :ingredients:
+  alternate: true
+  id: 260
+- name: Alclad Casing
+  ingredients:
   - - Aluminum Ingot
     - 20
   - - Copper Ingot
     - 10
-  :products:
-  - - Aluminum Casing
-    - 15
-  :building:
+  product:
+  - Aluminum Casing
+  - 15
+  byproduct: 
+  building:
   - Assembler
   - 8
-  :alternate: true
-- :name: Caterium Wire
-  :ingredients:
+  alternate: true
+  id: 261
+- name: Caterium Wire
+  ingredients:
   - - Caterium Ingot
     - 1
-  :products:
-  - - Wire
-    - 8
-  :building:
+  product:
+  - Wire
+  - 8
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: true
-- :name: Iron Wire
-  :ingredients:
+  alternate: true
+  id: 262
+- name: Iron Wire
+  ingredients:
   - - Iron Ingot
     - 5
-  :products:
-  - - Wire
-    - 9
-  :building:
+  product:
+  - Wire
+  - 9
+  byproduct: 
+  building:
   - Constructor
   - 24
-  :alternate: true
-- :name: Infused Uranium Cell
-  :ingredients:
+  alternate: true
+  id: 263
+- name: Infused Uranium Cell
+  ingredients:
   - - Uranium
     - 5
   - - Silica
@@ -1836,26 +1759,30 @@
     - 5
   - - Quickwire
     - 15
-  :products:
-  - - Encased Uranium Cell
-    - 4
-  :building:
+  product:
+  - Encased Uranium Cell
+  - 4
+  byproduct: 
+  building:
   - Manufacturer
   - 12
-  :alternate: true
-- :name: Caterium Ingot
-  :ingredients:
+  alternate: true
+  id: 264
+- name: Caterium Ingot
+  ingredients:
   - - Caterium Ore
     - 3
-  :products:
-  - - Caterium Ingot
-    - 1
-  :building:
+  product:
+  - Caterium Ingot
+  - 1
+  byproduct: 
+  building:
   - Smelter
   - 4
-  :alternate: false
-- :name: Turbo Electric Motor
-  :ingredients:
+  alternate: false
+  id: 265
+- name: Turbo Electric Motor
+  ingredients:
   - - Motor
     - 7
   - - Radio Control Unit
@@ -1864,15 +1791,17 @@
     - 5
   - - Rotor
     - 7
-  :products:
-  - - Turbo Motor
-    - 3
-  :building:
+  product:
+  - Turbo Motor
+  - 3
+  byproduct: 
+  building:
   - Manufacturer
   - 64
-  :alternate: true
-- :name: Turbo Motor
-  :ingredients:
+  alternate: true
+  id: 266
+- name: Turbo Motor
+  ingredients:
   - - Cooling System
     - 4
   - - Radio Control Unit
@@ -1881,15 +1810,17 @@
     - 4
   - - Rubber
     - 24
-  :products:
-  - - Turbo Motor
-    - 1
-  :building:
+  product:
+  - Turbo Motor
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 32
-  :alternate: false
-- :name: Thermal Propulsion Rocket
-  :ingredients:
+  alternate: false
+  id: 270
+- name: Thermal Propulsion Rocket
+  ingredients:
   - - Modular Engine
     - 5
   - - Turbo Motor
@@ -1898,169 +1829,195 @@
     - 6
   - - Fused Modular Frame
     - 2
-  :products:
-  - - Thermal Propulsion Rocket
-    - 2
-  :building:
+  product:
+  - Thermal Propulsion Rocket
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 120
-  :alternate: false
-- :name: Turbofuel
-  :ingredients:
+  alternate: false
+  id: 271
+- name: Turbofuel
+  ingredients:
   - - Fuel
-    - 6000
+    - 6
   - - Compacted Coal
     - 4
-  :products:
-  - - Turbofuel
-    - 5000
-  :building:
+  product:
+  - Turbofuel
+  - 5
+  byproduct: 
+  building:
   - Refinery
   - 16
-  :alternate: false
-- :name: Quickwire Stator
-  :ingredients:
+  alternate: false
+  id: 272
+- name: Quickwire Stator
+  ingredients:
   - - Steel Pipe
     - 4
   - - Quickwire
     - 15
-  :products:
-  - - Stator
-    - 2
-  :building:
+  product:
+  - Stator
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 15
-  :alternate: true
-- :name: Cheap Silica
-  :ingredients:
+  alternate: true
+  id: 273
+- name: Cheap Silica
+  ingredients:
   - - Raw Quartz
     - 3
   - - Limestone
     - 5
-  :products:
-  - - Silica
-    - 7
-  :building:
+  product:
+  - Silica
+  - 7
+  byproduct: 
+  building:
   - Assembler
   - 16
-  :alternate: true
-- :name: Steel Screw
-  :ingredients:
+  alternate: true
+  id: 274
+- name: Steel Screw
+  ingredients:
   - - Steel Beam
     - 1
-  :products:
-  - - Screw
-    - 52
-  :building:
+  product:
+  - Screw
+  - 52
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: true
-- :name: Cast Screw
-  :ingredients:
+  alternate: true
+  id: 275
+- name: Cast Screw
+  ingredients:
   - - Iron Ingot
     - 5
-  :products:
-  - - Screw
-    - 20
-  :building:
+  product:
+  - Screw
+  - 20
+  byproduct: 
+  building:
   - Constructor
   - 24
-  :alternate: true
-- :name: Steel Rotor
-  :ingredients:
+  alternate: true
+  id: 276
+- name: Steel Rotor
+  ingredients:
   - - Steel Pipe
     - 2
   - - Wire
     - 6
-  :products:
-  - - Rotor
-    - 1
-  :building:
+  product:
+  - Rotor
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Encased Industrial Pipe
-  :ingredients:
+  alternate: true
+  id: 277
+- name: Encased Industrial Pipe
+  ingredients:
   - - Steel Pipe
     - 7
   - - Concrete
     - 5
-  :products:
-  - - Encased Industrial Beam
-    - 1
-  :building:
+  product:
+  - Encased Industrial Beam
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 15
-  :alternate: true
-- :name: Stitched Iron Plate
-  :ingredients:
+  alternate: true
+  id: 278
+- name: Stitched Iron Plate
+  ingredients:
   - - Iron Plate
     - 10
   - - Wire
     - 20
-  :products:
-  - - Reinforced Iron Plate
-    - 3
-  :building:
+  product:
+  - Reinforced Iron Plate
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 32
-  :alternate: true
-- :name: Bolted Iron Plate
-  :ingredients:
+  alternate: true
+  id: 279
+- name: Bolted Iron Plate
+  ingredients:
   - - Iron Plate
     - 18
   - - Screw
     - 50
-  :products:
-  - - Reinforced Iron Plate
-    - 3
-  :building:
+  product:
+  - Reinforced Iron Plate
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Radio Connection Unit
-  :ingredients:
+  alternate: true
+  id: 280
+- name: Radio Connection Unit
+  ingredients:
   - - Heat Sink
     - 4
   - - High-Speed Connector
     - 2
   - - Quartz Crystal
     - 12
-  :products:
-  - - Radio Control Unit
-    - 1
-  :building:
+  product:
+  - Radio Control Unit
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: true
-- :name: Fused Quickwire
-  :ingredients:
+  alternate: true
+  id: 281
+- name: Fused Quickwire
+  ingredients:
   - - Caterium Ingot
     - 1
   - - Copper Ingot
     - 5
-  :products:
-  - - Quickwire
-    - 12
-  :building:
+  product:
+  - Quickwire
+  - 12
+  byproduct: 
+  building:
   - Assembler
   - 8
-  :alternate: true
-- :name: Recycled Plastic
-  :ingredients:
+  alternate: true
+  id: 282
+- name: Recycled Plastic
+  ingredients:
   - - Rubber
     - 6
   - - Fuel
-    - 6000
-  :products:
-  - - Plastic
-    - 12
-  :building:
+    - 6
+  product:
+  - Plastic
+  - 12
+  byproduct: 
+  building:
   - Refinery
   - 12
-  :alternate: true
-- :name: Uranium Fuel Unit
-  :ingredients:
+  alternate: true
+  id: 283
+- name: Uranium Fuel Unit
+  ingredients:
   - - Encased Uranium Cell
     - 100
   - - Electromagnetic Control Rod
@@ -2069,97 +2026,111 @@
     - 3
   - - Beacon
     - 6
-  :products:
-  - - Uranium Fuel Rod
-    - 3
-  :building:
+  product:
+  - Uranium Fuel Rod
+  - 3
+  byproduct: 
+  building:
   - Manufacturer
   - 300
-  :alternate: true
-- :name: Rigour Motor
-  :ingredients:
+  alternate: true
+  id: 284
+- name: Rigour Motor
+  ingredients:
   - - Rotor
     - 3
   - - Stator
     - 3
   - - Crystal Oscillator
     - 1
-  :products:
-  - - Motor
-    - 6
-  :building:
+  product:
+  - Motor
+  - 6
+  byproduct: 
+  building:
   - Manufacturer
   - 48
-  :alternate: true
-- :name: Steeled Frame
-  :ingredients:
+  alternate: true
+  id: 285
+- name: Steeled Frame
+  ingredients:
   - - Reinforced Iron Plate
     - 2
   - - Steel Pipe
     - 10
-  :products:
-  - - Modular Frame
-    - 3
-  :building:
+  product:
+  - Modular Frame
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 60
-  :alternate: true
-- :name: Compacted Steel Ingot
-  :ingredients:
+  alternate: true
+  id: 286
+- name: Compacted Steel Ingot
+  ingredients:
   - - Iron Ore
     - 6
   - - Compacted Coal
     - 3
-  :products:
-  - - Steel Ingot
-    - 10
-  :building:
+  product:
+  - Steel Ingot
+  - 10
+  byproduct: 
+  building:
   - Foundry
   - 16
-  :alternate: true
-- :name: Solid Steel Ingot
-  :ingredients:
+  alternate: true
+  id: 287
+- name: Solid Steel Ingot
+  ingredients:
   - - Iron Ingot
     - 2
   - - Coal
     - 2
-  :products:
-  - - Steel Ingot
-    - 3
-  :building:
+  product:
+  - Steel Ingot
+  - 3
+  byproduct: 
+  building:
   - Foundry
   - 3
-  :alternate: true
-- :name: Iron Alloy Ingot
-  :ingredients:
+  alternate: true
+  id: 288
+- name: Iron Alloy Ingot
+  ingredients:
   - - Iron Ore
     - 2
   - - Copper Ore
     - 2
-  :products:
-  - - Iron Ingot
-    - 5
-  :building:
+  product:
+  - Iron Ingot
+  - 5
+  byproduct: 
+  building:
   - Foundry
   - 6
-  :alternate: true
-- :name: Silicon High-Speed Connector
-  :ingredients:
+  alternate: true
+  id: 289
+- name: Silicon High-Speed Connector
+  ingredients:
   - - Quickwire
     - 60
   - - Silica
     - 25
   - - Circuit Board
     - 2
-  :products:
-  - - High-Speed Connector
-    - 2
-  :building:
+  product:
+  - High-Speed Connector
+  - 2
+  byproduct: 
+  building:
   - Manufacturer
   - 40
-  :alternate: true
-- :name: Heavy Encased Frame
-  :ingredients:
+  alternate: true
+  id: 290
+- name: Heavy Encased Frame
+  ingredients:
   - - Modular Frame
     - 8
   - - Encased Industrial Beam
@@ -2168,177 +2139,203 @@
     - 36
   - - Concrete
     - 22
-  :products:
-  - - Heavy Modular Frame
-    - 3
-  :building:
+  product:
+  - Heavy Modular Frame
+  - 3
+  byproduct: 
+  building:
   - Manufacturer
   - 64
-  :alternate: true
-- :name: Heat Exchanger
-  :ingredients:
+  alternate: true
+  id: 291
+- name: Heat Exchanger
+  ingredients:
   - - Aluminum Casing
     - 3
   - - Rubber
     - 3
-  :products:
-  - - Heat Sink
-    - 1
-  :building:
+  product:
+  - Heat Sink
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 6
-  :alternate: true
-- :name: Fine Black Powder
-  :ingredients:
+  alternate: true
+  id: 292
+- name: Fine Black Powder
+  ingredients:
   - - Sulfur
     - 2
   - - Compacted Coal
     - 1
-  :products:
-  - - Black Powder
-    - 4
-  :building:
+  product:
+  - Black Powder
+  - 4
+  byproduct: 
+  building:
   - Assembler
   - 16
-  :alternate: true
-- :name: Electromagnetic Connection Rod
-  :ingredients:
+  alternate: true
+  id: 293
+- name: Electromagnetic Connection Rod
+  ingredients:
   - - Stator
     - 2
   - - High-Speed Connector
     - 1
-  :products:
-  - - Electromagnetic Control Rod
-    - 2
-  :building:
+  product:
+  - Electromagnetic Control Rod
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 15
-  :alternate: true
-- :name: Insulated Crystal Oscillator
-  :ingredients:
+  alternate: true
+  id: 294
+- name: Insulated Crystal Oscillator
+  ingredients:
   - - Quartz Crystal
     - 10
   - - Rubber
     - 7
   - - AI Limiter
     - 1
-  :products:
-  - - Crystal Oscillator
-    - 1
-  :building:
+  product:
+  - Crystal Oscillator
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 32
-  :alternate: true
-- :name: Fine Concrete
-  :ingredients:
+  alternate: true
+  id: 295
+- name: Fine Concrete
+  ingredients:
   - - Silica
     - 3
   - - Limestone
     - 12
-  :products:
-  - - Concrete
-    - 10
-  :building:
+  product:
+  - Concrete
+  - 10
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: true
-- :name: Crystal Computer
-  :ingredients:
+  alternate: true
+  id: 296
+- name: Crystal Computer
+  ingredients:
   - - Circuit Board
     - 8
   - - Crystal Oscillator
     - 3
-  :products:
-  - - Computer
-    - 3
-  :building:
+  product:
+  - Computer
+  - 3
+  byproduct: 
+  building:
   - Assembler
   - 64
-  :alternate: true
-- :name: Caterium Computer
-  :ingredients:
+  alternate: true
+  id: 297
+- name: Caterium Computer
+  ingredients:
   - - Circuit Board
     - 7
   - - Quickwire
     - 28
   - - Rubber
     - 12
-  :products:
-  - - Computer
-    - 1
-  :building:
+  product:
+  - Computer
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: true
-- :name: Caterium Circuit Board
-  :ingredients:
+  alternate: true
+  id: 298
+- name: Caterium Circuit Board
+  ingredients:
   - - Plastic
     - 10
   - - Quickwire
     - 30
-  :products:
-  - - Circuit Board
-    - 7
-  :building:
+  product:
+  - Circuit Board
+  - 7
+  byproduct: 
+  building:
   - Assembler
   - 48
-  :alternate: true
-- :name: Silicon Circuit Board
-  :ingredients:
+  alternate: true
+  id: 299
+- name: Silicon Circuit Board
+  ingredients:
   - - Copper Sheet
     - 11
   - - Silica
     - 11
-  :products:
-  - - Circuit Board
-    - 5
-  :building:
+  product:
+  - Circuit Board
+  - 5
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: true
-- :name: Quickwire Cable
-  :ingredients:
+  alternate: true
+  id: 300
+- name: Quickwire Cable
+  ingredients:
   - - Quickwire
     - 3
   - - Rubber
     - 2
-  :products:
-  - - Cable
-    - 11
-  :building:
+  product:
+  - Cable
+  - 11
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: true
-- :name: Insulated Cable
-  :ingredients:
+  alternate: true
+  id: 301
+- name: Insulated Cable
+  ingredients:
   - - Wire
     - 9
   - - Rubber
     - 6
-  :products:
-  - - Cable
-    - 20
-  :building:
+  product:
+  - Cable
+  - 20
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: true
-- :name: Crystal Beacon
-  :ingredients:
+  alternate: true
+  id: 302
+- name: Crystal Beacon
+  ingredients:
   - - Steel Beam
     - 4
   - - Steel Pipe
     - 16
   - - Crystal Oscillator
     - 1
-  :products:
-  - - Beacon
-    - 20
-  :building:
+  product:
+  - Beacon
+  - 20
+  byproduct: 
+  building:
   - Manufacturer
   - 120
-  :alternate: true
-- :name: Hover Pack
-  :ingredients:
+  alternate: true
+  id: 303
+- name: Hover Pack
+  ingredients:
   - - Motor
     - 8
   - - Heavy Modular Frame
@@ -2347,30 +2344,34 @@
     - 8
   - - Alclad Aluminum Sheet
     - 40
-  :products:
-  - - Hover Pack
-    - 1
-  :building:
+  product:
+  - Hover Pack
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 120
-  :alternate: false
-- :name: Iodine Infused Filter
-  :ingredients:
+  alternate: false
+  id: 304
+- name: Iodine Infused Filter
+  ingredients:
   - - Gas Filter
     - 1
   - - Quickwire
     - 8
   - - Aluminum Casing
     - 1
-  :products:
-  - - Iodine Infused Filter
-    - 1
-  :building:
+  product:
+  - Iodine Infused Filter
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 16
-  :alternate: false
-- :name: Hazmat Suit
-  :ingredients:
+  alternate: false
+  id: 305
+- name: Hazmat Suit
+  ingredients:
   - - Rubber
     - 50
   - - Plastic
@@ -2379,45 +2380,51 @@
     - 50
   - - Fabric
     - 50
-  :products:
-  - - Hazmat Suit
-    - 1
-  :building:
+  product:
+  - Hazmat Suit
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 120
-  :alternate: false
-- :name: Gas Filter
-  :ingredients:
+  alternate: false
+  id: 306
+- name: Gas Filter
+  ingredients:
   - - Coal
     - 5
   - - Rubber
     - 2
   - - Fabric
     - 2
-  :products:
-  - - Gas Filter
-    - 1
-  :building:
+  product:
+  - Gas Filter
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 8
-  :alternate: false
-- :name: Gas Mask
-  :ingredients:
+  alternate: false
+  id: 309
+- name: Gas Mask
+  ingredients:
   - - Rubber
     - 100
   - - Plastic
     - 100
   - - Fabric
     - 100
-  :products:
-  - - Gas Mask
-    - 1
-  :building:
+  product:
+  - Gas Mask
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 60
-  :alternate: false
-- :name: Jetpack
-  :ingredients:
+  alternate: false
+  id: 310
+- name: Jetpack
+  ingredients:
   - - Plastic
     - 50
   - - Rubber
@@ -2426,15 +2433,17 @@
     - 15
   - - Motor
     - 5
-  :products:
-  - - Jetpack
-    - 1
-  :building:
+  product:
+  - Jetpack
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 120
-  :alternate: false
-- :name: Xeno-Basher
-  :ingredients:
+  alternate: false
+  id: 321
+- name: Xeno-Basher
+  ingredients:
   - - Modular Frame
     - 5
   - - Xeno-Zapper
@@ -2443,26 +2452,30 @@
     - 25
   - - Wire
     - 500
-  :products:
-  - - Xeno-Basher
-    - 1
-  :building:
+  product:
+  - Xeno-Basher
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 80
-  :alternate: false
-- :name: Solid Biofuel
-  :ingredients:
+  alternate: false
+  id: 337
+- name: Solid Biofuel
+  ingredients:
   - - Biomass
     - 8
-  :products:
-  - - Solid Biofuel
-    - 4
-  :building:
+  product:
+  - Solid Biofuel
+  - 4
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Chainsaw
-  :ingredients:
+  alternate: false
+  id: 345
+- name: Chainsaw
+  ingredients:
   - - Reinforced Iron Plate
     - 5
   - - Iron Rod
@@ -2471,15 +2484,17 @@
     - 160
   - - Cable
     - 15
-  :products:
-  - - Chainsaw
-    - 1
-  :building:
+  product:
+  - Chainsaw
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 60
-  :alternate: false
-- :name: Beacon
-  :ingredients:
+  alternate: false
+  id: 346
+- name: Beacon
+  ingredients:
   - - Iron Plate
     - 3
   - - Iron Rod
@@ -2488,176 +2503,124 @@
     - 15
   - - Cable
     - 2
-  :products:
-  - - Beacon
-    - 1
-  :building:
+  product:
+  - Beacon
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 8
-  :alternate: false
-- :name: Object Scanner
-  :ingredients:
+  alternate: false
+  id: 349
+- name: Object Scanner
+  ingredients:
   - - Reinforced Iron Plate
     - 4
   - - Wire
     - 20
   - - Screw
     - 50
-  :products:
-  - - Object Scanner
-    - 1
-  :building:
+  product:
+  - Object Scanner
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 40
-  :alternate: false
-- :name: Stinger Protein
-  :ingredients:
-  - - Stinger Remains
-    - 1
-  :products:
+  alternate: false
+  id: 350
+- name: Alien DNA Capsule
+  ingredients:
   - - Alien Protein
     - 1
-  :building:
-  - Constructor
-  - 3
-  :alternate: false
-- :name: Spitter Protein
-  :ingredients:
-  - - Plasma Spitter Remains
-    - 1
-  :products:
-  - - Alien Protein
-    - 1
-  :building:
-  - Constructor
-  - 3
-  :alternate: false
-- :name: Hog Protein
-  :ingredients:
-  - - Hog Remains
-    - 1
-  :products:
-  - - Alien Protein
-    - 1
-  :building:
-  - Constructor
-  - 3
-  :alternate: false
-- :name: Hatcher Protein
-  :ingredients:
-  - - Hatcher Remains
-    - 1
-  :products:
-  - - Alien Protein
-    - 1
-  :building:
-  - Constructor
-  - 3
-  :alternate: false
-- :name: Alien DNA Capsule
-  :ingredients:
-  - - Alien Protein
-    - 1
-  :products:
-  - - Alien DNA Capsule
-    - 1
-  :building:
+  product:
+  - Alien DNA Capsule
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Biomass (Alien Protein)
-  :ingredients:
-  - - Alien Protein
-    - 1
-  :products:
-  - - Biomass
-    - 100
-  :building:
-  - Constructor
-  - 4
-  :alternate: false
-- :name: Protein Inhaler
-  :ingredients:
-  - - Alien Protein
-    - 1
-  - - Beryl Nut
-    - 10
-  :products:
-  - - Medicinal Inhaler
-    - 1
-  :building:
-  - Equipment Workshop
-  - 20
-  :alternate: false
-- :name: Iron Rebar
-  :ingredients:
+  alternate: false
+  id: 554
+- name: Iron Rebar
+  ingredients:
   - - Iron Rod
     - 1
-  :products:
-  - - Iron Rebar
-    - 1
-  :building:
+  product:
+  - Iron Rebar
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Rebar Gun
-  :ingredients:
+  alternate: false
+  id: 557
+- name: Rebar Gun
+  ingredients:
   - - Reinforced Iron Plate
     - 6
   - - Iron Rod
     - 16
   - - Screw
     - 100
-  :products:
-  - - Rebar Gun
-    - 1
-  :building:
+  product:
+  - Rebar Gun
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 60
-  :alternate: false
-- :name: Homing Rifle Ammo
-  :ingredients:
+  alternate: false
+  id: 558
+- name: Homing Rifle Ammo
+  ingredients:
   - - Rifle Ammo
     - 20
   - - High-Speed Connector
     - 1
-  :products:
-  - - Homing Rifle Ammo
-    - 10
-  :building:
+  product:
+  - Homing Rifle Ammo
+  - 10
+  byproduct: 
+  building:
   - Assembler
   - 24
-  :alternate: false
-- :name: Blade Runners
-  :ingredients:
+  alternate: false
+  id: 561
+- name: Blade Runners
+  ingredients:
   - - Silica
     - 20
   - - Modular Frame
     - 3
   - - Rotor
     - 3
-  :products:
-  - - Blade Runners
-    - 1
-  :building:
+  product:
+  - Blade Runners
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 60
-  :alternate: false
-- :name: Stun Rebar
-  :ingredients:
+  alternate: false
+  id: 564
+- name: Stun Rebar
+  ingredients:
   - - Iron Rebar
     - 1
   - - Quickwire
     - 5
-  :products:
-  - - Stun Rebar
-    - 1
-  :building:
+  product:
+  - Stun Rebar
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 6
-  :alternate: false
-- :name: Zipline
-  :ingredients:
+  alternate: false
+  id: 568
+- name: Zipline
+  ingredients:
   - - Xeno-Zapper
     - 1
   - - Quickwire
@@ -2666,221 +2629,242 @@
     - 3
   - - Cable
     - 10
-  :products:
-  - - Zipline
-    - 1
-  :building:
+  product:
+  - Zipline
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 40
-  :alternate: false
-- :name: Quickwire
-  :ingredients:
+  alternate: false
+  id: 569
+- name: Quickwire
+  ingredients:
   - - Caterium Ingot
     - 1
-  :products:
-  - - Quickwire
-    - 5
-  :building:
+  product:
+  - Quickwire
+  - 5
+  byproduct: 
+  building:
   - Constructor
   - 5
-  :alternate: false
-- :name: Gas Nobelisk
-  :ingredients:
+  alternate: false
+  id: 570
+- name: Gas Nobelisk
+  ingredients:
   - - Nobelisk
     - 1
   - - Biomass
     - 10
-  :products:
-  - - Gas Nobelisk
-    - 1
-  :building:
+  product:
+  - Gas Nobelisk
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 12
-  :alternate: false
-- :name: Therapeutic Inhaler
-  :ingredients:
+  alternate: false
+  id: 571
+- name: Therapeutic Inhaler
+  ingredients:
   - - Mycelia
     - 15
   - - Alien Protein
     - 1
   - - Bacon Agaric
     - 1
-  :products:
-  - - Medicinal Inhaler
-    - 1
-  :building:
+  product:
+  - Medicinal Inhaler
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 20
-  :alternate: false
-- :name: Vitamin Inhaler
-  :ingredients:
+  alternate: false
+  id: 572
+- name: Vitamin Inhaler
+  ingredients:
   - - Mycelia
     - 10
   - - Paleberry
     - 5
-  :products:
-  - - Medicinal Inhaler
-    - 1
-  :building:
+  product:
+  - Medicinal Inhaler
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 20
-  :alternate: false
-- :name: Parachute
-  :ingredients:
+  alternate: false
+  id: 573
+- name: Parachute
+  ingredients:
   - - Fabric
     - 20
   - - Cable
     - 10
-  :products:
-  - - Parachute
-    - 1
-  :building:
+  product:
+  - Parachute
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 40
-  :alternate: false
-- :name: Polyester Fabric
-  :ingredients:
+  alternate: false
+  id: 574
+- name: Polyester Fabric
+  ingredients:
   - - Polymer Resin
     - 1
   - - Water
-    - 1000
-  :products:
-  - - Fabric
     - 1
-  :building:
+  product:
+  - Fabric
+  - 1
+  byproduct: 
+  building:
   - Refinery
   - 2
-  :alternate: true
-- :name: Fabric
-  :ingredients:
+  alternate: true
+  id: 575
+- name: Fabric
+  ingredients:
   - - Mycelia
     - 1
   - - Biomass
     - 5
-  :products:
-  - - Fabric
-    - 1
-  :building:
+  product:
+  - Fabric
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 4
-  :alternate: false
-- :name: Biomass (Mycelia)
-  :ingredients:
-  - - Mycelia
-    - 1
-  :products:
-  - - Biomass
-    - 10
-  :building:
-  - Constructor
-  - 4
-  :alternate: false
-- :name: Nutritional Inhaler
-  :ingredients:
+  alternate: false
+  id: 576
+- name: Nutritional Inhaler
+  ingredients:
   - - Bacon Agaric
     - 1
   - - Paleberry
     - 2
   - - Beryl Nut
     - 5
-  :products:
-  - - Medicinal Inhaler
-    - 1
-  :building:
+  product:
+  - Medicinal Inhaler
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 20
-  :alternate: false
-- :name: Power Shard (5)
-  :ingredients:
+  alternate: false
+  id: 578
+- name: Power Shard (5)
+  ingredients:
   - - Purple Power Slug
     - 1
-  :products:
-  - - Power Shard
-    - 5
-  :building:
+  product:
+  - Power Shard
+  - 5
+  byproduct: 
+  building:
   - Constructor
   - 24
-  :alternate: false
-- :name: Power Shard (2)
-  :ingredients:
+  alternate: false
+  id: 579
+- name: Power Shard (2)
+  ingredients:
   - - Yellow Power Slug
     - 1
-  :products:
-  - - Power Shard
-    - 2
-  :building:
+  product:
+  - Power Shard
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: false
-- :name: Power Shard (1)
-  :ingredients:
+  alternate: false
+  id: 580
+- name: Power Shard (1)
+  ingredients:
   - - Blue Power Slug
     - 1
-  :products:
-  - - Power Shard
-    - 1
-  :building:
+  product:
+  - Power Shard
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 8
-  :alternate: false
-- :name: Pulse Nobelisk
-  :ingredients:
+  alternate: false
+  id: 581
+- name: Pulse Nobelisk
+  ingredients:
   - - Nobelisk
     - 5
   - - Crystal Oscillator
     - 1
-  :products:
-  - - Pulse Nobelisk
-    - 5
-  :building:
+  product:
+  - Pulse Nobelisk
+  - 5
+  byproduct: 
+  building:
   - Equipment Workshop
   - 60
-  :alternate: false
-- :name: Shatter Rebar
-  :ingredients:
+  alternate: false
+  id: 583
+- name: Shatter Rebar
+  ingredients:
   - - Iron Rebar
     - 2
   - - Quartz Crystal
     - 3
-  :products:
-  - - Shatter Rebar
-    - 1
-  :building:
+  product:
+  - Shatter Rebar
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Turbo Rifle Ammo
-  :ingredients:
+  alternate: false
+  id: 585
+- name: Turbo Rifle Ammo
+  ingredients:
   - - Rifle Ammo
     - 25
   - - Aluminum Casing
     - 3
   - - Packaged Turbofuel
     - 3
-  :products:
-  - - Turbo Rifle Ammo
-    - 50
-  :building:
+  product:
+  - Turbo Rifle Ammo
+  - 50
+  byproduct: 
+  building:
   - Manufacturer
   - 12
-  :alternate: false
-- :name: Turbo Rifle Ammo
-  :ingredients:
+  alternate: false
+  id: 586
+- name: Turbo Rifle Ammo
+  ingredients:
   - - Rifle Ammo
     - 25
   - - Aluminum Casing
     - 3
   - - Turbofuel
-    - 3000
-  :products:
-  - - Turbo Rifle Ammo
-    - 50
-  :building:
+    - 3
+  product:
+  - Turbo Rifle Ammo
+  - 50
+  byproduct: 
+  building:
   - Blender
   - 12
-  :alternate: false
-- :name: Nuke Nobelisk
-  :ingredients:
+  alternate: false
+  id: 587
+- name: Nuke Nobelisk
+  ingredients:
   - - Nobelisk
     - 5
   - - Encased Uranium Cell
@@ -2889,43 +2873,49 @@
     - 10
   - - AI Limiter
     - 6
-  :products:
-  - - Nuke Nobelisk
-    - 1
-  :building:
+  product:
+  - Nuke Nobelisk
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 120
-  :alternate: false
-- :name: Rifle Ammo
-  :ingredients:
+  alternate: false
+  id: 588
+- name: Rifle Ammo
+  ingredients:
   - - Copper Sheet
     - 3
   - - Smokeless Powder
     - 2
-  :products:
-  - - Rifle Ammo
-    - 15
-  :building:
+  product:
+  - Rifle Ammo
+  - 15
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Explosive Rebar
-  :ingredients:
+  alternate: false
+  id: 589
+- name: Explosive Rebar
+  ingredients:
   - - Iron Rebar
     - 2
   - - Smokeless Powder
     - 2
   - - Steel Pipe
     - 2
-  :products:
-  - - Explosive Rebar
-    - 1
-  :building:
+  product:
+  - Explosive Rebar
+  - 1
+  byproduct: 
+  building:
   - Manufacturer
   - 12
-  :alternate: false
-- :name: Rifle
-  :ingredients:
+  alternate: false
+  id: 590
+- name: Rifle
+  ingredients:
   - - Motor
     - 2
   - - Rubber
@@ -2934,406 +2924,461 @@
     - 25
   - - Screw
     - 250
-  :products:
-  - - Rifle
-    - 1
-  :building:
+  product:
+  - Rifle
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 120
-  :alternate: false
-- :name: Cluster Nobelisk
-  :ingredients:
+  alternate: false
+  id: 591
+- name: Cluster Nobelisk
+  ingredients:
   - - Nobelisk
     - 3
   - - Smokeless Powder
     - 4
-  :products:
-  - - Cluster Nobelisk
-    - 1
-  :building:
+  product:
+  - Cluster Nobelisk
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 24
-  :alternate: false
-- :name: Nobelisk
-  :ingredients:
+  alternate: false
+  id: 592
+- name: Nobelisk
+  ingredients:
   - - Black Powder
     - 2
   - - Steel Pipe
     - 2
-  :products:
-  - - Nobelisk
-    - 1
-  :building:
+  product:
+  - Nobelisk
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 6
-  :alternate: false
-- :name: Nobelisk Detonator
-  :ingredients:
+  alternate: false
+  id: 593
+- name: Nobelisk Detonator
+  ingredients:
   - - Object Scanner
     - 1
   - - Steel Beam
     - 10
   - - Cable
     - 50
-  :products:
-  - - Nobelisk Detonator
-    - 1
-  :building:
+  product:
+  - Nobelisk Detonator
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 80
-  :alternate: false
-- :name: Smokeless Powder
-  :ingredients:
+  alternate: false
+  id: 594
+- name: Smokeless Powder
+  ingredients:
   - - Black Powder
     - 2
   - - Heavy Oil Residue
-    - 1000
-  :products:
-  - - Smokeless Powder
-    - 2
-  :building:
+    - 1
+  product:
+  - Smokeless Powder
+  - 2
+  byproduct: 
+  building:
   - Refinery
   - 6
-  :alternate: false
-- :name: Black Powder
-  :ingredients:
+  alternate: false
+  id: 595
+- name: Black Powder
+  ingredients:
   - - Coal
     - 1
   - - Sulfur
     - 1
-  :products:
-  - - Black Powder
-    - 2
-  :building:
+  product:
+  - Black Powder
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 4
-  :alternate: false
-- :name: Snowball
-  :ingredients:
+  alternate: false
+  id: 596
+- name: Snowball
+  ingredients:
   - - Actual Snow
     - 3
-  :products:
-  - - Snowball
-    - 1
-  :building:
+  product:
+  - Snowball
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: false
-- :name: FICSMAS Wonder Star
-  :ingredients:
+  alternate: false
+  id: 597
+- name: FICSMAS Wonder Star
+  ingredients:
   - - FICSMAS Decoration
     - 5
   - - Candy Cane
     - 20
-  :products:
-  - - FICSMAS Wonder Star
-    - 1
-  :building:
+  product:
+  - FICSMAS Wonder Star
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 60
-  :alternate: false
-- :name: FICSMAS Decoration
-  :ingredients:
+  alternate: false
+  id: 599
+- name: FICSMAS Decoration
+  ingredients:
   - - FICSMAS Tree Branch
     - 15
   - - FICSMAS Ornament Bundle
     - 6
-  :products:
-  - - FICSMAS Decoration
-    - 2
-  :building:
+  product:
+  - FICSMAS Decoration
+  - 2
+  byproduct: 
+  building:
   - Assembler
   - 60
-  :alternate: false
-- :name: FICSMAS Ornament Bundle
-  :ingredients:
+  alternate: false
+  id: 601
+- name: FICSMAS Ornament Bundle
+  ingredients:
   - - Copper FICSMAS Ornament
     - 1
   - - Iron FICSMAS Ornament
     - 1
-  :products:
-  - - FICSMAS Ornament Bundle
-    - 1
-  :building:
+  product:
+  - FICSMAS Ornament Bundle
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Red FICSMAS Ornament
-  :ingredients:
+  alternate: false
+  id: 603
+- name: Red FICSMAS Ornament
+  ingredients:
   - - FICSMAS Gift
     - 1
-  :products:
-  - - Red FICSMAS Ornament
-    - 1
-  :building:
+  product:
+  - Red FICSMAS Ornament
+  - 1
+  byproduct: 
+  building:
   - Smelter
   - 12
-  :alternate: false
-- :name: Blue FICSMAS Ornament
-  :ingredients:
+  alternate: false
+  id: 604
+- name: Blue FICSMAS Ornament
+  ingredients:
   - - FICSMAS Gift
     - 1
-  :products:
-  - - Blue FICSMAS Ornament
-    - 2
-  :building:
+  product:
+  - Blue FICSMAS Ornament
+  - 2
+  byproduct: 
+  building:
   - Smelter
   - 12
-  :alternate: false
-- :name: Copper FICSMAS Ornament
-  :ingredients:
+  alternate: false
+  id: 605
+- name: Copper FICSMAS Ornament
+  ingredients:
   - - Red FICSMAS Ornament
     - 2
   - - Copper Ingot
     - 2
-  :products:
-  - - Copper FICSMAS Ornament
-    - 1
-  :building:
+  product:
+  - Copper FICSMAS Ornament
+  - 1
+  byproduct: 
+  building:
   - Foundry
   - 12
-  :alternate: false
-- :name: Iron FICSMAS Ornament
-  :ingredients:
+  alternate: false
+  id: 606
+- name: Iron FICSMAS Ornament
+  ingredients:
   - - Blue FICSMAS Ornament
     - 3
   - - Iron Ingot
     - 3
-  :products:
-  - - Iron FICSMAS Ornament
-    - 1
-  :building:
+  product:
+  - Iron FICSMAS Ornament
+  - 1
+  byproduct: 
+  building:
   - Foundry
   - 12
-  :alternate: false
-- :name: Actual Snow
-  :ingredients:
+  alternate: false
+  id: 607
+- name: Actual Snow
+  ingredients:
   - - FICSMAS Gift
     - 5
-  :products:
-  - - Actual Snow
-    - 2
-  :building:
+  product:
+  - Actual Snow
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: false
-- :name: FICSMAS Tree Branch
-  :ingredients:
+  alternate: false
+  id: 610
+- name: FICSMAS Tree Branch
+  ingredients:
   - - FICSMAS Gift
     - 1
-  :products:
-  - - FICSMAS Tree Branch
-    - 1
-  :building:
+  product:
+  - FICSMAS Tree Branch
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: FICSMAS Bow
-  :ingredients:
+  alternate: false
+  id: 612
+- name: FICSMAS Bow
+  ingredients:
   - - FICSMAS Gift
     - 2
-  :products:
-  - - FICSMAS Bow
-    - 1
-  :building:
+  product:
+  - FICSMAS Bow
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: false
-- :name: Candy Cane
-  :ingredients:
+  alternate: false
+  id: 614
+- name: Candy Cane
+  ingredients:
   - - FICSMAS Gift
     - 3
-  :products:
-  - - Candy Cane
-    - 1
-  :building:
+  product:
+  - Candy Cane
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 12
-  :alternate: false
-- :name: Candy Cane Basher
-  :ingredients:
+  alternate: false
+  id: 615
+- name: Candy Cane Basher
+  ingredients:
   - - Xeno-Zapper
     - 2
   - - Candy Cane
     - 25
   - - FICSMAS Gift
     - 15
-  :products:
-  - - Candy Cane Basher
-    - 1
-  :building:
+  product:
+  - Candy Cane Basher
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 80
-  :alternate: false
-- :name: Factory Cart™
-  :ingredients:
+  alternate: false
+  id: 616
+- name: Factory Cart™
+  ingredients:
   - - Reinforced Iron Plate
     - 4
   - - Iron Rod
     - 4
   - - Rotor
     - 2
-  :products:
-  - - Factory Cart™
-    - 1
-  :building:
+  product:
+  - Factory Cart™
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 20
-  :alternate: false
-- :name: Golden Factory Cart™
-  :ingredients:
+  alternate: false
+  id: 631
+- name: Golden Factory Cart™
+  ingredients:
   - - Caterium Ingot
     - 15
   - - Iron Rod
     - 4
   - - Rotor
     - 2
-  :products:
-  - - Golden Factory Cart™
-    - 1
-  :building:
+  product:
+  - Golden Factory Cart™
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 20
-  :alternate: false
-- :name: Biomass (Leaves)
-  :ingredients:
-  - - Leaves
-    - 10
-  :products:
-  - - Biomass
-    - 5
-  :building:
-  - Constructor
-  - 5
-  :alternate: false
-- :name: Biomass (Wood)
-  :ingredients:
-  - - Wood
-    - 4
-  :products:
-  - - Biomass
-    - 20
-  :building:
-  - Constructor
-  - 4
-  :alternate: false
-- :name: Reinforced Iron Plate
-  :ingredients:
+  alternate: false
+  id: 696
+- name: Reinforced Iron Plate
+  ingredients:
   - - Iron Plate
     - 6
   - - Screw
     - 12
-  :products:
-  - - Reinforced Iron Plate
-    - 1
-  :building:
+  product:
+  - Reinforced Iron Plate
+  - 1
+  byproduct: 
+  building:
   - Assembler
   - 12
-  :alternate: false
-- :name: Concrete
-  :ingredients:
+  alternate: false
+  id: 728
+- name: Concrete
+  ingredients:
   - - Limestone
     - 3
-  :products:
-  - - Concrete
-    - 1
-  :building:
+  product:
+  - Concrete
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Screw
-  :ingredients:
+  alternate: false
+  id: 730
+- name: Screw
+  ingredients:
   - - Iron Rod
     - 1
-  :products:
-  - - Screw
-    - 4
-  :building:
+  product:
+  - Screw
+  - 4
+  byproduct: 
+  building:
   - Constructor
   - 6
-  :alternate: false
-- :name: Cable
-  :ingredients:
+  alternate: false
+  id: 731
+- name: Cable
+  ingredients:
   - - Wire
     - 2
-  :products:
-  - - Cable
-    - 1
-  :building:
+  product:
+  - Cable
+  - 1
+  byproduct: 
+  building:
   - Constructor
   - 2
-  :alternate: false
-- :name: Wire
-  :ingredients:
+  alternate: false
+  id: 733
+- name: Wire
+  ingredients:
   - - Copper Ingot
     - 1
-  :products:
-  - - Wire
-    - 2
-  :building:
+  product:
+  - Wire
+  - 2
+  byproduct: 
+  building:
   - Constructor
   - 4
-  :alternate: false
-- :name: Copper Ingot
-  :ingredients:
+  alternate: false
+  id: 734
+- name: Copper Ingot
+  ingredients:
   - - Copper Ore
     - 1
-  :products:
-  - - Copper Ingot
-    - 1
-  :building:
+  product:
+  - Copper Ingot
+  - 1
+  byproduct: 
+  building:
   - Smelter
   - 2
-  :alternate: false
-- :name: Portable Miner
-  :ingredients:
+  alternate: false
+  id: 735
+- name: Portable Miner
+  ingredients:
   - - Iron Plate
     - 2
   - - Iron Rod
     - 4
-  :products:
-  - - Portable Miner
-    - 1
-  :building:
+  product:
+  - Portable Miner
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 40
-  :alternate: false
-- :name: Sweet Fireworks
-  :ingredients:
+  alternate: false
+  id: 737
+- name: Sweet Fireworks
+  ingredients:
   - - FICSMAS Tree Branch
     - 6
   - - Candy Cane
     - 3
-  :products:
-  - - Sweet Fireworks
-    - 1
-  :building:
+  product:
+  - Sweet Fireworks
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 24
-  :alternate: false
-- :name: Fancy Fireworks
-  :ingredients:
+  alternate: false
+  id: 738
+- name: Fancy Fireworks
+  ingredients:
   - - FICSMAS Tree Branch
     - 4
   - - FICSMAS Bow
     - 3
-  :products:
-  - - Fancy Fireworks
-    - 1
-  :building:
+  product:
+  - Fancy Fireworks
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 24
-  :alternate: false
-- :name: Sparkly Fireworks
-  :ingredients:
+  alternate: false
+  id: 739
+- name: Sparkly Fireworks
+  ingredients:
   - - FICSMAS Tree Branch
     - 3
   - - Actual Snow
     - 2
-  :products:
-  - - Sparkly Fireworks
-    - 1
-  :building:
+  product:
+  - Sparkly Fireworks
+  - 1
+  byproduct: 
+  building:
   - Equipment Workshop
   - 24
-  :alternate: false
+  alternate: false
+  id: 740
+- name: Uranium Waste
+  ingredients:
+  - - Uranium Fuel Rod
+    - 1
+  - - Water
+    - 1500
+  product:
+  - Uranium Waste
+  - 50
+  byproduct: 
+  building:
+  - Nuclear Power Plant
+  - 300
+  alternate: false
+  id: 741
