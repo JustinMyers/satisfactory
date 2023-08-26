@@ -1,105 +1,123 @@
-30.54545454545454
+Uranium Fuel Unit*
+  Infused Uranium Cell*
+    Cheap Silica*
+      Raw Quartz
+      Limestone
+    Fused Quickwire*
+      Pure Caterium Ingot*
+        Caterium Ore
+        Water
+      Pure Copper Ingot*
+        Copper Ore
+        Water
+    Uranium
+    Sulfur
+  Electromagnetic Control Rod
+    Stator
+      Steel Pipe
+        Coke Steel Ingot*
+          Petroleum Coke
+            Heavy Oil Residue*
+              Crude Oil
+          Iron Ore
+      Wire
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+    AI Limiter
+      Steamed Copper Sheet*
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+        Water
+      Fused Quickwire*
+        Pure Caterium Ingot*
+          Caterium Ore
+          Water
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+  Insulated Crystal Oscillator*
+    Pure Quartz Crystal*
+      Raw Quartz
+      Water
+    Recycled Rubber*
+      Diluted Fuel*
+        Heavy Oil Residue*
+          Crude Oil
+        Water
+    AI Limiter
+      Steamed Copper Sheet*
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+        Water
+      Fused Quickwire*
+        Pure Caterium Ingot*
+          Caterium Ore
+          Water
+        Pure Copper Ingot*
+          Copper Ore
+          Water
+  Crystal Beacon*
+    Steel Beam
+      Coke Steel Ingot*
+        Petroleum Coke
+          Heavy Oil Residue*
+            Crude Oil
+        Iron Ore
+    Steel Pipe
+      Coke Steel Ingot*
+        Petroleum Coke
+          Heavy Oil Residue*
+            Crude Oil
+        Iron Ore
+    Insulated Crystal Oscillator*
+      Pure Quartz Crystal*
+        Raw Quartz
+        Water
+      Recycled Rubber*
+        Diluted Fuel*
+          Heavy Oil Residue*
+            Crude Oil
+          Water
+      AI Limiter
+        Steamed Copper Sheet*
+          Pure Copper Ingot*
+            Copper Ore
+            Water
+          Water
+        Fused Quickwire*
+          Pure Caterium Ingot*
+            Caterium Ore
+            Water
+          Pure Copper Ingot*
+            Copper Ore
+            Water
+
+Recipe 'Uranium Fuel Unit' makes 50.39999999999999 Uranium Fuel Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1794.8     / 11040     16.26%
+Coal                0.0        / 30120     0.0%
+Copper Ore          2644.88    / 28860     9.16%
+Iron Ore            1001.7     / 70380     1.42%
+Limestone           900.0      / 52860     1.7%
+Raw Quartz          1252.8     / 10500     11.93%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           395.95     / 11700     3.38%
+Nitrogen Gas        0.0        / 12000     0.0%
+
 Plutonium Fuel Unit*
   Instant Plutonium Cell*
-    Fertile Uranium*
+    Non-fissile Uranium
       Uranium Waste
-        Uranium Fuel Unit*
-          Infused Uranium Cell*
-            Cheap Silica*
-              Raw Quartz
-              Limestone
-            Fused Quickwire*
-              Pure Caterium Ingot*
-                Caterium Ore
-                Water
-              Pure Copper Ingot*
-                Copper Ore
-                Water
-            Uranium
-            Sulfur
-          Electromagnetic Control Rod
-            Stator
-              Steel Pipe
-                Coke Steel Ingot*
-                  Petroleum Coke
-                    Heavy Oil Residue*
-                      Crude Oil
-                  Iron Ore
-              Wire
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-            AI Limiter
-              Steamed Copper Sheet*
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-                Water
-              Fused Quickwire*
-                Pure Caterium Ingot*
-                  Caterium Ore
-                  Water
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-          Insulated Crystal Oscillator*
-            Pure Quartz Crystal*
-              Raw Quartz
-              Water
-            Recycled Rubber*
-              Diluted Fuel*
-                Heavy Oil Residue*
-                  Crude Oil
-                Water
-            AI Limiter
-              Steamed Copper Sheet*
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-                Water
-              Fused Quickwire*
-                Pure Caterium Ingot*
-                  Caterium Ore
-                  Water
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-          Beacon
-            Steel Coated Plate*
-              Solid Steel Ingot*
-                Pure Iron Ingot*
-                  Iron Ore
-                  Water
-                Coal
-              Recycled Plastic*
-                Diluted Fuel*
-                  Heavy Oil Residue*
-                    Crude Oil
-                  Water
-            Steel Rod*
-              Coke Steel Ingot*
-                Petroleum Coke
-                  Heavy Oil Residue*
-                    Crude Oil
-                Iron Ore
-            Iron Wire*
-              Pure Iron Ingot*
-                Iron Ore
-                Water
-            Quickwire Cable*
-              Fused Quickwire*
-                Pure Caterium Ingot*
-                  Caterium Ore
-                  Water
-                Pure Copper Ingot*
-                  Copper Ore
-                  Water
-              Recycled Rubber*
-                Diluted Fuel*
-                  Heavy Oil Residue*
-                    Crude Oil
-                  Water
+        Uranium Fuel Rod
         Water
+      Cheap Silica*
+        Raw Quartz
+        Limestone
       Nitric Acid
         Steel Coated Plate*
           Solid Steel Ingot*
@@ -117,7 +135,6 @@ Plutonium Fuel Unit*
       Sulfuric Acid
         Sulfur
         Water
-      Uranium
     Alclad Casing*
       Aluminum Ingot
         Electrode - Aluminum Scrap*
@@ -267,3 +284,62 @@ Plutonium Fuel Unit*
             Heavy Oil Residue*
               Crude Oil
             Water
+
+Recipe 'Plutonium Fuel Unit' makes 22.399999999999995 Plutonium Fuel Rod per minute, consuming:
+
+Bauxite             2004.8     / 9780      20.5%
+Caterium Ore        179.2      / 9245.2    1.94%
+Coal                103.7      / 30120     0.34%
+Copper Ore          672.6      / 26215.12  2.57%
+Iron Ore            1158.18    / 69378.3   1.67%
+Limestone           4639.47    / 51960.0   8.93%
+Raw Quartz          2587.84    / 9247.2    27.99%
+Sulfur              1008.0     / 4740.0    21.27%
+Uranium             0.0        / 0.0       NaN%
+Crude Oil           722.37     / 11304.05  6.39%
+Nitrogen Gas        4748.8     / 12000     39.57%
+Uranium Fuel Rod    50.4       / 50.4      100.0%
+
+Classic Battery*
+  Alclad Aluminum Sheet
+    Aluminum Ingot
+      Electrode - Aluminum Scrap*
+        Sloppy Alumina*
+          Bauxite
+          Water
+        Petroleum Coke
+          Heavy Oil Residue*
+            Crude Oil
+      Cheap Silica*
+        Raw Quartz
+        Limestone
+    Pure Copper Ingot*
+      Copper Ore
+      Water
+  Recycled Plastic*
+    Diluted Fuel*
+      Heavy Oil Residue*
+        Crude Oil
+      Water
+  Iron Wire*
+    Pure Iron Ingot*
+      Iron Ore
+      Water
+  Sulfur
+
+Recipe 'Classic Battery' makes 2488.0 Battery per minute, consuming:
+
+Bauxite             3265.5     / 7775.2    42.0%
+Caterium Ore        0.0        / 9066.0    0.0%
+Coal                0.0        / 30016.3   0.0%
+Copper Ore          580.53     / 25542.52  2.27%
+Iron Ore            2232.82    / 68220.12  3.27%
+Limestone           3887.5     / 47320.53  8.22%
+Raw Quartz          2332.5     / 6659.36   35.03%
+Sulfur              3732.0     / 3732.0    100.0%
+Uranium             0.0        / 0.0       NaN%
+Crude Oil           2192.55    / 10581.68  20.72%
+Nitrogen Gas        0.0        / 7251.2    0.0%
+Uranium Fuel Rod    0.0        / 0.0       NaN%
+Plutonium Fuel Rod  0.0        / 22.4      0.0%
+

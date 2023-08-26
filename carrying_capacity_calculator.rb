@@ -171,7 +171,7 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
-$recipes.reject! &:alternate
+# $recipes.reject! &:alternate
 
 def recipe_report(recipe, print_precursors = false)
   if print_precursors
@@ -195,7 +195,8 @@ def priority_list
   products = [
     "Uranium Fuel Rod",
     "Plutonium Fuel Rod",
-  # "Thermal Propulsion Rocket",
+    "Turbofuel",
+    "Turbofuel"
   ]
 
   products.each do |product|
@@ -215,24 +216,42 @@ end
 
 # priority_list
 
-recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
+# recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
 
-recipes.each do |r|
-  building_output = {}
-  r.building_report(r.max_production, building_output)
-  pp building_output
-  recipe_report(r, true)
-  puts
-end
+# recipes.each do |r|
+#   building_output = {}
+#   r.building_report(r.max_production, building_output)
+#   pp building_output
+#   recipe_report(r, true)
+#   puts
+# end
 
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 
+recipes = $recipes
+
 # recipes.each do |recipe|
-#   recipe_report(recipe, true)
+#   recipe_report(recipe.dup, true)
 # end
+
+max_sink_value = 0
+sink_value_recipe = nil
+recipes.each do |recipe|
+  item_hash = @item_hashes.detect { |i| i["name"] == recipe.product_name }
+  total_sink_value = recipe.max_production * item_hash["sink_value"].to_i
+  if total_sink_value > max_sink_value
+    max_sink_value = total_sink_value
+    sink_value_recipe = recipe
+  end
+  if total_sink_value > 30000000
+   puts "#{recipe.name} sinks #{total_sink_value.round} points per minute."
+  end
+end
+
+recipe_report(sink_value_recipe)
 
 # NOTES
 

@@ -269,6 +269,14 @@ $recipes.reject! { |recipe| recipe.building == "Equipment Workshop" }
   "Biomass",
   "Biocoal",
   "Protein",
+  "Color Cartridge",
+  "Liquid Biofuel",
+  "Solid Biofuel",
+  "Fabric",
+  "Snowball",
+  "FICSMAS",
+  "Actual Snow",
+  "Candy Cane"
 ].each do |rejected_recipe_string|
   $recipes.reject! { |recipe| recipe.data_display_name.include? rejected_recipe_string }
 end
