@@ -2319,6 +2319,25 @@
   - 8
   alternate: false
   id: 309
+- name: Beacon
+  ingredients:
+  - - Iron Plate
+    - 3
+  - - Iron Rod
+    - 1
+  - - Wire
+    - 15
+  - - Cable
+    - 2
+  product:
+  - Beacon
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - 8
+  alternate: false
+  id: 349
 - name: Alien DNA Capsule
   ingredients:
   - - Alien Protein
@@ -2388,6 +2407,21 @@
   - 5
   alternate: false
   id: 570
+- name: Gas Nobelisk
+  ingredients:
+  - - Nobelisk
+    - 1
+  - - Biomass
+    - 10
+  product:
+  - Gas Nobelisk
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - 12
+  alternate: false
+  id: 571
 - name: Power Shard (5)
   ingredients:
   - - Purple Power Slug
@@ -2427,6 +2461,21 @@
   - 8
   alternate: false
   id: 581
+- name: Pulse Nobelisk
+  ingredients:
+  - - Nobelisk
+    - 5
+  - - Crystal Oscillator
+    - 1
+  product:
+  - Pulse Nobelisk
+  - 5
+  byproduct: 
+  building:
+  - Assembler
+  - 60
+  alternate: false
+  id: 583
 - name: Shatter Rebar
   ingredients:
   - - Iron Rebar
@@ -2476,6 +2525,25 @@
   - 12
   alternate: false
   id: 587
+- name: Nuke Nobelisk
+  ingredients:
+  - - Nobelisk
+    - 5
+  - - Encased Uranium Cell
+    - 20
+  - - Smokeless Powder
+    - 10
+  - - AI Limiter
+    - 6
+  product:
+  - Nuke Nobelisk
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - 120
+  alternate: false
+  id: 588
 - name: Rifle Ammo
   ingredients:
   - - Copper Sheet
@@ -2508,6 +2576,36 @@
   - 12
   alternate: false
   id: 590
+- name: Cluster Nobelisk
+  ingredients:
+  - - Nobelisk
+    - 3
+  - - Smokeless Powder
+    - 4
+  product:
+  - Cluster Nobelisk
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - 24
+  alternate: false
+  id: 592
+- name: Nobelisk
+  ingredients:
+  - - Black Powder
+    - 2
+  - - Steel Pipe
+    - 2
+  product:
+  - Nobelisk
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - 6
+  alternate: false
+  id: 593
 - name: Smokeless Powder
   ingredients:
   - - Black Powder

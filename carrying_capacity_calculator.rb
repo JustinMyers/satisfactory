@@ -179,7 +179,7 @@ def recipe_report(recipe, print_precursors = false)
     puts
   end
   max_production = recipe.max_production
-  puts "Recipe '#{recipe.name}' makes #{max_production} #{recipe.product.first} per minute, consuming:"
+  puts "Recipe '#{recipe.name}#{recipe.alternate ? "*" : ""}' makes #{max_production} #{recipe.product.first} per minute, consuming:"
   puts
   unit_cost = recipe.unit_cost
   $resource_limits.each_pair do |resource, count|
@@ -231,27 +231,35 @@ end
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 
-recipes = $recipes
+# recipes = $recipes
 
 # recipes.each do |recipe|
 #   recipe_report(recipe.dup, true)
 # end
 
-max_sink_value = 0
-sink_value_recipe = nil
-recipes.each do |recipe|
-  item_hash = @item_hashes.detect { |i| i["name"] == recipe.product_name }
-  total_sink_value = recipe.max_production * item_hash["sink_value"].to_i
-  if total_sink_value > max_sink_value
-    max_sink_value = total_sink_value
-    sink_value_recipe = recipe
-  end
-  if total_sink_value > 30000000
-    puts "#{recipe.name} sinks #{total_sink_value.round} points per minute."
-  end
-end
+# max_sink_value = 0
+# sink_value_recipe = nil
+# recipes.each do |recipe|
+#   item_hash = @item_hashes.detect { |i| i["name"] == recipe.product_name }
+#   total_sink_value = recipe.max_production * item_hash["sink_value"].to_i
+#   if total_sink_value > max_sink_value
+#     max_sink_value = total_sink_value
+#     sink_value_recipe = recipe
+#   end
+#   if total_sink_value > 30000000
+#     puts "#{recipe.name} sinks #{total_sink_value.round} points per minute."
+#   end
+# end
 
-recipe_report(sink_value_recipe)
+# recipe_report(sink_value_recipe)
+
+# SORTED BY PRODUCT
+
+$recipes.sort! { |b, a| b.product_name <=> a.product_name }
+
+$recipes.each do |recipe|
+  recipe_report(recipe, true)
+end
 
 # NOTES
 

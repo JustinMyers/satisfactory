@@ -239,8 +239,14 @@ class Recipe < SatisfactoryEntity
   end
 
   def building
-    building_class = produced_in.split(",").first.split(".").last.split('"').first
-    building_name = $buildings.detect { |b| b.class_name == building_class }.display_name
+    # building_class = produced_in.split(",").first.split(".").last.split('"').first
+    # building_name = $buildings.detect { |b| b.class_name == building_class }.display_name
+    $buildings.each do |building|
+      if produced_in.include?(building.class_name)
+        return building.display_name
+        break
+      end
+    end
   end
 end
 
@@ -276,6 +282,7 @@ $recipes.reject! { |recipe| recipe.building == "Equipment Workshop" }
   "FICSMAS",
   "Actual Snow",
   "Candy Cane",
+  "Fireworks",
 ].each do |rejected_recipe_string|
   $recipes.reject! { |recipe| recipe.data_display_name.include? rejected_recipe_string }
 end
