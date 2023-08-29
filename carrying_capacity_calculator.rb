@@ -196,7 +196,7 @@ def priority_list
     "Uranium Fuel Rod",
     "Plutonium Fuel Rod",
     "Turbofuel",
-    "Turbofuel"
+    "Turbofuel",
   ]
 
   products.each do |product|
@@ -247,7 +247,7 @@ recipes.each do |recipe|
     sink_value_recipe = recipe
   end
   if total_sink_value > 30000000
-   puts "#{recipe.name} sinks #{total_sink_value.round} points per minute."
+    puts "#{recipe.name} sinks #{total_sink_value.round} points per minute."
   end
 end
 
@@ -259,6 +259,8 @@ recipe_report(sink_value_recipe)
 # can I duplicate or beat this?
 
 # put byproducts into global resource list?
+
+# put energy into 'byproducts' or something?
 
 # a permutation technique to find "best order of recipes for same product to maximize production"
 # the Iron Plate problem.

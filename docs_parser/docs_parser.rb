@@ -247,7 +247,6 @@ end
 $recipes = parser.section("FGRecipe")
 $recipes.map! { |recipe| Recipe.new(recipe) }
 
-# "mDefaultFuelClasses": "(\"/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C\",\"/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C\")",
 uranium_waste = Recipe.new({
   "ClassName" => "Desc_NuclearWaste_C",
   "mDisplayName" => "Uranium Waste",
@@ -276,7 +275,7 @@ $recipes.reject! { |recipe| recipe.building == "Equipment Workshop" }
   "Snowball",
   "FICSMAS",
   "Actual Snow",
-  "Candy Cane"
+  "Candy Cane",
 ].each do |rejected_recipe_string|
   $recipes.reject! { |recipe| recipe.data_display_name.include? rejected_recipe_string }
 end
@@ -285,5 +284,5 @@ File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
 File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
 File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
 
-require "pp"
-PP.pp(parser.sections_report, $>, 100)
+# require "pp"
+# PP.pp(parser.sections_report, $>, 100)
