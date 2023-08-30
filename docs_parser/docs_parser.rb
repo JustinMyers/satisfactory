@@ -192,6 +192,11 @@ class Recipe < SatisfactoryEntity
       details["byproduct"] = nil
     end
 
+    # I don't care about water as a byproduct
+    if Array(details["byproduct"]).first == "Water"
+      details["byproduct"] = nil
+    end
+
     # subtract outputs from inputs
     details["ingredients"].each do |ingredient|
       if ingredient.first == product.first

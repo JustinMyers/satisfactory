@@ -54,7 +54,7 @@ class Recipe
     output
   end
 
-  def average_consumption
+  def total_wp_consumption
     total = 0
     unit_cost.each_pair do |resource, count|
       next if resource == "Water"
@@ -66,7 +66,7 @@ class Recipe
   def max_production
     max = Float::INFINITY
     unit_cost.each_pair do |resource, count|
-      total = $resource_limits[resource] / count
+      total = $resource_limits[resource] / count.to_f
       max = [max, total].min
     end
     max
@@ -117,7 +117,7 @@ class Recipe
         @precursors.each_with_index do |precursor, index|
           challenger = chain[index]
           next if challenger.name == precursor.name
-          if challenger.average_consumption > precursor.average_consumption
+          if challenger.total_wp_consumption > precursor.total_wp_consumption
             switch = false
           end
         end
@@ -139,7 +139,7 @@ class Recipe
       ingredient_name, ingredient_quatity = ingredient
       recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map &:dup
       recipes.each do |recipe|
-        recipe.lineage = [name] + Array(lineage)
+        recipe.lineage = [name] + Array(lineage) 
       end
     end
 
@@ -258,7 +258,7 @@ end
 $recipes.sort! { |b, a| b.product_name <=> a.product_name }
 
 $recipes.each do |recipe|
-  recipe_report(recipe, true)
+  recipe_report(recipe, false) if $recipes.select { |r| r.product_name == recipe.product_name }.count > 1
 end
 
 # NOTES
@@ -272,3 +272,11 @@ end
 
 # a permutation technique to find "best order of recipes for same product to maximize production"
 # the Iron Plate problem.
+
+# needed optimizations are global priority list of resources
+# and ability to make output with more than one recipe
+
+# The way to make an item is to find the combos that make the most,
+# figure out how much they make,
+# what the unit cost is over all recipes,
+# what the production rates need to be.

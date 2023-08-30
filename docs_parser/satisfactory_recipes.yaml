@@ -504,9 +504,7 @@
   product:
   - Non-fissile Uranium
   - 20
-  byproduct:
-  - Water
-  - 6
+  byproduct: 
   building:
   - Blender
   - 24
@@ -583,9 +581,7 @@
   product:
   - Aluminum Scrap
   - 6
-  byproduct:
-  - Water
-  - 2
+  byproduct: 
   building:
   - Refinery
   - 1
@@ -924,9 +920,7 @@
   product:
   - Aluminum Scrap
   - 20
-  byproduct:
-  - Water
-  - 7
+  byproduct: 
   building:
   - Refinery
   - 4
@@ -1270,9 +1264,7 @@
   product:
   - Battery
   - 1
-  byproduct:
-  - Water
-  - 1
+  byproduct: 
   building:
   - Blender
   - 3
@@ -1511,7 +1503,7 @@
   - - Sulfuric Acid
     - 5
   - - Water
-    - 1
+    - 6
   product:
   - Aluminum Scrap
   - 30
@@ -1568,9 +1560,7 @@
   product:
   - Non-fissile Uranium
   - 20
-  byproduct:
-  - Water
-  - 8
+  byproduct: 
   building:
   - Blender
   - 12
