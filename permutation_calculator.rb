@@ -3,7 +3,7 @@ require "yaml"
 @item_hashes = YAML.load_file("docs_parser/satisfactory_items.yaml")
 @recipe_hashes = YAML.load_file("docs_parser/satisfactory_recipes.yaml")
 @building_hashes = YAML.load_file("docs_parser/satisfactory_buildings.yaml")
-$resource_limits = YAML.load_file("docs_parser/satisfactory_resource_limits.yaml")
+$default_resource_limits = YAML.load_file("docs_parser/satisfactory_resource_limits.yaml")
 
 class Recipe
   attr_reader :name, :ingredients, :product, :byproduct, :building, :alternate, :id
@@ -145,7 +145,7 @@ class Recipe
       ingredient_name, ingredient_quatity = ingredient
       recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map &:dup
       recipes.each do |recipe|
-        recipe.lineage = [name] + Array(lineage) 
+        recipe.lineage = [name] + Array(lineage)
       end
     end
 

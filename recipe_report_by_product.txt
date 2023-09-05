@@ -1,0 +1,1946 @@
+Recipe 'Alumina Solution' makes 9780.0 Alumina Solution per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Sloppy Alumina*' makes 11736.0 Alumina Solution per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Aluminum Casing' makes 8693.333333333334 Aluminum Casing per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Alclad Casing*' makes 9780.0 Aluminum Casing per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          2608.0     / 28860     9.04%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Pure Aluminum Ingot*' makes 9780.0 Aluminum Ingot per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Aluminum Ingot' makes 13040.0 Aluminum Ingot per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Aluminum Scrap' makes 17604.0 Aluminum Scrap per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                5868.0     / 30120     19.48%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Electrode - Aluminum Scrap*' makes 19560.0 Aluminum Scrap per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Instant Scrap*' makes 19560.0 Aluminum Scrap per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                6520.0     / 30120     21.65%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              3260.0     / 6840      47.66%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Automated Speed Wiring*' makes 7840.000000000001 Automated Wiring per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        9800.0     / 11040     88.77%
+Coal                0.0        / 30120     0.0%
+Copper Ore          17640.0    / 28860     61.12%
+Iron Ore            36682.99   / 70380     52.12%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6247.5     / 11700     53.4%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Automated Wiring' makes 5300.386100386101 Automated Wiring per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        4818.53    / 11040     43.65%
+Coal                0.0        / 30120     0.0%
+Copper Ore          13299.15   / 28860     46.08%
+Iron Ore            17888.8    / 70380     25.42%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Battery' makes 3420.0 Battery per minute, consuming:
+
+Bauxite             9120.0     / 9780      93.25%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          912.0      / 28860     3.16%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           4071.43    / 52860     7.7%
+Raw Quartz          2442.86    / 10500     23.27%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           342.0      / 11700     2.92%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Classic Battery*' makes 4560.0 Battery per minute, consuming:
+
+Bauxite             5985.0     / 9780      61.2%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          1064.0     / 28860     3.69%
+Iron Ore            4092.31    / 70380     5.81%
+Limestone           7125.0     / 52860     13.48%
+Raw Quartz          4275.0     / 10500     40.71%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4018.5     / 11700     34.35%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Crystal Beacon*' makes 16333.333333333332 Beacon per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        2722.22    / 11040     24.66%
+Coal                0.0        / 30120     0.0%
+Copper Ore          4355.56    / 28860     15.09%
+Iron Ore            24500.0    / 70380     34.81%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8268.75    / 11700     70.67%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Beacon' makes 14498.884120171673 Beacon per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1318.08    / 11040     11.94%
+Coal                4832.96    / 30120     16.05%
+Copper Ore          1318.08    / 28860     4.57%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4469.12    / 11700     38.2%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fine Black Powder*' makes 9120.0 Black Powder per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                2280.0     / 30120     7.57%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Black Powder' makes 13680.0 Black Powder per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                6840.0     / 30120     22.71%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Coated Cable*' makes 70200.0 Cable per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            11666.67   / 70380     16.58%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Quickwire Cable*' makes 171600.0 Cable per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        7800.0     / 11040     70.65%
+Coal                0.0        / 30120     0.0%
+Copper Ore          7800.0     / 28860     27.03%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Insulated Cable*' makes 104000.00000000001 Cable per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            14000.0    / 70380     19.89%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Cable' makes 117635.14285714286 Cable per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Pure Caterium Ingot*' makes 5520.0 Caterium Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Caterium Ingot' makes 3680.0 Caterium Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Circuit Board' makes 7800.0 Circuit Board per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          6240.0     / 28860     21.62%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Electrode Circuit Board*' makes 2600.0 Circuit Board per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Caterium Circuit Board*' makes 15456.000000000002 Circuit Board per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          11040.0    / 28860     38.25%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8280.0     / 11700     70.77%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Silicon Circuit Board*' makes 11136.363636363636 Circuit Board per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          9800.0     / 28860     33.96%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Computer' makes 1113.6363636363635 Computer per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          9800.0     / 28860     33.96%
+Iron Ore            8710.99    / 70380     12.38%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8195.67    / 11700     70.05%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Crystal Computer*' makes 816.6666666666666 Computer per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        4277.78    / 11040     38.75%
+Coal                0.0        / 30120     0.0%
+Copper Ore          5911.11    / 28860     20.48%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3310.42    / 11700     28.29%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Caterium Computer*' makes 1590.909090909091 Computer per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        7424.24    / 11040     67.25%
+Coal                0.0        / 30120     0.0%
+Copper Ore          17224.24   / 28860     59.68%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           7159.09    / 11700     61.19%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Wet Concrete*' makes 35240.0 Concrete per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           52860.0    / 52860     100.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Rubber Concrete*' makes 47574.0 Concrete per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           52860.0    / 52860     100.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3964.5     / 11700     33.88%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fine Concrete*' makes 44050.0 Concrete per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           52860.0    / 52860     100.0%
+Raw Quartz          7929.0     / 10500     75.51%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Concrete' makes 17620.0 Concrete per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           52860.0    / 52860     100.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Cooling System' makes 480.0 Cooling System per minute, consuming:
+
+Bauxite             2880.0     / 9780      29.45%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          768.0      / 28860     2.66%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           3428.57    / 52860     6.49%
+Raw Quartz          2057.14    / 10500     19.59%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           1728.0     / 11700     14.77%
+Nitrogen Gas        12000.0    / 12000     100.0%
+
+Recipe 'Cooling Device*' makes 1000.0 Cooling System per minute, consuming:
+
+Bauxite             7500.0     / 9780      76.69%
+Caterium Ore        277.78     / 11040     2.52%
+Coal                0.0        / 30120     0.0%
+Copper Ore          3044.44    / 28860     10.55%
+Iron Ore            1046.88    / 70380     1.49%
+Limestone           8928.57    / 52860     16.89%
+Raw Quartz          6428.57    / 10500     61.22%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4042.97    / 11700     34.56%
+Nitrogen Gas        12000.0    / 12000     100.0%
+
+Recipe 'Pure Copper Ingot*' makes 72150.0 Copper Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Copper Alloy Ingot*' makes 57720.0 Copper Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            14430.0    / 70380     20.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Copper Ingot' makes 28860.0 Copper Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steamed Copper Sheet*' makes 72150.0 Copper Sheet per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Copper Sheet' makes 36075.0 Copper Sheet per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Crystal Oscillator' makes 453.70370370370364 Crystal Oscillator per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                420.1      / 30120     1.39%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            6288.51    / 70380     8.94%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           157.54     / 11700     1.35%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Insulated Crystal Oscillator*' makes 816.6666666666666 Crystal Oscillator per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        2722.22    / 11040     24.66%
+Coal                0.0        / 30120     0.0%
+Copper Ore          4355.56    / 28860     15.09%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           2143.75    / 11700     18.32%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Electromagnetic Control Rod' makes 3312.0000000000005 Electromagnetic Control Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          25612.8    / 28860     88.75%
+Iron Ore            16767.0    / 70380     23.82%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4191.75    / 11700     35.83%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Electromagnetic Connection Rod*' makes 3920.0000000000005 Electromagnetic Control Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        9800.0     / 11040     88.77%
+Coal                0.0        / 30120     0.0%
+Copper Ore          17640.0    / 28860     61.12%
+Iron Ore            13230.0    / 70380     18.8%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6247.5     / 11700     53.4%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Canister*' makes 41600.0 Empty Canister per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Empty Canister' makes 62400.0 Empty Canister per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Coated Iron Canister*' makes 288600.0 Empty Canister per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                16033.33   / 30120     53.23%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            8633.33    / 70380     12.27%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6012.5     / 11700     51.39%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Encased Industrial Beam' makes 3900.0 Encased Industrial Beam per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           29250.0    / 52860     55.33%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Encased Industrial Pipe*' makes 5942.857142857143 Encased Industrial Beam per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           44571.43   / 52860     84.32%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Encased Plutonium Cell' makes 472.5 Encased Plutonium Cell per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1116.98    / 11040     10.12%
+Coal                38.5       / 30120     0.13%
+Copper Ore          1641.98    / 28860     5.69%
+Iron Ore            846.8      / 70380     1.2%
+Limestone           2662.5     / 52860     5.04%
+Raw Quartz          742.5      / 10500     7.07%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           399.06     / 11700     3.41%
+Nitrogen Gas        1890.0     / 12000     15.75%
+
+Recipe 'Instant Plutonium Cell*' makes 610.9090909090909 Encased Plutonium Cell per minute, consuming:
+
+Bauxite             610.91     / 9780      6.25%
+Caterium Ore        812.35     / 11040     7.36%
+Coal                40.73      / 30120     0.14%
+Copper Ore          1357.07    / 28860     4.7%
+Iron Ore            622.71     / 70380     0.88%
+Limestone           1136.36    / 52860     2.15%
+Raw Quartz          976.36     / 10500     9.3%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           241.54     / 11700     2.06%
+Nitrogen Gas        2749.09    / 12000     22.91%
+
+Recipe 'Encased Uranium Cell' makes 1050.0 Encased Uranium Cell per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           700.0      / 52860     1.32%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              1260.0     / 6840      18.42%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           52.5       / 11700     0.45%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Infused Uranium Cell*' makes 1680.0 Encased Uranium Cell per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1050.0     / 11040     9.51%
+Coal                0.0        / 30120     0.0%
+Copper Ore          1050.0     / 28860     3.64%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           900.0      / 52860     1.7%
+Raw Quartz          540.0      / 10500     5.14%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fuel' makes 7800.0 Fuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Residual Fuel' makes 10400.0 Fuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Diluted Fuel*' makes 31200.0 Fuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fused Modular Frame' makes 195.6 Fused Modular Frame per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                521.6      / 30120     1.73%
+Copper Ore          2608.0     / 28860     9.04%
+Iron Ore            9906.64    / 70380     14.08%
+Limestone           18684.46   / 52860     35.35%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3264.08    / 11700     27.9%
+Nitrogen Gas        4890.0     / 12000     40.75%
+
+Recipe 'Heat-Fused Frame*' makes 260.8 Fused Modular Frame per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                772.74     / 30120     2.57%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            13250.46   / 70380     18.83%
+Limestone           21031.66   / 52860     39.79%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           5033.08    / 11700     43.02%
+Nitrogen Gas        8345.6     / 12000     69.55%
+
+Recipe 'Heat Sink' makes 2608.0 Heat Sink per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          4868.27    / 28860     16.87%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           978.0      / 11700     8.36%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Heat Exchanger*' makes 3260.0 Heat Sink per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          2608.0     / 28860     9.04%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4645.5     / 11700     39.71%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Heavy Modular Frame' makes 674.5945945945946 Heavy Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                3372.97    / 30120     11.2%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            60810.81   / 70380     86.4%
+Limestone           25297.3    / 52860     47.86%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Heavy Flexible Frame*' makes 701.123595505618 Heavy Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                3505.62    / 30120     11.64%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            40705.62   / 70380     57.84%
+Limestone           15775.28   / 52860     29.84%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Heavy Encased Frame*' makes 1001.0695187165776 Heavy Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                2669.52    / 30120     8.86%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            50701.6    / 70380     72.04%
+Limestone           36038.5    / 52860     68.18%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'High-Speed Connector' makes 1182.8571428571431 High-Speed Connector per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          12080.91   / 28860     41.86%
+Iron Ore            7076.92    / 70380     10.06%
+Limestone           1858.78    / 52860     3.52%
+Raw Quartz          1115.27    / 10500     10.62%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Silicon High-Speed Connector*' makes 1960.0000000000002 High-Speed Connector per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        9800.0     / 11040     88.77%
+Coal                0.0        / 30120     0.0%
+Copper Ore          11368.0    / 28860     39.39%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           2940.0     / 11700     25.13%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Iron Ingot' makes 70380.0 Iron Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Pure Iron Ingot*' makes 130705.71428571429 Iron Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Iron Alloy Ingot*' makes 72150.0 Iron Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            28860.0    / 70380     41.01%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Iron Plate' makes 87137.14285714286 Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Coated Plate*' makes 271080.0 Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                30120.0    / 30120     100.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            16218.46   / 70380     23.04%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11295.0    / 11700     96.54%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Coated Iron Plate*' makes 196058.57142857145 Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           9802.93    / 11700     83.79%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Iron Rod' makes 130705.71428571429 Iron Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Rod*' makes 249600.0 Iron Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Modular Frame' makes 17222.399999999998 Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                17222.4    / 30120     57.18%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11302.2    / 11700     96.6%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Bolted Frame*' makes 16466.861642294713 Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                16466.86   / 30120     54.67%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11578.26   / 11700     98.96%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steeled Frame*' makes 11358.202247191011 Modular Frame per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                2804.49    / 30120     9.31%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            59204.49   / 70380     84.12%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Motor' makes 5588.059701492537 Motor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          26822.69   / 28860     92.94%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Electric Motor*' makes 7840.000000000001 Motor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        9800.0     / 11040     88.77%
+Coal                0.0        / 30120     0.0%
+Copper Ore          23912.0    / 28860     82.86%
+Iron Ore            19600.0    / 70380     27.85%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           7840.0     / 11700     67.01%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Rigour Motor*' makes 4900.0 Motor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        2722.22    / 11040     24.66%
+Coal                0.0        / 30120     0.0%
+Copper Ore          10235.56   / 28860     35.47%
+Iron Ore            10259.38   / 70380     14.58%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4708.59    / 11700     40.24%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Non-fissile Uranium' makes 3359.9999999999995 Non-fissile Uranium per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1787.16    / 11040     16.19%
+Coal                70.93      / 30120     0.24%
+Copper Ore          2627.16    / 28860     9.1%
+Iron Ore            1359.9     / 70380     1.93%
+Limestone           2100.0     / 52860     3.97%
+Raw Quartz          1908.0     / 10500     18.17%
+Sulfur              3108.0     / 6840      45.44%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           390.0      / 11700     3.33%
+Nitrogen Gas        4032.0     / 12000     33.6%
+
+Recipe 'Fertile Uranium*' makes 4581.818181818181 Non-fissile Uranium per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        812.35     / 11040     7.36%
+Coal                40.73      / 30120     0.14%
+Copper Ore          1194.17    / 28860     4.14%
+Iron Ore            622.71     / 70380     0.88%
+Limestone           409.09     / 52860     0.77%
+Raw Quartz          540.0      / 10500     5.14%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           180.45     / 11700     1.54%
+Nitrogen Gas        2749.09    / 12000     22.91%
+
+Recipe 'Plastic' makes 7800.0 Plastic per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Residual Plastic' makes 8450.0 Plastic per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Recycled Plastic*' makes 31200.0 Plastic per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Plutonium Fuel Rod' makes 20.36363636363636 Plutonium Fuel Rod per minute, consuming:
+
+Bauxite             1221.82    / 9780      12.49%
+Caterium Ore        1219.62    / 11040     11.05%
+Coal                40.73      / 30120     0.14%
+Copper Ore          2464.86    / 28860     8.54%
+Iron Ore            2340.89    / 70380     3.33%
+Limestone           1863.64    / 52860     3.53%
+Raw Quartz          1412.73    / 10500     13.45%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           961.27     / 11700     8.22%
+Nitrogen Gas        2749.09    / 12000     22.91%
+
+Recipe 'Plutonium Fuel Unit*' makes 30.54545454545454 Plutonium Fuel Rod per minute, consuming:
+
+Bauxite             2733.82    / 9780      27.95%
+Caterium Ore        1056.71    / 11040     9.57%
+Coal                131.23     / 30120     0.44%
+Copper Ore          2111.34    / 28860     7.32%
+Iron Ore            2174.63    / 70380     3.09%
+Limestone           5099.27    / 52860     9.65%
+Raw Quartz          3087.05    / 10500     29.4%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           1146.41    / 11700     9.8%
+Nitrogen Gas        3726.55    / 12000     31.05%
+
+Recipe 'Power Shard (5)' makes Infinity Power Shard per minute, consuming:
+
+Bauxite             NaN        / 9780      NaN%
+Caterium Ore        NaN        / 11040     NaN%
+Coal                NaN        / 30120     NaN%
+Copper Ore          NaN        / 28860     NaN%
+Iron Ore            NaN        / 70380     NaN%
+Limestone           NaN        / 52860     NaN%
+Raw Quartz          NaN        / 10500     NaN%
+Sulfur              NaN        / 6840      NaN%
+Uranium             NaN        / 2100      NaN%
+Crude Oil           NaN        / 11700     NaN%
+Nitrogen Gas        NaN        / 12000     NaN%
+
+Recipe 'Power Shard (2)' makes Infinity Power Shard per minute, consuming:
+
+Bauxite             NaN        / 9780      NaN%
+Caterium Ore        NaN        / 11040     NaN%
+Coal                NaN        / 30120     NaN%
+Copper Ore          NaN        / 28860     NaN%
+Iron Ore            NaN        / 70380     NaN%
+Limestone           NaN        / 52860     NaN%
+Raw Quartz          NaN        / 10500     NaN%
+Sulfur              NaN        / 6840      NaN%
+Uranium             NaN        / 2100      NaN%
+Crude Oil           NaN        / 11700     NaN%
+Nitrogen Gas        NaN        / 12000     NaN%
+
+Recipe 'Power Shard (1)' makes Infinity Power Shard per minute, consuming:
+
+Bauxite             NaN        / 9780      NaN%
+Caterium Ore        NaN        / 11040     NaN%
+Coal                NaN        / 30120     NaN%
+Copper Ore          NaN        / 28860     NaN%
+Iron Ore            NaN        / 70380     NaN%
+Limestone           NaN        / 52860     NaN%
+Raw Quartz          NaN        / 10500     NaN%
+Sulfur              NaN        / 6840      NaN%
+Uranium             NaN        / 2100      NaN%
+Crude Oil           NaN        / 11700     NaN%
+Nitrogen Gas        NaN        / 12000     NaN%
+
+Recipe 'Pure Quartz Crystal*' makes 8166.666666666666 Quartz Crystal per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Quartz Crystal' makes 6300.0 Quartz Crystal per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fused Quickwire*' makes 66240.0 Quickwire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          11040.0    / 28860     38.25%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Quickwire' makes 27600.0 Quickwire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Radio Control Unit' makes 496.28629304523974 Radio Control Unit per minute, consuming:
+
+Bauxite             7940.58    / 9780      81.19%
+Caterium Ore        1985.15    / 11040     17.98%
+Coal                0.0        / 30120     0.0%
+Copper Ore          6127.48    / 28860     21.23%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           12182.65   / 52860     23.05%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           2562.08    / 11700     21.9%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Radio Control System*' makes 489.0 Radio Control Unit per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        1707.62    / 11040     15.47%
+Coal                0.0        / 30120     0.0%
+Copper Ore          4641.62    / 28860     16.08%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          9081.43    / 10500     86.49%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4112.84    / 11700     35.15%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Radio Connection Unit*' makes 405.6291390728477 Radio Control Unit per minute, consuming:
+
+Bauxite             4867.55    / 9780      49.77%
+Caterium Ore        7571.74    / 11040     68.58%
+Coal                0.0        / 30120     0.0%
+Copper Ore          9583.66    / 28860     33.21%
+Iron Ore            4853.68    / 70380     6.9%
+Limestone           7069.54    / 52860     13.37%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           2312.09    / 11700     19.76%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Adhered Iron Plate*' makes 29045.714285714283 Reinforced Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           10892.14   / 11700     93.1%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Stitched Iron Plate*' makes 32082.31168831169 Reinforced Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                11882.34   / 30120     39.45%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4455.88    / 11700     38.08%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Bolted Iron Plate*' makes 27042.561576354678 Reinforced Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                18028.37   / 30120     59.86%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6760.64    / 11700     57.78%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Reinforced Iron Plate' makes 35647.01298701298 Reinforced Iron Plate per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                23764.68   / 30120     78.9%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8911.75    / 11700     76.17%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Copper Rotor*' makes 36075.0 Rotor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            29310.94   / 70380     41.65%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           7327.73    / 11700     62.63%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Rotor' makes 22186.666666666668 Rotor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Rotor*' makes 20800.0 Rotor per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          24960.0    / 28860     86.49%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Rubber' makes 7800.0 Rubber per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Residual Rubber' makes 12675.0 Rubber per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Recycled Rubber*' makes 31200.0 Rubber per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Screw*' makes 811200.0 Screw per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Cast Screw*' makes 522822.85714285716 Screw per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Screw' makes 998400.0 Screw per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Silica' makes 17500.0 Silica per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Cheap Silica*' makes 24500.0 Silica per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           17500.0    / 52860     33.11%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Plastic Smart Plating*' makes 15950.76923076923 Smart Plating per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                2953.85    / 30120     9.81%
+Copper Ore          6380.31    / 28860     22.11%
+Iron Ore            23975.86   / 70380     34.07%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Smart Plating' makes 25254.238067855087 Smart Plating per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                16836.16   / 30120     55.9%
+Copper Ore          20203.39   / 28860     70.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11443.33   / 11700     97.81%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Stator' makes 13866.666666666666 Stator per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          22186.67   / 28860     76.88%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Quickwire Stator*' makes 8832.0 Stator per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          11040.0    / 28860     38.25%
+Iron Ore            19872.0    / 70380     28.24%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           4968.0     / 11700     42.46%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Steel Ingot' makes 30120.0 Steel Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                30120.0    / 30120     100.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            30120.0    / 70380     42.8%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Coke Steel Ingot*' makes 62400.0 Steel Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            46800.0    / 70380     66.5%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Compacted Steel Ingot*' makes 22800.0 Steel Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                6840.0     / 30120     22.71%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            13680.0    / 70380     19.44%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Solid Steel Ingot*' makes 45180.0 Steel Ingot per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                30120.0    / 30120     100.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            16218.46   / 70380     23.04%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Super-State Computer*' makes 456.0 Supercomputer per minute, consuming:
+
+Bauxite             5985.0     / 9780      61.2%
+Caterium Ore        4712.0     / 11040     42.68%
+Coal                0.0        / 30120     0.0%
+Copper Ore          11995.84   / 28860     41.57%
+Iron Ore            9470.04    / 70380     13.46%
+Limestone           14649.0    / 52860     27.71%
+Raw Quartz          8789.4     / 10500     83.71%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           7673.63    / 11700     65.59%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Supercomputer' makes 356.1290322580645 Supercomputer per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          17706.74   / 28860     61.35%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           17374.01   / 52860     32.87%
+Raw Quartz          10424.41   / 10500     99.28%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8547.1     / 11700     73.05%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'OC Supercomputer*' makes 137.56316676024707 Supercomputer per minute, consuming:
+
+Bauxite             9079.17    / 9780      92.83%
+Caterium Ore        1650.76    / 11040     14.95%
+Coal                0.0        / 30120     0.0%
+Copper Ore          5755.64    / 28860     19.94%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           13078.33   / 52860     24.74%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3616.19    / 11700     30.91%
+Nitrogen Gas        10317.24   / 12000     85.98%
+
+Recipe 'Turbo Pressure Motor*' makes 281.43884892086334 Turbo Motor per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        1125.76    / 11040     10.2%
+Coal                416.95     / 30120     1.38%
+Copper Ore          7977.85    / 28860     27.64%
+Iron Ore            15663.05   / 70380     22.25%
+Limestone           18256.67   / 52860     34.54%
+Raw Quartz          9723.71    / 10500     92.61%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6297.0     / 11700     53.82%
+Nitrogen Gas        4503.02    / 12000     37.53%
+
+Recipe 'Turbo Electric Motor*' makes 165.42876434841327 Turbo Motor per minute, consuming:
+
+Bauxite             7940.58    / 9780      81.19%
+Caterium Ore        2904.19    / 11040     26.31%
+Coal                0.0        / 30120     0.0%
+Copper Ore          10421.28   / 28860     36.11%
+Iron Ore            4942.18    / 70380     7.02%
+Limestone           12182.65   / 52860     23.05%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3797.62    / 11700     32.46%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Turbo Motor' makes 154.3469130617388 Turbo Motor per minute, consuming:
+
+Bauxite             9569.51    / 9780      97.85%
+Caterium Ore        1406.27    / 11040     12.74%
+Coal                0.0        / 30120     0.0%
+Copper Ore          8654.4     / 28860     29.99%
+Iron Ore            5816.95    / 70380     8.27%
+Limestone           13090.09   / 52860     24.76%
+Raw Quartz          10500.0    / 10500     100.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6771.49    / 11700     57.88%
+Nitrogen Gas        7408.65    / 12000     61.74%
+
+Recipe 'Turbo Rifle Ammo' makes 163000.0 Turbo Rifle Ammo per minute, consuming:
+
+Bauxite             9780.0     / 9780      100.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                5433.33    / 30120     18.04%
+Copper Ore          9128.0     / 28860     31.63%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           11642.86   / 52860     22.03%
+Raw Quartz          6985.71    / 10500     66.53%
+Sulfur              5433.33    / 6840      79.43%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           5053.0     / 11700     43.19%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Turbo Rifle Ammo' makes 108000.00000000001 Turbo Rifle Ammo per minute, consuming:
+
+Bauxite             6480.0     / 9780      66.26%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                3600.0     / 30120     11.95%
+Copper Ore          6048.0     / 28860     20.96%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           7714.29    / 52860     14.59%
+Raw Quartz          4628.57    / 10500     44.08%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           8208.0     / 11700     70.15%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Turbo Heavy Fuel*' makes 6840.0 Turbofuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                6840.0     / 30120     22.71%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           6412.5     / 11700     54.81%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Turbo Blend Fuel*' makes 13680.0 Turbofuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           10260.0    / 11700     87.69%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Turbofuel' makes 8550.0 Turbofuel per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                6840.0     / 30120     22.71%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              6840.0     / 6840      100.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           3847.5     / 11700     32.88%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Uranium Fuel Rod' makes 33.6 Uranium Fuel Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1610.0     / 11040     14.58%
+Coal                0.0        / 30120     0.0%
+Copper Ore          2349.2     / 28860     8.14%
+Iron Ore            1644.3     / 70380     2.34%
+Limestone           1656.0     / 52860     3.13%
+Raw Quartz          540.0      / 10500     5.14%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           411.08     / 11700     3.51%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Uranium Fuel Unit*' makes 50.39999999999999 Uranium Fuel Rod per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        1787.16    / 11040     16.19%
+Coal                33.6       / 30120     0.11%
+Copper Ore          2627.16    / 28860     9.1%
+Iron Ore            1339.8     / 70380     1.9%
+Limestone           900.0      / 52860     1.7%
+Raw Quartz          1188.0     / 10500     11.31%
+Sulfur              2100.0     / 6840      30.7%
+Uranium             2100.0     / 2100      100.0%
+Crude Oil           376.0      / 11700     3.21%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Versatile Framework' makes 2423.3009708737864 Versatile Framework per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                1211.65    / 30120     4.02%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            48570.87   / 70380     69.01%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Flexible Framework*' makes 2868.9655172413795 Versatile Framework per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                1434.48    / 30120     4.76%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            31682.76   / 70380     45.02%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           11700.0    / 11700     100.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Fused Wire*' makes 165600.0 Wire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          8832.0     / 28860     30.6%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Caterium Wire*' makes 44160.0 Wire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        11040.0    / 11040     100.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Iron Wire*' makes 235270.2857142857 Wire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          0.0        / 28860     0.0%
+Iron Ore            70380.0    / 70380     100.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
+Recipe 'Wire' makes 144300.0 Wire per minute, consuming:
+
+Bauxite             0.0        / 9780      0.0%
+Caterium Ore        0.0        / 11040     0.0%
+Coal                0.0        / 30120     0.0%
+Copper Ore          28860.0    / 28860     100.0%
+Iron Ore            0.0        / 70380     0.0%
+Limestone           0.0        / 52860     0.0%
+Raw Quartz          0.0        / 10500     0.0%
+Sulfur              0.0        / 6840      0.0%
+Uranium             0.0        / 2100      0.0%
+Crude Oil           0.0        / 11700     0.0%
+Nitrogen Gas        0.0        / 12000     0.0%
+
