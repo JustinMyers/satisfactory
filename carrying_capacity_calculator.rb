@@ -1,22 +1,24 @@
-require "yaml"
+# frozen_string_literal: true
 
-@item_hashes = YAML.load_file("docs_parser/satisfactory_items.yaml")
-@recipe_hashes = YAML.load_file("docs_parser/satisfactory_recipes.yaml")
-@building_hashes = YAML.load_file("docs_parser/satisfactory_buildings.yaml")
-$resource_limits = YAML.load_file("docs_parser/satisfactory_resource_limits.yaml")
+require 'yaml'
+
+@item_hashes = YAML.load_file('docs_parser/satisfactory_items.yaml')
+@recipe_hashes = YAML.load_file('docs_parser/satisfactory_recipes.yaml')
+@building_hashes = YAML.load_file('docs_parser/satisfactory_buildings.yaml')
+$resource_limits = YAML.load_file('docs_parser/satisfactory_resource_limits.yaml')
 
 class Recipe
   attr_reader :name, :ingredients, :product, :byproduct, :building, :alternate, :id
   attr_accessor :lineage
 
   def initialize(recipe_hash)
-    @name = recipe_hash["name"]
-    @ingredients = recipe_hash["ingredients"]
-    @product = recipe_hash["product"]
-    @byproduct = recipe_hash["byproduct"]
-    @building = recipe_hash["building"]
-    @alternate = recipe_hash["alternate"]
-    @id = recipe_hash["id"]
+    @name = recipe_hash['name']
+    @ingredients = recipe_hash['ingredients']
+    @product = recipe_hash['product']
+    @byproduct = recipe_hash['byproduct']
+    @building = recipe_hash['building']
+    @alternate = recipe_hash['alternate']
+    @id = recipe_hash['id']
   end
 
   def product_name
@@ -57,8 +59,9 @@ class Recipe
   def total_wp_consumption
     total = 0
     unit_cost.each_pair do |resource, count|
-      next if resource == "Water"
-      total = total + (count / $resource_limits[resource].to_f)
+      next if resource == 'Water'
+
+      total += (count / $resource_limits[resource].to_f)
     end
     total
   end
@@ -73,14 +76,12 @@ class Recipe
   end
 
   def print_precursors(index = 0)
-    puts "  " * index + name + (alternate ? "*" : "") # + lineage.to_s
+    puts '  ' * index + name + (alternate ? '*' : '') # + lineage.to_s
     precursors.each do |precursor|
       precursor.print_precursors(index + 1)
     end
     ingredients.each do |ingredient|
-      if $resource_limits.keys.include?(ingredient.first)
-        puts "  " * (index + 1) + ingredient.first
-      end
+      puts '  ' * (index + 1) + ingredient.first if $resource_limits.keys.include?(ingredient.first)
     end
   end
 
@@ -89,7 +90,7 @@ class Recipe
     runs_per_minute = 60 / seconds.to_f
     quantity_per_minute = product_quantity * runs_per_minute
     number_of_buildings_needed = max_production_target / quantity_per_minute.to_f
-    spacer = "  " * depth
+    spacer = '  ' * depth
 
     building_output[building_name] ||= {}
     building_output[building_name][name] ||= 0
@@ -106,6 +107,7 @@ class Recipe
 
   def precursors
     return @precursors if @precursors
+
     max = 0
     chains.each do |chain|
       @temp_precursors = chain
@@ -117,9 +119,8 @@ class Recipe
         @precursors.each_with_index do |precursor, index|
           challenger = chain[index]
           next if challenger.name == precursor.name
-          if challenger.total_wp_consumption > precursor.total_wp_consumption
-            switch = false
-          end
+
+          switch = false if challenger.total_wp_consumption > precursor.total_wp_consumption
         end
         if switch
           # puts "#{name} [#{lineage}] - replacing precursors!"
@@ -137,28 +138,27 @@ class Recipe
     chains_output = []
     preceding_recipes = ingredients.map do |ingredient|
       ingredient_name, ingredient_quatity = ingredient
-      recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map &:dup
+      recipes = $recipes.select do |r|
+        r.product_name == ingredient_name && !Array(lineage).include?(r.name)
+      end.map(&:dup)
       recipes.each do |recipe|
-        recipe.lineage = [name] + Array(lineage) 
+        recipe.lineage = [name] + Array(lineage)
       end
     end
 
     preceding_recipes.reject! { |r| r.empty? }
 
     Array(preceding_recipes[0]).each do |ingredient_one_recipe|
-      unless preceding_recipes[1]
-        chains_output << [ingredient_one_recipe]
-      end
+      chains_output << [ingredient_one_recipe] unless preceding_recipes[1]
       Array(preceding_recipes[1]).each do |ingredient_two_recipe|
-        unless preceding_recipes[2]
-          chains_output << [ingredient_one_recipe, ingredient_two_recipe]
-        end
+        chains_output << [ingredient_one_recipe, ingredient_two_recipe] unless preceding_recipes[2]
         Array(preceding_recipes[2]).each do |ingredient_three_recipe|
           unless preceding_recipes[3]
             chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe]
           end
           Array(preceding_recipes[3]).each do |ingredient_four_recipe|
-            chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe, ingredient_four_recipe]
+            chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe,
+                              ingredient_four_recipe]
           end
         end
       end
@@ -179,24 +179,25 @@ def recipe_report(recipe, print_precursors = false)
     puts
   end
   max_production = recipe.max_production
-  puts "Recipe '#{recipe.name}#{recipe.alternate ? "*" : ""}' makes #{max_production} #{recipe.product.first} per minute, consuming:"
+  puts "Recipe '#{recipe.name}#{recipe.alternate ? '*' : ''}' makes #{max_production} #{recipe.product.first} per minute, consuming:"
   puts
   unit_cost = recipe.unit_cost
   $resource_limits.each_pair do |resource, count|
-    next if resource == "Water"
+    next if resource == 'Water'
+
     consumed = (unit_cost[resource].to_f * max_production)
     consumed_percent = consumed / count.to_f * 100
-    puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + " / " + count.round(2).to_s.ljust(10) + consumed_percent.round(2).to_s + "%"
+    puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + ' / ' + count.round(2).to_s.ljust(10) + consumed_percent.round(2).to_s + '%'
   end
   puts
 end
 
 def priority_list
   products = [
-    "Uranium Fuel Rod",
-    "Plutonium Fuel Rod",
-    "Turbofuel",
-    "Turbofuel",
+    'Uranium Fuel Rod',
+    'Plutonium Fuel Rod',
+    'Turbofuel',
+    'Turbofuel'
   ]
 
   products.each do |product|
