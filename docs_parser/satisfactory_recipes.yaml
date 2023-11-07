@@ -6,7 +6,7 @@
   product:
   - Iron Plate
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -19,7 +19,7 @@
   product:
   - Iron Rod
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -32,7 +32,7 @@
   product:
   - Iron Ingot
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Smelter
   - 2
@@ -47,7 +47,7 @@
   product:
   - Concrete
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 3
@@ -62,7 +62,7 @@
   product:
   - Turbofuel
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 8
@@ -77,7 +77,7 @@
   product:
   - Compacted Coal
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -92,7 +92,7 @@
   product:
   - Circuit Board
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 8
@@ -120,7 +120,7 @@
   product:
   - Petroleum Coke
   - 12
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -163,7 +163,7 @@
   product:
   - Fuel
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -178,7 +178,7 @@
   product:
   - Plastic
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -193,7 +193,7 @@
   product:
   - Rubber
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -206,7 +206,7 @@
   product:
   - Iron Rod
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 5
@@ -219,7 +219,7 @@
   product:
   - Steel Beam
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -232,7 +232,7 @@
   product:
   - Steel Pipe
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -247,7 +247,7 @@
   product:
   - Steel Ingot
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 4
@@ -262,7 +262,7 @@
   product:
   - Versatile Framework
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -277,7 +277,7 @@
   product:
   - Iron Plate
   - 18
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -290,7 +290,7 @@
   product:
   - Empty Canister
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 3
@@ -303,7 +303,7 @@
   product:
   - Empty Canister
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -318,7 +318,7 @@
   product:
   - Copper Sheet
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 8
@@ -333,7 +333,7 @@
   product:
   - Concrete
   - 9
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -346,7 +346,7 @@
   product:
   - Rubber
   - 6
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 12
@@ -361,7 +361,7 @@
   product:
   - Quartz Crystal
   - 7
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 8
@@ -374,7 +374,7 @@
   product:
   - Quartz Crystal
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 8
@@ -389,7 +389,7 @@
   product:
   - Iron Ingot
   - 13
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 12
@@ -404,7 +404,7 @@
   product:
   - Copper Ingot
   - 15
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 24
@@ -419,7 +419,7 @@
   product:
   - Caterium Ingot
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 5
@@ -432,7 +432,7 @@
   product:
   - Aluminum Ingot
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Smelter
   - 2
@@ -449,7 +449,7 @@
   product:
   - Encased Uranium Cell
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 12
@@ -468,7 +468,7 @@
   product:
   - Cooling System
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 10
@@ -485,7 +485,7 @@
   product:
   - Nitric Acid
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 6
@@ -504,7 +504,7 @@
   product:
   - Non-fissile Uranium
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 24
@@ -517,7 +517,7 @@
   product:
   - Aluminum Casing
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 2
@@ -532,7 +532,7 @@
   product:
   - Alclad Aluminum Sheet
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 6
@@ -549,7 +549,7 @@
   product:
   - Radio Control Unit
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 48
@@ -581,7 +581,7 @@
   product:
   - Aluminum Scrap
   - 6
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 1
@@ -596,7 +596,7 @@
   product:
   - Aluminum Ingot
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 4
@@ -609,7 +609,7 @@
   product:
   - Silica
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 8
@@ -626,7 +626,7 @@
   product:
   - Crystal Oscillator
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -658,7 +658,7 @@
   product:
   - Smart Plating
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 24
@@ -675,7 +675,7 @@
   product:
   - Automated Wiring
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 32
@@ -690,7 +690,7 @@
   product:
   - Encased Industrial Beam
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 10
@@ -705,7 +705,7 @@
   product:
   - Motor
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -720,7 +720,7 @@
   product:
   - Stator
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -739,7 +739,7 @@
   product:
   - Heavy Modular Frame
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 30
@@ -754,7 +754,7 @@
   product:
   - Automated Wiring
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -769,7 +769,7 @@
   product:
   - AI Limiter
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -803,7 +803,7 @@
   product:
   - Heavy Modular Frame
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -822,7 +822,7 @@
   product:
   - Computer
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 24
@@ -839,7 +839,7 @@
   product:
   - Modular Engine
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 60
@@ -858,7 +858,7 @@
   product:
   - Adaptive Control Unit
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -873,7 +873,7 @@
   product:
   - Wire
   - 30
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 20
@@ -890,7 +890,7 @@
   product:
   - Versatile Framework
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -905,7 +905,7 @@
   product:
   - Circuit Board
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -920,7 +920,7 @@
   product:
   - Aluminum Scrap
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 4
@@ -935,7 +935,7 @@
   product:
   - Rotor
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 16
@@ -950,7 +950,7 @@
   product:
   - Modular Frame
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 60
@@ -965,7 +965,7 @@
   product:
   - Rotor
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 15
@@ -978,7 +978,7 @@
   product:
   - Copper Sheet
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -993,7 +993,7 @@
   product:
   - Smart Plating
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 30
@@ -1008,7 +1008,7 @@
   product:
   - Copper Ingot
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 12
@@ -1023,7 +1023,7 @@
   product:
   - Steel Ingot
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 12
@@ -1038,7 +1038,7 @@
   product:
   - Iron Plate
   - 15
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -1053,7 +1053,7 @@
   product:
   - Empty Canister
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 4
@@ -1068,7 +1068,7 @@
   product:
   - Cable
   - 9
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 8
@@ -1083,7 +1083,7 @@
   product:
   - Modular Frame
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -1098,7 +1098,7 @@
   product:
   - Reinforced Iron Plate
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 16
@@ -1117,7 +1117,7 @@
   product:
   - Turbo Motor
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 32
@@ -1132,7 +1132,7 @@
   product:
   - Encased Plutonium Cell
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -1147,7 +1147,7 @@
   product:
   - Pressure Conversion Cube
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 60
@@ -1160,7 +1160,7 @@
   product:
   - Copper Powder
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -1175,7 +1175,7 @@
   product:
   - Plutonium Pellet
   - 30
-  byproduct: 
+  byproduct:
   building:
   - Particle Accelerator
   - 60
@@ -1194,7 +1194,7 @@
   product:
   - Plutonium Fuel Rod
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 240
@@ -1209,7 +1209,7 @@
   product:
   - Nuclear Pasta
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Particle Accelerator
   - 120
@@ -1228,7 +1228,7 @@
   product:
   - Turbofuel
   - 6
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 8
@@ -1247,7 +1247,7 @@
   product:
   - Supercomputer
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 50
@@ -1264,7 +1264,7 @@
   product:
   - Battery
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 3
@@ -1283,7 +1283,7 @@
   product:
   - Supercomputer
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 32
@@ -1298,7 +1298,7 @@
   product:
   - Sulfuric Acid
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -1313,7 +1313,7 @@
   product:
   - Assembly Director System
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 80
@@ -1330,7 +1330,7 @@
   product:
   - High-Speed Connector
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -1345,7 +1345,7 @@
   product:
   - Electromagnetic Control Rod
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 30
@@ -1362,7 +1362,7 @@
   product:
   - Uranium Fuel Rod
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 150
@@ -1379,7 +1379,7 @@
   product:
   - Magnetic Field Generator
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -1394,7 +1394,7 @@
   product:
   - Alumina Solution
   - 12
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 3
@@ -1413,7 +1413,7 @@
   product:
   - Radio Control Unit
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 40
@@ -1428,7 +1428,7 @@
   product:
   - Plutonium Fuel Rod
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 120
@@ -1443,7 +1443,7 @@
   product:
   - Supercomputer
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 20
@@ -1458,7 +1458,7 @@
   product:
   - Heat Sink
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 8
@@ -1475,7 +1475,7 @@
   product:
   - Fused Modular Frame
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 40
@@ -1488,7 +1488,7 @@
   product:
   - Empty Fluid Tank
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 1
@@ -1507,7 +1507,7 @@
   product:
   - Aluminum Scrap
   - 30
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 6
@@ -1522,7 +1522,7 @@
   product:
   - Encased Plutonium Cell
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Particle Accelerator
   - 120
@@ -1541,7 +1541,7 @@
   product:
   - Fused Modular Frame
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 20
@@ -1560,7 +1560,7 @@
   product:
   - Non-fissile Uranium
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 12
@@ -1575,7 +1575,7 @@
   product:
   - Motor
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 16
@@ -1590,7 +1590,7 @@
   product:
   - Fuel
   - 10
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 6
@@ -1607,7 +1607,7 @@
   product:
   - Cooling System
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 32
@@ -1626,7 +1626,7 @@
   product:
   - Battery
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 8
@@ -1645,7 +1645,7 @@
   product:
   - Portable Miner
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 60
@@ -1660,7 +1660,7 @@
   product:
   - Aluminum Casing
   - 15
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 8
@@ -1673,7 +1673,7 @@
   product:
   - Wire
   - 8
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -1686,7 +1686,7 @@
   product:
   - Wire
   - 9
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 24
@@ -1705,7 +1705,7 @@
   product:
   - Encased Uranium Cell
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 12
@@ -1718,7 +1718,7 @@
   product:
   - Caterium Ingot
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Smelter
   - 4
@@ -1737,7 +1737,7 @@
   product:
   - Turbo Motor
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 64
@@ -1756,7 +1756,7 @@
   product:
   - Turbo Motor
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 32
@@ -1775,7 +1775,7 @@
   product:
   - Thermal Propulsion Rocket
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -1790,7 +1790,7 @@
   product:
   - Turbofuel
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 16
@@ -1805,7 +1805,7 @@
   product:
   - Stator
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 15
@@ -1820,7 +1820,7 @@
   product:
   - Silica
   - 7
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 16
@@ -1833,7 +1833,7 @@
   product:
   - Screw
   - 52
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 12
@@ -1846,7 +1846,7 @@
   product:
   - Screw
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 24
@@ -1861,7 +1861,7 @@
   product:
   - Rotor
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -1876,7 +1876,7 @@
   product:
   - Encased Industrial Beam
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 15
@@ -1891,7 +1891,7 @@
   product:
   - Reinforced Iron Plate
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 32
@@ -1906,7 +1906,7 @@
   product:
   - Reinforced Iron Plate
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -1923,7 +1923,7 @@
   product:
   - Radio Control Unit
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -1938,7 +1938,7 @@
   product:
   - Quickwire
   - 12
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 8
@@ -1951,7 +1951,7 @@
   product:
   - Plastic
   - 6
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 12
@@ -1970,7 +1970,7 @@
   product:
   - Uranium Fuel Rod
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 300
@@ -1987,7 +1987,7 @@
   product:
   - Motor
   - 6
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 48
@@ -2002,7 +2002,7 @@
   product:
   - Modular Frame
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 60
@@ -2017,7 +2017,7 @@
   product:
   - Steel Ingot
   - 10
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 16
@@ -2032,7 +2032,7 @@
   product:
   - Steel Ingot
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 3
@@ -2047,7 +2047,7 @@
   product:
   - Iron Ingot
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Foundry
   - 6
@@ -2064,7 +2064,7 @@
   product:
   - High-Speed Connector
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 40
@@ -2083,7 +2083,7 @@
   product:
   - Heavy Modular Frame
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 64
@@ -2098,7 +2098,7 @@
   product:
   - Heat Sink
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 6
@@ -2113,7 +2113,7 @@
   product:
   - Black Powder
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 16
@@ -2128,7 +2128,7 @@
   product:
   - Electromagnetic Control Rod
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 15
@@ -2145,7 +2145,7 @@
   product:
   - Crystal Oscillator
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 32
@@ -2160,7 +2160,7 @@
   product:
   - Concrete
   - 10
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -2175,7 +2175,7 @@
   product:
   - Computer
   - 3
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 64
@@ -2192,7 +2192,7 @@
   product:
   - Computer
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -2207,7 +2207,7 @@
   product:
   - Circuit Board
   - 7
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 48
@@ -2222,7 +2222,7 @@
   product:
   - Circuit Board
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -2237,7 +2237,7 @@
   product:
   - Cable
   - 11
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -2252,7 +2252,7 @@
   product:
   - Cable
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -2269,7 +2269,7 @@
   product:
   - Beacon
   - 20
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -2286,7 +2286,7 @@
   product:
   - Iodine Infused Filter
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 16
@@ -2303,7 +2303,7 @@
   product:
   - Gas Filter
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 8
@@ -2322,7 +2322,7 @@
   product:
   - Beacon
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 8
@@ -2335,7 +2335,7 @@
   product:
   - Alien DNA Capsule
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -2348,7 +2348,7 @@
   product:
   - Iron Rebar
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -2363,7 +2363,7 @@
   product:
   - Homing Rifle Ammo
   - 10
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -2378,7 +2378,7 @@
   product:
   - Stun Rebar
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 6
@@ -2391,7 +2391,7 @@
   product:
   - Quickwire
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 5
@@ -2406,7 +2406,7 @@
   product:
   - Gas Nobelisk
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -2419,7 +2419,7 @@
   product:
   - Power Shard
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 24
@@ -2432,7 +2432,7 @@
   product:
   - Power Shard
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 12
@@ -2445,7 +2445,7 @@
   product:
   - Power Shard
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 8
@@ -2460,7 +2460,7 @@
   product:
   - Pulse Nobelisk
   - 5
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 60
@@ -2475,7 +2475,7 @@
   product:
   - Shatter Rebar
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -2492,7 +2492,7 @@
   product:
   - Turbo Rifle Ammo
   - 50
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 12
@@ -2509,7 +2509,7 @@
   product:
   - Turbo Rifle Ammo
   - 50
-  byproduct: 
+  byproduct:
   building:
   - Blender
   - 12
@@ -2528,7 +2528,7 @@
   product:
   - Nuke Nobelisk
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 120
@@ -2543,7 +2543,7 @@
   product:
   - Rifle Ammo
   - 15
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -2560,7 +2560,7 @@
   product:
   - Explosive Rebar
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Manufacturer
   - 12
@@ -2575,7 +2575,7 @@
   product:
   - Cluster Nobelisk
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 24
@@ -2590,7 +2590,7 @@
   product:
   - Nobelisk
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 6
@@ -2605,7 +2605,7 @@
   product:
   - Smokeless Powder
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Refinery
   - 6
@@ -2620,7 +2620,7 @@
   product:
   - Black Powder
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 4
@@ -2635,7 +2635,7 @@
   product:
   - Reinforced Iron Plate
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Assembler
   - 12
@@ -2648,7 +2648,7 @@
   product:
   - Concrete
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -2661,7 +2661,7 @@
   product:
   - Screw
   - 4
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 6
@@ -2674,7 +2674,7 @@
   product:
   - Cable
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 2
@@ -2687,7 +2687,7 @@
   product:
   - Wire
   - 2
-  byproduct: 
+  byproduct:
   building:
   - Constructor
   - 4
@@ -2700,7 +2700,7 @@
   product:
   - Copper Ingot
   - 1
-  byproduct: 
+  byproduct:
   building:
   - Smelter
   - 2
@@ -2715,7 +2715,7 @@
   product:
   - Uranium Waste
   - 50
-  byproduct: 
+  byproduct:
   building:
   - Nuclear Power Plant
   - 300

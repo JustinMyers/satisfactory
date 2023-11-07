@@ -58,6 +58,7 @@ class Recipe
     total = 0
     unit_cost.each_pair do |resource, count|
       next if resource == "Water"
+
       total = total + (count / $resource_limits[resource].to_f)
     end
     total
@@ -106,13 +107,14 @@ class Recipe
 
   def precursors
     return @precursors if @precursors
+
     max = 0
 
     # recipe.global_cost.each_pair do |resource, count|
     #   $resource_limits[resource] -= count
     # end
 
-    chains.permutation.each do |chain_permutation|
+    chains.permutation.each do |chain, _permutation|
       global_resources = $resource_limits.dup
       @temp_precursors = chain
       if max_production(global_resources) > max
@@ -123,6 +125,7 @@ class Recipe
         @precursors.each_with_index do |precursor, index|
           challenger = chain[index]
           next if challenger.name == precursor.name
+
           if challenger.total_wp_consumption > precursor.total_wp_consumption
             switch = false
           end
@@ -143,7 +146,7 @@ class Recipe
     chains_output = []
     preceding_recipes = ingredients.map do |ingredient|
       ingredient_name, ingredient_quatity = ingredient
-      recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map &:dup
+      recipes = $recipes.select { |r| r.product_name == ingredient_name && !Array(lineage).include?(r.name) }.map(&:dup)
       recipes.each do |recipe|
         recipe.lineage = [name] + Array(lineage)
       end
@@ -164,7 +167,8 @@ class Recipe
             chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe]
           end
           Array(preceding_recipes[3]).each do |ingredient_four_recipe|
-            chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe, ingredient_four_recipe]
+            chains_output << [ingredient_one_recipe, ingredient_two_recipe, ingredient_three_recipe,
+                              ingredient_four_recipe]
           end
         end
       end
@@ -190,6 +194,7 @@ def recipe_report(recipe, print_precursors = false)
   unit_cost = recipe.unit_cost
   $resource_limits.each_pair do |resource, count|
     next if resource == "Water"
+
     consumed = (unit_cost[resource].to_f * max_production)
     consumed_percent = consumed / count.to_f * 100
     puts resource.ljust(20) + consumed.round(2).to_s.ljust(10) + " / " + count.round(2).to_s.ljust(10) + consumed_percent.round(2).to_s + "%"
