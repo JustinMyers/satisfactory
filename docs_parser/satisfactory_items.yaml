@@ -323,23 +323,23 @@
   sink_value: 2718
   energy: 0
   id: 81
-- name: Alien DNA Capsule
-  sink_value: 0
-  energy: 0
-  id: 82
-- name: Blue Power Slug
-  sink_value: 0
-  energy: 0
-  id: 83
 - name: Alien Protein
   sink_value: 0
   energy: 0
-  id: 84
+  id: 82
+- name: Alien DNA Capsule
+  sink_value: 0
+  energy: 0
+  id: 83
 - name: Purple Power Slug
   sink_value: 0
   energy: 0
-  id: 85
+  id: 84
 - name: Yellow Power Slug
+  sink_value: 0
+  energy: 0
+  id: 85
+- name: Blue Power Slug
   sink_value: 0
   energy: 0
   id: 86
@@ -523,20 +523,20 @@
   sink_value: 320
   energy: 0
   id: 131
-- name: Bacon Agaric
-  sink_value: 0
-  energy: 0
-  id: 132
-- name: Paleberry
-  sink_value: 0
-  energy: 0
-  id: 133
 - name: Beryl Nut
   sink_value: 0
   energy: 0
-  id: 134
+  id: 132
 - name: Medicinal Inhaler
   sink_value: 125
+  energy: 0
+  id: 133
+- name: Bacon Agaric
+  sink_value: 0
+  energy: 0
+  id: 134
+- name: Paleberry
+  sink_value: 0
   energy: 0
   id: 135
 - name: Parachute

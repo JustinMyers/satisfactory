@@ -4,8 +4,14 @@ require 'yaml'
 
 @item_hashes = YAML.load_file('docs_parser/satisfactory_items.yaml')
 @recipe_hashes = YAML.load_file('docs_parser/satisfactory_recipes.yaml')
-@building_hashes = YAML.load_file('docs_parser/satisfactory_buildings.yaml')
+$building_hashes = YAML.load_file('docs_parser/satisfactory_buildings.yaml')
 $resource_limits = YAML.load_file('docs_parser/satisfactory_resource_limits.yaml')
+
+$resource_limits['Coal'] = 780
+$resource_limits['Iron Ore'] = 780
+$resource_limits['Copper Ore'] = 780
+
+$total_consumption = 0
 
 class Recipe
   attr_reader :name, :ingredients, :product, :byproduct, :building, :alternate, :id
@@ -25,8 +31,17 @@ class Recipe
     product.first
   end
 
+  def byproduct_name
+    # byproduct might be nil
+    byproduct&.first
+  end
+
   def product_quantity
     product.last
+  end
+
+  def byproduct_quantity
+    byproduct&.last
   end
 
   def unit_cost
@@ -34,7 +49,9 @@ class Recipe
     (@temp_precursors || precursors).each do |precursor|
       precursor.unit_cost.each_pair do |resource, count|
         output[resource] ||= 0
-        ingredient_count = ingredients.detect { |i| i.first == precursor.product.first }.last / product.last.to_f
+        ingredient_count = ingredients.detect { |i|
+          i.first == precursor.product_name || precursor.byproduct_name
+        }.last / product.last.to_f
         output[resource] += count * ingredient_count
       end
     end
@@ -95,6 +112,12 @@ class Recipe
     building_output[building_name] ||= {}
     building_output[building_name][name] ||= 0
     building_output[building_name][name] += number_of_buildings_needed.ceil
+    building_output[building_name]['power_consumption'] ||= 0
+    building = $building_hashes.detect do |h|
+      h[:name] == building_name
+    end
+    consumption = building[:power_consumption].to_i
+    $total_consumption += number_of_buildings_needed * consumption
 
     puts "#{spacer}To make #{max_production_target.ceil(1)} #{product_name} per minute with recipe '#{name}' you need #{number_of_buildings_needed.ceil} '#{building_name}'"
     precursors.each do |precursor_recipe|
@@ -137,9 +160,10 @@ class Recipe
   def chains
     chains_output = []
     preceding_recipes = ingredients.map do |ingredient|
-      ingredient_name, ingredient_quatity = ingredient
+      ingredient_name, ingredient_quantity = ingredient
       recipes = $recipes.select do |r|
-        r.product_name == ingredient_name && !Array(lineage).include?(r.name)
+        r.product_name == ingredient_name && !Array(lineage).include?(r.name) ||
+          r.byproduct_name == ingredient_name && !Array(lineage).include?(r.name)
       end.map(&:dup)
       recipes.each do |recipe|
         recipe.lineage = [name] + Array(lineage)
@@ -171,7 +195,7 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
-# $recipes.reject! &:alternate
+$recipes.reject!(&:alternate)
 
 def recipe_report(recipe, print_precursors = false)
   if print_precursors
@@ -232,6 +256,23 @@ end
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 
+item_names = [
+  ['Supercomputer', 5],
+  ['Fused Modular Frame', 10],
+  ['Turbo Motor', 3],
+  ['Uranium Fuel Rod', 0.8],
+  ['Battery', 40]
+]
+
+item_names.each do |item_name, target_production|
+  recipes = $recipes.select { |r| r.product.first == item_name }
+  recipes.each do |r|
+    r.building_report(target_production)
+  end
+end
+
+puts "Total power consumption: #{$total_consumption} MW"
+
 # recipes = $recipes
 
 # recipes.each do |recipe|
@@ -256,11 +297,11 @@ end
 
 # SORTED BY PRODUCT
 
-$recipes.sort! { |b, a| b.product_name <=> a.product_name }
+# $recipes.sort! { |b, a| b.product_name <=> a.product_name }
 
-$recipes.each do |recipe|
-  recipe_report(recipe, false) if $recipes.select { |r| r.product_name == recipe.product_name }.count > 1
-end
+# $recipes.each do |recipe|
+#   recipe_report(recipe, true) # if $recipes.select { |r| r.product_name == recipe.product_name }.count > 1
+# end
 
 # NOTES
 

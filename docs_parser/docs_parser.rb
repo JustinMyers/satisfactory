@@ -1,7 +1,7 @@
-require "json"
-require "yaml"
+require 'json'
+require 'yaml'
 
-doc_file = File.read("update_8_experimental_Docs.json")
+doc_file = File.read('update_8_early_access_paste.json')
 doc_json = JSON.parse(doc_file)
 
 class DocsParser
@@ -15,12 +15,12 @@ class DocsParser
   def section(native_class)
     native_class_string = "/Script/CoreUObject.Class'/Script/FactoryGame.#{native_class}'"
     @used_sections << native_class_string
-    s = data.detect { |e| e["NativeClass"] == native_class_string }
-    s ? s["Classes"] : []
+    s = data.detect { |e| e['NativeClass'] == native_class_string }
+    s ? s['Classes'] : []
   end
 
   def sections
-    data.map { |e| e["NativeClass"] }
+    data.map { |e| e['NativeClass'] }
   end
 
   def sections_report(only_used = true)
@@ -37,12 +37,12 @@ parser = DocsParser.new(doc_json)
 
 class SatisfactoryEntity
   def class_name
-    @data["ClassName"]
+    @data['ClassName']
   end
 
   def method_missing(m, *args, &block)
     # strip data_
-    key = m.to_s.gsub("data_", "")
+    key = m.to_s.gsub('data_', '')
 
     attribute_value = data[format_attribute_key(key)]
     if attribute_value.nil?
@@ -53,7 +53,7 @@ class SatisfactoryEntity
   end
 
   def format_attribute_key(key)
-    "m" + key.to_s.split("_").map { |s| s.capitalize }.join
+    'm' + key.to_s.split('_').map { |s| s.capitalize }.join
   end
 
   def format_attribute_value(value)
@@ -71,15 +71,15 @@ class Building < SatisfactoryEntity
   def details
     {
       name: display_name,
-      power_consumption: power_consumption.to_i,
+      power_consumption: power_consumption.to_i
     }
   end
 
   def power_consumption
-    if ["Build_HadronCollider_C"].include?(class_name)
-      # note the typos in this line - they are from the source file
+    if ['Build_HadronCollider_C'].include?(class_name)
+      # NOTE: the typos in this line - they are from the source file
       ((data_estimated_maximum_power_consumption.to_i - data_estimated_mininum_power_consumption.to_i) / 2.0)
-    elsif ["Build_GeneratorNuclear_C"].include?(class_name)
+    elsif ['Build_GeneratorNuclear_C'].include?(class_name)
       -power_production.to_i
     else
       data_power_consumption
@@ -87,36 +87,35 @@ class Building < SatisfactoryEntity
   end
 end
 
-$buildings = parser.section("FGBuildableManufacturer")
-$buildings += parser.section("FGBuildableManufacturerVariablePower")
-$buildings += parser.section("FGBuildableFrackingExtractor")
-$buildings += parser.section("FGBuildableFrackingActivator")
-$buildings += parser.section("FGBuildableGeneratorNuclear")
-$buildings += parser.section("FGBuildableResourceExtractor")
+$buildings = parser.section('FGBuildableManufacturer')
+$buildings += parser.section('FGBuildableManufacturerVariablePower')
+$buildings += parser.section('FGBuildableFrackingExtractor')
+$buildings += parser.section('FGBuildableFrackingActivator')
+$buildings += parser.section('FGBuildableGeneratorNuclear')
+$buildings += parser.section('FGBuildableResourceExtractor')
 
 $buildings.map! { |building| Building.new(building) }
 
 workshop = Building.new({
-  "mDisplayName" => "Equipment Workshop",
-  "ClassName" => "BP_WorkshopComponent_C",
-  "mPowerConsumption" => 0,
-})
+                          'mDisplayName' => 'Equipment Workshop',
+                          'ClassName' => 'BP_WorkshopComponent_C',
+                          'mPowerConsumption' => 0
+                        })
 
 $buildings << workshop
 
 gather = Building.new({
-  "mDisplayName" => "Gather",
-  "ClassName" => "Gather",
-  "mPowerConsumption" => 0,
-})
+                        'mDisplayName' => 'Gather',
+                        'ClassName' => 'Gather',
+                        'mPowerConsumption' => 0
+                      })
 
 $buildings << gather
 
 $item_count = 0
 
 class Item < SatisfactoryEntity
-  attr_reader :data
-  attr_reader :id
+  attr_reader :data, :id
 
   def initialize(fg_item_descriptor_hash)
     @data = fg_item_descriptor_hash
@@ -125,31 +124,30 @@ class Item < SatisfactoryEntity
 
   def details
     {
-      "name" => display_name,
-      "sink_value" => resource_sink_points.to_i,
-      "energy" => energy_value.to_i,
-      "id" => id,
+      'name' => display_name,
+      'sink_value' => resource_sink_points.to_i,
+      'energy' => energy_value.to_i,
+      'id' => id
     }
   end
 end
 
-$items = parser.section("FGItemDescriptor")
-$items += parser.section("FGResourceDescriptor")
-$items += parser.section("FGItemDescriptorBiomass")
-$items += parser.section("FGItemDescriptorNuclearFuel")
-$items += parser.section("FGConsumableDescriptor")
-$items += parser.section("FGAmmoTypeProjectile")
-$items += parser.section("FGAmmoTypeInstantHit")
-$items += parser.section("FGEquipmentDescriptor")
-$items += parser.section("FGAmmoTypeSpreadshot")
+$items = parser.section('FGItemDescriptor')
+$items += parser.section('FGResourceDescriptor')
+$items += parser.section('FGItemDescriptorBiomass')
+$items += parser.section('FGItemDescriptorNuclearFuel')
+$items += parser.section('FGConsumableDescriptor')
+$items += parser.section('FGAmmoTypeProjectile')
+$items += parser.section('FGAmmoTypeInstantHit')
+$items += parser.section('FGEquipmentDescriptor')
+$items += parser.section('FGAmmoTypeSpreadshot')
 
 $items.map! { |item| Item.new(item) }
 
 $recipe_count = 0
 
 class Recipe < SatisfactoryEntity
-  attr_reader :data
-  attr_reader :id
+  attr_reader :data, :id
 
   def initialize(fg_recipe_descriptor_hash)
     @data = fg_recipe_descriptor_hash
@@ -158,53 +156,45 @@ class Recipe < SatisfactoryEntity
 
   def details
     details = {
-      "name" => display_name.split("Alternate: ").last,
-      "ingredients" => ingredients,
-      "product" => product,
-      "byproduct" => byproduct,
-      "building" => [building, manufactoring_duration.to_i],
-      "alternate" => display_name.include?("Alternate:"),
-      "id" => id,
+      'name' => display_name.split('Alternate: ').last,
+      'ingredients' => ingredients,
+      'product' => product,
+      'byproduct' => byproduct,
+      'building' => [building, manufactoring_duration],
+      'alternate' => display_name.include?('Alternate:'),
+      'id' => id
     }
 
     # divide fluids by 1000
-    details["ingredients"].each do |ingredient|
+    details['ingredients'].each do |ingredient|
       ingredient[-1] = ingredient.last / 1000 if ingredient.last >= 1000
     end
-    details["product"][-1] = product.last / 1000 if product.last >= 1000
-    details["byproduct"][-1] = byproduct.last / 1000 if byproduct && byproduct.last >= 1000
+    details['product'][-1] = product.last / 1000 if product.last >= 1000
+    details['byproduct'][-1] = byproduct.last / 1000 if byproduct && byproduct.last >= 1000
 
     # custom recipe modifications
-    case details["name"]
-    when "Recycled Rubber"
-      details["ingredients"] = [["Fuel", 6]]
-      details["product"] = ["Rubber", 6]
-    when "Recycled Plastic"
-      details["ingredients"] = [["Fuel", 6]]
-      details["product"] = ["Plastic", 6]
+    case details['name']
+    when 'Recycled Rubber'
+      details['ingredients'] = [['Fuel', 6]]
+      details['product'] = ['Rubber', 6]
+    when 'Recycled Plastic'
+      details['ingredients'] = [['Fuel', 6]]
+      details['product'] = ['Plastic', 6]
     end
 
     # Remove canisters from packaged and unpackaged products
-    if details["name"].include?("Packaged ")
-      details["ingredients"] = [details["ingredients"].first]
-    end
-    if details["name"].include?("Unpackage ")
-      details["byproduct"] = nil
-    end
+    details['ingredients'] = [details['ingredients'].first] if details['name'].include?('Packaged ')
+    details['byproduct'] = nil if details['name'].include?('Unpackage ')
 
     # I don't care about water as a byproduct
-    if Array(details["byproduct"]).first == "Water"
-      details["byproduct"] = nil
-    end
+    details['byproduct'] = nil if Array(details['byproduct']).first == 'Water'
 
     # subtract outputs from inputs
-    details["ingredients"].each do |ingredient|
-      if ingredient.first == product.first
-        ingredient[-1] -= product.last
-      end
-      if details["byproduct"] && ingredient.first == byproduct.first
-        ingredient[-1] -= details["byproduct"].last
-        details["byproduct"] = nil
+    details['ingredients'].each do |ingredient|
+      ingredient[-1] -= product.last if ingredient.first == product.first
+      if details['byproduct'] && ingredient.first == byproduct.first
+        ingredient[-1] -= details['byproduct'].last
+        details['byproduct'] = nil
       end
     end
 
@@ -221,25 +211,25 @@ class Recipe < SatisfactoryEntity
 
   def byproduct
     products = parse_items_list(data_product)
-    if products.count > 1
-      products.last
-    end
+    return unless products.count > 1
+
+    products.last
   end
 
   def parse_items_list(items_list_string)
     # remove the first and last parens
     raw_items_list_string = items_list_string[1..-2]
     # replace the ),( with )$$$(
-    raw_items_list_string.gsub!("),(", ")$$$(")
-    raw_items_list_string.split("$$$").map do |ingredient_string|
+    raw_items_list_string.gsub!('),(', ')$$$(')
+    raw_items_list_string.split('$$$').map do |ingredient_string|
       parse_item_string(ingredient_string)
     end
   end
 
   def parse_item_string(item_string)
-    item_class = item_string.split(".").last.split('"').first
+    item_class = item_string.split('.').last.split('"').first
     item_name = $items.detect { |i| i.class_name == item_class }.display_name
-    amount = item_string.split("=").last.split(")").first.to_i
+    amount = item_string.split('=').last.split(')').first.to_i
     [item_name, amount]
   end
 
@@ -255,46 +245,149 @@ class Recipe < SatisfactoryEntity
   end
 end
 
-$recipes = parser.section("FGRecipe")
+$recipes = parser.section('FGRecipe')
 $recipes.map! { |recipe| Recipe.new(recipe) }
 
 uranium_waste = Recipe.new({
-  "ClassName" => "Desc_NuclearWaste_C",
-  "mDisplayName" => "Uranium Waste",
-  "mManufactoringDuration" => "300.000000",
-  "mIngredients" => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C\"',Amount=1),(ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/Water/Desc_Water.Desc_Water_C\"',Amount=1500000))",
-  "mProduct" => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C\"',Amount=50))",
-  "mProducedIn" => "(\"/Game/FactoryGame/Buildable/Factory/GeneratorNuclear/Build_GeneratorNuclear.Build_GeneratorNuclear_C\")",
-})
+                             'ClassName' => 'Desc_NuclearWaste_C',
+                             'mDisplayName' => 'Uranium Waste',
+                             'mManufactoringDuration' => '300.000000',
+                             'mIngredients' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C\"',Amount=1),(ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/Water/Desc_Water.Desc_Water_C\"',Amount=1500000))",
+                             'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C\"',Amount=50))",
+                             'mProducedIn' => '("/Game/FactoryGame/Buildable/Factory/GeneratorNuclear/Build_GeneratorNuclear.Build_GeneratorNuclear_C")'
+                           })
 
 $recipes << uranium_waste
 
-$recipes.reject! { |recipe| recipe.produced_in == "(\"/Game/FactoryGame/Equipment/BuildGun/BP_BuildGun.BP_BuildGun_C\")" }
-$recipes.reject! { |recipe| recipe.data_product.include? "Building" }
-$recipes.reject! { |recipe| recipe.data_product.include? "Buildable" }
-$recipes.reject! { |recipe| recipe.data_display_name.include? "ackage" }
-$recipes.reject! { |recipe| recipe.building == "Equipment Workshop" }
+# Make "recipes" for mining.
+iron_ore = Recipe.new({
+                        'ClassName' => 'Desc_OreIron_C',
+                        'mDisplayName' => 'Iron Ore',
+                        'mManufactoringDuration' => '0.076923077',
+                        'mIngredients' => '()',
+                        'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C\"',Amount=1))",
+                        'mProducedIn' => 'Build_MinerMk3_C'
+                      })
+$recipes << iron_ore
+
+copper_ore = Recipe.new({
+                          'ClassName' => 'Desc_OreCopper_C',
+                          'mDisplayName' => 'Copper Ore',
+                          'mManufactoringDuration' => '0.076923077',
+                          'mIngredients' => '()',
+                          'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C\"',Amount=1))",
+                          'mProducedIn' => 'Build_MinerMk3_C'
+                        })
+$recipes << copper_ore
+
+limestone = Recipe.new({
+                         'ClassName' => 'Desc_Stone_C',
+                         'mDisplayName' => 'Limestone',
+                         'mManufactoringDuration' => '0.076923077',
+                         'mIngredients' => '()',
+                         'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C\"',Amount=1))",
+                         'mProducedIn' => 'Build_MinerMk3_C'
+                       })
+$recipes << limestone
+
+coal = Recipe.new({
+                    'ClassName' => 'Desc_Coal_C',
+                    'mDisplayName' => 'Coal',
+                    'mManufactoringDuration' => '0.076923077',
+                    'mIngredients' => '()',
+                    'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C\"',Amount=1))",
+                    'mProducedIn' => 'Build_MinerMk3_C'
+                  })
+$recipes << coal
+
+bauxite = Recipe.new({
+                       'ClassName' => 'Desc_OreBauxite_C',
+                       'mDisplayName' => 'Bauxite',
+                       'mManufactoringDuration' => '0.076923077',
+                       'mIngredients' => '()',
+                       'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreBauxite/Desc_OreBauxite.Desc_OreBauxite_C\"',Amount=1))",
+                       'mProducedIn' => 'Build_MinerMk3_C'
+                     })
+$recipes << bauxite
+
+caterium = Recipe.new({
+                        'ClassName' => 'Desc_OreGold_C',
+                        'mDisplayName' => 'Caterium Ore',
+                        'mManufactoringDuration' => '0.076923077',
+                        'mIngredients' => '()',
+                        'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C\"',Amount=1))",
+                        'mProducedIn' => 'Build_MinerMk3_C'
+                      })
+$recipes << caterium
+
+sulfur = Recipe.new({
+                      'ClassName' => 'Desc_Sulfur_C',
+                      'mDisplayName' => 'Sulfur',
+                      'mManufactoringDuration' => '0.076923077',
+                      'mIngredients' => '()',
+                      'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C\"',Amount=1))",
+                      'mProducedIn' => 'Build_MinerMk3_C'
+                    })
+$recipes << sulfur
+
+quartz = Recipe.new({
+                      'ClassName' => 'Desc_RawQuartz_C',
+                      'mDisplayName' => 'Raw Quartz',
+                      'mManufactoringDuration' => '0.076923077',
+                      'mIngredients' => '()',
+                      'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C\"',Amount=1))",
+                      'mProducedIn' => 'Build_MinerMk3_C'
+                    })
+$recipes << quartz
+
+oil = Recipe.new({
+                   'ClassName' => 'Desc_LiquidOil_C',
+                   'mDisplayName' => 'Crude Oil',
+                   'mManufactoringDuration' => '0.1',
+                   'mIngredients' => '()',
+                   'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C\"',Amount=120))",
+                   'mProducedIn' => 'Build_OilPump_C'
+                 })
+$recipes << oil
+
+uranium = Recipe.new({
+                       'ClassName' => 'Desc_OreUranium_C',
+                       'mDisplayName' => 'Uranium Ore',
+                       'mManufactoringDuration' => '0.076923077',
+                       'mIngredients' => '()',
+                       'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C\"',Amount=1))",
+                       'mProducedIn' => 'Build_MinerMk3_C'
+                     })
+$recipes << uranium
+
+$recipes.reject! do |recipe|
+  recipe.produced_in == '("/Game/FactoryGame/Equipment/BuildGun/BP_BuildGun.BP_BuildGun_C")'
+end
+$recipes.reject! { |recipe| recipe.data_product.include? 'Building' }
+$recipes.reject! { |recipe| recipe.data_product.include? 'Buildable' }
+$recipes.reject! { |recipe| recipe.data_display_name.include? 'ackage' }
+$recipes.reject! { |recipe| recipe.building == 'Equipment Workshop' }
 [
-  "Charcoal",
-  "Biomass",
-  "Biocoal",
-  "Protein",
-  "Color Cartridge",
-  "Liquid Biofuel",
-  "Solid Biofuel",
-  "Fabric",
-  "Snowball",
-  "FICSMAS",
-  "Actual Snow",
-  "Candy Cane",
-  "Fireworks",
+  'Charcoal',
+  'Biomass',
+  'Biocoal',
+  'Protein',
+  'Color Cartridge',
+  'Liquid Biofuel',
+  'Solid Biofuel',
+  'Fabric',
+  'Snowball',
+  'FICSMAS',
+  'Actual Snow',
+  'Candy Cane',
+  'Fireworks'
 ].each do |rejected_recipe_string|
   $recipes.reject! { |recipe| recipe.data_display_name.include? rejected_recipe_string }
 end
 
-File.write("satisfactory_items.yaml", $items.map(&:details).to_yaml)
-File.write("satisfactory_recipes.yaml", $recipes.map(&:details).to_yaml)
-File.write("satisfactory_buildings.yaml", $buildings.map(&:details).to_yaml)
+File.write('satisfactory_items.yaml', $items.map(&:details).to_yaml)
+File.write('satisfactory_recipes.yaml', $recipes.map(&:details).to_yaml)
+File.write('satisfactory_buildings.yaml', $buildings.map(&:details).to_yaml)
 
 # require "pp"
 # PP.pp(parser.sections_report, $>, 100)

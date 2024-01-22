@@ -9,7 +9,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 89
 - name: Iron Rod
@@ -22,7 +22,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 90
 - name: Iron Ingot
@@ -35,7 +35,7 @@
   byproduct:
   building:
   - Smelter
-  - 2
+  - '2.000000'
   alternate: false
   id: 92
 - name: Wet Concrete
@@ -50,7 +50,7 @@
   byproduct:
   building:
   - Refinery
-  - 3
+  - '3.000000'
   alternate: true
   id: 106
 - name: Turbo Heavy Fuel
@@ -65,7 +65,7 @@
   byproduct:
   building:
   - Refinery
-  - 8
+  - '8.000000'
   alternate: true
   id: 118
 - name: Compacted Coal
@@ -80,7 +80,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 123
 - name: Circuit Board
@@ -95,7 +95,7 @@
   byproduct:
   building:
   - Assembler
-  - 8
+  - '8.000000'
   alternate: false
   id: 124
 - name: Fuel
@@ -110,7 +110,7 @@
   - 3
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 128
 - name: Petroleum Coke
@@ -123,7 +123,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 129
 - name: Plastic
@@ -138,7 +138,7 @@
   - 1
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 130
 - name: Rubber
@@ -153,7 +153,7 @@
   - 2
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 131
 - name: Residual Fuel
@@ -166,7 +166,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 132
 - name: Residual Plastic
@@ -181,7 +181,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 133
 - name: Residual Rubber
@@ -196,7 +196,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 134
 - name: Steel Rod
@@ -209,7 +209,7 @@
   byproduct:
   building:
   - Constructor
-  - 5
+  - '5.000000'
   alternate: true
   id: 135
 - name: Steel Beam
@@ -222,7 +222,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 137
 - name: Steel Pipe
@@ -235,7 +235,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 138
 - name: Steel Ingot
@@ -250,7 +250,7 @@
   byproduct:
   building:
   - Foundry
-  - 4
+  - '4.000000'
   alternate: false
   id: 139
 - name: Versatile Framework
@@ -265,7 +265,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: false
   id: 140
 - name: Steel Coated Plate
@@ -280,7 +280,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: true
   id: 141
 - name: Steel Canister
@@ -293,7 +293,7 @@
   byproduct:
   building:
   - Constructor
-  - 3
+  - '3.000000'
   alternate: true
   id: 142
 - name: Empty Canister
@@ -306,7 +306,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 145
 - name: Steamed Copper Sheet
@@ -321,7 +321,7 @@
   byproduct:
   building:
   - Refinery
-  - 8
+  - '8.000000'
   alternate: true
   id: 157
 - name: Rubber Concrete
@@ -336,7 +336,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 158
 - name: Recycled Rubber
@@ -349,7 +349,7 @@
   byproduct:
   building:
   - Refinery
-  - 12
+  - '12.000000'
   alternate: true
   id: 159
 - name: Pure Quartz Crystal
@@ -364,7 +364,7 @@
   byproduct:
   building:
   - Refinery
-  - 8
+  - '8.000000'
   alternate: true
   id: 160
 - name: Quartz Crystal
@@ -377,7 +377,7 @@
   byproduct:
   building:
   - Constructor
-  - 8
+  - '8.000000'
   alternate: false
   id: 161
 - name: Pure Iron Ingot
@@ -392,7 +392,7 @@
   byproduct:
   building:
   - Refinery
-  - 12
+  - '12.000000'
   alternate: true
   id: 162
 - name: Pure Copper Ingot
@@ -407,7 +407,7 @@
   byproduct:
   building:
   - Refinery
-  - 24
+  - '24.000000'
   alternate: true
   id: 163
 - name: Pure Caterium Ingot
@@ -422,7 +422,7 @@
   byproduct:
   building:
   - Refinery
-  - 5
+  - '5.000000'
   alternate: true
   id: 164
 - name: Pure Aluminum Ingot
@@ -435,7 +435,7 @@
   byproduct:
   building:
   - Smelter
-  - 2
+  - '2.000000'
   alternate: true
   id: 165
 - name: Encased Uranium Cell
@@ -452,7 +452,7 @@
   byproduct:
   building:
   - Blender
-  - 12
+  - '12.000000'
   alternate: false
   id: 166
 - name: Cooling System
@@ -471,7 +471,7 @@
   byproduct:
   building:
   - Blender
-  - 10
+  - '10.000000'
   alternate: false
   id: 167
 - name: Nitric Acid
@@ -488,7 +488,7 @@
   byproduct:
   building:
   - Blender
-  - 6
+  - '6.000000'
   alternate: false
   id: 168
 - name: Non-fissile Uranium
@@ -507,7 +507,7 @@
   byproduct:
   building:
   - Blender
-  - 24
+  - '24.000000'
   alternate: false
   id: 169
 - name: Aluminum Casing
@@ -520,7 +520,7 @@
   byproduct:
   building:
   - Constructor
-  - 2
+  - '2.000000'
   alternate: false
   id: 171
 - name: Alclad Aluminum Sheet
@@ -535,7 +535,7 @@
   byproduct:
   building:
   - Assembler
-  - 6
+  - '6.000000'
   alternate: false
   id: 172
 - name: Radio Control Unit
@@ -552,7 +552,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 48
+  - '48.000000'
   alternate: false
   id: 173
 - name: Alumina Solution
@@ -569,7 +569,7 @@
   - 5
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 174
 - name: Aluminum Scrap
@@ -584,7 +584,7 @@
   byproduct:
   building:
   - Refinery
-  - 1
+  - '1.000000'
   alternate: false
   id: 175
 - name: Aluminum Ingot
@@ -599,7 +599,7 @@
   byproduct:
   building:
   - Foundry
-  - 4
+  - '4.000000'
   alternate: false
   id: 177
 - name: Silica
@@ -612,7 +612,7 @@
   byproduct:
   building:
   - Constructor
-  - 8
+  - '8.000000'
   alternate: false
   id: 178
 - name: Crystal Oscillator
@@ -629,7 +629,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: false
   id: 179
 - name: Polymer Resin
@@ -644,7 +644,7 @@
   - 2
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: true
   id: 181
 - name: Plastic Smart Plating
@@ -661,7 +661,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 24
+  - '24.000000'
   alternate: true
   id: 182
 - name: Automated Speed Wiring
@@ -678,7 +678,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 32
+  - '32.000000'
   alternate: true
   id: 183
 - name: Encased Industrial Beam
@@ -693,7 +693,7 @@
   byproduct:
   building:
   - Assembler
-  - 10
+  - '10.000000'
   alternate: false
   id: 184
 - name: Motor
@@ -708,7 +708,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 185
 - name: Stator
@@ -723,7 +723,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 186
 - name: Heavy Modular Frame
@@ -742,7 +742,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 30
+  - '30.000000'
   alternate: false
   id: 188
 - name: Automated Wiring
@@ -757,7 +757,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: false
   id: 189
 - name: AI Limiter
@@ -772,7 +772,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 190
 - name: Heavy Oil Residue
@@ -787,7 +787,7 @@
   - 2
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: true
   id: 191
 - name: Heavy Flexible Frame
@@ -806,7 +806,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: true
   id: 192
 - name: Computer
@@ -825,7 +825,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 24
+  - '24.000000'
   alternate: false
   id: 194
 - name: Modular Engine
@@ -842,7 +842,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 60
+  - '60.000000'
   alternate: false
   id: 195
 - name: Adaptive Control Unit
@@ -861,7 +861,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: false
   id: 196
 - name: Fused Wire
@@ -876,7 +876,7 @@
   byproduct:
   building:
   - Assembler
-  - 20
+  - '20.000000'
   alternate: true
   id: 198
 - name: Flexible Framework
@@ -893,7 +893,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: true
   id: 199
 - name: Electrode Circuit Board
@@ -908,10 +908,10 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 200
-- name: Electrode - Aluminum Scrap
+- name: Electrode Aluminum Scrap
   ingredients:
   - - Alumina Solution
     - 12
@@ -923,7 +923,7 @@
   byproduct:
   building:
   - Refinery
-  - 4
+  - '4.000000'
   alternate: true
   id: 201
 - name: Copper Rotor
@@ -938,7 +938,7 @@
   byproduct:
   building:
   - Assembler
-  - 16
+  - '16.000000'
   alternate: true
   id: 203
 - name: Modular Frame
@@ -953,7 +953,7 @@
   byproduct:
   building:
   - Assembler
-  - 60
+  - '60.000000'
   alternate: false
   id: 204
 - name: Rotor
@@ -968,7 +968,7 @@
   byproduct:
   building:
   - Assembler
-  - 15
+  - '15.000000'
   alternate: false
   id: 205
 - name: Copper Sheet
@@ -981,7 +981,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 207
 - name: Smart Plating
@@ -996,7 +996,7 @@
   byproduct:
   building:
   - Assembler
-  - 30
+  - '30.000000'
   alternate: false
   id: 208
 - name: Copper Alloy Ingot
@@ -1011,7 +1011,7 @@
   byproduct:
   building:
   - Foundry
-  - 12
+  - '12.000000'
   alternate: true
   id: 209
 - name: Coke Steel Ingot
@@ -1026,7 +1026,7 @@
   byproduct:
   building:
   - Foundry
-  - 12
+  - '12.000000'
   alternate: true
   id: 210
 - name: Coated Iron Plate
@@ -1041,7 +1041,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 211
 - name: Coated Iron Canister
@@ -1056,7 +1056,7 @@
   byproduct:
   building:
   - Assembler
-  - 4
+  - '4.000000'
   alternate: true
   id: 212
 - name: Coated Cable
@@ -1071,7 +1071,7 @@
   byproduct:
   building:
   - Refinery
-  - 8
+  - '8.000000'
   alternate: true
   id: 213
 - name: Bolted Frame
@@ -1086,7 +1086,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: true
   id: 214
 - name: Adhered Iron Plate
@@ -1101,7 +1101,7 @@
   byproduct:
   building:
   - Assembler
-  - 16
+  - '16.000000'
   alternate: true
   id: 215
 - name: Turbo Pressure Motor
@@ -1120,7 +1120,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 32
+  - '32.000000'
   alternate: true
   id: 216
 - name: Encased Plutonium Cell
@@ -1135,7 +1135,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 217
 - name: Pressure Conversion Cube
@@ -1150,7 +1150,7 @@
   byproduct:
   building:
   - Assembler
-  - 60
+  - '60.000000'
   alternate: false
   id: 218
 - name: Copper Powder
@@ -1163,7 +1163,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 220
 - name: Plutonium Pellet
@@ -1178,7 +1178,7 @@
   byproduct:
   building:
   - Particle Accelerator
-  - 60
+  - '60.000000'
   alternate: false
   id: 221
 - name: Plutonium Fuel Rod
@@ -1197,7 +1197,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 240
+  - '240.000000'
   alternate: false
   id: 222
 - name: Nuclear Pasta
@@ -1212,7 +1212,7 @@
   byproduct:
   building:
   - Particle Accelerator
-  - 120
+  - '120.000000'
   alternate: false
   id: 224
 - name: Turbo Blend Fuel
@@ -1231,7 +1231,7 @@
   byproduct:
   building:
   - Blender
-  - 8
+  - '8.000000'
   alternate: true
   id: 226
 - name: Super-State Computer
@@ -1250,7 +1250,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 50
+  - '50.000000'
   alternate: true
   id: 227
 - name: Battery
@@ -1267,7 +1267,7 @@
   byproduct:
   building:
   - Blender
-  - 3
+  - '3.000000'
   alternate: false
   id: 230
 - name: Supercomputer
@@ -1286,7 +1286,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 32
+  - '32.000000'
   alternate: false
   id: 231
 - name: Sulfuric Acid
@@ -1301,7 +1301,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 232
 - name: Assembly Director System
@@ -1316,7 +1316,7 @@
   byproduct:
   building:
   - Assembler
-  - 80
+  - '80.000000'
   alternate: false
   id: 234
 - name: High-Speed Connector
@@ -1333,7 +1333,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: false
   id: 235
 - name: Electromagnetic Control Rod
@@ -1348,7 +1348,7 @@
   byproduct:
   building:
   - Assembler
-  - 30
+  - '30.000000'
   alternate: false
   id: 237
 - name: Uranium Fuel Rod
@@ -1365,7 +1365,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 150
+  - '150.000000'
   alternate: false
   id: 239
 - name: Magnetic Field Generator
@@ -1382,7 +1382,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: false
   id: 240
 - name: Sloppy Alumina
@@ -1397,7 +1397,7 @@
   byproduct:
   building:
   - Refinery
-  - 3
+  - '3.000000'
   alternate: true
   id: 241
 - name: Radio Control System
@@ -1416,7 +1416,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 40
+  - '40.000000'
   alternate: true
   id: 242
 - name: Plutonium Fuel Unit
@@ -1431,7 +1431,7 @@
   byproduct:
   building:
   - Assembler
-  - 120
+  - '120.000000'
   alternate: true
   id: 243
 - name: OC Supercomputer
@@ -1446,7 +1446,7 @@
   byproduct:
   building:
   - Assembler
-  - 20
+  - '20.000000'
   alternate: true
   id: 244
 - name: Heat Sink
@@ -1461,7 +1461,7 @@
   byproduct:
   building:
   - Assembler
-  - 8
+  - '8.000000'
   alternate: false
   id: 245
 - name: Fused Modular Frame
@@ -1478,7 +1478,7 @@
   byproduct:
   building:
   - Blender
-  - 40
+  - '40.000000'
   alternate: false
   id: 246
 - name: Empty Fluid Tank
@@ -1491,7 +1491,7 @@
   byproduct:
   building:
   - Constructor
-  - 1
+  - '1.000000'
   alternate: false
   id: 249
 - name: Instant Scrap
@@ -1510,7 +1510,7 @@
   byproduct:
   building:
   - Blender
-  - 6
+  - '6.000000'
   alternate: true
   id: 252
 - name: Instant Plutonium Cell
@@ -1525,7 +1525,7 @@
   byproduct:
   building:
   - Particle Accelerator
-  - 120
+  - '120.000000'
   alternate: true
   id: 253
 - name: Heat-Fused Frame
@@ -1544,7 +1544,7 @@
   byproduct:
   building:
   - Blender
-  - 20
+  - '20.000000'
   alternate: true
   id: 254
 - name: Fertile Uranium
@@ -1563,7 +1563,7 @@
   byproduct:
   building:
   - Blender
-  - 12
+  - '12.000000'
   alternate: true
   id: 255
 - name: Electric Motor
@@ -1578,7 +1578,7 @@
   byproduct:
   building:
   - Assembler
-  - 16
+  - '16.000000'
   alternate: true
   id: 256
 - name: Diluted Fuel
@@ -1593,7 +1593,7 @@
   byproduct:
   building:
   - Blender
-  - 6
+  - '6.000000'
   alternate: true
   id: 257
 - name: Cooling Device
@@ -1610,7 +1610,7 @@
   byproduct:
   building:
   - Blender
-  - 32
+  - '32.000000'
   alternate: true
   id: 258
 - name: Classic Battery
@@ -1629,7 +1629,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 8
+  - '8.000000'
   alternate: true
   id: 259
 - name: Automated Miner
@@ -1648,7 +1648,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 60
+  - '60.000000'
   alternate: true
   id: 260
 - name: Alclad Casing
@@ -1663,7 +1663,7 @@
   byproduct:
   building:
   - Assembler
-  - 8
+  - '8.000000'
   alternate: true
   id: 261
 - name: Caterium Wire
@@ -1676,7 +1676,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: true
   id: 262
 - name: Iron Wire
@@ -1689,7 +1689,7 @@
   byproduct:
   building:
   - Constructor
-  - 24
+  - '24.000000'
   alternate: true
   id: 263
 - name: Infused Uranium Cell
@@ -1708,7 +1708,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 12
+  - '12.000000'
   alternate: true
   id: 264
 - name: Caterium Ingot
@@ -1721,7 +1721,7 @@
   byproduct:
   building:
   - Smelter
-  - 4
+  - '4.000000'
   alternate: false
   id: 265
 - name: Turbo Electric Motor
@@ -1740,7 +1740,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 64
+  - '64.000000'
   alternate: true
   id: 266
 - name: Turbo Motor
@@ -1759,7 +1759,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 32
+  - '32.000000'
   alternate: false
   id: 270
 - name: Thermal Propulsion Rocket
@@ -1778,7 +1778,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: false
   id: 271
 - name: Turbofuel
@@ -1793,7 +1793,7 @@
   byproduct:
   building:
   - Refinery
-  - 16
+  - '16.000000'
   alternate: false
   id: 272
 - name: Quickwire Stator
@@ -1808,7 +1808,7 @@
   byproduct:
   building:
   - Assembler
-  - 15
+  - '15.000000'
   alternate: true
   id: 273
 - name: Cheap Silica
@@ -1823,7 +1823,7 @@
   byproduct:
   building:
   - Assembler
-  - 16
+  - '16.000000'
   alternate: true
   id: 274
 - name: Steel Screw
@@ -1836,7 +1836,7 @@
   byproduct:
   building:
   - Constructor
-  - 12
+  - '12.000000'
   alternate: true
   id: 275
 - name: Cast Screw
@@ -1849,7 +1849,7 @@
   byproduct:
   building:
   - Constructor
-  - 24
+  - '24.000000'
   alternate: true
   id: 276
 - name: Steel Rotor
@@ -1864,7 +1864,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 277
 - name: Encased Industrial Pipe
@@ -1879,7 +1879,7 @@
   byproduct:
   building:
   - Assembler
-  - 15
+  - '15.000000'
   alternate: true
   id: 278
 - name: Stitched Iron Plate
@@ -1894,7 +1894,7 @@
   byproduct:
   building:
   - Assembler
-  - 32
+  - '32.000000'
   alternate: true
   id: 279
 - name: Bolted Iron Plate
@@ -1909,7 +1909,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 280
 - name: Radio Connection Unit
@@ -1926,7 +1926,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: true
   id: 281
 - name: Fused Quickwire
@@ -1941,7 +1941,7 @@
   byproduct:
   building:
   - Assembler
-  - 8
+  - '8.000000'
   alternate: true
   id: 282
 - name: Recycled Plastic
@@ -1954,7 +1954,7 @@
   byproduct:
   building:
   - Refinery
-  - 12
+  - '12.000000'
   alternate: true
   id: 283
 - name: Uranium Fuel Unit
@@ -1973,7 +1973,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 300
+  - '300.000000'
   alternate: true
   id: 284
 - name: Rigour Motor
@@ -1990,7 +1990,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 48
+  - '48.000000'
   alternate: true
   id: 285
 - name: Steeled Frame
@@ -2005,7 +2005,7 @@
   byproduct:
   building:
   - Assembler
-  - 60
+  - '60.000000'
   alternate: true
   id: 286
 - name: Compacted Steel Ingot
@@ -2020,7 +2020,7 @@
   byproduct:
   building:
   - Foundry
-  - 16
+  - '16.000000'
   alternate: true
   id: 287
 - name: Solid Steel Ingot
@@ -2035,7 +2035,7 @@
   byproduct:
   building:
   - Foundry
-  - 3
+  - '3.000000'
   alternate: true
   id: 288
 - name: Iron Alloy Ingot
@@ -2050,7 +2050,7 @@
   byproduct:
   building:
   - Foundry
-  - 6
+  - '6.000000'
   alternate: true
   id: 289
 - name: Silicon High-Speed Connector
@@ -2067,7 +2067,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 40
+  - '40.000000'
   alternate: true
   id: 290
 - name: Heavy Encased Frame
@@ -2086,7 +2086,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 64
+  - '64.000000'
   alternate: true
   id: 291
 - name: Heat Exchanger
@@ -2101,7 +2101,7 @@
   byproduct:
   building:
   - Assembler
-  - 6
+  - '6.000000'
   alternate: true
   id: 292
 - name: Fine Black Powder
@@ -2116,7 +2116,7 @@
   byproduct:
   building:
   - Assembler
-  - 16
+  - '16.000000'
   alternate: true
   id: 293
 - name: Electromagnetic Connection Rod
@@ -2131,7 +2131,7 @@
   byproduct:
   building:
   - Assembler
-  - 15
+  - '15.000000'
   alternate: true
   id: 294
 - name: Insulated Crystal Oscillator
@@ -2148,7 +2148,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 32
+  - '32.000000'
   alternate: true
   id: 295
 - name: Fine Concrete
@@ -2163,7 +2163,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: true
   id: 296
 - name: Crystal Computer
@@ -2178,7 +2178,7 @@
   byproduct:
   building:
   - Assembler
-  - 64
+  - '64.000000'
   alternate: true
   id: 297
 - name: Caterium Computer
@@ -2195,7 +2195,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: true
   id: 298
 - name: Caterium Circuit Board
@@ -2210,7 +2210,7 @@
   byproduct:
   building:
   - Assembler
-  - 48
+  - '48.000000'
   alternate: true
   id: 299
 - name: Silicon Circuit Board
@@ -2225,7 +2225,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: true
   id: 300
 - name: Quickwire Cable
@@ -2240,7 +2240,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: true
   id: 301
 - name: Insulated Cable
@@ -2255,7 +2255,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: true
   id: 302
 - name: Crystal Beacon
@@ -2272,7 +2272,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: true
   id: 303
 - name: Iodine Infused Filter
@@ -2289,7 +2289,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 16
+  - '16.000000'
   alternate: false
   id: 305
 - name: Gas Filter
@@ -2306,7 +2306,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 8
+  - '8.000000'
   alternate: false
   id: 309
 - name: Beacon
@@ -2325,7 +2325,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 8
+  - '8.000000'
   alternate: false
   id: 349
 - name: Alien DNA Capsule
@@ -2338,7 +2338,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 554
 - name: Iron Rebar
@@ -2351,7 +2351,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 557
 - name: Homing Rifle Ammo
@@ -2366,7 +2366,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: false
   id: 561
 - name: Stun Rebar
@@ -2381,7 +2381,7 @@
   byproduct:
   building:
   - Assembler
-  - 6
+  - '6.000000'
   alternate: false
   id: 568
 - name: Quickwire
@@ -2394,7 +2394,7 @@
   byproduct:
   building:
   - Constructor
-  - 5
+  - '5.000000'
   alternate: false
   id: 570
 - name: Gas Nobelisk
@@ -2409,7 +2409,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 571
 - name: Power Shard (5)
@@ -2422,7 +2422,7 @@
   byproduct:
   building:
   - Constructor
-  - 24
+  - '24.000000'
   alternate: false
   id: 579
 - name: Power Shard (2)
@@ -2435,7 +2435,7 @@
   byproduct:
   building:
   - Constructor
-  - 12
+  - '12.000000'
   alternate: false
   id: 580
 - name: Power Shard (1)
@@ -2448,7 +2448,7 @@
   byproduct:
   building:
   - Constructor
-  - 8
+  - '8.000000'
   alternate: false
   id: 581
 - name: Pulse Nobelisk
@@ -2463,7 +2463,7 @@
   byproduct:
   building:
   - Assembler
-  - 60
+  - '60.000000'
   alternate: false
   id: 583
 - name: Shatter Rebar
@@ -2478,7 +2478,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 585
 - name: Turbo Rifle Ammo
@@ -2495,7 +2495,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 12
+  - '12.000000'
   alternate: false
   id: 586
 - name: Turbo Rifle Ammo
@@ -2512,7 +2512,7 @@
   byproduct:
   building:
   - Blender
-  - 12
+  - '12.000000'
   alternate: false
   id: 587
 - name: Nuke Nobelisk
@@ -2531,7 +2531,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 120
+  - '120.000000'
   alternate: false
   id: 588
 - name: Rifle Ammo
@@ -2546,7 +2546,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 589
 - name: Explosive Rebar
@@ -2563,7 +2563,7 @@
   byproduct:
   building:
   - Manufacturer
-  - 12
+  - '12.000000'
   alternate: false
   id: 590
 - name: Cluster Nobelisk
@@ -2578,7 +2578,7 @@
   byproduct:
   building:
   - Assembler
-  - 24
+  - '24.000000'
   alternate: false
   id: 592
 - name: Nobelisk
@@ -2593,7 +2593,7 @@
   byproduct:
   building:
   - Assembler
-  - 6
+  - '6.000000'
   alternate: false
   id: 593
 - name: Smokeless Powder
@@ -2608,7 +2608,7 @@
   byproduct:
   building:
   - Refinery
-  - 6
+  - '6.000000'
   alternate: false
   id: 595
 - name: Black Powder
@@ -2623,7 +2623,7 @@
   byproduct:
   building:
   - Assembler
-  - 4
+  - '4.000000'
   alternate: false
   id: 596
 - name: Reinforced Iron Plate
@@ -2638,7 +2638,7 @@
   byproduct:
   building:
   - Assembler
-  - 12
+  - '12.000000'
   alternate: false
   id: 728
 - name: Concrete
@@ -2651,7 +2651,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 730
 - name: Screw
@@ -2664,7 +2664,7 @@
   byproduct:
   building:
   - Constructor
-  - 6
+  - '6.000000'
   alternate: false
   id: 731
 - name: Cable
@@ -2677,7 +2677,7 @@
   byproduct:
   building:
   - Constructor
-  - 2
+  - '2.000000'
   alternate: false
   id: 733
 - name: Wire
@@ -2690,7 +2690,7 @@
   byproduct:
   building:
   - Constructor
-  - 4
+  - '4.000000'
   alternate: false
   id: 734
 - name: Copper Ingot
@@ -2703,7 +2703,7 @@
   byproduct:
   building:
   - Smelter
-  - 2
+  - '2.000000'
   alternate: false
   id: 735
 - name: Uranium Waste
@@ -2718,6 +2718,116 @@
   byproduct:
   building:
   - Nuclear Power Plant
-  - 300
+  - '300.000000'
   alternate: false
   id: 741
+- name: Iron Ore
+  ingredients: []
+  product:
+  - Iron Ore
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 742
+- name: Copper Ore
+  ingredients: []
+  product:
+  - Copper Ore
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 743
+- name: Limestone
+  ingredients: []
+  product:
+  - Limestone
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 744
+- name: Coal
+  ingredients: []
+  product:
+  - Coal
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 745
+- name: Bauxite
+  ingredients: []
+  product:
+  - Bauxite
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 746
+- name: Caterium Ore
+  ingredients: []
+  product:
+  - Caterium Ore
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 747
+- name: Sulfur
+  ingredients: []
+  product:
+  - Sulfur
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 748
+- name: Raw Quartz
+  ingredients: []
+  product:
+  - Raw Quartz
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 749
+- name: Crude Oil
+  ingredients: []
+  product:
+  - Crude Oil
+  - 120
+  byproduct:
+  building:
+  - Oil Extractor
+  - '0.1'
+  alternate: false
+  id: 750
+- name: Uranium Ore
+  ingredients: []
+  product:
+  - Uranium
+  - 1
+  byproduct:
+  building:
+  - Miner Mk.3
+  - '0.076923077'
+  alternate: false
+  id: 751
