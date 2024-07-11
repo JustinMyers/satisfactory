@@ -16,7 +16,7 @@
 - :name: Constructor
   :power_consumption: 4
 - :name: Particle Accelerator
-  :power_consumption: 625
+  :power_consumption: 500
 - :name: Resource Well Extractor
   :power_consumption: 0
 - :name: Resource Well Pressurizer

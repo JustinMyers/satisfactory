@@ -445,11 +445,13 @@
   - - Concrete
     - 3
   - - Sulfuric Acid
-    - 6
+    - 8
   product:
   - Encased Uranium Cell
   - 5
   byproduct:
+  - Sulfuric Acid
+  - 2
   building:
   - Blender
   - '12.000000'
@@ -2711,7 +2713,7 @@
   - - Uranium Fuel Rod
     - 1
   - - Water
-    - 1500
+    - 1200
   product:
   - Uranium Waste
   - 50
@@ -2721,6 +2723,21 @@
   - '300.000000'
   alternate: false
   id: 741
+- name: Plutonium Waste
+  ingredients:
+  - - Plutonium Fuel Rod
+    - 1
+  - - Water
+    - 2400
+  product:
+  - Plutonium Waste
+  - 10
+  byproduct:
+  building:
+  - Nuclear Power Plant
+  - '600.000000'
+  alternate: false
+  id: 742
 - name: Iron Ore
   ingredients: []
   product:
@@ -2731,7 +2748,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 742
+  id: 743
 - name: Copper Ore
   ingredients: []
   product:
@@ -2742,7 +2759,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 743
+  id: 744
 - name: Limestone
   ingredients: []
   product:
@@ -2753,7 +2770,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 744
+  id: 745
 - name: Coal
   ingredients: []
   product:
@@ -2764,7 +2781,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 745
+  id: 746
 - name: Bauxite
   ingredients: []
   product:
@@ -2775,7 +2792,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 746
+  id: 747
 - name: Caterium Ore
   ingredients: []
   product:
@@ -2786,7 +2803,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 747
+  id: 748
 - name: Sulfur
   ingredients: []
   product:
@@ -2797,7 +2814,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 748
+  id: 749
 - name: Raw Quartz
   ingredients: []
   product:
@@ -2808,7 +2825,7 @@
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 749
+  id: 750
 - name: Crude Oil
   ingredients: []
   product:
@@ -2819,7 +2836,7 @@
   - Oil Extractor
   - '0.1'
   alternate: false
-  id: 750
+  id: 751
 - name: Uranium Ore
   ingredients: []
   product:
@@ -2828,6 +2845,17 @@
   byproduct:
   building:
   - Miner Mk.3
-  - '0.076923077'
+  - '0.5'
   alternate: false
-  id: 751
+  id: 752
+- name: Nitrogen Gas
+  ingredients: []
+  product:
+  - Nitrogen Gas
+  - 120
+  byproduct:
+  building:
+  - Resource Well Extractor
+  - '0.1'
+  alternate: false
+  id: 753

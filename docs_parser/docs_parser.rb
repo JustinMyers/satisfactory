@@ -190,13 +190,13 @@ class Recipe < SatisfactoryEntity
     details['byproduct'] = nil if Array(details['byproduct']).first == 'Water'
 
     # subtract outputs from inputs
-    details['ingredients'].each do |ingredient|
-      ingredient[-1] -= product.last if ingredient.first == product.first
-      if details['byproduct'] && ingredient.first == byproduct.first
-        ingredient[-1] -= details['byproduct'].last
-        details['byproduct'] = nil
-      end
-    end
+    # details['ingredients'].each do |ingredient|
+    #   ingredient[-1] -= product.last if ingredient.first == product.first
+    #   if details['byproduct'] && ingredient.first == byproduct.first
+    #     ingredient[-1] -= details['byproduct'].last
+    #     details['byproduct'] = nil
+    #   end
+    # end
 
     details
   end
@@ -252,12 +252,21 @@ uranium_waste = Recipe.new({
                              'ClassName' => 'Desc_NuclearWaste_C',
                              'mDisplayName' => 'Uranium Waste',
                              'mManufactoringDuration' => '300.000000',
-                             'mIngredients' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C\"',Amount=1),(ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/Water/Desc_Water.Desc_Water_C\"',Amount=1500000))",
+                             'mIngredients' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C\"',Amount=1),(ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/Water/Desc_Water.Desc_Water_C\"',Amount=1200000))",
                              'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C\"',Amount=50))",
                              'mProducedIn' => '("/Game/FactoryGame/Buildable/Factory/GeneratorNuclear/Build_GeneratorNuclear.Build_GeneratorNuclear_C")'
                            })
-
 $recipes << uranium_waste
+
+plutonium_waste = Recipe.new({
+                               'ClassName' => 'Desc_PlutoniumWaste_C',
+                               'mDisplayName' => 'Plutonium Waste',
+                               'mManufactoringDuration' => '600.000000',
+                               'mIngredients' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C\"',Amount=1),(ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/Water/Desc_Water.Desc_Water_C\"',Amount=2400000))",
+                               'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_PlutoniumWaste.Desc_PlutoniumWaste_C\"',Amount=10))",
+                               'mProducedIn' => '("/Game/FactoryGame/Buildable/Factory/GeneratorNuclear/Build_GeneratorNuclear.Build_GeneratorNuclear_C")'
+                             })
+$recipes << plutonium_waste
 
 # Make "recipes" for mining.
 iron_ore = Recipe.new({
@@ -353,12 +362,22 @@ $recipes << oil
 uranium = Recipe.new({
                        'ClassName' => 'Desc_OreUranium_C',
                        'mDisplayName' => 'Uranium Ore',
-                       'mManufactoringDuration' => '0.076923077',
+                       'mManufactoringDuration' => '0.5',
                        'mIngredients' => '()',
                        'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C\"',Amount=1))",
                        'mProducedIn' => 'Build_MinerMk3_C'
                      })
 $recipes << uranium
+
+nitrogen_gas = Recipe.new({
+                            'ClassName' => 'Desc_NitrogenGas_C',
+                            'mDisplayName' => 'Nitrogen Gas',
+                            'mManufactoringDuration' => '0.1',
+                            'mIngredients' => '()',
+                            'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C\"',Amount=120))",
+                            'mProducedIn' => 'Build_FrackingExtractor_C'
+                          })
+$recipes << nitrogen_gas
 
 $recipes.reject! do |recipe|
   recipe.produced_in == '("/Game/FactoryGame/Equipment/BuildGun/BP_BuildGun.BP_BuildGun_C")'

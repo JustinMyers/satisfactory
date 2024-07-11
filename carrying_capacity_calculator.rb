@@ -7,9 +7,10 @@ require 'yaml'
 $building_hashes = YAML.load_file('docs_parser/satisfactory_buildings.yaml')
 $resource_limits = YAML.load_file('docs_parser/satisfactory_resource_limits.yaml')
 
-$resource_limits['Coal'] = 780
-$resource_limits['Iron Ore'] = 780
-$resource_limits['Copper Ore'] = 780
+# Examples on limiting available resources
+# $resource_limits['Coal'] = 780
+# $resource_limits['Iron Ore'] = 780
+# $resource_limits['Copper Ore'] = 780
 
 $total_consumption = 0
 
@@ -107,23 +108,30 @@ class Recipe
     runs_per_minute = 60 / seconds.to_f
     quantity_per_minute = product_quantity * runs_per_minute
     number_of_buildings_needed = max_production_target / quantity_per_minute.to_f
-    spacer = '  ' * depth
+    spacer = '| ' * depth
 
     building_output[building_name] ||= {}
     building_output[building_name][name] ||= 0
-    building_output[building_name][name] += number_of_buildings_needed.ceil
-    building_output[building_name]['power_consumption'] ||= 0
+    building_output[building_name][name] += number_of_buildings_needed
+    building_output['items'] ||= {}
+    building_output['items'][product_name] ||= 0
+    building_output['items'][product_name] += max_production_target
+    building_output['byproducts'] ||= {}
+    building_output['byproducts'][byproduct_name] ||= 0
+    building_output['byproducts'][byproduct_name] += number_of_buildings_needed * byproduct_quantity.to_f * runs_per_minute
+
     building = $building_hashes.detect do |h|
       h[:name] == building_name
     end
     consumption = building[:power_consumption].to_i
     $total_consumption += number_of_buildings_needed * consumption
 
-    puts "#{spacer}To make #{max_production_target.ceil(1)} #{product_name} per minute with recipe '#{name}' you need #{number_of_buildings_needed.ceil} '#{building_name}'"
+    recipe_name_clause = name == product_name ? '' : "via '#{name}' "
+    puts "#{spacer}#{product_name} #{max_production_target.ceil(1)}/min. #{recipe_name_clause}> #{number_of_buildings_needed.ceil} '#{building_name}'"
     precursors.each do |precursor_recipe|
       item_name = precursor_recipe.product_name
-      item_quantity = ingredients.detect { |i| i.first == item_name }.last
-      target_item_quantity = item_quantity * (max_production_target / product_quantity.to_f)
+      item_quantity = ingredients.detect { |i| i.first == item_name }&.last
+      target_item_quantity = item_quantity.to_f * (max_production_target / product_quantity.to_f)
       precursor_recipe.building_report(target_item_quantity, building_output, report_on_precursors, depth + 1)
     end
   end
@@ -195,7 +203,7 @@ $recipes = @recipe_hashes.map do |rh|
   Recipe.new(rh)
 end
 
-$recipes.reject!(&:alternate)
+# $recipes.reject!(&:alternate)
 
 def recipe_report(recipe, print_precursors = false)
   if print_precursors
@@ -218,10 +226,14 @@ end
 
 def priority_list
   products = [
-    'Uranium Fuel Rod',
-    'Plutonium Fuel Rod',
-    'Turbofuel',
-    'Turbofuel'
+    'Screw',
+    'Screw',
+    'Screw',
+    'Screw'
+    # 'Uranium Fuel Rod',
+    # 'Plutonium Fuel Rod',
+    # 'Turbofuel',
+    # 'Turbofuel'
   ]
 
   products.each do |product|
@@ -241,37 +253,42 @@ end
 
 # priority_list
 
-# recipes = $recipes.select { |r| r.product.first == "Plutonium Fuel Rod" }
+recipes = $recipes.select { |r| r.product.first == 'Iron Ingot' }
 
-# recipes.each do |r|
-#   building_output = {}
-#   r.building_report(r.max_production, building_output)
-#   pp building_output
-#   recipe_report(r, true)
-#   puts
-# end
+recipes.each do |r|
+  # building_output = {}
+  # r.building_report(r.max_production, building_output)
+  # pp building_output
+  recipe_report(r, true)
+  # puts
+end
 
 # recipes = $recipes.select { |r| r.product.first == "Aluminum Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Reinforced Iron Plate" }
 # recipes = $recipes.select { |r| r.product.first == "Copper Ingot" }
 # recipes = $recipes.select { |r| r.product.first == "Steel Ingot" }
 
-item_names = [
-  ['Supercomputer', 5],
-  ['Fused Modular Frame', 10],
-  ['Turbo Motor', 3],
-  ['Uranium Fuel Rod', 0.8],
-  ['Battery', 40]
-]
+# item_names = [
+#   ['Supercomputer', 5],
+#   ['Fused Modular Frame', 10],
+#   ['Turbo Motor', 3],
+#   ['Battery', 40],
+#   # ['Uranium Waste', 40]
+#   ['Plutonium Waste', 2]
+# ]
 
-item_names.each do |item_name, target_production|
-  recipes = $recipes.select { |r| r.product.first == item_name }
-  recipes.each do |r|
-    r.building_report(target_production)
-  end
-end
+# building_report = {}
 
-puts "Total power consumption: #{$total_consumption} MW"
+# item_names.each do |item_name, target_production|
+#   recipes = $recipes.select { |r| r.product.first == item_name }
+#   recipes.sort! { |a, b| b.max_production <=> a.max_production }
+#   r = recipes.first
+#   r.building_report(target_production, building_report)
+# end
+
+# puts "Total power consumption: #{$total_consumption} MW"
+
+# pp building_report
 
 # recipes = $recipes
 
