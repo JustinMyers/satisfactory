@@ -1,7 +1,7 @@
 require 'json'
 require 'yaml'
 
-doc_file = File.read('update_8_early_access_paste.json')
+doc_file = File.read('en-US.json')
 doc_json = JSON.parse(doc_file)
 
 class DocsParser
@@ -93,6 +93,7 @@ $buildings += parser.section('FGBuildableFrackingExtractor')
 $buildings += parser.section('FGBuildableFrackingActivator')
 $buildings += parser.section('FGBuildableGeneratorNuclear')
 $buildings += parser.section('FGBuildableResourceExtractor')
+$buildings += parser.section('FGBuildableWaterPump')
 
 $buildings.map! { |building| Building.new(building) }
 
@@ -133,6 +134,8 @@ class Item < SatisfactoryEntity
 end
 
 $items = parser.section('FGItemDescriptor')
+$items += parser.section('FGPowerShardDescriptor')
+$items += parser.section('FGItemDescriptorPowerBoosterFuel')
 $items += parser.section('FGResourceDescriptor')
 $items += parser.section('FGItemDescriptorBiomass')
 $items += parser.section('FGItemDescriptorNuclearFuel')
@@ -218,6 +221,9 @@ class Recipe < SatisfactoryEntity
 
   def parse_items_list(items_list_string)
     # remove the first and last parens
+    if items_list_string == ''
+      return []
+    end
     raw_items_list_string = items_list_string[1..-2]
     # replace the ),( with )$$$(
     raw_items_list_string.gsub!('),(', ')$$$(')
@@ -227,7 +233,7 @@ class Recipe < SatisfactoryEntity
   end
 
   def parse_item_string(item_string)
-    item_class = item_string.split('.').last.split('"').first
+    item_class = item_string.split('.').last.split('"').first.gsub("'", '')
     item_name = $items.detect { |i| i.class_name == item_class }.display_name
     amount = item_string.split('=').last.split(')').first.to_i
     [item_name, amount]
@@ -379,12 +385,32 @@ nitrogen_gas = Recipe.new({
                           })
 $recipes << nitrogen_gas
 
+sam = Recipe.new({
+                    'ClassName' => 'Desc_SAM_C',
+                    'mDisplayName' => 'SAM',
+                    'mManufactoringDuration' => '0.1',
+                    'mIngredients' => '()',
+                    'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C\"',Amount=120))",
+                    'mProducedIn' => 'Build_MinerMk3_C'
+                  })
+$recipes << sam
+
+water = Recipe.new({
+                      'ClassName' => 'Desc_Water_C',
+                      'mDisplayName' => 'Water',
+                      'mManufactoringDuration' => '0.1',
+                      'mIngredients' => '()',
+                      'mProduct' => "((ItemClass=/Script/Engine.BlueprintGeneratedClass'\"/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C\"',Amount=120))",
+                      'mProducedIn' => 'Build_WaterPump_C'
+                    })
+$recipes << water
+
 $recipes.reject! do |recipe|
   recipe.produced_in == '("/Game/FactoryGame/Equipment/BuildGun/BP_BuildGun.BP_BuildGun_C")'
 end
 $recipes.reject! { |recipe| recipe.data_product.include? 'Building' }
 $recipes.reject! { |recipe| recipe.data_product.include? 'Buildable' }
-$recipes.reject! { |recipe| recipe.data_display_name.include? 'ackage' }
+$recipes.reject! { |recipe| recipe.data_display_name.include? 'npackage' }
 $recipes.reject! { |recipe| recipe.building == 'Equipment Workshop' }
 [
   'Charcoal',
@@ -402,6 +428,27 @@ $recipes.reject! { |recipe| recipe.building == 'Equipment Workshop' }
   'Fireworks'
 ].each do |rejected_recipe_string|
   $recipes.reject! { |recipe| recipe.data_display_name.include? rejected_recipe_string }
+end
+[
+  'Recipe_Bauxite_Caterium_C',
+  'Recipe_Bauxite_Copper_C',
+  'Recipe_Caterium_Copper_C',
+  'Recipe_Caterium_Quartz_C',
+  'Recipe_Coal_Iron_C',
+  'Recipe_Coal_Limestone_C',
+  'Recipe_Copper_Quartz_C',
+  'Recipe_Copper_Sulfur_C',
+  'Recipe_Iron_Limestone_C',
+  'Recipe_Limestone_Sulfur_C',
+  'Recipe_Nitrogen_Bauxite_C',
+  'Recipe_Nitrogen_Caterium_C',
+  'Recipe_Quartz_Bauxite_C',
+  'Recipe_Quartz_Coal_C',
+  'Recipe_Sulfur_Coal_C',
+  'Recipe_Sulfur_Iron_C',
+  'Recipe_Uranium_Bauxite_C',
+].each do |alchemy_recipe_name|
+  $recipes.reject! { |recipe| recipe.class_name == alchemy_recipe_name }
 end
 
 File.write('satisfactory_items.yaml', $items.map(&:details).to_yaml)

@@ -1,13 +1,15 @@
 ---
+SAM: 8940
 Bauxite: 9780
-Caterium Ore: 11040
-Coal: 30120
-Copper Ore: 28860
-Iron Ore: 70380
-Limestone: 52860
-Raw Quartz: 10500
-Sulfur: 6840
+Caterium Ore: 11640
+Coal: 35580
+Copper Ore: 31440
+Iron Ore: 72780
+Limestone: 57300
+Raw Quartz: 10560
+Sulfur: 8700
 Uranium: 2100
-Crude Oil: 11700
+Crude Oil: 12600
 Nitrogen Gas: 12000
 Water: .inf
+Excited Photonic Matter: .inf

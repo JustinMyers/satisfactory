@@ -5,18 +5,22 @@
   :power_consumption: 16
 - :name: Packager
   :power_consumption: 10
-- :name: Blender
-  :power_consumption: 75
 - :name: Manufacturer
   :power_consumption: 55
 - :name: Assembler
   :power_consumption: 15
+- :name: Blender
+  :power_consumption: 75
 - :name: Smelter
   :power_consumption: 4
 - :name: Constructor
   :power_consumption: 4
+- :name: Quantum Encoder
+  :power_consumption: 0
+- :name: Converter
+  :power_consumption: 0
 - :name: Particle Accelerator
-  :power_consumption: 500
+  :power_consumption: 625
 - :name: Resource Well Extractor
   :power_consumption: 0
 - :name: Resource Well Pressurizer
@@ -26,11 +30,13 @@
 - :name: Oil Extractor
   :power_consumption: 40
 - :name: Miner Mk.2
-  :power_consumption: 12
-- :name: Miner Mk.3
-  :power_consumption: 30
+  :power_consumption: 15
 - :name: Miner Mk.1
   :power_consumption: 5
+- :name: Miner Mk.3
+  :power_consumption: 45
+- :name: Water Extractor
+  :power_consumption: 20
 - :name: Equipment Workshop
   :power_consumption: 0
 - :name: Gather

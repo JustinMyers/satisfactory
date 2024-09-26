@@ -1,6 +1,11 @@
 require "yaml"
 
 ores = {
+  "SAM" => {
+    impure: 10,
+    normal: 6,
+    pure: 3,
+  },
   "Bauxite" => {
     impure: 5,
     normal: 6,
@@ -8,42 +13,42 @@ ores = {
   },
   "Caterium Ore" => {
     impure: 0,
-    normal: 8,
+    normal: 9,
     pure: 8,
   },
   "Coal" => {
-    impure: 6,
-    normal: 29,
-    pure: 14,
+    impure: 15,
+    normal: 31,
+    pure: 16,
   },
   "Copper Ore" => {
-    impure: 9,
-    normal: 28,
-    pure: 12,
+    impure: 13,
+    normal: 29,
+    pure: 13,
   },
   "Iron Ore" => {
-    impure: 33,
-    normal: 41,
+    impure: 39,
+    normal: 42,
     pure: 46,
   },
   "Limestone" => {
-    impure: 12,
-    normal: 47,
-    pure: 27,
+    impure: 15,
+    normal: 49,
+    pure: 30,
   },
   "Raw Quartz" => {
-    impure: 0,
-    normal: 11,
-    pure: 5,
+    impure: 3,
+    normal: 7,
+    pure: 7,
   },
   "Sulfur" => {
-    impure: 1,
-    normal: 7,
-    pure: 3,
+    impure: 6,
+    normal: 5,
+    pure: 5,
   },
   "Uranium" => {
-    impure: 1,
-    normal: 3,
+    impure: 3,
+    normal: 2,
     pure: 0,
   },
 }
@@ -55,9 +60,9 @@ crude_oil = [
     pure: 8,
   },
   {
-    impure: 6,
-    normal: 3,
-    pure: 3,
+    impure: 8,
+    normal: 6,
+    pure: 4,
   },
 ]
 
@@ -119,5 +124,7 @@ end
 @resource_limits["Nitrogen Gas"] = resource_well_extraction_rate(nitrogen_gas)
 
 @resource_limits["Water"] = Float::INFINITY
+
+@resource_limits["Excited Photonic Matter"] = Float::INFINITY
 
 File.write("satisfactory_resource_limits.yaml", @resource_limits.to_yaml)

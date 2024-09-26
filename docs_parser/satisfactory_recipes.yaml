@@ -6,12 +6,12 @@
   product:
   - Iron Plate
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '6.000000'
   alternate: false
-  id: 89
+  id: 88
 - name: Iron Rod
   ingredients:
   - - Iron Ingot
@@ -19,12 +19,12 @@
   product:
   - Iron Rod
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 90
+  id: 89
 - name: Iron Ingot
   ingredients:
   - - Iron Ore
@@ -32,42 +32,386 @@
   product:
   - Iron Ingot
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Smelter
   - '2.000000'
   alternate: false
-  id: 92
-- name: Wet Concrete
+  id: 91
+- name: Nitro Rocket Fuel
   ingredients:
-  - - Limestone
-    - 6
-  - - Water
-    - 5
+  - - Fuel
+    - 4
+  - - Nitrogen Gas
+    - 3
+  - - Sulfur
+    - 4
+  - - Coal
+    - 2
   product:
-  - Concrete
-  - 4
+  - Rocket Fuel
+  - 6
   byproduct:
+  - Compacted Coal
+  - 1
   building:
-  - Refinery
+  - Blender
+  - '2.400000'
+  alternate: true
+  id: 105
+- name: Rocket Fuel
+  ingredients:
+  - - Turbofuel
+    - 6
+  - - Nitric Acid
+    - 1
+  product:
+  - Rocket Fuel
+  - 10
+  byproduct:
+  - Compacted Coal
+  - 1
+  building:
+  - Blender
+  - '6.000000'
+  alternate: false
+  id: 116
+- name: Packaged Rocket Fuel
+  ingredients:
+  - - Rocket Fuel
+    - 2
+  product:
+  - Packaged Rocket Fuel
+  - 1
+  byproduct: 
+  building:
+  - Packager
+  - '1.000000'
+  alternate: false
+  id: 117
+- name: Dark-Ion Fuel
+  ingredients:
+  - - Packaged Rocket Fuel
+    - 12
+  - - Dark Matter Crystal
+    - 4
+  product:
+  - Ionized Fuel
+  - 10
+  byproduct:
+  - Compacted Coal
+  - 2
+  building:
+  - Converter
   - '3.000000'
   alternate: true
-  id: 106
-- name: Turbo Heavy Fuel
+  id: 119
+- name: Dark Matter Residue
   ingredients:
-  - - Heavy Oil Residue
+  - - Reanimated SAM
     - 5
+  product:
+  - Dark Matter Residue
+  - 10
+  byproduct: 
+  building:
+  - Converter
+  - '6.000000'
+  alternate: false
+  id: 121
+- name: Excited Photonic Matter
+  ingredients: []
+  product:
+  - Excited Photonic Matter
+  - 10
+  byproduct: 
+  building:
+  - Converter
+  - '3.000000'
+  alternate: false
+  id: 122
+- name: Dark Matter Crystal
+  ingredients:
+  - - Diamonds
+    - 1
+  - - Dark Matter Residue
+    - 5
+  product:
+  - Dark Matter Crystal
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '2.000000'
+  alternate: false
+  id: 123
+- name: Superposition Oscillator
+  ingredients:
+  - - Dark Matter Crystal
+    - 6
+  - - Crystal Oscillator
+    - 1
+  - - Alclad Aluminum Sheet
+    - 9
+  - - Excited Photonic Matter
+    - 25
+  product:
+  - Superposition Oscillator
+  - 1
+  byproduct:
+  - Dark Matter Residue
+  - 25
+  building:
+  - Quantum Encoder
+  - '12.000000'
+  alternate: false
+  id: 124
+- name: Neural-Quantum Processor
+  ingredients:
+  - - Time Crystal
+    - 5
+  - - Supercomputer
+    - 1
+  - - Ficsite Trigon
+    - 15
+  - - Excited Photonic Matter
+    - 25
+  product:
+  - Neural-Quantum Processor
+  - 1
+  byproduct:
+  - Dark Matter Residue
+  - 25
+  building:
+  - Quantum Encoder
+  - '20.000000'
+  alternate: false
+  id: 125
+- name: AI Expansion Server
+  ingredients:
+  - - Magnetic Field Generator
+    - 1
+  - - Neural-Quantum Processor
+    - 1
+  - - Superposition Oscillator
+    - 1
+  - - Excited Photonic Matter
+    - 25
+  product:
+  - AI Expansion Server
+  - 1
+  byproduct:
+  - Dark Matter Residue
+  - 25
+  building:
+  - Quantum Encoder
+  - '15.000000'
+  alternate: false
+  id: 126
+- name: Ionized Fuel
+  ingredients:
+  - - Rocket Fuel
+    - 16
+  - - Power Shard
+    - 1
+  product:
+  - Ionized Fuel
+  - 16
+  byproduct:
+  - Compacted Coal
+  - 2
+  building:
+  - Refinery
+  - '24.000000'
+  alternate: false
+  id: 127
+- name: Packaged Ionized Fuel
+  ingredients:
+  - - Ionized Fuel
+    - 4
+  product:
+  - Packaged Ionized Fuel
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '3.000000'
+  alternate: false
+  id: 128
+- name: Turbo Diamonds
+  ingredients:
+  - - Coal
+    - 30
+  - - Packaged Turbofuel
+    - 2
+  product:
+  - Diamonds
+  - 3
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '3.000000'
+  alternate: true
+  id: 130
+- name: SAM Fluctuator
+  ingredients:
+  - - Reanimated SAM
+    - 6
+  - - Wire
+    - 5
+  - - Steel Pipe
+    - 3
+  product:
+  - SAM Fluctuator
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '6.000000'
+  alternate: false
+  id: 131
+- name: Ficsite Trigon
+  ingredients:
+  - - Ficsite Ingot
+    - 1
+  product:
+  - Ficsite Trigon
+  - 3
+  byproduct: 
+  building:
+  - Constructor
+  - '6.000000'
+  alternate: false
+  id: 133
+- name: Ficsite Ingot (Iron)
+  ingredients:
+  - - Reanimated SAM
+    - 4
+  - - Iron Ingot
+    - 24
+  product:
+  - Ficsite Ingot
+  - 1
+  byproduct: 
+  building:
+  - Converter
+  - '6.000000'
+  alternate: false
+  id: 134
+- name: Time Crystal
+  ingredients:
+  - - Diamonds
+    - 2
+  product:
+  - Time Crystal
+  - 1
+  byproduct: 
+  building:
+  - Converter
+  - '10.000000'
+  alternate: false
+  id: 135
+- name: Diamonds
+  ingredients:
+  - - Coal
+    - 20
+  product:
+  - Diamonds
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '2.000000'
+  alternate: false
+  id: 136
+- name: Reanimated SAM
+  ingredients:
+  - - SAM
+    - 4
+  product:
+  - Reanimated SAM
+  - 1
+  byproduct: 
+  building:
+  - Constructor
+  - '2.000000'
+  alternate: false
+  id: 137
+- name: Biochemical Sculptor
+  ingredients:
+  - - Assembly Director System
+    - 1
+  - - Ficsite Trigon
+    - 80
+  - - Water
+    - 20
+  product:
+  - Biochemical Sculptor
+  - 4
+  byproduct: 
+  building:
+  - Blender
+  - '120.000000'
+  alternate: false
+  id: 138
+- name: Ficsite Ingot (Aluminum)
+  ingredients:
+  - - Reanimated SAM
+    - 2
+  - - Aluminum Ingot
+    - 4
+  product:
+  - Ficsite Ingot
+  - 1
+  byproduct: 
+  building:
+  - Converter
+  - '2.000000'
+  alternate: false
+  id: 139
+- name: Ficsite Ingot (Caterium)
+  ingredients:
+  - - Reanimated SAM
+    - 3
+  - - Caterium Ingot
+    - 4
+  product:
+  - Ficsite Ingot
+  - 1
+  byproduct: 
+  building:
+  - Converter
+  - '4.000000'
+  alternate: false
+  id: 140
+- name: Turbofuel
+  ingredients:
+  - - Fuel
+    - 6
   - - Compacted Coal
     - 4
   product:
   - Turbofuel
-  - 4
-  byproduct:
+  - 5
+  byproduct: 
   building:
   - Refinery
-  - '8.000000'
-  alternate: true
-  id: 118
+  - '16.000000'
+  alternate: false
+  id: 158
+- name: Packaged Turbofuel
+  ingredients:
+  - - Turbofuel
+    - 2
+  product:
+  - Packaged Turbofuel
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '6.000000'
+  alternate: false
+  id: 159
 - name: Compacted Coal
   ingredients:
   - - Coal
@@ -77,12 +421,12 @@
   product:
   - Compacted Coal
   - 5
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: true
-  id: 123
+  id: 163
 - name: Circuit Board
   ingredients:
   - - Copper Sheet
@@ -92,12 +436,12 @@
   product:
   - Circuit Board
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '8.000000'
   alternate: false
-  id: 124
+  id: 164
 - name: Fuel
   ingredients:
   - - Crude Oil
@@ -112,7 +456,7 @@
   - Refinery
   - '6.000000'
   alternate: false
-  id: 128
+  id: 168
 - name: Petroleum Coke
   ingredients:
   - - Heavy Oil Residue
@@ -120,12 +464,12 @@
   product:
   - Petroleum Coke
   - 12
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 129
+  id: 169
 - name: Plastic
   ingredients:
   - - Crude Oil
@@ -140,7 +484,7 @@
   - Refinery
   - '6.000000'
   alternate: false
-  id: 130
+  id: 170
 - name: Rubber
   ingredients:
   - - Crude Oil
@@ -155,7 +499,7 @@
   - Refinery
   - '6.000000'
   alternate: false
-  id: 131
+  id: 171
 - name: Residual Fuel
   ingredients:
   - - Heavy Oil Residue
@@ -163,12 +507,12 @@
   product:
   - Fuel
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 132
+  id: 172
 - name: Residual Plastic
   ingredients:
   - - Polymer Resin
@@ -178,12 +522,12 @@
   product:
   - Plastic
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 133
+  id: 173
 - name: Residual Rubber
   ingredients:
   - - Polymer Resin
@@ -193,12 +537,126 @@
   product:
   - Rubber
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 134
+  id: 174
+- name: Pink Diamonds
+  ingredients:
+  - - Coal
+    - 8
+  - - Quartz Crystal
+    - 3
+  product:
+  - Diamonds
+  - 1
+  byproduct: 
+  building:
+  - Converter
+  - '4.000000'
+  alternate: true
+  id: 175
+- name: Petroleum Diamonds
+  ingredients:
+  - - Petroleum Coke
+    - 24
+  product:
+  - Diamonds
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '2.000000'
+  alternate: true
+  id: 176
+- name: Oil-Based Diamonds
+  ingredients:
+  - - Crude Oil
+    - 10
+  product:
+  - Diamonds
+  - 2
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '3.000000'
+  alternate: true
+  id: 177
+- name: Cloudy Diamonds
+  ingredients:
+  - - Coal
+    - 12
+  - - Limestone
+    - 24
+  product:
+  - Diamonds
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '3.000000'
+  alternate: true
+  id: 178
+- name: Dark Matter Trap
+  ingredients:
+  - - Time Crystal
+    - 1
+  - - Dark Matter Residue
+    - 5
+  product:
+  - Dark Matter Crystal
+  - 2
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '2.000000'
+  alternate: true
+  id: 179
+- name: Dark Matter Crystallization
+  ingredients:
+  - - Dark Matter Residue
+    - 10
+  product:
+  - Dark Matter Crystal
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '3.000000'
+  alternate: true
+  id: 180
+- name: Wet Concrete
+  ingredients:
+  - - Limestone
+    - 6
+  - - Water
+    - 5
+  product:
+  - Concrete
+  - 4
+  byproduct: 
+  building:
+  - Refinery
+  - '3.000000'
+  alternate: true
+  id: 181
+- name: Turbo Heavy Fuel
+  ingredients:
+  - - Heavy Oil Residue
+    - 5
+  - - Compacted Coal
+    - 4
+  product:
+  - Turbofuel
+  - 4
+  byproduct: 
+  building:
+  - Refinery
+  - '8.000000'
+  alternate: true
+  id: 182
 - name: Steel Rod
   ingredients:
   - - Steel Ingot
@@ -206,12 +664,12 @@
   product:
   - Iron Rod
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '5.000000'
   alternate: true
-  id: 135
+  id: 183
 - name: Steel Beam
   ingredients:
   - - Steel Ingot
@@ -219,12 +677,12 @@
   product:
   - Steel Beam
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 137
+  id: 185
 - name: Steel Pipe
   ingredients:
   - - Steel Ingot
@@ -232,12 +690,12 @@
   product:
   - Steel Pipe
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '6.000000'
   alternate: false
-  id: 138
+  id: 186
 - name: Steel Ingot
   ingredients:
   - - Iron Ore
@@ -247,12 +705,12 @@
   product:
   - Steel Ingot
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Foundry
   - '4.000000'
   alternate: false
-  id: 139
+  id: 187
 - name: Versatile Framework
   ingredients:
   - - Modular Frame
@@ -262,40 +720,25 @@
   product:
   - Versatile Framework
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '24.000000'
   alternate: false
-  id: 140
-- name: Steel Coated Plate
-  ingredients:
-  - - Steel Ingot
-    - 3
-  - - Plastic
-    - 2
-  product:
-  - Iron Plate
-  - 18
-  byproduct:
-  building:
-  - Assembler
-  - '24.000000'
-  alternate: true
-  id: 141
+  id: 188
 - name: Steel Canister
   ingredients:
   - - Steel Ingot
-    - 3
+    - 4
   product:
   - Empty Canister
-  - 2
-  byproduct:
+  - 4
+  byproduct: 
   building:
   - Constructor
-  - '3.000000'
+  - '6.000000'
   alternate: true
-  id: 142
+  id: 189
 - name: Empty Canister
   ingredients:
   - - Plastic
@@ -303,12 +746,64 @@
   product:
   - Empty Canister
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 145
+  id: 191
+- name: Packaged Fuel
+  ingredients:
+  - - Fuel
+    - 2
+  product:
+  - Packaged Fuel
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '3.000000'
+  alternate: false
+  id: 192
+- name: Packaged Oil
+  ingredients:
+  - - Crude Oil
+    - 2
+  product:
+  - Packaged Oil
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '4.000000'
+  alternate: false
+  id: 195
+- name: Packaged Heavy Oil Residue
+  ingredients:
+  - - Heavy Oil Residue
+    - 2
+  product:
+  - Packaged Heavy Oil Residue
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '4.000000'
+  alternate: false
+  id: 196
+- name: Packaged Water
+  ingredients:
+  - - Water
+    - 2
+  product:
+  - Packaged Water
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '2.000000'
+  alternate: false
+  id: 197
 - name: Steamed Copper Sheet
   ingredients:
   - - Copper Ingot
@@ -318,12 +813,12 @@
   product:
   - Copper Sheet
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '8.000000'
   alternate: true
-  id: 157
+  id: 203
 - name: Rubber Concrete
   ingredients:
   - - Limestone
@@ -333,12 +828,12 @@
   product:
   - Concrete
   - 9
-  byproduct:
+  byproduct: 
   building:
   - Assembler
-  - '12.000000'
+  - '6.000000'
   alternate: true
-  id: 158
+  id: 204
 - name: Recycled Rubber
   ingredients:
   - - Fuel
@@ -346,12 +841,12 @@
   product:
   - Rubber
   - 6
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '12.000000'
   alternate: true
-  id: 159
+  id: 205
 - name: Pure Quartz Crystal
   ingredients:
   - - Raw Quartz
@@ -361,12 +856,12 @@
   product:
   - Quartz Crystal
   - 7
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '8.000000'
   alternate: true
-  id: 160
+  id: 206
 - name: Quartz Crystal
   ingredients:
   - - Raw Quartz
@@ -374,12 +869,12 @@
   product:
   - Quartz Crystal
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '8.000000'
   alternate: false
-  id: 161
+  id: 207
 - name: Pure Iron Ingot
   ingredients:
   - - Iron Ore
@@ -389,12 +884,12 @@
   product:
   - Iron Ingot
   - 13
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '12.000000'
   alternate: true
-  id: 162
+  id: 208
 - name: Pure Copper Ingot
   ingredients:
   - - Copper Ore
@@ -404,12 +899,12 @@
   product:
   - Copper Ingot
   - 15
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '24.000000'
   alternate: true
-  id: 163
+  id: 209
 - name: Pure Caterium Ingot
   ingredients:
   - - Caterium Ore
@@ -419,12 +914,12 @@
   product:
   - Caterium Ingot
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '5.000000'
   alternate: true
-  id: 164
+  id: 210
 - name: Pure Aluminum Ingot
   ingredients:
   - - Aluminum Scrap
@@ -432,12 +927,792 @@
   product:
   - Aluminum Ingot
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Smelter
   - '2.000000'
   alternate: true
-  id: 165
+  id: 211
+- name: Aluminum Casing
+  ingredients:
+  - - Aluminum Ingot
+    - 3
+  product:
+  - Aluminum Casing
+  - 2
+  byproduct: 
+  building:
+  - Constructor
+  - '2.000000'
+  alternate: false
+  id: 212
+- name: Alclad Aluminum Sheet
+  ingredients:
+  - - Aluminum Ingot
+    - 3
+  - - Copper Ingot
+    - 1
+  product:
+  - Alclad Aluminum Sheet
+  - 3
+  byproduct: 
+  building:
+  - Assembler
+  - '6.000000'
+  alternate: false
+  id: 213
+- name: Alumina Solution
+  ingredients:
+  - - Bauxite
+    - 12
+  - - Water
+    - 18
+  product:
+  - Alumina Solution
+  - 12
+  byproduct:
+  - Silica
+  - 5
+  building:
+  - Refinery
+  - '6.000000'
+  alternate: false
+  id: 214
+- name: Aluminum Scrap
+  ingredients:
+  - - Alumina Solution
+    - 4
+  - - Coal
+    - 2
+  product:
+  - Aluminum Scrap
+  - 6
+  byproduct: 
+  building:
+  - Refinery
+  - '1.000000'
+  alternate: false
+  id: 215
+- name: Packaged Alumina Solution
+  ingredients:
+  - - Alumina Solution
+    - 2
+  product:
+  - Packaged Alumina Solution
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '1.000000'
+  alternate: false
+  id: 216
+- name: Aluminum Ingot
+  ingredients:
+  - - Aluminum Scrap
+    - 6
+  - - Silica
+    - 5
+  product:
+  - Aluminum Ingot
+  - 4
+  byproduct: 
+  building:
+  - Foundry
+  - '4.000000'
+  alternate: false
+  id: 217
+- name: Silica
+  ingredients:
+  - - Raw Quartz
+    - 3
+  product:
+  - Silica
+  - 5
+  byproduct: 
+  building:
+  - Constructor
+  - '8.000000'
+  alternate: false
+  id: 218
+- name: Crystal Oscillator
+  ingredients:
+  - - Quartz Crystal
+    - 36
+  - - Cable
+    - 28
+  - - Reinforced Iron Plate
+    - 5
+  product:
+  - Crystal Oscillator
+  - 2
+  byproduct: 
+  building:
+  - Manufacturer
+  - '120.000000'
+  alternate: false
+  id: 219
+- name: Polymer Resin
+  ingredients:
+  - - Crude Oil
+    - 6
+  product:
+  - Polymer Resin
+  - 13
+  byproduct:
+  - Heavy Oil Residue
+  - 2
+  building:
+  - Refinery
+  - '6.000000'
+  alternate: true
+  id: 221
+- name: Plastic Smart Plating
+  ingredients:
+  - - Reinforced Iron Plate
+    - 1
+  - - Rotor
+    - 1
+  - - Plastic
+    - 3
+  product:
+  - Smart Plating
+  - 2
+  byproduct: 
+  building:
+  - Manufacturer
+  - '24.000000'
+  alternate: true
+  id: 222
+- name: Automated Speed Wiring
+  ingredients:
+  - - Stator
+    - 2
+  - - Wire
+    - 40
+  - - High-Speed Connector
+    - 1
+  product:
+  - Automated Wiring
+  - 4
+  byproduct: 
+  building:
+  - Manufacturer
+  - '32.000000'
+  alternate: true
+  id: 223
+- name: Encased Industrial Beam
+  ingredients:
+  - - Steel Beam
+    - 3
+  - - Concrete
+    - 6
+  product:
+  - Encased Industrial Beam
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '10.000000'
+  alternate: false
+  id: 224
+- name: Motor
+  ingredients:
+  - - Rotor
+    - 2
+  - - Stator
+    - 2
+  product:
+  - Motor
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '12.000000'
+  alternate: false
+  id: 225
+- name: Stator
+  ingredients:
+  - - Steel Pipe
+    - 3
+  - - Wire
+    - 8
+  product:
+  - Stator
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '12.000000'
+  alternate: false
+  id: 226
+- name: Automated Wiring
+  ingredients:
+  - - Stator
+    - 1
+  - - Cable
+    - 20
+  product:
+  - Automated Wiring
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '24.000000'
+  alternate: false
+  id: 228
+- name: AI Limiter
+  ingredients:
+  - - Copper Sheet
+    - 5
+  - - Quickwire
+    - 20
+  product:
+  - AI Limiter
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '12.000000'
+  alternate: false
+  id: 229
+- name: Heavy Oil Residue
+  ingredients:
+  - - Crude Oil
+    - 3
+  product:
+  - Heavy Oil Residue
+  - 4
+  byproduct:
+  - Polymer Resin
+  - 2
+  building:
+  - Refinery
+  - '6.000000'
+  alternate: true
+  id: 230
+- name: Heavy Flexible Frame
+  ingredients:
+  - - Modular Frame
+    - 5
+  - - Encased Industrial Beam
+    - 3
+  - - Rubber
+    - 20
+  - - Screw
+    - 104
+  product:
+  - Heavy Modular Frame
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '16.000000'
+  alternate: true
+  id: 231
+- name: Computer
+  ingredients:
+  - - Circuit Board
+    - 4
+  - - Cable
+    - 8
+  - - Plastic
+    - 16
+  product:
+  - Computer
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '24.000000'
+  alternate: false
+  id: 233
+- name: Heavy Modular Frame
+  ingredients:
+  - - Modular Frame
+    - 5
+  - - Steel Pipe
+    - 20
+  - - Encased Industrial Beam
+    - 5
+  - - Screw
+    - 120
+  product:
+  - Heavy Modular Frame
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '30.000000'
+  alternate: false
+  id: 234
+- name: Modular Engine
+  ingredients:
+  - - Motor
+    - 2
+  - - Rubber
+    - 15
+  - - Smart Plating
+    - 2
+  product:
+  - Modular Engine
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '60.000000'
+  alternate: false
+  id: 235
+- name: Adaptive Control Unit
+  ingredients:
+  - - Automated Wiring
+    - 5
+  - - Circuit Board
+    - 5
+  - - Heavy Modular Frame
+    - 1
+  - - Computer
+    - 2
+  product:
+  - Adaptive Control Unit
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '60.000000'
+  alternate: false
+  id: 236
+- name: Fused Wire
+  ingredients:
+  - - Copper Ingot
+    - 4
+  - - Caterium Ingot
+    - 1
+  product:
+  - Wire
+  - 30
+  byproduct: 
+  building:
+  - Assembler
+  - '20.000000'
+  alternate: true
+  id: 237
+- name: Flexible Framework
+  ingredients:
+  - - Modular Frame
+    - 1
+  - - Steel Beam
+    - 6
+  - - Rubber
+    - 8
+  product:
+  - Versatile Framework
+  - 2
+  byproduct: 
+  building:
+  - Manufacturer
+  - '16.000000'
+  alternate: true
+  id: 238
+- name: Electrode Circuit Board
+  ingredients:
+  - - Rubber
+    - 4
+  - - Petroleum Coke
+    - 8
+  product:
+  - Circuit Board
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '12.000000'
+  alternate: true
+  id: 239
+- name: Electrode Aluminum Scrap
+  ingredients:
+  - - Alumina Solution
+    - 12
+  - - Petroleum Coke
+    - 4
+  product:
+  - Aluminum Scrap
+  - 20
+  byproduct: 
+  building:
+  - Refinery
+  - '4.000000'
+  alternate: true
+  id: 240
+- name: Diluted Packaged Fuel
+  ingredients:
+  - - Heavy Oil Residue
+    - 1
+  product:
+  - Packaged Fuel
+  - 2
+  byproduct: 
+  building:
+  - Refinery
+  - '2.000000'
+  alternate: true
+  id: 241
+- name: Copper Rotor
+  ingredients:
+  - - Copper Sheet
+    - 6
+  - - Screw
+    - 52
+  product:
+  - Rotor
+  - 3
+  byproduct: 
+  building:
+  - Assembler
+  - '16.000000'
+  alternate: true
+  id: 242
+- name: Modular Frame
+  ingredients:
+  - - Reinforced Iron Plate
+    - 3
+  - - Iron Rod
+    - 12
+  product:
+  - Modular Frame
+  - 2
+  byproduct: 
+  building:
+  - Assembler
+  - '60.000000'
+  alternate: false
+  id: 243
+- name: Rotor
+  ingredients:
+  - - Iron Rod
+    - 5
+  - - Screw
+    - 25
+  product:
+  - Rotor
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '15.000000'
+  alternate: false
+  id: 244
+- name: Copper Sheet
+  ingredients:
+  - - Copper Ingot
+    - 2
+  product:
+  - Copper Sheet
+  - 1
+  byproduct: 
+  building:
+  - Constructor
+  - '6.000000'
+  alternate: false
+  id: 246
+- name: Smart Plating
+  ingredients:
+  - - Reinforced Iron Plate
+    - 1
+  - - Rotor
+    - 1
+  product:
+  - Smart Plating
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '30.000000'
+  alternate: false
+  id: 247
+- name: Copper Alloy Ingot
+  ingredients:
+  - - Copper Ore
+    - 5
+  - - Iron Ore
+    - 5
+  product:
+  - Copper Ingot
+  - 10
+  byproduct: 
+  building:
+  - Foundry
+  - '6.000000'
+  alternate: true
+  id: 248
+- name: Coke Steel Ingot
+  ingredients:
+  - - Iron Ore
+    - 15
+  - - Petroleum Coke
+    - 15
+  product:
+  - Steel Ingot
+  - 20
+  byproduct: 
+  building:
+  - Foundry
+  - '12.000000'
+  alternate: true
+  id: 249
+- name: Coated Iron Plate
+  ingredients:
+  - - Iron Ingot
+    - 5
+  - - Plastic
+    - 1
+  product:
+  - Iron Plate
+  - 10
+  byproduct: 
+  building:
+  - Assembler
+  - '8.000000'
+  alternate: true
+  id: 250
+- name: Coated Iron Canister
+  ingredients:
+  - - Iron Plate
+    - 2
+  - - Copper Sheet
+    - 1
+  product:
+  - Empty Canister
+  - 4
+  byproduct: 
+  building:
+  - Assembler
+  - '4.000000'
+  alternate: true
+  id: 251
+- name: Coated Cable
+  ingredients:
+  - - Wire
+    - 5
+  - - Heavy Oil Residue
+    - 2
+  product:
+  - Cable
+  - 9
+  byproduct: 
+  building:
+  - Refinery
+  - '8.000000'
+  alternate: true
+  id: 252
+- name: Bolted Frame
+  ingredients:
+  - - Reinforced Iron Plate
+    - 3
+  - - Screw
+    - 56
+  product:
+  - Modular Frame
+  - 2
+  byproduct: 
+  building:
+  - Assembler
+  - '24.000000'
+  alternate: true
+  id: 253
+- name: Adhered Iron Plate
+  ingredients:
+  - - Iron Plate
+    - 3
+  - - Rubber
+    - 1
+  product:
+  - Reinforced Iron Plate
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '16.000000'
+  alternate: true
+  id: 254
+- name: Turbo Pressure Motor
+  ingredients:
+  - - Motor
+    - 4
+  - - Pressure Conversion Cube
+    - 1
+  - - Packaged Nitrogen Gas
+    - 24
+  - - Stator
+    - 8
+  product:
+  - Turbo Motor
+  - 2
+  byproduct: 
+  building:
+  - Manufacturer
+  - '32.000000'
+  alternate: true
+  id: 255
+- name: Encased Plutonium Cell
+  ingredients:
+  - - Plutonium Pellet
+    - 2
+  - - Concrete
+    - 4
+  product:
+  - Encased Plutonium Cell
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '12.000000'
+  alternate: false
+  id: 256
+- name: Pressure Conversion Cube
+  ingredients:
+  - - Fused Modular Frame
+    - 1
+  - - Radio Control Unit
+    - 2
+  product:
+  - Pressure Conversion Cube
+  - 1
+  byproduct: 
+  building:
+  - Assembler
+  - '60.000000'
+  alternate: false
+  id: 257
+- name: Nitric Acid
+  ingredients:
+  - - Nitrogen Gas
+    - 12
+  - - Water
+    - 3
+  - - Iron Plate
+    - 1
+  product:
+  - Nitric Acid
+  - 3
+  byproduct: 
+  building:
+  - Blender
+  - '6.000000'
+  alternate: false
+  id: 258
+- name: Non-Fissile Uranium
+  ingredients:
+  - - Uranium Waste
+    - 15
+  - - Silica
+    - 10
+  - - Nitric Acid
+    - 6
+  - - Sulfuric Acid
+    - 6
+  product:
+  - Non-Fissile Uranium
+  - 20
+  byproduct: 
+  building:
+  - Blender
+  - '24.000000'
+  alternate: false
+  id: 259
+- name: Copper Powder
+  ingredients:
+  - - Copper Ingot
+    - 30
+  product:
+  - Copper Powder
+  - 5
+  byproduct: 
+  building:
+  - Constructor
+  - '6.000000'
+  alternate: false
+  id: 261
+- name: Plutonium Pellet
+  ingredients:
+  - - Non-Fissile Uranium
+    - 100
+  - - Uranium Waste
+    - 25
+  product:
+  - Plutonium Pellet
+  - 30
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '60.000000'
+  alternate: false
+  id: 262
+- name: Plutonium Fuel Rod
+  ingredients:
+  - - Encased Plutonium Cell
+    - 30
+  - - Steel Beam
+    - 18
+  - - Electromagnetic Control Rod
+    - 6
+  - - Heat Sink
+    - 10
+  product:
+  - Plutonium Fuel Rod
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '240.000000'
+  alternate: false
+  id: 263
+- name: Packaged Nitric Acid
+  ingredients:
+  - - Nitric Acid
+    - 1
+  product:
+  - Packaged Nitric Acid
+  - 1
+  byproduct: 
+  building:
+  - Packager
+  - '2.000000'
+  alternate: false
+  id: 264
+- name: Nuclear Pasta
+  ingredients:
+  - - Copper Powder
+    - 200
+  - - Pressure Conversion Cube
+    - 1
+  product:
+  - Nuclear Pasta
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '120.000000'
+  alternate: false
+  id: 265
+- name: Turbo Blend Fuel
+  ingredients:
+  - - Fuel
+    - 2
+  - - Heavy Oil Residue
+    - 4
+  - - Sulfur
+    - 3
+  - - Petroleum Coke
+    - 3
+  product:
+  - Turbofuel
+  - 6
+  byproduct: 
+  building:
+  - Blender
+  - '8.000000'
+  alternate: true
+  id: 267
 - name: Encased Uranium Cell
   ingredients:
   - - Uranium
@@ -456,7 +1731,7 @@
   - Blender
   - '12.000000'
   alternate: false
-  id: 166
+  id: 268
 - name: Cooling System
   ingredients:
   - - Heat Sink
@@ -470,791 +1745,12 @@
   product:
   - Cooling System
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '10.000000'
   alternate: false
-  id: 167
-- name: Nitric Acid
-  ingredients:
-  - - Nitrogen Gas
-    - 12
-  - - Water
-    - 3
-  - - Iron Plate
-    - 1
-  product:
-  - Nitric Acid
-  - 3
-  byproduct:
-  building:
-  - Blender
-  - '6.000000'
-  alternate: false
-  id: 168
-- name: Non-fissile Uranium
-  ingredients:
-  - - Uranium Waste
-    - 15
-  - - Silica
-    - 10
-  - - Nitric Acid
-    - 6
-  - - Sulfuric Acid
-    - 6
-  product:
-  - Non-fissile Uranium
-  - 20
-  byproduct:
-  building:
-  - Blender
-  - '24.000000'
-  alternate: false
-  id: 169
-- name: Aluminum Casing
-  ingredients:
-  - - Aluminum Ingot
-    - 3
-  product:
-  - Aluminum Casing
-  - 2
-  byproduct:
-  building:
-  - Constructor
-  - '2.000000'
-  alternate: false
-  id: 171
-- name: Alclad Aluminum Sheet
-  ingredients:
-  - - Aluminum Ingot
-    - 3
-  - - Copper Ingot
-    - 1
-  product:
-  - Alclad Aluminum Sheet
-  - 3
-  byproduct:
-  building:
-  - Assembler
-  - '6.000000'
-  alternate: false
-  id: 172
-- name: Radio Control Unit
-  ingredients:
-  - - Aluminum Casing
-    - 32
-  - - Crystal Oscillator
-    - 1
-  - - Computer
-    - 1
-  product:
-  - Radio Control Unit
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '48.000000'
-  alternate: false
-  id: 173
-- name: Alumina Solution
-  ingredients:
-  - - Bauxite
-    - 12
-  - - Water
-    - 18
-  product:
-  - Alumina Solution
-  - 12
-  byproduct:
-  - Silica
-  - 5
-  building:
-  - Refinery
-  - '6.000000'
-  alternate: false
-  id: 174
-- name: Aluminum Scrap
-  ingredients:
-  - - Alumina Solution
-    - 4
-  - - Coal
-    - 2
-  product:
-  - Aluminum Scrap
-  - 6
-  byproduct:
-  building:
-  - Refinery
-  - '1.000000'
-  alternate: false
-  id: 175
-- name: Aluminum Ingot
-  ingredients:
-  - - Aluminum Scrap
-    - 6
-  - - Silica
-    - 5
-  product:
-  - Aluminum Ingot
-  - 4
-  byproduct:
-  building:
-  - Foundry
-  - '4.000000'
-  alternate: false
-  id: 177
-- name: Silica
-  ingredients:
-  - - Raw Quartz
-    - 3
-  product:
-  - Silica
-  - 5
-  byproduct:
-  building:
-  - Constructor
-  - '8.000000'
-  alternate: false
-  id: 178
-- name: Crystal Oscillator
-  ingredients:
-  - - Quartz Crystal
-    - 36
-  - - Cable
-    - 28
-  - - Reinforced Iron Plate
-    - 5
-  product:
-  - Crystal Oscillator
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '120.000000'
-  alternate: false
-  id: 179
-- name: Polymer Resin
-  ingredients:
-  - - Crude Oil
-    - 6
-  product:
-  - Polymer Resin
-  - 13
-  byproduct:
-  - Heavy Oil Residue
-  - 2
-  building:
-  - Refinery
-  - '6.000000'
-  alternate: true
-  id: 181
-- name: Plastic Smart Plating
-  ingredients:
-  - - Reinforced Iron Plate
-    - 1
-  - - Rotor
-    - 1
-  - - Plastic
-    - 3
-  product:
-  - Smart Plating
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '24.000000'
-  alternate: true
-  id: 182
-- name: Automated Speed Wiring
-  ingredients:
-  - - Stator
-    - 2
-  - - Wire
-    - 40
-  - - High-Speed Connector
-    - 1
-  product:
-  - Automated Wiring
-  - 4
-  byproduct:
-  building:
-  - Manufacturer
-  - '32.000000'
-  alternate: true
-  id: 183
-- name: Encased Industrial Beam
-  ingredients:
-  - - Steel Beam
-    - 4
-  - - Concrete
-    - 5
-  product:
-  - Encased Industrial Beam
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '10.000000'
-  alternate: false
-  id: 184
-- name: Motor
-  ingredients:
-  - - Rotor
-    - 2
-  - - Stator
-    - 2
-  product:
-  - Motor
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: false
-  id: 185
-- name: Stator
-  ingredients:
-  - - Steel Pipe
-    - 3
-  - - Wire
-    - 8
-  product:
-  - Stator
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: false
-  id: 186
-- name: Heavy Modular Frame
-  ingredients:
-  - - Modular Frame
-    - 5
-  - - Steel Pipe
-    - 15
-  - - Encased Industrial Beam
-    - 5
-  - - Screw
-    - 100
-  product:
-  - Heavy Modular Frame
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '30.000000'
-  alternate: false
-  id: 188
-- name: Automated Wiring
-  ingredients:
-  - - Stator
-    - 1
-  - - Cable
-    - 20
-  product:
-  - Automated Wiring
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '24.000000'
-  alternate: false
-  id: 189
-- name: AI Limiter
-  ingredients:
-  - - Copper Sheet
-    - 5
-  - - Quickwire
-    - 20
-  product:
-  - AI Limiter
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: false
-  id: 190
-- name: Heavy Oil Residue
-  ingredients:
-  - - Crude Oil
-    - 3
-  product:
-  - Heavy Oil Residue
-  - 4
-  byproduct:
-  - Polymer Resin
-  - 2
-  building:
-  - Refinery
-  - '6.000000'
-  alternate: true
-  id: 191
-- name: Heavy Flexible Frame
-  ingredients:
-  - - Modular Frame
-    - 5
-  - - Encased Industrial Beam
-    - 3
-  - - Rubber
-    - 20
-  - - Screw
-    - 104
-  product:
-  - Heavy Modular Frame
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '16.000000'
-  alternate: true
-  id: 192
-- name: Computer
-  ingredients:
-  - - Circuit Board
-    - 10
-  - - Cable
-    - 9
-  - - Plastic
-    - 18
-  - - Screw
-    - 52
-  product:
-  - Computer
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '24.000000'
-  alternate: false
-  id: 194
-- name: Modular Engine
-  ingredients:
-  - - Motor
-    - 2
-  - - Rubber
-    - 15
-  - - Smart Plating
-    - 2
-  product:
-  - Modular Engine
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '60.000000'
-  alternate: false
-  id: 195
-- name: Adaptive Control Unit
-  ingredients:
-  - - Automated Wiring
-    - 15
-  - - Circuit Board
-    - 10
-  - - Heavy Modular Frame
-    - 2
-  - - Computer
-    - 2
-  product:
-  - Adaptive Control Unit
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '120.000000'
-  alternate: false
-  id: 196
-- name: Fused Wire
-  ingredients:
-  - - Copper Ingot
-    - 4
-  - - Caterium Ingot
-    - 1
-  product:
-  - Wire
-  - 30
-  byproduct:
-  building:
-  - Assembler
-  - '20.000000'
-  alternate: true
-  id: 198
-- name: Flexible Framework
-  ingredients:
-  - - Modular Frame
-    - 1
-  - - Steel Beam
-    - 6
-  - - Rubber
-    - 8
-  product:
-  - Versatile Framework
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '16.000000'
-  alternate: true
-  id: 199
-- name: Electrode Circuit Board
-  ingredients:
-  - - Rubber
-    - 6
-  - - Petroleum Coke
-    - 9
-  product:
-  - Circuit Board
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: true
-  id: 200
-- name: Electrode Aluminum Scrap
-  ingredients:
-  - - Alumina Solution
-    - 12
-  - - Petroleum Coke
-    - 4
-  product:
-  - Aluminum Scrap
-  - 20
-  byproduct:
-  building:
-  - Refinery
-  - '4.000000'
-  alternate: true
-  id: 201
-- name: Copper Rotor
-  ingredients:
-  - - Copper Sheet
-    - 6
-  - - Screw
-    - 52
-  product:
-  - Rotor
-  - 3
-  byproduct:
-  building:
-  - Assembler
-  - '16.000000'
-  alternate: true
-  id: 203
-- name: Modular Frame
-  ingredients:
-  - - Reinforced Iron Plate
-    - 3
-  - - Iron Rod
-    - 12
-  product:
-  - Modular Frame
-  - 2
-  byproduct:
-  building:
-  - Assembler
-  - '60.000000'
-  alternate: false
-  id: 204
-- name: Rotor
-  ingredients:
-  - - Iron Rod
-    - 5
-  - - Screw
-    - 25
-  product:
-  - Rotor
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '15.000000'
-  alternate: false
-  id: 205
-- name: Copper Sheet
-  ingredients:
-  - - Copper Ingot
-    - 2
-  product:
-  - Copper Sheet
-  - 1
-  byproduct:
-  building:
-  - Constructor
-  - '6.000000'
-  alternate: false
-  id: 207
-- name: Smart Plating
-  ingredients:
-  - - Reinforced Iron Plate
-    - 1
-  - - Rotor
-    - 1
-  product:
-  - Smart Plating
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '30.000000'
-  alternate: false
-  id: 208
-- name: Copper Alloy Ingot
-  ingredients:
-  - - Copper Ore
-    - 10
-  - - Iron Ore
-    - 5
-  product:
-  - Copper Ingot
-  - 20
-  byproduct:
-  building:
-  - Foundry
-  - '12.000000'
-  alternate: true
-  id: 209
-- name: Coke Steel Ingot
-  ingredients:
-  - - Iron Ore
-    - 15
-  - - Petroleum Coke
-    - 15
-  product:
-  - Steel Ingot
-  - 20
-  byproduct:
-  building:
-  - Foundry
-  - '12.000000'
-  alternate: true
-  id: 210
-- name: Coated Iron Plate
-  ingredients:
-  - - Iron Ingot
-    - 10
-  - - Plastic
-    - 2
-  product:
-  - Iron Plate
-  - 15
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: true
-  id: 211
-- name: Coated Iron Canister
-  ingredients:
-  - - Iron Plate
-    - 2
-  - - Copper Sheet
-    - 1
-  product:
-  - Empty Canister
-  - 4
-  byproduct:
-  building:
-  - Assembler
-  - '4.000000'
-  alternate: true
-  id: 212
-- name: Coated Cable
-  ingredients:
-  - - Wire
-    - 5
-  - - Heavy Oil Residue
-    - 2
-  product:
-  - Cable
-  - 9
-  byproduct:
-  building:
-  - Refinery
-  - '8.000000'
-  alternate: true
-  id: 213
-- name: Bolted Frame
-  ingredients:
-  - - Reinforced Iron Plate
-    - 3
-  - - Screw
-    - 56
-  product:
-  - Modular Frame
-  - 2
-  byproduct:
-  building:
-  - Assembler
-  - '24.000000'
-  alternate: true
-  id: 214
-- name: Adhered Iron Plate
-  ingredients:
-  - - Iron Plate
-    - 3
-  - - Rubber
-    - 1
-  product:
-  - Reinforced Iron Plate
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '16.000000'
-  alternate: true
-  id: 215
-- name: Turbo Pressure Motor
-  ingredients:
-  - - Motor
-    - 4
-  - - Pressure Conversion Cube
-    - 1
-  - - Packaged Nitrogen Gas
-    - 24
-  - - Stator
-    - 8
-  product:
-  - Turbo Motor
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '32.000000'
-  alternate: true
-  id: 216
-- name: Encased Plutonium Cell
-  ingredients:
-  - - Plutonium Pellet
-    - 2
-  - - Concrete
-    - 4
-  product:
-  - Encased Plutonium Cell
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '12.000000'
-  alternate: false
-  id: 217
-- name: Pressure Conversion Cube
-  ingredients:
-  - - Fused Modular Frame
-    - 1
-  - - Radio Control Unit
-    - 2
-  product:
-  - Pressure Conversion Cube
-  - 1
-  byproduct:
-  building:
-  - Assembler
-  - '60.000000'
-  alternate: false
-  id: 218
-- name: Copper Powder
-  ingredients:
-  - - Copper Ingot
-    - 30
-  product:
-  - Copper Powder
-  - 5
-  byproduct:
-  building:
-  - Constructor
-  - '6.000000'
-  alternate: false
-  id: 220
-- name: Plutonium Pellet
-  ingredients:
-  - - Non-fissile Uranium
-    - 100
-  - - Uranium Waste
-    - 25
-  product:
-  - Plutonium Pellet
-  - 30
-  byproduct:
-  building:
-  - Particle Accelerator
-  - '60.000000'
-  alternate: false
-  id: 221
-- name: Plutonium Fuel Rod
-  ingredients:
-  - - Encased Plutonium Cell
-    - 30
-  - - Steel Beam
-    - 18
-  - - Electromagnetic Control Rod
-    - 6
-  - - Heat Sink
-    - 10
-  product:
-  - Plutonium Fuel Rod
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '240.000000'
-  alternate: false
-  id: 222
-- name: Nuclear Pasta
-  ingredients:
-  - - Copper Powder
-    - 200
-  - - Pressure Conversion Cube
-    - 1
-  product:
-  - Nuclear Pasta
-  - 1
-  byproduct:
-  building:
-  - Particle Accelerator
-  - '120.000000'
-  alternate: false
-  id: 224
-- name: Turbo Blend Fuel
-  ingredients:
-  - - Fuel
-    - 2
-  - - Heavy Oil Residue
-    - 4
-  - - Sulfur
-    - 3
-  - - Petroleum Coke
-    - 3
-  product:
-  - Turbofuel
-  - 6
-  byproduct:
-  building:
-  - Blender
-  - '8.000000'
-  alternate: true
-  id: 226
-- name: Super-State Computer
-  ingredients:
-  - - Computer
-    - 3
-  - - Electromagnetic Control Rod
-    - 2
-  - - Battery
-    - 20
-  - - Wire
-    - 45
-  product:
-  - Supercomputer
-  - 2
-  byproduct:
-  building:
-  - Manufacturer
-  - '50.000000'
-  alternate: true
-  id: 227
+  id: 269
 - name: Battery
   ingredients:
   - - Sulfuric Acid
@@ -1266,16 +1762,16 @@
   product:
   - Battery
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '3.000000'
   alternate: false
-  id: 230
+  id: 271
 - name: Supercomputer
   ingredients:
   - - Computer
-    - 2
+    - 4
   - - AI Limiter
     - 2
   - - High-Speed Connector
@@ -1285,12 +1781,29 @@
   product:
   - Supercomputer
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '32.000000'
   alternate: false
-  id: 231
+  id: 272
+- name: Radio Control Unit
+  ingredients:
+  - - Aluminum Casing
+    - 32
+  - - Crystal Oscillator
+    - 1
+  - - Computer
+    - 2
+  product:
+  - Radio Control Unit
+  - 2
+  byproduct: 
+  building:
+  - Manufacturer
+  - '48.000000'
+  alternate: false
+  id: 273
 - name: Sulfuric Acid
   ingredients:
   - - Sulfur
@@ -1300,12 +1813,25 @@
   product:
   - Sulfuric Acid
   - 5
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 232
+  id: 274
+- name: Packaged Sulfuric Acid
+  ingredients:
+  - - Sulfuric Acid
+    - 2
+  product:
+  - Packaged Sulfuric Acid
+  - 2
+  byproduct: 
+  building:
+  - Packager
+  - '3.000000'
+  alternate: false
+  id: 275
 - name: Assembly Director System
   ingredients:
   - - Adaptive Control Unit
@@ -1315,12 +1841,12 @@
   product:
   - Assembly Director System
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '80.000000'
   alternate: false
-  id: 234
+  id: 276
 - name: High-Speed Connector
   ingredients:
   - - Quickwire
@@ -1332,12 +1858,31 @@
   product:
   - High-Speed Connector
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '16.000000'
   alternate: false
-  id: 235
+  id: 277
+- name: Super-State Computer
+  ingredients:
+  - - Computer
+    - 3
+  - - Electromagnetic Control Rod
+    - 1
+  - - Battery
+    - 10
+  - - Wire
+    - 25
+  product:
+  - Supercomputer
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '25.000000'
+  alternate: true
+  id: 279
 - name: Electromagnetic Control Rod
   ingredients:
   - - Stator
@@ -1347,12 +1892,12 @@
   product:
   - Electromagnetic Control Rod
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '30.000000'
   alternate: false
-  id: 237
+  id: 280
 - name: Uranium Fuel Rod
   ingredients:
   - - Encased Uranium Cell
@@ -1364,29 +1909,27 @@
   product:
   - Uranium Fuel Rod
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '150.000000'
   alternate: false
-  id: 239
+  id: 282
 - name: Magnetic Field Generator
   ingredients:
   - - Versatile Framework
     - 5
   - - Electromagnetic Control Rod
     - 2
-  - - Battery
-    - 10
   product:
   - Magnetic Field Generator
   - 2
-  byproduct:
+  byproduct: 
   building:
-  - Manufacturer
+  - Assembler
   - '120.000000'
   alternate: false
-  id: 240
+  id: 283
 - name: Sloppy Alumina
   ingredients:
   - - Bauxite
@@ -1396,12 +1939,12 @@
   product:
   - Alumina Solution
   - 12
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '3.000000'
   alternate: true
-  id: 241
+  id: 284
 - name: Radio Control System
   ingredients:
   - - Crystal Oscillator
@@ -1415,12 +1958,12 @@
   product:
   - Radio Control Unit
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '40.000000'
   alternate: true
-  id: 242
+  id: 285
 - name: Plutonium Fuel Unit
   ingredients:
   - - Encased Plutonium Cell
@@ -1430,27 +1973,27 @@
   product:
   - Plutonium Fuel Rod
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '120.000000'
   alternate: true
-  id: 243
+  id: 286
 - name: OC Supercomputer
   ingredients:
   - - Radio Control Unit
-    - 3
+    - 2
   - - Cooling System
-    - 3
+    - 2
   product:
   - Supercomputer
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '20.000000'
   alternate: true
-  id: 244
+  id: 287
 - name: Heat Sink
   ingredients:
   - - Alclad Aluminum Sheet
@@ -1460,12 +2003,12 @@
   product:
   - Heat Sink
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '8.000000'
   alternate: false
-  id: 245
+  id: 288
 - name: Fused Modular Frame
   ingredients:
   - - Heavy Modular Frame
@@ -1477,12 +2020,12 @@
   product:
   - Fused Modular Frame
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '40.000000'
   alternate: false
-  id: 246
+  id: 289
 - name: Empty Fluid Tank
   ingredients:
   - - Aluminum Ingot
@@ -1490,12 +2033,25 @@
   product:
   - Empty Fluid Tank
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '1.000000'
   alternate: false
-  id: 249
+  id: 292
+- name: Packaged Nitrogen Gas
+  ingredients:
+  - - Nitrogen Gas
+    - 4
+  product:
+  - Packaged Nitrogen Gas
+  - 1
+  byproduct: 
+  building:
+  - Packager
+  - '1.000000'
+  alternate: false
+  id: 293
 - name: Instant Scrap
   ingredients:
   - - Bauxite
@@ -1509,27 +2065,27 @@
   product:
   - Aluminum Scrap
   - 30
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '6.000000'
   alternate: true
-  id: 252
+  id: 295
 - name: Instant Plutonium Cell
   ingredients:
-  - - Non-fissile Uranium
+  - - Non-Fissile Uranium
     - 150
   - - Aluminum Casing
     - 20
   product:
   - Encased Plutonium Cell
   - 20
-  byproduct:
+  byproduct: 
   building:
   - Particle Accelerator
   - '120.000000'
   alternate: true
-  id: 253
+  id: 296
 - name: Heat-Fused Frame
   ingredients:
   - - Heavy Modular Frame
@@ -1543,12 +2099,12 @@
   product:
   - Fused Modular Frame
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '20.000000'
   alternate: true
-  id: 254
+  id: 297
 - name: Fertile Uranium
   ingredients:
   - - Uranium
@@ -1560,14 +2116,14 @@
   - - Sulfuric Acid
     - 5
   product:
-  - Non-fissile Uranium
+  - Non-Fissile Uranium
   - 20
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '12.000000'
   alternate: true
-  id: 255
+  id: 298
 - name: Electric Motor
   ingredients:
   - - Electromagnetic Control Rod
@@ -1577,12 +2133,12 @@
   product:
   - Motor
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '16.000000'
   alternate: true
-  id: 256
+  id: 299
 - name: Diluted Fuel
   ingredients:
   - - Heavy Oil Residue
@@ -1592,16 +2148,16 @@
   product:
   - Fuel
   - 10
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '6.000000'
   alternate: true
-  id: 257
+  id: 300
 - name: Cooling Device
   ingredients:
   - - Heat Sink
-    - 5
+    - 4
   - - Motor
     - 1
   - - Nitrogen Gas
@@ -1609,12 +2165,12 @@
   product:
   - Cooling System
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Blender
-  - '32.000000'
+  - '24.000000'
   alternate: true
-  id: 258
+  id: 301
 - name: Classic Battery
   ingredients:
   - - Sulfur
@@ -1628,31 +2184,27 @@
   product:
   - Battery
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '8.000000'
   alternate: true
-  id: 259
+  id: 302
 - name: Automated Miner
   ingredients:
-  - - Motor
-    - 1
   - - Steel Pipe
     - 4
-  - - Iron Rod
-    - 4
   - - Iron Plate
-    - 2
+    - 4
   product:
   - Portable Miner
   - 1
-  byproduct:
+  byproduct: 
   building:
-  - Manufacturer
+  - Assembler
   - '60.000000'
   alternate: true
-  id: 260
+  id: 303
 - name: Alclad Casing
   ingredients:
   - - Aluminum Ingot
@@ -1662,12 +2214,250 @@
   product:
   - Aluminum Casing
   - 15
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '8.000000'
   alternate: true
-  id: 261
+  id: 304
+- name: Molded Steel Pipe
+  ingredients:
+  - - Steel Ingot
+    - 5
+  - - Concrete
+    - 3
+  product:
+  - Steel Pipe
+  - 5
+  byproduct: 
+  building:
+  - Foundry
+  - '6.000000'
+  alternate: true
+  id: 305
+- name: Iron Pipe
+  ingredients:
+  - - Iron Ingot
+    - 20
+  product:
+  - Steel Pipe
+  - 5
+  byproduct: 
+  building:
+  - Constructor
+  - '12.000000'
+  alternate: true
+  id: 306
+- name: Steel Cast Plate
+  ingredients:
+  - - Iron Ingot
+    - 1
+  - - Steel Ingot
+    - 1
+  product:
+  - Iron Plate
+  - 3
+  byproduct: 
+  building:
+  - Foundry
+  - '4.000000'
+  alternate: true
+  id: 307
+- name: Molded Beam
+  ingredients:
+  - - Steel Ingot
+    - 24
+  - - Concrete
+    - 16
+  product:
+  - Steel Beam
+  - 9
+  byproduct: 
+  building:
+  - Foundry
+  - '12.000000'
+  alternate: true
+  id: 308
+- name: Aluminum Beam
+  ingredients:
+  - - Aluminum Ingot
+    - 3
+  product:
+  - Steel Beam
+  - 3
+  byproduct: 
+  building:
+  - Constructor
+  - '8.000000'
+  alternate: true
+  id: 309
+- name: Aluminum Rod
+  ingredients:
+  - - Aluminum Ingot
+    - 1
+  product:
+  - Iron Rod
+  - 7
+  byproduct: 
+  building:
+  - Constructor
+  - '8.000000'
+  alternate: true
+  id: 310
+- name: Plastic AI Limiter
+  ingredients:
+  - - Quickwire
+    - 30
+  - - Plastic
+    - 7
+  product:
+  - AI Limiter
+  - 2
+  byproduct: 
+  building:
+  - Assembler
+  - '15.000000'
+  alternate: true
+  id: 311
+- name: Distilled Silica
+  ingredients:
+  - - Dissolved Silica
+    - 12
+  - - Limestone
+    - 5
+  - - Water
+    - 10
+  product:
+  - Silica
+  - 27
+  byproduct: 
+  building:
+  - Blender
+  - '6.000000'
+  alternate: true
+  id: 312
+- name: Quartz Purification
+  ingredients:
+  - - Raw Quartz
+    - 24
+  - - Nitric Acid
+    - 2
+  product:
+  - Quartz Crystal
+  - 15
+  byproduct:
+  - Dissolved Silica
+  - 12
+  building:
+  - Refinery
+  - '12.000000'
+  alternate: true
+  id: 313
+- name: Fused Quartz Crystal
+  ingredients:
+  - - Raw Quartz
+    - 25
+  - - Coal
+    - 12
+  product:
+  - Quartz Crystal
+  - 18
+  byproduct: 
+  building:
+  - Foundry
+  - '20.000000'
+  alternate: true
+  id: 314
+- name: Leached Iron ingot
+  ingredients:
+  - - Iron Ore
+    - 5
+  - - Sulfuric Acid
+    - 1
+  product:
+  - Iron Ingot
+  - 10
+  byproduct: 
+  building:
+  - Refinery
+  - '6.000000'
+  alternate: true
+  id: 315
+- name: Basic Iron Ingot
+  ingredients:
+  - - Iron Ore
+    - 5
+  - - Limestone
+    - 8
+  product:
+  - Iron Ingot
+  - 10
+  byproduct: 
+  building:
+  - Foundry
+  - '12.000000'
+  alternate: true
+  id: 316
+- name: Tempered Copper Ingot
+  ingredients:
+  - - Copper Ore
+    - 5
+  - - Petroleum Coke
+    - 8
+  product:
+  - Copper Ingot
+  - 12
+  byproduct: 
+  building:
+  - Foundry
+  - '12.000000'
+  alternate: true
+  id: 317
+- name: Leached Copper Ingot
+  ingredients:
+  - - Copper Ore
+    - 9
+  - - Sulfuric Acid
+    - 5
+  product:
+  - Copper Ingot
+  - 22
+  byproduct: 
+  building:
+  - Refinery
+  - '12.000000'
+  alternate: true
+  id: 318
+- name: Tempered Caterium Ingot
+  ingredients:
+  - - Caterium Ore
+    - 6
+  - - Petroleum Coke
+    - 2
+  product:
+  - Caterium Ingot
+  - 3
+  byproduct: 
+  building:
+  - Foundry
+  - '8.000000'
+  alternate: true
+  id: 319
+- name: Leached Caterium Ingot
+  ingredients:
+  - - Caterium Ore
+    - 9
+  - - Sulfuric Acid
+    - 5
+  product:
+  - Caterium Ingot
+  - 6
+  byproduct: 
+  building:
+  - Refinery
+  - '10.000000'
+  alternate: true
+  id: 320
 - name: Caterium Wire
   ingredients:
   - - Caterium Ingot
@@ -1675,12 +2465,12 @@
   product:
   - Wire
   - 8
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: true
-  id: 262
+  id: 321
 - name: Iron Wire
   ingredients:
   - - Iron Ingot
@@ -1688,12 +2478,12 @@
   product:
   - Wire
   - 9
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '24.000000'
   alternate: true
-  id: 263
+  id: 322
 - name: Infused Uranium Cell
   ingredients:
   - - Uranium
@@ -1707,12 +2497,12 @@
   product:
   - Encased Uranium Cell
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '12.000000'
   alternate: true
-  id: 264
+  id: 323
 - name: Caterium Ingot
   ingredients:
   - - Caterium Ore
@@ -1720,12 +2510,12 @@
   product:
   - Caterium Ingot
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Smelter
   - '4.000000'
   alternate: false
-  id: 265
+  id: 326
 - name: Turbo Electric Motor
   ingredients:
   - - Motor
@@ -1739,12 +2529,12 @@
   product:
   - Turbo Motor
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '64.000000'
   alternate: true
-  id: 266
+  id: 327
 - name: Turbo Motor
   ingredients:
   - - Cooling System
@@ -1758,12 +2548,12 @@
   product:
   - Turbo Motor
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '32.000000'
   alternate: false
-  id: 270
+  id: 331
 - name: Thermal Propulsion Rocket
   ingredients:
   - - Modular Engine
@@ -1777,27 +2567,12 @@
   product:
   - Thermal Propulsion Rocket
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '120.000000'
   alternate: false
-  id: 271
-- name: Turbofuel
-  ingredients:
-  - - Fuel
-    - 6
-  - - Compacted Coal
-    - 4
-  product:
-  - Turbofuel
-  - 5
-  byproduct:
-  building:
-  - Refinery
-  - '16.000000'
-  alternate: false
-  id: 272
+  id: 332
 - name: Quickwire Stator
   ingredients:
   - - Steel Pipe
@@ -1807,12 +2582,12 @@
   product:
   - Stator
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '15.000000'
   alternate: true
-  id: 273
+  id: 333
 - name: Cheap Silica
   ingredients:
   - - Raw Quartz
@@ -1822,12 +2597,12 @@
   product:
   - Silica
   - 7
-  byproduct:
+  byproduct: 
   building:
   - Assembler
-  - '16.000000'
+  - '8.000000'
   alternate: true
-  id: 274
+  id: 334
 - name: Steel Screw
   ingredients:
   - - Steel Beam
@@ -1835,12 +2610,12 @@
   product:
   - Screw
   - 52
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '12.000000'
   alternate: true
-  id: 275
+  id: 335
 - name: Cast Screw
   ingredients:
   - - Iron Ingot
@@ -1848,12 +2623,12 @@
   product:
   - Screw
   - 20
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '24.000000'
   alternate: true
-  id: 276
+  id: 336
 - name: Steel Rotor
   ingredients:
   - - Steel Pipe
@@ -1863,27 +2638,27 @@
   product:
   - Rotor
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: true
-  id: 277
+  id: 337
 - name: Encased Industrial Pipe
   ingredients:
   - - Steel Pipe
-    - 7
+    - 6
   - - Concrete
     - 5
   product:
   - Encased Industrial Beam
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '15.000000'
   alternate: true
-  id: 278
+  id: 338
 - name: Stitched Iron Plate
   ingredients:
   - - Iron Plate
@@ -1893,12 +2668,12 @@
   product:
   - Reinforced Iron Plate
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '32.000000'
   alternate: true
-  id: 279
+  id: 339
 - name: Bolted Iron Plate
   ingredients:
   - - Iron Plate
@@ -1908,12 +2683,12 @@
   product:
   - Reinforced Iron Plate
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: true
-  id: 280
+  id: 340
 - name: Radio Connection Unit
   ingredients:
   - - Heat Sink
@@ -1925,12 +2700,12 @@
   product:
   - Radio Control Unit
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '16.000000'
   alternate: true
-  id: 281
+  id: 341
 - name: Fused Quickwire
   ingredients:
   - - Caterium Ingot
@@ -1940,12 +2715,12 @@
   product:
   - Quickwire
   - 12
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '8.000000'
   alternate: true
-  id: 282
+  id: 342
 - name: Recycled Plastic
   ingredients:
   - - Fuel
@@ -1953,12 +2728,12 @@
   product:
   - Plastic
   - 6
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '12.000000'
   alternate: true
-  id: 283
+  id: 343
 - name: Uranium Fuel Unit
   ingredients:
   - - Encased Uranium Cell
@@ -1967,18 +2742,18 @@
     - 10
   - - Crystal Oscillator
     - 3
-  - - Beacon
-    - 6
+  - - Rotor
+    - 10
   product:
   - Uranium Fuel Rod
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '300.000000'
   alternate: true
-  id: 284
-- name: Rigour Motor
+  id: 344
+- name: Rigor Motor
   ingredients:
   - - Rotor
     - 3
@@ -1989,12 +2764,12 @@
   product:
   - Motor
   - 6
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '48.000000'
   alternate: true
-  id: 285
+  id: 345
 - name: Steeled Frame
   ingredients:
   - - Reinforced Iron Plate
@@ -2004,27 +2779,27 @@
   product:
   - Modular Frame
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '60.000000'
   alternate: true
-  id: 286
+  id: 346
 - name: Compacted Steel Ingot
   ingredients:
   - - Iron Ore
-    - 6
+    - 2
   - - Compacted Coal
-    - 3
+    - 1
   product:
   - Steel Ingot
-  - 10
-  byproduct:
+  - 4
+  byproduct: 
   building:
   - Foundry
-  - '16.000000'
+  - '24.000000'
   alternate: true
-  id: 287
+  id: 347
 - name: Solid Steel Ingot
   ingredients:
   - - Iron Ingot
@@ -2034,27 +2809,27 @@
   product:
   - Steel Ingot
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Foundry
   - '3.000000'
   alternate: true
-  id: 288
+  id: 348
 - name: Iron Alloy Ingot
   ingredients:
   - - Iron Ore
-    - 2
+    - 8
   - - Copper Ore
     - 2
   product:
   - Iron Ingot
-  - 5
-  byproduct:
+  - 15
+  byproduct: 
   building:
   - Foundry
-  - '6.000000'
+  - '12.000000'
   alternate: true
-  id: 289
+  id: 349
 - name: Silicon High-Speed Connector
   ingredients:
   - - Quickwire
@@ -2066,12 +2841,12 @@
   product:
   - High-Speed Connector
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '40.000000'
   alternate: true
-  id: 290
+  id: 350
 - name: Heavy Encased Frame
   ingredients:
   - - Modular Frame
@@ -2085,12 +2860,12 @@
   product:
   - Heavy Modular Frame
   - 3
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '64.000000'
   alternate: true
-  id: 291
+  id: 351
 - name: Heat Exchanger
   ingredients:
   - - Aluminum Casing
@@ -2100,27 +2875,27 @@
   product:
   - Heat Sink
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '6.000000'
   alternate: true
-  id: 292
+  id: 352
 - name: Fine Black Powder
   ingredients:
   - - Sulfur
-    - 2
-  - - Compacted Coal
     - 1
+  - - Compacted Coal
+    - 2
   product:
   - Black Powder
-  - 4
-  byproduct:
+  - 6
+  byproduct: 
   building:
   - Assembler
-  - '16.000000'
+  - '8.000000'
   alternate: true
-  id: 293
+  id: 353
 - name: Electromagnetic Connection Rod
   ingredients:
   - - Stator
@@ -2130,12 +2905,12 @@
   product:
   - Electromagnetic Control Rod
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '15.000000'
   alternate: true
-  id: 294
+  id: 354
 - name: Insulated Crystal Oscillator
   ingredients:
   - - Quartz Crystal
@@ -2147,12 +2922,12 @@
   product:
   - Crystal Oscillator
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '32.000000'
   alternate: true
-  id: 295
+  id: 355
 - name: Fine Concrete
   ingredients:
   - - Silica
@@ -2162,44 +2937,44 @@
   product:
   - Concrete
   - 10
-  byproduct:
+  byproduct: 
   building:
   - Assembler
-  - '24.000000'
+  - '12.000000'
   alternate: true
-  id: 296
+  id: 356
 - name: Crystal Computer
   ingredients:
   - - Circuit Board
-    - 8
-  - - Crystal Oscillator
     - 3
+  - - Crystal Oscillator
+    - 1
   product:
   - Computer
-  - 3
-  byproduct:
+  - 2
+  byproduct: 
   building:
   - Assembler
-  - '64.000000'
+  - '36.000000'
   alternate: true
-  id: 297
+  id: 357
 - name: Caterium Computer
   ingredients:
   - - Circuit Board
-    - 7
+    - 4
   - - Quickwire
-    - 28
+    - 14
   - - Rubber
-    - 12
+    - 6
   product:
   - Computer
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '16.000000'
   alternate: true
-  id: 298
+  id: 358
 - name: Caterium Circuit Board
   ingredients:
   - - Plastic
@@ -2209,12 +2984,12 @@
   product:
   - Circuit Board
   - 7
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '48.000000'
   alternate: true
-  id: 299
+  id: 359
 - name: Silicon Circuit Board
   ingredients:
   - - Copper Sheet
@@ -2224,12 +2999,12 @@
   product:
   - Circuit Board
   - 5
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '24.000000'
   alternate: true
-  id: 300
+  id: 360
 - name: Quickwire Cable
   ingredients:
   - - Quickwire
@@ -2239,12 +3014,12 @@
   product:
   - Cable
   - 11
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '24.000000'
   alternate: true
-  id: 301
+  id: 361
 - name: Insulated Cable
   ingredients:
   - - Wire
@@ -2254,30 +3029,89 @@
   product:
   - Cable
   - 20
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: true
-  id: 302
-- name: Crystal Beacon
+  id: 362
+- name: Ficsonium
   ingredients:
-  - - Steel Beam
-    - 4
-  - - Steel Pipe
-    - 16
-  - - Crystal Oscillator
+  - - Plutonium Waste
     - 1
+  - - Singularity Cell
+    - 1
+  - - Dark Matter Residue
+    - 20
   product:
-  - Beacon
-  - 20
+  - Ficsonium
+  - 1
+  byproduct: 
+  building:
+  - Particle Accelerator
+  - '6.000000'
+  alternate: false
+  id: 365
+- name: Ficsonium Fuel Rod
+  ingredients:
+  - - Ficsonium
+    - 2
+  - - Electromagnetic Control Rod
+    - 2
+  - - Ficsite Trigon
+    - 40
+  - - Excited Photonic Matter
+    - 20
+  product:
+  - Ficsonium Fuel Rod
+  - 1
   byproduct:
+  - Dark Matter Residue
+  - 20
+  building:
+  - Quantum Encoder
+  - '24.000000'
+  alternate: false
+  id: 366
+- name: Singularity Cell
+  ingredients:
+  - - Nuclear Pasta
+    - 1
+  - - Dark Matter Crystal
+    - 20
+  - - Iron Plate
+    - 100
+  - - Concrete
+    - 200
+  product:
+  - Singularity Cell
+  - 10
+  byproduct: 
   building:
   - Manufacturer
-  - '120.000000'
-  alternate: true
-  id: 303
-- name: Iodine Infused Filter
+  - '60.000000'
+  alternate: false
+  id: 369
+- name: Ballistic Warp Drive
+  ingredients:
+  - - Thermal Propulsion Rocket
+    - 1
+  - - Singularity Cell
+    - 5
+  - - Superposition Oscillator
+    - 2
+  - - Dark Matter Crystal
+    - 40
+  product:
+  - Ballistic Warp Drive
+  - 1
+  byproduct: 
+  building:
+  - Manufacturer
+  - '60.000000'
+  alternate: false
+  id: 370
+- name: Iodine-Infused Filter
   ingredients:
   - - Gas Filter
     - 1
@@ -2286,50 +3120,76 @@
   - - Aluminum Casing
     - 1
   product:
-  - Iodine Infused Filter
+  - Iodine-Infused Filter
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '16.000000'
   alternate: false
-  id: 305
-- name: Gas Filter
+  id: 373
+- name: Quickwire
+  ingredients:
+  - - Caterium Ingot
+    - 1
+  product:
+  - Quickwire
+  - 5
+  byproduct: 
+  building:
+  - Constructor
+  - '5.000000'
+  alternate: false
+  id: 394
+- name: Power Shard (1)
+  ingredients:
+  - - Blue Power Slug
+    - 1
+  product:
+  - Power Shard
+  - 1
+  byproduct: 
+  building:
+  - Constructor
+  - '8.000000'
+  alternate: false
+  id: 421
+- name: Black Powder
   ingredients:
   - - Coal
-    - 5
-  - - Rubber
-    - 2
-  - - Fabric
-    - 2
-  product:
-  - Gas Filter
-  - 1
-  byproduct:
-  building:
-  - Manufacturer
-  - '8.000000'
-  alternate: false
-  id: 309
-- name: Beacon
-  ingredients:
-  - - Iron Plate
-    - 3
-  - - Iron Rod
     - 1
-  - - Wire
-    - 15
-  - - Cable
-    - 2
+  - - Sulfur
+    - 1
   product:
-  - Beacon
+  - Black Powder
+  - 2
+  byproduct: 
+  building:
+  - Assembler
+  - '4.000000'
+  alternate: false
+  id: 422
+- name: Alien Power Matrix
+  ingredients:
+  - - SAM Fluctuator
+    - 5
+  - - Power Shard
+    - 3
+  - - Superposition Oscillator
+    - 3
+  - - Excited Photonic Matter
+    - 24
+  product:
+  - Alien Power Matrix
   - 1
   byproduct:
+  - Dark Matter Residue
+  - 24
   building:
-  - Manufacturer
-  - '8.000000'
+  - Quantum Encoder
+  - '24.000000'
   alternate: false
-  id: 349
+  id: 423
 - name: Alien DNA Capsule
   ingredients:
   - - Alien Protein
@@ -2337,12 +3197,12 @@
   product:
   - Alien DNA Capsule
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '6.000000'
   alternate: false
-  id: 554
+  id: 643
 - name: Iron Rebar
   ingredients:
   - - Iron Rod
@@ -2350,12 +3210,12 @@
   product:
   - Iron Rebar
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 557
+  id: 646
 - name: Homing Rifle Ammo
   ingredients:
   - - Rifle Ammo
@@ -2365,12 +3225,12 @@
   product:
   - Homing Rifle Ammo
   - 10
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '24.000000'
   alternate: false
-  id: 561
+  id: 652
 - name: Stun Rebar
   ingredients:
   - - Iron Rebar
@@ -2380,25 +3240,29 @@
   product:
   - Stun Rebar
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '6.000000'
   alternate: false
-  id: 568
-- name: Quickwire
+  id: 659
+- name: Gas Filter
   ingredients:
-  - - Caterium Ingot
-    - 1
+  - - Fabric
+    - 2
+  - - Coal
+    - 4
+  - - Iron Plate
+    - 2
   product:
-  - Quickwire
-  - 5
-  byproduct:
+  - Gas Filter
+  - 1
+  byproduct: 
   building:
-  - Constructor
-  - '5.000000'
+  - Manufacturer
+  - '8.000000'
   alternate: false
-  id: 570
+  id: 661
 - name: Gas Nobelisk
   ingredients:
   - - Nobelisk
@@ -2408,12 +3272,33 @@
   product:
   - Gas Nobelisk
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: false
-  id: 571
+  id: 663
+- name: Synthetic Power Shard
+  ingredients:
+  - - Time Crystal
+    - 2
+  - - Dark Matter Crystal
+    - 2
+  - - Quartz Crystal
+    - 12
+  - - Excited Photonic Matter
+    - 12
+  product:
+  - Power Shard
+  - 1
+  byproduct:
+  - Dark Matter Residue
+  - 12
+  building:
+  - Quantum Encoder
+  - '12.000000'
+  alternate: false
+  id: 670
 - name: Power Shard (5)
   ingredients:
   - - Purple Power Slug
@@ -2421,12 +3306,12 @@
   product:
   - Power Shard
   - 5
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '24.000000'
   alternate: false
-  id: 579
+  id: 671
 - name: Power Shard (2)
   ingredients:
   - - Yellow Power Slug
@@ -2434,25 +3319,12 @@
   product:
   - Power Shard
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '12.000000'
   alternate: false
-  id: 580
-- name: Power Shard (1)
-  ingredients:
-  - - Blue Power Slug
-    - 1
-  product:
-  - Power Shard
-  - 1
-  byproduct:
-  building:
-  - Constructor
-  - '8.000000'
-  alternate: false
-  id: 581
+  id: 672
 - name: Pulse Nobelisk
   ingredients:
   - - Nobelisk
@@ -2462,12 +3334,12 @@
   product:
   - Pulse Nobelisk
   - 5
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '60.000000'
   alternate: false
-  id: 583
+  id: 674
 - name: Shatter Rebar
   ingredients:
   - - Iron Rebar
@@ -2477,12 +3349,12 @@
   product:
   - Shatter Rebar
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: false
-  id: 585
+  id: 676
 - name: Turbo Rifle Ammo
   ingredients:
   - - Rifle Ammo
@@ -2494,12 +3366,12 @@
   product:
   - Turbo Rifle Ammo
   - 50
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '12.000000'
   alternate: false
-  id: 586
+  id: 677
 - name: Turbo Rifle Ammo
   ingredients:
   - - Rifle Ammo
@@ -2511,12 +3383,12 @@
   product:
   - Turbo Rifle Ammo
   - 50
-  byproduct:
+  byproduct: 
   building:
   - Blender
   - '12.000000'
   alternate: false
-  id: 587
+  id: 678
 - name: Nuke Nobelisk
   ingredients:
   - - Nobelisk
@@ -2530,12 +3402,12 @@
   product:
   - Nuke Nobelisk
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '120.000000'
   alternate: false
-  id: 588
+  id: 679
 - name: Rifle Ammo
   ingredients:
   - - Copper Sheet
@@ -2545,12 +3417,12 @@
   product:
   - Rifle Ammo
   - 15
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: false
-  id: 589
+  id: 680
 - name: Explosive Rebar
   ingredients:
   - - Iron Rebar
@@ -2562,12 +3434,12 @@
   product:
   - Explosive Rebar
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Manufacturer
   - '12.000000'
   alternate: false
-  id: 590
+  id: 681
 - name: Cluster Nobelisk
   ingredients:
   - - Nobelisk
@@ -2577,12 +3449,12 @@
   product:
   - Cluster Nobelisk
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '24.000000'
   alternate: false
-  id: 592
+  id: 683
 - name: Nobelisk
   ingredients:
   - - Black Powder
@@ -2592,12 +3464,12 @@
   product:
   - Nobelisk
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '6.000000'
   alternate: false
-  id: 593
+  id: 684
 - name: Smokeless Powder
   ingredients:
   - - Black Powder
@@ -2607,27 +3479,12 @@
   product:
   - Smokeless Powder
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Refinery
   - '6.000000'
   alternate: false
-  id: 595
-- name: Black Powder
-  ingredients:
-  - - Coal
-    - 1
-  - - Sulfur
-    - 1
-  product:
-  - Black Powder
-  - 2
-  byproduct:
-  building:
-  - Assembler
-  - '4.000000'
-  alternate: false
-  id: 596
+  id: 686
 - name: Reinforced Iron Plate
   ingredients:
   - - Iron Plate
@@ -2637,12 +3494,12 @@
   product:
   - Reinforced Iron Plate
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Assembler
   - '12.000000'
   alternate: false
-  id: 728
+  id: 823
 - name: Concrete
   ingredients:
   - - Limestone
@@ -2650,12 +3507,12 @@
   product:
   - Concrete
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 730
+  id: 825
 - name: Screw
   ingredients:
   - - Iron Rod
@@ -2663,12 +3520,12 @@
   product:
   - Screw
   - 4
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '6.000000'
   alternate: false
-  id: 731
+  id: 826
 - name: Cable
   ingredients:
   - - Wire
@@ -2676,12 +3533,12 @@
   product:
   - Cable
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '2.000000'
   alternate: false
-  id: 733
+  id: 828
 - name: Wire
   ingredients:
   - - Copper Ingot
@@ -2689,12 +3546,12 @@
   product:
   - Wire
   - 2
-  byproduct:
+  byproduct: 
   building:
   - Constructor
   - '4.000000'
   alternate: false
-  id: 734
+  id: 829
 - name: Copper Ingot
   ingredients:
   - - Copper Ore
@@ -2702,12 +3559,12 @@
   product:
   - Copper Ingot
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Smelter
   - '2.000000'
   alternate: false
-  id: 735
+  id: 830
 - name: Uranium Waste
   ingredients:
   - - Uranium Fuel Rod
@@ -2717,12 +3574,12 @@
   product:
   - Uranium Waste
   - 50
-  byproduct:
+  byproduct: 
   building:
   - Nuclear Power Plant
   - '300.000000'
   alternate: false
-  id: 741
+  id: 836
 - name: Plutonium Waste
   ingredients:
   - - Plutonium Fuel Rod
@@ -2732,130 +3589,152 @@
   product:
   - Plutonium Waste
   - 10
-  byproduct:
+  byproduct: 
   building:
   - Nuclear Power Plant
   - '600.000000'
   alternate: false
-  id: 742
+  id: 837
 - name: Iron Ore
   ingredients: []
   product:
   - Iron Ore
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 743
+  id: 838
 - name: Copper Ore
   ingredients: []
   product:
   - Copper Ore
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 744
+  id: 839
 - name: Limestone
   ingredients: []
   product:
   - Limestone
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 745
+  id: 840
 - name: Coal
   ingredients: []
   product:
   - Coal
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 746
+  id: 841
 - name: Bauxite
   ingredients: []
   product:
   - Bauxite
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 747
+  id: 842
 - name: Caterium Ore
   ingredients: []
   product:
   - Caterium Ore
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 748
+  id: 843
 - name: Sulfur
   ingredients: []
   product:
   - Sulfur
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 749
+  id: 844
 - name: Raw Quartz
   ingredients: []
   product:
   - Raw Quartz
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.076923077'
   alternate: false
-  id: 750
+  id: 845
 - name: Crude Oil
   ingredients: []
   product:
   - Crude Oil
   - 120
-  byproduct:
+  byproduct: 
   building:
   - Oil Extractor
   - '0.1'
   alternate: false
-  id: 751
+  id: 846
 - name: Uranium Ore
   ingredients: []
   product:
   - Uranium
   - 1
-  byproduct:
+  byproduct: 
   building:
   - Miner Mk.3
   - '0.5'
   alternate: false
-  id: 752
+  id: 847
 - name: Nitrogen Gas
   ingredients: []
   product:
   - Nitrogen Gas
   - 120
-  byproduct:
+  byproduct: 
   building:
   - Resource Well Extractor
   - '0.1'
   alternate: false
-  id: 753
+  id: 848
+- name: SAM
+  ingredients: []
+  product:
+  - SAM
+  - 120
+  byproduct: 
+  building:
+  - Miner Mk.3
+  - '0.1'
+  alternate: false
+  id: 849
+- name: Water
+  ingredients: []
+  product:
+  - Water
+  - 120
+  byproduct: 
+  building:
+  - Water Extractor
+  - '0.1'
+  alternate: false
+  id: 850
